@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: # 删除了那句 Resume and Portfolio...
+subtitle: 
 
 profile:
   align: right
@@ -31,33 +31,32 @@ latest_posts:
 
 I am **Luyao Wang (王璐瑶)**, an incoming Master's student (Class of 2028) in **Journalism & Communication** at [Nanjing University](https://www.nju.edu.cn/en/), specializing in **Computational Communication**. My research interests lie at the intersection of **data, media, and society**, exploring how computational methods illuminate communication patterns in the digital age.
 
-Prior to my graduate studies, I obtained my B.A. in **Broadcasting and Television** from the School of Literature at [Jinan University](http://www.ujn.edu.cn/). I am from **Jinan, Shandong**. My journey reflects a deliberate transition from traditional broadcasting to **new media and data-driven storytelling**, aiming to bridge the gap between content production and data analytics.
+Prior to my graduate studies, I obtained my B.A. in **Broadcasting and Television** from the School of Literature at [Jinan University](http://www.ujn.edu.cn/). I am from **Jinan, Shandong**. My professional journey reflects a deliberate transition from traditional broadcasting to **new media and data-driven storytelling**, aiming to bridge the gap between content production and data analytics.
 
 ### 🎓 Education
 
 * **2025.09 - 2028.06 (Expected)**: M.A. in Journalism & Communication (Computational Communication), **Nanjing University (NJU)**.
-* **2017.09 - 2021.06**: B.A. in Broadcasting and Television, **Jinan University (UJN)**.
-  * *GPA: 3.82/4.0 (Rank 5th)*
-  * *Thesis: Research on the Production Paradigm and Utility of Cloud Recording*
+* **2017.09 - 2021.06**: B.A. in Broadcasting and Television, **Jinan University**.
+  * [cite_start]*Honors: Outstanding Graduation Thesis ("Research on Production Paradigm of Cloud Recording")* [cite: 216]
 
 ### 💼 Professional Experience
 
 * **New Media Editor** | *Jinan Railway Bureau (Shandong Railway Protection Office)*
   * *Jan 2024 - Present*
   * Managed the official WeChat account "Shandong Railway Protection Home". Planned the "May 26 Railway Protection Day" column.
-  * Produced 40+ articles (90% original), with the highest single-post views reaching **200,000+**.
-  * Designed 16 sets of safety publicity brochures and magazines using **Adobe InDesign**.
+  * [cite_start]Produced 40+ articles (90% original), with the highest single-post views reaching **200,000+**[cite: 250].
+  * [cite_start]Designed 16 sets of safety publicity brochures and magazines using **Adobe InDesign**[cite: 254].
 
 * **News Journalist & Editor** | *People's Procuratorate of Lixia District, Jinan*
   * *Jul 2022 - Dec 2023*
-  * Operated official accounts (WeChat, Weibo, Douyin), publishing 15,000+ pieces of content.
-  * Participated in the **"Big Data Empowering Legal Supervision"** project, using data analysis to optimize content distribution, increasing video click-through rates by **30%**.
-  * Awarded "National Excellent Procuratorial New Media" (2022).
+  * [cite_start]Operated official accounts (WeChat, Weibo, Douyin), publishing 15,000+ pieces of content[cite: 226].
+  * [cite_start]Participated in the **"Big Data Empowering Legal Supervision"** project, using data analysis to optimize content distribution, increasing video click-through rates by **30%**[cite: 228].
+  * [cite_start]Awarded "National Excellent Procuratorial New Media" (2022)[cite: 230].
 
 * **Video Planner & Editor (Intern)** | *Dazhong Newspaper Group (Qilu Integrated Media Center)*
   * *Apr 2021 - Sep 2021*
-  * Collaborated with Kuaishou and Tencent on health communication projects.
-  * Produced 40+ videos; a single video achieved **100,000+ likes** on Kuaishou, driving 10,000+ new followers.
+  * [cite_start]Collaborated with Kuaishou and Tencent on health communication projects[cite: 258].
+  * [cite_start]Produced 40+ videos; a single video achieved **100,000+ likes** on Kuaishou, driving 10,000+ new followers[cite: 260].
 
 ### 🎨 Selected Portfolio
 
@@ -67,7 +66,7 @@ Prior to my graduate studies, I obtained my B.A. in **Broadcasting and Televisio
             <img class="card-img-top" src="/assets/img/work_glimmer.jpg" alt="Micro-film Glimmer" onerror="this.src='https://placehold.co/600x400?text=Video+Work';">
             <div class="card-body">
                 <h5 class="card-title">Micro-film: "Glimmer" (微光)</h5>
-                <p class="card-text">Award-winning micro-film focusing on juvenile protection. Showcased the warmth of law through storytelling.</p>
+                <p class="card-text">Award-winning micro-film focusing on juvenile protection. [cite_start]Showcased the warmth of law through storytelling[cite: 681].</p>
             </div>
         </div>
     </div>
@@ -76,7 +75,7 @@ Prior to my graduate studies, I obtained my B.A. in **Broadcasting and Televisio
             <img class="card-img-top" src="/assets/img/work_design.jpg" alt="Design Works" onerror="this.src='https://placehold.co/600x400?text=Design+Work';">
             <div class="card-body">
                 <h5 class="card-title">Visual Design & Publications</h5>
-                <p class="card-text">Designed railway safety brochures and magazines using InDesign. Visualization of safety data.</p>
+                <p class="card-text">Designed railway safety brochures and magazines using InDesign. [cite_start]Visualization of safety data[cite: 263].</p>
             </div>
         </div>
     </div>
@@ -88,7 +87,7 @@ Prior to my graduate studies, I obtained my B.A. in **Broadcasting and Televisio
              <img class="card-img-top" src="/assets/img/work_photo.jpg" alt="Photography" onerror="this.src='https://placehold.co/600x400?text=Photography';">
             <div class="card-body">
                 <h5 class="card-title">Photography</h5>
-                <p class="card-text">Event photography for legal education activities and documentary shots.</p>
+                [cite_start]<p class="card-text">Event photography for legal education activities and documentary shots[cite: 582].</p>
             </div>
         </div>
     </div>
@@ -97,7 +96,7 @@ Prior to my graduate studies, I obtained my B.A. in **Broadcasting and Televisio
              <img class="card-img-top" src="/assets/img/work_qrcode.jpg" alt="Official Account" onerror="this.src='https://placehold.co/600x400?text=WeChat+QR';">
             <div class="card-body">
                 <h5 class="card-title">New Media Operation</h5>
-                <p class="card-text">Managed "Shandong Railway Protection" & "Lixia Procuratorate" accounts. 10w+ views achievements.</p>
+                <p class="card-text">Managed "Shandong Railway Protection" & "Lixia Procuratorate" accounts. [cite_start]10w+ views achievements[cite: 546].</p>
             </div>
         </div>
     </div>
@@ -130,14 +129,14 @@ Prior to my graduate studies, I obtained my B.A. in **Broadcasting and Televisio
     margin-top: 2.5rem !important;
     margin-bottom: 1.2rem !important;
     font-size: 1.6rem !important;
-    border-bottom: 2px solid var(--nju-purple) !important; /* 标题下划线改为南大紫 */
+    border-bottom: 2px solid var(--nju-purple) !important; 
     padding-bottom: 10px;
     display: inline-block;
   }
 
-  /* --- 3. 链接与交互颜色 (关键修改) --- */
+  /* --- 3. 链接与交互颜色 --- */
   a {
-    color: var(--nju-purple) !important; /* 链接改为南大紫 */
+    color: var(--nju-purple) !important; 
     text-decoration: none;
     border-bottom: 1px dotted var(--nju-purple);
     transition: all 0.2s ease;
@@ -183,7 +182,7 @@ Prior to my graduate studies, I obtained my B.A. in **Broadcasting and Televisio
   }
   .card-img-top {
     height: 200px;
-    object-fit: cover; /* 保证图片不裁切变形 */
+    object-fit: cover;
   }
   .card-title {
     font-size: 1.1rem !important;
