@@ -25,8 +25,8 @@ lang: en
 icon: 📷 # 你的相机图标
 
 # 🔴 核心网址设置（已修复乱码问题）
-url: "https://WangLuyao10.github.io"
-baseurl: "/WangLuyao1026.github.io"
+url: "https://wangluyao1026.github.io"
+baseurl: ""
 
 last_updated: false 
 impressum_path: 
