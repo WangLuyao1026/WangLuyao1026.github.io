@@ -2,33 +2,47 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Resume</a> and <a href='/projects/'>Portfolio</a> are below.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false # 如果你想要圆形头像，改为 true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>School of Journalism and Communication</p>
+    <p>Nanjing University</p>
+    <p>Nanjing, China</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true # 如果你在 _bibliography/papers.bib 里设置了 selected=true 的论文，会显示在这里
+social: true # 显示页脚的社交图标
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true # 开启新闻动态
+  scrollable: true # 如果超过5条新闻会出现滚动条
+  limit: 5 # 显示最近5条
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: true # 开启最新博客文章显示
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**Luyao Wang (王路瑶)** is currently a Master's student (Class of 2025) in **Journalism & Communication** at [Nanjing University](https://www.nju.edu.cn/en/), specializing in **Computational Communication**. Her research interests lie at the intersection of data, media, and society.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before graduate school, she obtained her B.A. in **Broadcasting and Television** from the School of Literature at [Jinan University](http://www.ujn.edu.cn/) (Shandong). A native of Jinan, she has rich practical experience in the media industry, transitioning from traditional broadcasting to new media and data-driven storytelling.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### 🎓 Education
+
+* **2022.09 - 2025.06 (Expected)**: M.A. in Journalism & Communication (Computational Communication), **Nanjing University (NJU)**.
+* **2018.09 - 2022.06**: B.A. in Broadcasting and Television, **Jinan University (UJN)**.
+
+### 💼 Work Experience
+
+* **News Editor & Journalist** (Intern/Seconded)
+  * *News and Propaganda Office, People's Procuratorate of Lixia District, Jinan*
+  * *Procuratorial Daily (Shandong Reporter Station)*
+  * Responsible for legal news reporting, new media editing, and propaganda content production.
+
+* **New Media Journalist** (Intern)
+  * *Qilu Integrated Media Center, Dazhong Newspaper Group (Dazhong Daily)*
+  * Participated in new media content creation, operational planning, and integrated news reporting.
