@@ -432,6 +432,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_railway_ip/";
+            },},{id: "projects-official-account-operation-matrix",
+          title: 'Official Account Operation Matrix',
+          description: "Managing &quot;Shandong Railway Protection&quot; &amp; &quot;Lixia Procuratorate&quot; accounts.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_wechat_ops/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
