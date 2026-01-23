@@ -29,7 +29,7 @@ latest_posts:
   limit: 3
 ---
 
-**Luyao Wang (王路瑶)** is currently a Master's student (Class of 2025) in **Journalism & Communication** at [Nanjing University](https://www.nju.edu.cn/en/), specializing in **Computational Communication**. Her research interests lie at the intersection of data, media, and society.
+**Luyao Wang (王璐瑶)** is currently a Master's student (Class of 2025) in **Journalism & Communication** at [Nanjing University](https://www.nju.edu.cn/en/), specializing in **Computational Communication**. Her research interests lie at the intersection of data, media, and society.
 
 Before graduate school, she obtained her B.A. in **Broadcasting and Television** from the School of Literature at [Jinan University](http://www.ujn.edu.cn/) (Shandong). A native of Jinan, she has rich practical experience in the media industry, transitioning from traditional broadcasting to new media and data-driven storytelling.
 
