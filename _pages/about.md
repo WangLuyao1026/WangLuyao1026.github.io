@@ -29,9 +29,9 @@ latest_posts:
   limit: 3
 ---
 
-**Luyao Wang (王璐瑶)** is currently a Master's student (Class of 2025) in **Journalism & Communication** at [Nanjing University](https://www.nju.edu.cn/en/), specializing in **Computational Communication**. Her research interests lie at the intersection of data, media, and society.
+I am **Luyao Wang (王璐瑶)**, currently a Master's student (Class of 2025) in **Journalism & Communication** at [Nanjing University](https://www.nju.edu.cn/en/), specializing in **Computational Communication**. My research interests lie at the intersection of **data, media, and society**, where I explore how computational methods can illuminate communication patterns in the digital age.
 
-Before graduate school, she obtained her B.A. in **Broadcasting and Television** from the School of Literature at [Jinan University](http://www.ujn.edu.cn/) (Shandong). A native of Jinan, she has rich practical experience in the media industry, transitioning from traditional broadcasting to new media and data-driven storytelling.
+Prior to my graduate studies, I obtained my B.A. in **Broadcasting and Television** from the School of Literature at [Jinan University](http://www.ujn.edu.cn/) (Shandong). As a native of Jinan, I possess rich practical experience in the media industry. My academic and professional journey reflects a deliberate transition from traditional broadcasting to **new media and data-driven storytelling**, aiming to bridge the gap between content production and data analytics.
 
 ### 🎓 Education
 
@@ -43,11 +43,11 @@ Before graduate school, she obtained her B.A. in **Broadcasting and Television**
 * **News Editor & Journalist** (Intern/Seconded)
   * *News and Propaganda Office, People's Procuratorate of Lixia District, Jinan*
   * *Procuratorial Daily (Shandong Reporter Station)*
-  * Responsible for legal news reporting, new media editing, and propaganda content production.
+  * I was responsible for legal news reporting, new media editing, and the production of propaganda content, gaining deep insights into institutional communication.
 
 * **New Media Journalist** (Intern)
   * *Qilu Integrated Media Center, Dazhong Newspaper Group (Dazhong Daily)*
-  * Participated in new media content creation, operational planning, and integrated news reporting.
+  * I participated in new media content creation, operational planning, and integrated news reporting, focusing on adapting traditional news for digital platforms.
 
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
