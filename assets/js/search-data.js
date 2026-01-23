@@ -452,6 +452,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_creative_campaigns/";
+            },},{id: "projects-campus-radio-station",
+          title: 'Campus Radio Station',
+          description: "Editor and planner at Jinan University Radio Station.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_campus_radio/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
