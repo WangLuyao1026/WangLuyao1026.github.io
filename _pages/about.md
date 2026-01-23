@@ -31,12 +31,12 @@ latest_posts:
 
 I am **Luyao Wang (王璐瑶)**, currently a Master's student (Class of 2025) in **Journalism & Communication** at [Nanjing University](https://www.nju.edu.cn/en/), specializing in **Computational Communication**. My research interests lie at the intersection of **data, media, and society**, where I explore how computational methods can illuminate communication patterns in the digital age.
 
-Prior to my graduate studies, I obtained my B.A. in **Broadcasting and Television** from the School of Literature at [Jinan University](http://www.ujn.edu.cn/) (Shandong). As a native of Jinan, I possess rich practical experience in the media industry. My academic and professional journey reflects a deliberate transition from traditional broadcasting to **new media and data-driven storytelling**, aiming to bridge the gap between content production and data analytics.
+Prior to my graduate studies, I obtained my B.A. in **Broadcasting and Television** from the School of Literature at [Jinan University](http://www.ujn.edu.cn/). As a native of Jinan, I possess rich practical experience in the media industry. My academic and professional journey reflects a deliberate transition from traditional broadcasting to **new media and data-driven storytelling**, aiming to bridge the gap between content production and data analytics.
 
 ### 🎓 Education
 
 * **2022.09 - 2025.06 (Expected)**: M.A. in Journalism & Communication (Computational Communication), **Nanjing University (NJU)**.
-* **2018.09 - 2022.06**: B.A. in Broadcasting and Television, **Jinan University (UJN)**.
+* **2018.09 - 2022.06**: B.A. in Broadcasting and Television, **Jinan University**.
 
 ### 💼 Work Experience
 
