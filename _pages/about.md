@@ -46,3 +46,38 @@ Before graduate school, she obtained her B.A. in **Broadcasting and Television**
 * **New Media Journalist** (Intern)
   * *Qilu Integrated Media Center, Dazhong Newspaper Group (Dazhong Daily)*
   * Participated in new media content creation, operational planning, and integrated news reporting.
+
+<style>
+  /* 1. 调整头像大小 */
+  .profile {
+    width: 35% !important; /* 调整这个百分比来控制头像占据的宽度 */
+    max-width: 220px !important; /* 限制最大宽度，防止在大屏幕上太大 */
+    margin-left: 20px !important; /* 让头像和文字之间留点空隙 */
+  }
+  
+  /* 移动端适配：手机上头像还是居中好一点 */
+  @media (max-width: 576px) {
+    .profile {
+      width: 50% !important;
+      max-width: 150px !important;
+      float: none !important;
+      margin: 0 auto 20px auto !important;
+    }
+  }
+
+  /* 2. 调整正文行间距 (让文字呼吸感强一点) */
+  body, p, li {
+    line-height: 1.9 !important; /* 数字越大，行间距越宽 */
+    font-size: 1.05rem !important; /* 稍微调大一点点字体 */
+  }
+
+  /* 3. 增加段落之间的空隙 */
+  p {
+    margin-bottom: 1.8rem !important;
+  }
+  
+  /* 4. 优化列表的间距 (教育背景那一块) */
+  li {
+    margin-bottom: 0.8rem !important;
+  }
+</style>
