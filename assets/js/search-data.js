@@ -447,6 +447,11 @@ ninja.data = [{
           description: "Health communication projects at Dazhong Newspaper Group.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_dazhong_video/";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_creative_campaigns/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
