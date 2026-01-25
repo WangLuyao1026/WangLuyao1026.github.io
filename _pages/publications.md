@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 论文 (Thesis) # 菜单栏显示的名字
+title: Research
 permalink: /publications/
-description: 本科优秀毕业论文与学术研究
+description: Research & Thesis
 nav: true
-nav_order: 4     # 排序：第4个
+nav_order: 4
 ---
