@@ -1,9 +1,9 @@
 ---
 layout: cv
-title: 履历 (CV)  # 菜单栏显示的名字
+title: Experience
 permalink: /cv/
-description: 本科经历、工作经验与荣誉奖项
+description: Academic & Professional Experience
 nav: true
-nav_order: 2     # 排序：第2个
-date: 2024-01-24
+nav_order: 2
+date: 2025-01-01
 ---
