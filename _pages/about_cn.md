@@ -100,10 +100,10 @@ latest_posts:
     /* 字体栈优先中文 */
     font-family: "PingFang SC", "Microsoft YaHei", 'Lora', serif !important; 
     font-size: 18px !important; 
-    line-height: 1.8 !important; /* 行距加大 */
+    line-height: 1.8 !important; /* 中文行距调大，呼吸感更强 */
     color: #333 !important; 
     text-align: justify;
-    letter-spacing: 0.02em; /* 字间距微增 */
+    letter-spacing: 0.02em; /* 增加字间距，防止汉字粘连 */
   }
   
   /* 标题样式 */
