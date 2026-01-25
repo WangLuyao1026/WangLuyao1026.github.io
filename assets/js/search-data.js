@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-作品-portfolio",
-          title: "作品 (Portfolio)",
-          description: "数据新闻、视频创作与视觉设计作品集",
+        },{id: "nav-portfolio",
+          title: "Portfolio",
+          description: "Data Journalism &amp; Design Works",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
