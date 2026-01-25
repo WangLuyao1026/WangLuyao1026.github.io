@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:
+subtitle: 
 profile:
   align: right
   image: prof_pic.jpg
@@ -29,8 +29,6 @@ latest_posts:
   <span class="btn-pill active">English</span>
   <a href="/cn/" class="btn-pill inactive">中文</a>
 </div>
-
-<div class="main-content">
 
 I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communication** (2025 Cohort) at [Nanjing University](https://www.nju.edu.cn/en/), specialising in **Computational Communication**. My research bridges data science and communication theory, with a particular focus on **user behavioural psychology** in digital platforms, the **social dynamics of information diffusion**, and the impact of **computational narrative** on public cognition and emotion.
 
@@ -105,14 +103,12 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     <a href="/projects/" class="read-more-btn">👉 Explore Full Portfolio</a>
 </div>
 
-</div>
-
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root { --nju-purple: #4D0099; }
   
-  /* 正文排版优化 */
-  .main-content { 
+  /* 直接针对文章正文修改，不再需要包裹 div */
+  article.post, .post-content { 
     font-family: 'Lora', serif !important; 
     font-size: 18px !important; 
     line-height: 1.7 !important; 
@@ -121,7 +117,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
   }
   
   /* 标题样式 */
-  .main-content h3 { 
+  h3 { 
     font-family: 'Playfair Display', serif !important; 
     color: #000 !important; 
     margin-top: 2.5rem !important; 
@@ -132,9 +128,9 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
   }
   
   /* 链接颜色 */
-  .main-content a { color: var(--nju-purple) !important; text-decoration: none; }
+  a { color: var(--nju-purple) !important; text-decoration: none; }
   
-  /* 语言切换按钮 (胶囊样式) */
+  /* 切换按钮 */
   .lang-switcher { margin-bottom: 25px; }
   .btn-pill {
     display: inline-block;
@@ -165,14 +161,9 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     transform: translateY(-2px);
   }
 
-  /* 跳转按钮 */
-  .more-link { text-align: center; margin-top: 20px; margin-bottom: 40px; }
-  .read-more-btn { display: inline-block; padding: 8px 20px; border: 1px solid var(--nju-purple); border-radius: 4px; color: var(--nju-purple) !important; font-weight: bold; }
-  
-  /* 侧边栏微调 */
+  /* 侧边栏 */
   .profile { margin-left: 30px !important; }
-  .profile-info { font-size: 0.9rem !important; }
-  
+  .profile-info { font-size: 0.9rem !important; line-height: 1.4 !important; }
   @media (max-width: 768px) {
      .profile { float: none !important; width: 60% !important; margin: 0 auto 20px auto !important; }
   }
