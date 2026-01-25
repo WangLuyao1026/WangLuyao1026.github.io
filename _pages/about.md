@@ -27,10 +27,8 @@ latest_posts:
 
 <div class="lang-switcher">
   <span class="btn-pill active">English</span>
-  <a href="/cn/" class="btn-pill inactive">中文</a>
+  <a href="/cn/" class="btn-pill inactive">中文版</a>
 </div>
-
-<div class="main-content">
 
 I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communication** (2025 Cohort) at [Nanjing University](https://www.nju.edu.cn/en/), specialising in **Computational Communication**. My research bridges data science and communication theory, with a particular focus on **user behavioural psychology** in digital platforms, the **social dynamics of information diffusion**, and the impact of **computational narrative** on public cognition and emotion.
 
@@ -105,66 +103,65 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     <a href="/projects/" class="read-more-btn">👉 Explore Full Portfolio</a>
 </div>
 
-</div>
-
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root { --nju-purple: #4D0099; }
-  
-  /* 1. Header Font Fix (Thicker) */
-  header .post-title, h1 {
+
+  /* 1. 修复乱码：针对文章容器设置字体，而不是包裹 div */
+  article.post, .post-content {
+    font-family: 'Lora', serif !important;
+    font-size: 18px !important;
+    line-height: 1.7 !important;
+    color: #333 !important;
+    text-align: justify;
+  }
+
+  /* 2. 标题加粗美化 */
+  header .post-title, h1.post-title {
     font-family: 'Playfair Display', serif !important;
-    font-weight: 700 !important;
+    font-weight: 900 !important; /* 强制极粗 */
     letter-spacing: -0.5px !important;
     color: #000 !important;
   }
-
-  /* 2. Photo Size Fix (Smaller) */
-  .profile { 
-    margin-left: 30px !important; 
-    width: 28% !important; /* Smaller width */
-    max-width: 200px !important; 
-  }
-  .profile img {
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
-  }
-  .profile-info { font-size: 0.85rem !important; line-height: 1.4 !important; margin-top: 10px !important; }
-
-  /* 3. Portfolio Card Fix (Smaller) */
-  .card-img-top { 
-    height: 150px !important; 
-    object-fit: cover; 
-  }
-  .card-title { 
-    font-size: 1rem !important; 
-    margin-bottom: 0.3rem !important; 
-    font-weight: bold;
-    color: var(--nju-purple) !important; 
-  }
-  .card-text { 
-    font-size: 0.85rem !important; 
-    line-height: 1.5 !important; 
-  }
-  .card { margin-bottom: 15px !important; }
-
-  /* General Typography */
-  .main-content { 
-    font-family: 'Lora', serif !important; 
-    font-size: 17px !important; 
-    line-height: 1.7 !important; 
-    color: #333 !important; 
-    text-align: justify; 
-  }
-  h3 { font-family: 'Playfair Display', serif !important; color: #000 !important; margin-top: 2rem !important; margin-bottom: 0.8rem !important; border-bottom: 2px solid var(--nju-purple); padding-bottom: 5px; display: inline-block; font-size: 1.4rem !important;}
-  a { color: var(--nju-purple) !important; text-decoration: none; }
   
-  .lang-switcher { margin-bottom: 20px; }
-  .btn-pill { display: inline-block; padding: 5px 18px; border-radius: 50px; font-family: 'Playfair Display', sans-serif; font-weight: bold; font-size: 0.9rem; margin-right: 10px; border: 2px solid var(--nju-purple); }
+  h3 {
+    font-family: 'Playfair Display', serif !important;
+    color: #000 !important;
+    margin-top: 2.5rem !important;
+    margin-bottom: 1rem !important;
+    border-bottom: 2px solid var(--nju-purple);
+    padding-bottom: 5px;
+    display: inline-block;
+  }
+
+  /* 3. 照片缩小并美化 */
+  .profile {
+    margin-left: 30px !important;
+    width: 25% !important; /* 缩小宽度 */
+    max-width: 180px !important;
+  }
+  .profile-info { font-size: 0.85rem !important; line-height: 1.3 !important; margin-top: 10px !important; }
+
+  /* 4. 作品卡片优化 */
+  .card-img-top { height: 140px !important; object-fit: cover; }
+  .card-title { font-size: 1rem !important; font-weight: bold; color: var(--nju-purple) !important; margin-bottom: 0.3rem !important; }
+  .card-text { font-size: 0.85rem !important; line-height: 1.5 !important; }
+  .card { margin-bottom: 15px !important; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border: none !important; }
+
+  /* 按钮样式 */
+  .lang-switcher { margin-bottom: 25px; }
+  .btn-pill {
+    display: inline-block; padding: 5px 18px; border-radius: 50px;
+    font-family: 'Playfair Display', sans-serif; font-weight: bold; font-size: 0.9rem;
+    margin-right: 10px; border: 2px solid var(--nju-purple);
+  }
   .btn-pill.active { background-color: var(--nju-purple); color: #fff !important; }
-  .btn-pill.inactive { color: var(--nju-purple) !important; opacity: 0.6; }
+  .btn-pill.inactive { color: var(--nju-purple) !important; background-color: transparent; opacity: 0.6; text-decoration: none; }
+  
   .read-more-btn { display: inline-block; padding: 6px 18px; border: 1px solid var(--nju-purple); border-radius: 4px; color: var(--nju-purple) !important; font-weight: bold; font-size: 0.9rem; }
   .more-link { text-align: center; margin-top: 15px; margin-bottom: 30px; }
-  
+  a { color: var(--nju-purple) !important; text-decoration: none; }
+
   @media (max-width: 768px) {
      .profile { float: none !important; width: 50% !important; margin: 0 auto 20px auto !important; }
   }
