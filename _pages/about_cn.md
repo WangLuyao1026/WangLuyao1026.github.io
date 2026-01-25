@@ -2,7 +2,6 @@
 layout: about
 title: 主页
 permalink: /cn/
-subtitle: 
 selected_papers: false
 social: true
 announcements:
@@ -13,9 +12,9 @@ latest_posts:
   enabled: false
 ---
 
-<div class="lang-container">
-  <a href="/" class="lang-btn inactive">English</a>
-  <span class="lang-btn active">中文</span>
+<div class="lang-switcher">
+  <a href="/" class="btn-pill inactive">English</a>
+  <span class="btn-pill active">中文</span>
 </div>
 
 <div class="main-content">
@@ -54,7 +53,7 @@ latest_posts:
     * 负责山东省内三甲医院宣传部门健康传播全媒体运营与科普短视频制作，打造 **10w+** 爆款内容。
 
 <div class="more-link">
-    <a href="/cv/" class="read-more-btn">👉 点击查看完整工作履历 (CV)</a>
+    <a href="/cv/" class="read-more-btn">👉 点击查看完整工作履历 (Experience)</a>
 </div>
 
 ---
@@ -95,22 +94,72 @@ latest_posts:
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root { --nju-purple: #4D0099; }
-  .main-content { font-family: "PingFang SC", "Microsoft YaHei", 'Lora', serif !important; font-size: 18px !important; line-height: 1.8 !important; color: #2c2c2c !important; letter-spacing: 0.02em !important; text-align: justify; }
-  .main-content h3 { font-family: "PingFang SC", 'Playfair Display', serif !important; font-size: 1.5rem !important; color: #000 !important; margin-top: 2.5rem !important; margin-bottom: 1.2rem !important; border-bottom: 2px solid var(--nju-purple) !important; padding-bottom: 8px; display: inline-block; }
+  
+  /* 正文排版优化 (中文特供) */
+  .main-content { 
+    /* 字体栈优先中文 */
+    font-family: "PingFang SC", "Microsoft YaHei", 'Lora', serif !important; 
+    font-size: 18px !important; 
+    line-height: 1.8 !important; /* 行距加大 */
+    color: #333 !important; 
+    text-align: justify;
+    letter-spacing: 0.02em; /* 字间距微增 */
+  }
+  
+  /* 标题样式 */
+  .main-content h3 { 
+    font-family: "PingFang SC", 'Playfair Display', serif !important; 
+    color: #000 !important; 
+    margin-top: 2.5rem !important; 
+    margin-bottom: 1rem !important; 
+    border-bottom: 2px solid var(--nju-purple); 
+    padding-bottom: 5px; 
+    display: inline-block;
+  }
+  
+  /* 链接颜色 */
   .main-content a { color: var(--nju-purple) !important; text-decoration: none; }
-  .lang-container { margin-bottom: 20px; display: block; }
-  .lang-btn { display: inline-block; padding: 6px 18px; border: 2px solid var(--nju-purple); border-radius: 50px; font-family: 'Playfair Display', serif; font-size: 1rem; text-decoration: none !important; margin-right: 12px; }
-  .lang-btn.active { background-color: var(--nju-purple); color: #fff !important; cursor: default; }
-  .lang-btn.inactive { color: var(--nju-purple) !important; background-color: transparent; opacity: 0.6; }
-  .lang-btn.inactive:hover { opacity: 1; background-color: #f3e5f5; }
+  
+  /* 语言切换按钮 (保持一致) */
+  .lang-switcher { margin-bottom: 25px; }
+  .btn-pill {
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 50px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    font-size: 0.95rem;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    border: 2px solid var(--nju-purple);
+  }
+  .btn-pill.active {
+    background-color: var(--nju-purple);
+    color: #fff !important;
+    cursor: default;
+    box-shadow: 0 4px 10px rgba(77, 0, 153, 0.3);
+  }
+  .btn-pill.inactive {
+    background-color: transparent;
+    color: var(--nju-purple) !important;
+    opacity: 0.6;
+    text-decoration: none !important;
+  }
+  .btn-pill.inactive:hover {
+    opacity: 1;
+    background-color: #f3e5f5;
+    transform: translateY(-2px);
+  }
+
+  /* 跳转按钮 */
   .more-link { text-align: center; margin-top: 20px; margin-bottom: 40px; }
-  .read-more-btn { display: inline-block; padding: 10px 25px; border: 1px solid var(--nju-purple); border-radius: 5px; color: var(--nju-purple) !important; font-weight: bold; }
-  .card { border: none !important; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.2s; }
-  .card:hover { transform: translateY(-5px); box-shadow: 0 8px 15px rgba(77, 0, 153, 0.15); }
-  .card-img-top { height: 180px; object-fit: cover; }
-  .card-title { font-size: 1.1rem !important; font-weight: bold; color: var(--nju-purple) !important; margin-bottom: 0.5rem; }
-  .card-text { font-size: 0.95rem !important; line-height: 1.6 !important; color: #666; }
-  .profile-info { font-size: 14px !important; line-height: 1.4 !important; }
-  .profile { width: 32% !important; margin-left: 40px !important; }
-  @media (max-width: 768px) { .profile { width: 70% !important; float: none !important; margin: 0 auto 30px auto !important; text-align: center; } }
+  .read-more-btn { display: inline-block; padding: 8px 20px; border: 1px solid var(--nju-purple); border-radius: 4px; color: var(--nju-purple) !important; font-weight: bold; }
+  
+  /* 侧边栏微调 */
+  .profile { margin-left: 30px !important; }
+  .profile-info { font-size: 0.9rem !important; line-height: 1.4 !important; }
+  
+  @media (max-width: 768px) {
+     .profile { float: none !important; width: 60% !important; margin: 0 auto 20px auto !important; }
+  }
 </style>
