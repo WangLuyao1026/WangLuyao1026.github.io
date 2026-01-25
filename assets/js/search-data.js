@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-论文-thesis",
-          title: "论文 (Thesis)",
-          description: "本科优秀毕业论文与学术研究",
+        },{id: "nav-research",
+          title: "Research",
+          description: "Research &amp; Thesis",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
