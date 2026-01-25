@@ -2,6 +2,7 @@
 layout: about
 title: 主页
 permalink: /cn/
+subtitle: 
 selected_papers: false
 social: true
 announcements:
@@ -19,12 +20,11 @@ latest_posts:
 
 <div class="main-content">
 
-您好！我是**王璐瑶**，南京大学新闻传播学院 2025 级新闻与传播专业硕士生，研究方向为**计算传播学**。我的研究致力于融合数据科学与传播学理论，重点关注数字化平台中的**用户行为心理**、**信息传播的社会动力机制**，以及**计算叙事**对公众认知与情感的影响。
+您好！我是**王璐瑶**，南京大学新闻传播学院 2025 级新闻与传播专业硕士生，研究方向为**计算传播学**。
 
 ### 🧩 核心竞争力：实务-数据-理论的三重融合
 
 我构建了清晰的“实务-数据-理论”三重能力架构，这构成了我学术研究的独特基石：
-
 * **实务根基**：本科毕业于济南大学广播电视专业，拥有丰富的新闻媒体与全媒体平台实战经验。
 * **数据能力**：转向计算传播领域，系统学习社会网络分析、文本挖掘与统计分析等计算方法。
 * **理论关怀**：聚焦数据、用户、媒体与社会的交叉地带，回应智能媒体时代的关键议题。
@@ -45,8 +45,6 @@ latest_posts:
 
 ### 💼 工作经历 (概览)
 
-我在传统媒体与新媒体领域拥有多年的实战经验，实现了从内容生产到数据驱动运营的转型。
-
 * **新媒体主编** | 济南铁路局 (2024 - 2025)
     * 负责官方公众号运营与可视化设计，完成十六地市系列宣传工作，单篇阅读量突破 **20w+**。
 * **新闻记者/编辑** | 检察日报山东记者站 历下区人民检察院 (2022 - 2024)
@@ -62,8 +60,6 @@ latest_posts:
 ---
 
 ### 🎨 精选作品 (Portfolio)
-
-以下是我在数据新闻、视觉设计与视频创作领域的代表作。
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -91,63 +87,30 @@ latest_posts:
 </div>
 
 <div class="more-link" style="margin-top: 20px;">
-    <a href="/projects/" class="read-more-btn">👉 点击进入【个人作品】展厅，查看全部 7 个项目</a>
+    <a href="/projects/" class="read-more-btn">👉 点击进入【个人作品】展厅</a>
 </div>
 
-</div> 
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</div>
 
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root { --nju-purple: #4D0099; }
-
-  /* 核心修复：只调整主内容区域，不影响导航栏 */
-  .main-content {
-    font-family: "PingFang SC", "Microsoft YaHei", 'Lora', serif !important;
-    font-size: 18px !important;
-    line-height: 1.8 !important; 
-    color: #2c2c2c !important;
-    letter-spacing: 0.02em !important;
-    text-align: justify;
-  }
-
-  /* 标题美化 */
-  .main-content h3 {
-    font-family: "PingFang SC", 'Playfair Display', serif !important;
-    font-size: 1.5rem !important;
-    color: #000 !important;
-    margin-top: 2.5rem !important;
-    margin-bottom: 1.2rem !important;
-    border-bottom: 2px solid var(--nju-purple) !important;
-    padding-bottom: 8px;
-    display: inline-block;
-  }
-
-  /* 链接 */
-  .main-content a { color: var(--nju-purple) !important; text-decoration: none; transition: all 0.2s ease; }
-  .main-content a:hover { background-color: #f3e5f5; color: #330066 !important; }
-
-  /* 切换按钮 (Pill Button) */
+  .main-content { font-family: "PingFang SC", "Microsoft YaHei", 'Lora', serif !important; font-size: 18px !important; line-height: 1.8 !important; color: #2c2c2c !important; letter-spacing: 0.02em !important; text-align: justify; }
+  .main-content h3 { font-family: "PingFang SC", 'Playfair Display', serif !important; font-size: 1.5rem !important; color: #000 !important; margin-top: 2.5rem !important; margin-bottom: 1.2rem !important; border-bottom: 2px solid var(--nju-purple) !important; padding-bottom: 8px; display: inline-block; }
+  .main-content a { color: var(--nju-purple) !important; text-decoration: none; }
   .lang-container { margin-bottom: 20px; display: block; }
   .lang-btn { display: inline-block; padding: 6px 18px; border: 2px solid var(--nju-purple); border-radius: 50px; font-family: 'Playfair Display', serif; font-size: 1rem; text-decoration: none !important; margin-right: 12px; }
   .lang-btn.active { background-color: var(--nju-purple); color: #fff !important; cursor: default; }
   .lang-btn.inactive { color: var(--nju-purple) !important; background-color: transparent; opacity: 0.6; }
   .lang-btn.inactive:hover { opacity: 1; background-color: #f3e5f5; }
-
-  /* Read More 按钮 */
   .more-link { text-align: center; margin-top: 20px; margin-bottom: 40px; }
-  .read-more-btn { display: inline-block; padding: 10px 25px; border: 1px solid var(--nju-purple); border-radius: 5px; color: var(--nju-purple) !important; font-weight: bold; background-color: transparent; }
-  .read-more-btn:hover { background-color: var(--nju-purple); color: #fff !important; text-decoration: none; }
-
-  /* 卡片 */
+  .read-more-btn { display: inline-block; padding: 10px 25px; border: 1px solid var(--nju-purple); border-radius: 5px; color: var(--nju-purple) !important; font-weight: bold; }
   .card { border: none !important; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.2s; }
   .card:hover { transform: translateY(-5px); box-shadow: 0 8px 15px rgba(77, 0, 153, 0.15); }
   .card-img-top { height: 180px; object-fit: cover; }
-  .card-title { font-size: 1.1rem !important; font-weight: bold; margin-bottom: 0.5rem; color: var(--nju-purple) !important; }
+  .card-title { font-size: 1.1rem !important; font-weight: bold; color: var(--nju-purple) !important; margin-bottom: 0.5rem; }
   .card-text { font-size: 0.95rem !important; line-height: 1.6 !important; color: #666; }
-  
-  /* 侧边栏字体修正 */
   .profile-info { font-size: 14px !important; line-height: 1.4 !important; }
   .profile { width: 32% !important; margin-left: 40px !important; }
-  
   @media (max-width: 768px) { .profile { width: 70% !important; float: none !important; margin: 0 auto 30px auto !important; text-align: center; } }
 </style>
