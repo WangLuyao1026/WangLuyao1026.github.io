@@ -17,8 +17,6 @@ latest_posts:
   <span class="btn-pill active">中文</span>
 </div>
 
-<div class="main-content">
-
 您好！我是**王璐瑶**，南京大学新闻传播学院 2025 级新闻与传播专业硕士生，研究方向为**计算传播学**。
 
 ### 🧩 核心竞争力：实务-数据-理论的三重融合
@@ -89,25 +87,22 @@ latest_posts:
     <a href="/projects/" class="read-more-btn">👉 点击进入【个人作品】展厅</a>
 </div>
 
-</div>
-
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root { --nju-purple: #4D0099; }
   
   /* 正文排版优化 (中文特供) */
-  .main-content { 
-    /* 字体栈优先中文 */
+  article.post, .post-content { 
     font-family: "PingFang SC", "Microsoft YaHei", 'Lora', serif !important; 
     font-size: 18px !important; 
-    line-height: 1.8 !important; /* 中文行距调大，呼吸感更强 */
+    line-height: 1.8 !important; 
     color: #333 !important; 
     text-align: justify;
-    letter-spacing: 0.02em; /* 增加字间距，防止汉字粘连 */
+    letter-spacing: 0.02em; 
   }
   
   /* 标题样式 */
-  .main-content h3 { 
+  h3 { 
     font-family: "PingFang SC", 'Playfair Display', serif !important; 
     color: #000 !important; 
     margin-top: 2.5rem !important; 
@@ -118,9 +113,9 @@ latest_posts:
   }
   
   /* 链接颜色 */
-  .main-content a { color: var(--nju-purple) !important; text-decoration: none; }
+  a { color: var(--nju-purple) !important; text-decoration: none; }
   
-  /* 语言切换按钮 (保持一致) */
+  /* 语言切换按钮 */
   .lang-switcher { margin-bottom: 25px; }
   .btn-pill {
     display: inline-block;
@@ -152,13 +147,12 @@ latest_posts:
   }
 
   /* 跳转按钮 */
-  .more-link { text-align: center; margin-top: 20px; margin-bottom: 40px; }
   .read-more-btn { display: inline-block; padding: 8px 20px; border: 1px solid var(--nju-purple); border-radius: 4px; color: var(--nju-purple) !important; font-weight: bold; }
-  
-  /* 侧边栏微调 */
+  .more-link { text-align: center; margin-top: 20px; margin-bottom: 40px; }
+
+  /* 侧边栏 */
   .profile { margin-left: 30px !important; }
   .profile-info { font-size: 0.9rem !important; line-height: 1.4 !important; }
-  
   @media (max-width: 768px) {
      .profile { float: none !important; width: 60% !important; margin: 0 auto 20px auto !important; }
   }
