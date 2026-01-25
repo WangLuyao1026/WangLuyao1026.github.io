@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle:
 profile:
   align: right
   image: prof_pic.jpg
@@ -49,7 +49,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 * **Abstract**: This study explores the production process, interaction mechanisms, and social utility of "Cloud Recording" programmes during the pandemic, offering insights into the digital transformation of the broadcasting industry.
 
 <div class="more-link">
-    <a href="/publications/" class="read-more-btn">👉 View Research</a>
+    <a href="/publications/" class="read-more-btn">👉 View Research Details</a>
 </div>
 
 ---
@@ -111,7 +111,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 <style>
   :root { --nju-purple: #4D0099; }
   
-  /* Main Typography */
+  /* 正文排版优化 */
   .main-content { 
     font-family: 'Lora', serif !important; 
     font-size: 18px !important; 
@@ -120,7 +120,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     text-align: justify; 
   }
   
-  /* Headings */
+  /* 标题样式 */
   .main-content h3 { 
     font-family: 'Playfair Display', serif !important; 
     color: #000 !important; 
@@ -131,10 +131,10 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     display: inline-block;
   }
   
-  /* Links */
+  /* 链接颜色 */
   .main-content a { color: var(--nju-purple) !important; text-decoration: none; }
   
-  /* Switcher Button */
+  /* 语言切换按钮 (胶囊样式) */
   .lang-switcher { margin-bottom: 25px; }
   .btn-pill {
     display: inline-block;
@@ -165,13 +165,13 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     transform: translateY(-2px);
   }
 
-  /* Buttons */
+  /* 跳转按钮 */
   .more-link { text-align: center; margin-top: 20px; margin-bottom: 40px; }
   .read-more-btn { display: inline-block; padding: 8px 20px; border: 1px solid var(--nju-purple); border-radius: 4px; color: var(--nju-purple) !important; font-weight: bold; }
   
-  /* Sidebar Fix */
+  /* 侧边栏微调 */
   .profile { margin-left: 30px !important; }
-  .profile-info { font-size: 0.9rem !important; line-height: 1.4 !important; }
+  .profile-info { font-size: 0.9rem !important; }
   
   @media (max-width: 768px) {
      .profile { float: none !important; width: 60% !important; margin: 0 auto 20px auto !important; }
