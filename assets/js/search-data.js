@@ -23,9 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-履历-cv",
-          title: "履历 (CV)",
-          description: "本科经历、工作经验与荣誉奖项",
+        },{id: "nav-experience",
+          title: "Experience",
+          description: "Academic &amp; Professional Experience",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
