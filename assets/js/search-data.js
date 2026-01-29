@@ -418,6 +418,11 @@ ninja.data = [{
           description: "复杂政策与报告的视觉化转译 (Infographics)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_infographic/";
+            },},{id: "projects-数据可视化设计",
+          title: '数据可视化设计',
+          description: "检察数据的新闻化呈现 (Data Visualization)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_data_viz/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
