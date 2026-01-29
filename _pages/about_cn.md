@@ -323,23 +323,18 @@ nav_order: 2
   
   @media (min-width: 768px) { .border-right-md { border-right: 1px dashed #ddd; } }
 
-  /* ============ 4. 职业轨迹 ============ */
-  .timeline-box { max-width: 800px; margin: 0 auto; }
-  .timeline-row { display: flex; margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid #f5f5f5; }
-  .timeline-row:last-child { border-bottom: none; }
-  
-  .timeline-time {
-    width: 140px; flex-shrink: 0;
-    font-family: sans-serif !important; font-weight: bold; color: var(--nju-purple); font-size: 1rem;
-    padding-top: 4px;
-  }
-  .timeline-content { flex-grow: 1; padding-left: 20px; }
-  .job-title { font-weight: 800; font-size: 1.2rem; color: #222; margin-bottom: 3px; }
-  .job-comp { font-family: sans-serif !important; font-size: 0.9rem; font-weight: bold; color: #666; margin-bottom: 10px; }
-  .job-desc { font-size: 0.95rem; color: #555; line-height: 1.7; margin: 0; text-align: justify; }
-  
-  .link-simple { color: var(--nju-purple) !important; font-weight: 700; text-decoration: none; border-bottom: 1px solid transparent; transition: 0.3s; }
-  .link-simple:hover { border-bottom: 1px solid var(--nju-purple); }
+  /* 4. 🔴 找回时间轴样式 */
+  .timeline-box { max-width: 850px; margin: 0 auto; position: relative; padding-left: 20px; }
+  /* 时间轴竖线 */
+  .timeline-box::before { content: ""; position: absolute; left: 160px; top: 10px; bottom: 60px; width: 2px; background: #eee; }
+  .timeline-row { display: flex; margin-bottom: 50px; position: relative; }
+  .timeline-time { width: 140px; flex-shrink: 0; text-align: right; padding-right: 35px; font-family: sans-serif !important; font-weight: 700; color: var(--nju-purple); font-size: 1.05rem; padding-top: 3px; }
+  /* 时间轴圆点 */
+  .timeline-dot { width: 12px; height: 12px; background: #fff; border: 3px solid var(--nju-purple); border-radius: 50%; position: absolute; left: 160px; top: 10px; transform: translateX(-50%); z-index: 2; }
+  .timeline-content { flex-grow: 1; padding-left: 40px; }
+  .job-title { font-weight: 800; font-size: 1.25rem; margin-bottom: 5px; }
+  .job-comp { font-family: sans-serif !important; font-size: 0.95rem; font-weight: 600; color: #777; margin-bottom: 12px; }
+  .job-desc { font-size: 1rem; color: #555; text-align: justify; }
 
   /* ============ 5. 精选作品 ============ */
   .portfolio-item-link { text-decoration: none !important; color: inherit !important; display: block; }
