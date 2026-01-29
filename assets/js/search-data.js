@@ -75,7 +75,7 @@ ninja.data = [{
               window.location.href = "/projects/4_wechat/";
             },},{id: "projects-新闻纪实摄影",
           title: '新闻纪实摄影',
-          description: "记录一线现场与人物风采 (Photography)",
+          description: "记录一线现场与人物风采 | News Documentary Photography",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_photography/";
             },},{id: "teachings-data-science-fundamentals",
