@@ -72,137 +72,161 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
 ### 🎨 Selected Portfolio
 
-<div class="selected-portfolio-grid mt-4">
-    <div class="row g-4">
-        <div class="col-md-6">
-            <a href="/projects/" class="portfolio-home-link">
-                <div class="card h-100 portfolio-card shadow-sm border-0">
-                    <div class="card-img-container">
-                        <img class="card-img-top" src="/assets/img/about展示封面-微光.jpg" alt="Micro-film Glimmer">
-                    </div>
-                    <div class="card-body p-4">
-                        <h5 class="card-title">Micro-film: “Glimmer” 🔗</h5>
-                        <p class="card-text">Award-winning film on juvenile protection and social justice.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-md-6">
-            <a href="/projects/" class="portfolio-home-link">
-                <div class="card h-100 portfolio-card shadow-sm border-0">
-                    <div class="card-img-container">
-                        <img class="card-img-top" src="/assets/img/about展示封面-1.png" alt="Visual Identity">
-                    </div>
-                    <div class="card-body p-4">
-                        <h5 class="card-title">Visual Identity System 🔗</h5>
-                        <p class="card-text">Professional brand design and communication strategy for public sectors.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
+<div id="portfolioCarousel" class="carousel slide carousel-fade shadow-lg" data-ride="carousel" data-interval="4000">
+  <ol class="carousel-indicators">
+    <li data-target="#portfolioCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#portfolioCarousel" data-slide-to="1"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-img-overlay"></div>
+      <img src="/assets/img/about展示封面-微光.jpg" class="d-block w-100 carousel-img" alt="Micro-film Glimmer">
+      <div class="carousel-caption d-none d-md-block text-left">
+        <span class="badge badge-nju mb-2">Selected Video</span>
+        <h2 class="slider-title">Micro-film: “Glimmer”</h2>
+        <p class="slider-desc">Award-winning cinematic work on juvenile protection. Bridging visual storytelling with social justice.</p>
+        <a href="/projects/" class="btn btn-view">Explore More <i class="fas fa-arrow-right ml-2"></i></a>
+      </div>
     </div>
+
+    <div class="carousel-item">
+      <div class="carousel-img-overlay"></div>
+      <img src="/assets/img/about展示封面-1.png" class="d-block w-100 carousel-img" alt="Visual Identity">
+      <div class="carousel-caption d-none d-md-block text-left">
+        <span class="badge badge-nju mb-2">Graphic Design</span>
+        <h2 class="slider-title">Visual Identity System</h2>
+        <p class="slider-desc">Comprehensive brand strategy and infrastructure design for professional sectors.</p>
+        <a href="/projects/" class="btn btn-view">Explore More <i class="fas fa-arrow-right ml-2"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+  <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </a>
 </div>
 
-<div class="more-link" style="margin-top: 40px;">
-    <a href="/projects/" class="read-more-btn">👉 Explore Full Portfolio & Video Works</a>
+<div class="more-link-container text-center mt-5">
+    <a href="/projects/" class="full-portfolio-btn">👉 View All Graphic & Video Works</a>
 </div>
 
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 全局排版美化 */
+  /* 1. 全局排版美化 (Lora字体) */
   article.post, .post-content {
-    font-family: 'Lora', 'Georgia', serif !important; /* 更高级的英文和标点渲染 */
+    font-family: 'Lora', 'Georgia', serif !important;
     font-size: 1.12rem !important;
-    line-height: 1.9 !important; /* 极宽行距，告别拥挤 */
+    line-height: 1.9 !important;
     color: #2c3e50 !important;
     text-align: justify;
-    font-feature-settings: "kern", "liga", "clig", "calt";
   }
 
-  /* 段落间距加宽 */
-  .post-content p, .post-content ul { margin-bottom: 1.8rem !important; }
+  /* 2. 动态展播核心样式 */
+  #portfolioCarousel {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 2rem;
+    height: 450px; /* 固定高度，看起来更稳重 */
+  }
 
-  /* 2. 标题高级感 */
-  h3 {
+  .carousel-img {
+    height: 450px;
+    object-fit: cover; /* 确保图片充满且不变形 */
+  }
+
+  /* 图片上的暗色渐变层，确保文字清晰 */
+  .carousel-img-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 60%, transparent 100%);
+    z-index: 1;
+  }
+
+  /* 文字说明区 */
+  .carousel-caption {
+    z-index: 2;
+    left: 8%;
+    bottom: 15%;
+    max-width: 50%;
+  }
+
+  .slider-title {
     font-family: 'Playfair Display', serif !important;
-    color: #1a1a1a !important;
-    margin-top: 3.5rem !important;
-    margin-bottom: 1.5rem !important;
-    border-bottom: 2px solid var(--nju-purple);
-    padding-bottom: 8px;
-    display: inline-block;
-    font-weight: 700;
-    letter-spacing: -0.5px;
+    font-size: 2.2rem !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+    margin-bottom: 1rem;
+    line-height: 1.2;
   }
 
-  /* 3. Selected Portfolio 卡片重塑 */
-  .portfolio-home-link { text-decoration: none !important; color: inherit !important; }
-  
-  .portfolio-card {
-    border-radius: 20px !important;
-    overflow: hidden;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    background: #fff;
-  }
-
-  .portfolio-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(77, 0, 153, 0.12) !important;
-  }
-
-  .card-img-container {
-    height: 200px;
-    overflow: hidden;
-  }
-
-  .card-img-top {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.6s ease;
-  }
-
-  .portfolio-card:hover .card-img-top {
-    transform: scale(1.08);
-  }
-
-  .portfolio-card .card-title {
-    color: var(--nju-purple) !important;
-    font-weight: 700;
-    font-size: 1.2rem !important;
-    margin-bottom: 0.8rem;
-  }
-
-  .portfolio-card .card-text {
-    font-size: 0.95rem !important;
+  .slider-desc {
+    font-size: 1rem !important;
     line-height: 1.6 !important;
-    color: #666;
+    color: rgba(255,255,255,0.9) !important;
+    margin-bottom: 1.5rem;
   }
 
-  /* 4. 组件美化 */
-  .profile { margin-left: 35px !important; width: 28% !important; max-width: 200px !important; }
-  .profile-info p { margin-bottom: 4px !important; font-size: 0.85rem !important; }
-  
-  .lang-switcher { margin-bottom: 35px; }
-  .btn-pill { 
-    display: inline-block; padding: 6px 20px; border-radius: 50px; 
-    font-weight: bold; border: 2px solid var(--nju-purple); 
-    font-family: 'Playfair Display', serif;
+  /* 南大紫标签 */
+  .badge-nju {
+    background-color: var(--nju-purple);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
-  .btn-pill.active { background-color: var(--nju-purple); color: #fff !important; }
-  
-  .read-more-btn { 
-    display: inline-block; padding: 10px 28px; 
-    border: 1.5px solid var(--nju-purple); border-radius: 50px; 
-    color: var(--nju-purple) !important; font-weight: bold; 
-    text-decoration: none !important; transition: 0.3s;
-  }
-  .read-more-btn:hover { background: var(--nju-purple); color: #fff !important; }
 
-  /* 响应式 */
+  /* 展播内的按钮 */
+  .btn-view {
+    border: 1px solid white;
+    color: white !important;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  .btn-view:hover {
+    background: white;
+    color: var(--nju-purple) !important;
+    transform: scale(1.05);
+  }
+
+  /* 3. 底部大按钮 */
+  .full-portfolio-btn {
+    display: inline-block;
+    padding: 12px 35px;
+    border: 2px solid var(--nju-purple);
+    border-radius: 50px;
+    color: var(--nju-purple) !important;
+    font-weight: 800;
+    font-size: 1rem;
+    text-decoration: none !important;
+    transition: 0.4s;
+  }
+  .full-portfolio-btn:hover {
+    background: var(--nju-purple);
+    color: white !important;
+    box-shadow: 0 8px 20px rgba(77, 0, 153, 0.2);
+  }
+
+  /* 4. 移动端适配 */
   @media (max-width: 768px) {
-    .profile { float: none !important; width: 60% !important; margin: 0 auto 30px auto !important; }
-    .card-img-container { height: 160px; }
+    #portfolioCarousel { height: 300px; }
+    .carousel-img { height: 300px; }
+    .carousel-caption { 
+        max-width: 80%; 
+        bottom: 10%; 
+        display: block !important; /* 手机端也显示，但缩小 */
+    }
+    .slider-title { font-size: 1.4rem !important; }
+    .slider-desc { font-size: 0.8rem !important; }
+    .btn-view { padding: 5px 15px; font-size: 0.75rem; }
   }
 </style>
