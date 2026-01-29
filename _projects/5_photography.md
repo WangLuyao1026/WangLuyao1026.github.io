@@ -23,16 +23,16 @@ category: work
   <div class="row">
       <div class="col-sm-6 mt-3 mt-md-0">
           <div class="img-box">
-              <img class="img-fluid" src="/assets/img/作品列举1.png" alt="一线执法">
+              <img class="img-fluid" src="/assets/img/photo_work.png" alt="一线执法与航拍">
           </div>
           <h5 class="img-caption">一线执法与航拍纪实</h5>
       </div>
       
       <div class="col-sm-6 mt-3 mt-md-0">
           <div class="img-box">
-               <img class="img-fluid" src="/assets/img/作品列举2.png" alt="研学活动">
+               <img class="img-fluid" src="/assets/img/photo_activity.png" alt="研学活动">
           </div>
-          <h5 class="img-caption">“检爱童行”法治研学活动</h5>
+          <h5 class="img-caption">“检爱童行”法治研学活动与检察干警人物风采</h5>
       </div>
   </div>
 
