@@ -4,7 +4,7 @@ title: Experience
 permalink: /experience/
 description: 工作经历与专业实践 | Professional Experience
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <div class="experience-container mt-5">
