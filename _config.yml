@@ -139,6 +139,7 @@ collections:
     output: true
   projects:
     output: true
+    permalink: /projects/:path/
   teachings:
     output: true
 
