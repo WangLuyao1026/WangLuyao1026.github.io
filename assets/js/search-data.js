@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-portfolio",
           title: "Portfolio",
-          description: "个人作品集 | Selected Works (Design, Data, Media, Photo)",
+          description: "个人作品集 | Selected Works",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
