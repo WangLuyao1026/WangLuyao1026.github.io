@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /projects/
 description: 个人作品集 | Selected Works
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <div class="projects-container mt-4">
