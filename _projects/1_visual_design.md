@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 视觉识别与品牌设计
-description: 品牌战略的视觉化演绎 | Visual Identity Design
+description: 品牌战略的视觉化转译 | Visual Identity Design
 img: /assets/img/about展示封面-1.png
 importance: 2
 category: work
@@ -9,56 +9,58 @@ category: work
 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;700;900&display=swap" rel="stylesheet">
 
-<div class="project-article-container">
+<div class="vi-project-content">
 
-  <div class="article-intro mb-5">
-    <h3>🎨 品牌战略的视觉转译</h3>
-    <p class="intro-lead">
-      <strong>项目背景：</strong>一套优秀的视觉识别系统（VI）不仅是美的呈现，更是品牌战略的精准翻译。本项目旨在为相关单位打造一套兼具权威性与亲和力、适应全媒体时代传播需求的视觉基础设施。
+  <section class="mb-5">
+    <h3 class="section-title">🎨 品牌视觉基础设施构建</h3>
+    <p class="intro-text">
+      <strong>设计初衷：</strong>视觉识别系统（VI）是品牌灵魂的具象化。本项目旨在为单位建立一套系统、规范、且具前瞻性的视觉识别体系。通过对核心标志的科学规范与色彩系统的精准定义，解决品牌在多媒介传播中形象碎片化的问题，构建连贯一致的品牌叙事空间。
     </p>
-  </div>
+  </section>
 
-  <hr class="divider-thin">
+  <hr class="divider">
 
-  <div class="design-section text-center mb-6">
-    <div class="img-frame-hero">
-      <img src="/assets/img/about展示封面-1.png" class="img-fluid shadow-lg" alt="核心VI展示">
+  <section class="mb-6">
+    <h4 class="sub-heading">01. 标志设计逻辑与规范</h4>
+    <p>
+      标志作为品牌的核心资产，其规范性决定了传播的严谨度。我们对标志的网格制图、反白规范以及安全空间进行了精确界定，确保其在从名片到大型户外广告的各种尺度下，均能保持完美的视觉清晰度。
+    </p>
+    <div class="image-box-full mt-4">
+      <img src="/assets/img/about展示封面-1.png" alt="品牌视觉设计稿" class="img-clean shadow-sm">
+      <p class="img-caption">图 1：品牌核心视觉识别规范 (Visual Identity Guideline)</p>
     </div>
-    <p class="caption-text">图 1：品牌核心标志与标准色应用规范</p>
-  </div>
+  </section>
 
-  <div class="row align-items-center mb-6">
-    <div class="col-md-5 order-2 order-md-1">
-      <div class="text-side-box">
-        <h4 class="sub-title">视觉规范系统</h4>
-        <p>精确界定标志墨稿、反白比例及安全空间，确保跨媒介使用的严谨性与一致性。我们强调符号在多场景下的自适应能力。</p>
+  <section class="mb-6">
+    <h4 class="sub-heading">02. 媒介适配与视觉延展</h4>
+    <p>
+      在全媒体传播环境下，VI 系统不仅要在平面印刷中表现卓越，更要适配数字端的动态呈现。我们定义了一套具有节奏感的辅助图形系统，使其在社交媒体、政务平台及线下办公环境中展现出极强的品牌自适应性。
+    </p>
+    
+    <div class="row g-4 mt-2">
+      <div class="col-md-6">
+        <div class="image-box-half">
+           <img src="/assets/img/about展示封面-1.png" alt="VI应用展示" class="img-clean shadow-sm">
+        </div>
+        <p class="img-caption">图 2：办公事务系统展示</p>
+      </div>
+      <div class="col-md-6">
+        <div class="image-box-half">
+           <img src="/assets/img/about展示封面-1.png" alt="VI应用展示" class="img-clean shadow-sm">
+        </div>
+        <p class="img-caption">图 3：数字媒介适配展示</p>
       </div>
     </div>
-    <div class="col-md-7 order-1 order-md-2 mb-4 mb-md-0">
-      <div class="img-frame-tilt-right">
-        <img src="/assets/img/photo_work.png" class="img-fluid shadow-md" alt="规范细节">
-      </div>
-    </div>
-  </div>
+  </section>
 
-  <div class="row mb-6">
-    <div class="col-md-6 mb-5">
-      <div class="img-frame-offset">
-        <img src="/assets/img/photo_activity.png" class="img-fluid shadow-md" alt="应用延展">
-      </div>
-      <h5 class="mt-4 font-weight-bold" style="color: #4D0099;">数字媒体应用</h5>
-      <p class="caption-text">适配移动端界面的动态语言与视觉节奏。</p>
-    </div>
-    <div class="col-md-6 mt-md-5"> <div class="img-frame-offset">
-        <img src="/assets/img/about展示封面-微光.jpg" class="img-fluid shadow-md" alt="环境应用">
-      </div>
-      <h5 class="mt-4 font-weight-bold" style="color: #4D0099;">环境与空间导视</h5>
-      <p class="caption-text">将视觉符号融入物理空间，营造沉浸式品牌体验。</p>
-    </div>
-  </div>
+  <section class="conclusion-box p-4 mb-5">
+    <p>
+      <strong>设计愿景：</strong>这套视觉系统不仅是对外展示的窗口，更是对内凝聚力的符号。它通过理性的设计语言，传递出品牌专业、稳重且不失现代感的价值观。
+    </p>
+  </section>
 
   <div class="text-center mt-5 mb-5">
-    <a href="/projects/" class="btn-return">← 返回作品集列表</a>
+    <a href="/projects/" class="btn-back-link">← 返回作品集列表</a>
   </div>
 
 </div>
@@ -66,66 +68,64 @@ category: work
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 字体与行间距：严格同步摄影页 */
-  .project-article-container, .post-content {
+  /* 1. 字体与间距：严格同步摄影页 */
+  .vi-project-content {
     font-family: "Noto Serif SC", serif !important;
     font-size: 1.15rem !important;
-    line-height: 2.0 !important; /* 2.0倍行间距，告别拥挤 */
+    line-height: 2.0 !important; /* 疏朗的行距 */
     color: #333;
-    text-align: justify;
     max-width: 900px;
     margin: 0 auto;
+    text-align: justify;
   }
 
-  /* 2. 标题美化 */
-  h3 {
-    font-family: "Noto Serif SC", serif !important;
+  /* 2. 标题样式 */
+  .section-title {
     font-weight: 700 !important;
     color: var(--nju-purple) !important;
     border-left: 5px solid var(--nju-purple);
     padding-left: 15px !important;
     margin-bottom: 1.5rem !important;
   }
-  
-  .sub-title {
+  .sub-heading {
     font-weight: 700;
     color: #111;
+    margin-top: 2rem;
     margin-bottom: 1rem;
-    position: relative;
-  }
-  .sub-title::after {
-    content: ''; display: block; width: 30px; height: 3px; background: var(--nju-purple); margin-top: 8px;
   }
 
-  /* 3. 创意布局样式 */
-  .img-frame-hero img { border-radius: 15px; width: 100%; }
+  /* 3. 图片防畸形核心代码 */
+  .img-clean {
+    width: 100%;
+    height: auto;        /* 强制保持原始宽高比 */
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+    object-fit: contain; /* 确保内容完整显示不被裁剪或拉伸 */
+  }
   
-  .img-frame-tilt-right {
-    transform: rotate(1.5deg); /* 微妙的倾斜，增加设计感 */
-    transition: 0.4s;
-  }
-  .img-frame-tilt-right:hover { transform: rotate(0deg) scale(1.02); }
-  .img-frame-tilt-right img { border-radius: 12px; }
-
-  .img-frame-offset img {
+  .image-box-full, .image-box-half {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #eee;
     border-radius: 10px;
-    transition: 0.4s;
   }
-  .img-frame-offset:hover img { transform: translateY(-10px); }
 
-  .mb-6 { margin-bottom: 5rem; }
-  .divider-thin { border-top: 1px solid #eee; margin: 3rem 0; }
-
-  /* 4. 图注样式 */
-  .caption-text {
+  .img-caption {
     font-family: sans-serif !important;
     font-size: 0.9rem;
     color: #888;
+    text-align: center;
     margin-top: 12px;
   }
 
-  /* 5. 返回按钮 */
-  .btn-return {
+  /* 4. 装饰元素 */
+  .divider { border-top: 1px solid #eee; margin: 3rem 0; }
+  .conclusion-box { background: #f9f7fd; border-radius: 12px; }
+  .mb-6 { margin-bottom: 4.5rem; }
+
+  /* 5. 按钮 */
+  .btn-back-link {
     display: inline-block;
     padding: 10px 30px;
     border: 2px solid var(--nju-purple);
@@ -134,14 +134,15 @@ category: work
     font-weight: 800;
     text-decoration: none !important;
     transition: 0.3s;
+    font-family: sans-serif !important;
   }
-  .btn-return:hover {
+  .btn-back-link:hover {
     background: var(--nju-purple);
     color: #fff !important;
   }
 
+  /* 移动端间距 */
   @media (max-width: 768px) {
-    .img-frame-tilt-right { transform: none; }
-    .mt-md-5 { margin-top: 0 !important; }
+    .vi-project-content { font-size: 1.05rem !important; padding: 0 15px; }
   }
 </style>
