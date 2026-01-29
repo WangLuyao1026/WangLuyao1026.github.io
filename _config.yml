@@ -151,7 +151,8 @@ kramdown:
       line_numbers: false
       start_line: 1
 
-include: ["_pages", "_scripts", "_projects"]
+# 🟢 已修正：从 include 列表中移除 _projects
+include: ["_pages", "_scripts"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -237,8 +238,9 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories]
 
+# 🟢 已修正：清理全局分类设置，防止与作品冲突
 display_tags: ["journalism", "data", "photography", "documentary", "code"]
-display_categories: ["work"]
+display_categories: []
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
