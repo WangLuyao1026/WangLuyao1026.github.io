@@ -15,7 +15,7 @@ nav_order: 5
     <div class="card border-0 shadow-lg thesis-card">
       <div class="row g-0">
         
-        <div class="col-lg-6 col-md-12 bg-light d-flex align-items-center justify-content-center position-relative" style="min-height: 500px;">
+        <div class="col-lg-6 col-md-12 bg-soft-gray d-flex align-items-center justify-content-center position-relative" style="min-height: 500px;">
           
           <img src="/assets/img/本科毕业论文.png" class="thesis-img-final shadow" alt="本科毕业论文封面">
           
@@ -97,14 +97,20 @@ nav_order: 5
     background: #fff;
   }
   
-  /* 🔴 核心修改：图片样式 */
+  /* 🔴 新增：自定义通透浅灰色背景 */
+  .bg-soft-gray {
+    /* 使用 rgba 设置：红245, 绿247, 蓝250 (极浅冷灰), 透明度 0.6 */
+    background-color: rgba(245, 247, 250, 0.6) !important;
+  }
+
+  /* 图片样式 */
   .thesis-img-final {
-    width: 85%;          /* 宽度占格子的 85%，足够大 */
-    height: auto;        /* 高度自适应 */
-    max-height: 90%;     /* 防止图片太高溢出 */
-    object-fit: contain; /* 保持比例 */
-    display: block;      /* 块级元素 */
-    margin: 0 auto;      /* 水平自动居中 */
+    width: 85%;
+    height: auto;
+    max-height: 90%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
     border-radius: 4px;
   }
 
