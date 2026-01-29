@@ -423,6 +423,11 @@ ninja.data = [{
           description: "检察数据的新闻化呈现 (Data Visualization)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_data_viz/";
+            },},{id: "projects-微信公众号运营",
+          title: '微信公众号运营',
+          description: "10w+ 爆款推文与 H5 交互设计",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_wechat/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
