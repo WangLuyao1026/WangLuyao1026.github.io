@@ -6,6 +6,7 @@ selected_papers: false
 social: true
 nav: true
 nav_order: 2
+nav_title: 中文版    # 👈 加上这行，导航栏就绝对不可能是 About 了
 announcements:
   enabled: true
   scrollable: true
@@ -32,7 +33,7 @@ latest_posts:
 
 ### 🎓 本科毕业论文 (摘要)
 
-* **题目**：**《云录制的生产制播范式与效用研究——以<天天云时间>为例》**
+* **题目**：《云录制的生产制播范式与效用研究——以<天天云时间>为例》
 * **荣誉**：校级优秀毕业论文
 * **摘要**：本研究以2020年疫情期间诞生的“云录制”节目为对象，深入探讨了其作为一种创新制播范式的生产流程、互动机制及社会效用，展望了后疫情时代广电行业的数字化转型路径。
 
@@ -75,82 +76,4 @@ latest_posts:
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="card h-100">
             <a href="/projects/2_railway_ip/">
-                <img class="card-img-top" src="/assets/img/work_design.jpg" alt="设计" onerror="this.src='https://placehold.co/600x400?text=Work';">
-                <div class="card-body">
-                    <h5 class="card-title">视觉设计系统 🔗</h5>
-                    <p class="card-text">铁路安全宣传的品牌化与可视化设计实践。</p>
-                </div>
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="more-link" style="margin-top: 20px;">
-    <a href="/projects/" class="read-more-btn">👉 点击进入【个人作品】展厅</a>
-</div>
-
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<style>
-  :root { --nju-purple: #4D0099; }
-
-  /* 1. 修复乱码：针对文章容器设置字体 */
-  article.post, .post-content {
-    /* 字体栈：优先中文屏显字体，防止发虚 */
-    font-family: "PingFang SC", "Microsoft YaHei", 'Lora', serif !important;
-    font-size: 18px !important;
-    line-height: 1.8 !important; /* 中文行距更大 */
-    color: #333 !important;
-    text-align: justify;
-    letter-spacing: 0.02em; /* 字间距 */
-  }
-
-  /* 2. 标题加粗美化 */
-  header .post-title, h1.post-title {
-    font-family: 'Playfair Display', serif !important;
-    font-weight: 900 !important;
-    letter-spacing: -0.5px !important;
-    color: #000 !important;
-  }
-  
-  h3 {
-    font-family: "PingFang SC", 'Playfair Display', serif !important;
-    color: #000 !important;
-    margin-top: 2.5rem !important;
-    margin-bottom: 1rem !important;
-    border-bottom: 2px solid var(--nju-purple);
-    padding-bottom: 5px;
-    display: inline-block;
-  }
-
-  /* 3. 照片缩小 */
-  .profile {
-    margin-left: 30px !important;
-    width: 25% !important;
-    max-width: 180px !important;
-  }
-  .profile-info { font-size: 0.85rem !important; line-height: 1.3 !important; margin-top: 10px !important; }
-
-  /* 4. 作品卡片优化 */
-  .card-img-top { height: 140px !important; object-fit: cover; }
-  .card-title { font-size: 1rem !important; font-weight: bold; color: var(--nju-purple) !important; margin-bottom: 0.3rem !important; }
-  .card-text { font-size: 0.85rem !important; line-height: 1.5 !important; }
-  .card { margin-bottom: 15px !important; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border: none !important; }
-
-  /* 按钮样式 */
-  .lang-switcher { margin-bottom: 25px; }
-  .btn-pill {
-    display: inline-block; padding: 5px 18px; border-radius: 50px;
-    font-family: 'Playfair Display', sans-serif; font-weight: bold; font-size: 0.9rem;
-    margin-right: 10px; border: 2px solid var(--nju-purple);
-  }
-  .btn-pill.active { background-color: var(--nju-purple); color: #fff !important; }
-  .btn-pill.inactive { color: var(--nju-purple) !important; background-color: transparent; opacity: 0.6; text-decoration: none; }
-  
-  .read-more-btn { display: inline-block; padding: 6px 18px; border: 1px solid var(--nju-purple); border-radius: 4px; color: var(--nju-purple) !important; font-weight: bold; font-size: 0.9rem; }
-  .more-link { text-align: center; margin-top: 15px; margin-bottom: 30px; }
-  a { color: var(--nju-purple) !important; text-decoration: none; }
-
-  @media (max-width: 768px) {
-     .profile { float: none !important; width: 50% !important; margin: 0 auto 20px auto !important; }
-  }
-</style>
+                <img
