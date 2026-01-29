@@ -7,36 +7,151 @@ nav: true
 nav_order: 2
 ---
 
-<div class="lang-switcher-float">
-  <a href="/" class="lang-link">English</a>
-  <span class="lang-sep">/</span>
-  <span class="lang-active">中文</span>
-</div>
-
-<div class="hero-header text-center mt-5 mb-5">
-  <div class="nju-brand mb-4">
-    <img src="/assets/img/南京大学-logo-2048px.png" alt="南京大学" class="nju-logo">
-  </div>
-  
-  <h1 class="hero-name">王 璐 瑶</h1>
-  <p class="hero-name-en">LUYAO WANG</p>
-  
-  <div class="hero-identity mt-4">
-    <span class="uni-badge">NANJING UNIVERSITY</span>
-    <span class="dept-text">新闻传播学院 · 2025 级硕士研究生</span>
+<div class="academic-masthead">
+  <div class="corner-logo">
+    <img src="/assets/img/南京大学-logo-2048px.png" alt="南京大学" class="nju-brand-logo">
   </div>
 
-  <div class="statement-block mt-5">
-    <p class="main-quote">
-      “致力于探索<strong>数据理性</strong>、<strong>用户行为</strong>与<strong>社会理论</strong>的连接点。”
-    </p>
-    <div class="quote-line"></div>
-    <p class="sub-quote">
-      重点关注数字平台上的用户行为心理、信息扩散的社会动力学，<br class="d-none d-md-block">
-      以及计算叙事对公众认知与情感的影响。
-    </p>
+  <div class="masthead-content text-center">
+    <h1 class="hero-name-large">王 璐 瑶</h1>
+    <p class="hero-name-en-sub">LUYAO WANG</p>
+    
+    <div class="academic-identity mt-4">
+      <span class="uni-pill">NANJING UNIVERSITY</span>
+      <span class="dept-info">新闻传播学院 · 2025 级硕士研究生</span>
+    </div>
+  </div>
+
+  <div class="academic-manifesto mt-5">
+    <div class="manifesto-inner">
+      <p class="manifesto-main-quote">
+        “致力于探索<strong>数据理性</strong>、<strong>用户行为</strong>与<strong>社会理论</strong>的连接点。”
+      </p>
+      <div class="manifesto-line"></div>
+      <p class="manifesto-details">
+        重点关注数字平台上的用户行为心理、信息扩散的社会动力学，<br class="d-none d-md-block">
+        以及计算叙事对公众认知与情感的影响。
+      </p>
+    </div>
   </div>
 </div>
+
+<hr class="section-divider">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+  :root { --nju-purple: #4D0099; --nju-light-bg: #fdfcff; }
+
+  /* 1. 整体布局：增加呼吸感 */
+  body, p, li, h1, h2, h3, h4, h5, div { font-family: "Noto Serif SC", serif !important; }
+  body { -webkit-font-smoothing: antialiased; background-color: #fff; }
+
+  .academic-masthead {
+    position: relative;
+    padding: 80px 0 60px 0;
+    margin-bottom: 2rem;
+  }
+
+  /* 2. 左上角校徽排版 */
+  .corner-logo {
+    position: absolute;
+    top: 20px;
+    left: 0;
+  }
+  .nju-brand-logo {
+    height: 80px; /* 适当调大，彰显大气 */
+    width: auto;
+    opacity: 0.95;
+    filter: drop-shadow(0 2px 5px rgba(0,0,0,0.05));
+  }
+
+  /* 3. 姓名排版：加大字号与间距 */
+  .hero-name-large {
+    font-size: 3.5rem; /* 显著加大 */
+    font-weight: 900;
+    color: var(--nju-purple);
+    letter-spacing: 15px; /* 极宽间距，提升高级感 */
+    margin-bottom: 5px;
+    line-height: 1;
+  }
+  .hero-name-en-sub {
+    font-family: sans-serif !important;
+    font-size: 1rem;
+    color: #bbb;
+    letter-spacing: 6px;
+    text-indent: 6px;
+    font-weight: 500;
+  }
+
+  /* 4. 身份标签排版 */
+  .uni-pill {
+    font-family: sans-serif !important;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--nju-purple);
+    border: 2px solid var(--nju-purple);
+    padding: 3px 15px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+  }
+  .dept-info {
+    margin-left: 15px;
+    color: #666;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+
+  /* 5. 核心宣言排版：解决单薄感 */
+  .academic-manifesto {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    background: var(--nju-light-bg);
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid #f2f0f5;
+  }
+  .manifesto-main-quote {
+    font-size: 1.6rem; /* 核心句子加大 */
+    color: #1a1a1a;
+    font-weight: 600;
+    margin-bottom: 25px;
+    line-height: 1.5;
+  }
+  .manifesto-line {
+    width: 40px;
+    height: 3px;
+    background: var(--nju-purple);
+    margin: 0 auto 25px auto;
+    border-radius: 2px;
+    opacity: 0.6;
+  }
+  .manifesto-details {
+    font-size: 1.15rem;
+    color: #555;
+    line-height: 2;
+    font-weight: 400;
+  }
+
+  .section-divider {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.1), rgba(0,0,0,0));
+    margin: 4rem 0;
+  }
+
+  /* 移动端适配 */
+  @media (max-width: 992px) {
+    .corner-logo { position: static; text-align: center; margin-bottom: 30px; }
+    .hero-name-large { font-size: 2.5rem; letter-spacing: 8px; }
+    .dept-info { display: block; margin-left: 0; margin-top: 15px; }
+    .academic-manifesto { padding: 30px 20px; }
+    .manifesto-main-quote { font-size: 1.3rem; }
+  }
+</style>
 
 <hr class="divider-fade">
 
@@ -63,7 +178,7 @@ nav_order: 2
     </div>
     <div class="col-md-4">
       <div class="skill-card-clean">
-        <div class="skill-icon">🧠</div>
+        <div class="skill-icon">💡</div>
         <h4>理论视野</h4>
         <p>聚焦智媒时代下数据、用户、媒体与社会结构之间的深度互动，在跨学科视野中保持批判性思考。</p>
       </div>
