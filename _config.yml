@@ -151,7 +151,7 @@ kramdown:
       line_numbers: false
       start_line: 1
 
-include: ["_pages", "_scripts"]
+include: ["_pages", "_scripts", "_projects"]
 exclude:
   - bin/
   - CONTRIBUTING.md
