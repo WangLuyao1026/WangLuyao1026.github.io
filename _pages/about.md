@@ -7,7 +7,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  # 🔴 核心修改：改为“名片式”精致排版
+  # 🔴 侧边栏信息：名片式排版
   more_info: >
     <div class="profile-info-refined">
       <div class="univ-name">Nanjing University</div>
@@ -18,10 +18,9 @@ selected_papers: false
 social: false
 nav: false
 nav_order: 1
+# 🔴 核心修改：关闭 News 板块
 announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
+  enabled: false 
 latest_posts:
   enabled: false
 ---
@@ -35,17 +34,25 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
 ### 🧩 Core Competencies
 
-* **Professional Practice**: Extensive experience in news media and omni-media platforms, with a B.A. in Broadcasting and Television.
-* **Data Capabilities**: Proficient in Social Network Analysis (SNA), Text Mining, and Statistical Modelling for large-scale user behavioural analysis.
-* **Theoretical Vision**: Focusing on the interplay between data, users, media, and society in the intelligent media era.
+<div class="competencies-box">
+  <ul class="clean-list">
+    <li><strong style="color: #4D0099;">Professional Practice:</strong> Extensive experience in news media and omni-media platforms, with a B.A. in Broadcasting and Television.</li>
+    <li><strong style="color: #4D0099;">Data Capabilities:</strong> Proficient in Social Network Analysis (SNA), Text Mining, and Statistical Modelling for large-scale user behavioural analysis.</li>
+    <li><strong style="color: #4D0099;">Theoretical Vision:</strong> Focusing on the interplay between data, users, media, and society in the intelligent media era.</li>
+  </ul>
+</div>
 
 ---
 
 ### 🎓 Undergraduate Thesis (Summary)
 
-* **Title**: *“Research on Production Paradigm and Utility of Cloud Recording”*
-* **Honor**: Outstanding Graduation Thesis
-* **Abstract**: This study explores the production process, interaction mechanisms, and social utility of “Cloud Recording” programmes during the pandemic, offering insights into the digital transformation of the broadcasting industry.
+<div class="clean-list-container">
+  <ul class="clean-list">
+    <li><strong>Title:</strong> <em>“Research on Production Paradigm and Utility of Cloud Recording”</em></li>
+    <li><strong>Honor:</strong> Outstanding Graduation Thesis</li>
+    <li><strong>Abstract:</strong> This study explores the production process, interaction mechanisms, and social utility of “Cloud Recording” programmes during the pandemic, offering insights into the digital transformation of the broadcasting industry.</li>
+  </ul>
+</div>
 
 <div class="more-link">
     <a href="/publications/" class="read-more-btn">👉 View Research Details</a>
@@ -55,13 +62,42 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
 ### 💼 Professional Experience (Highlights)
 
-* **New Media Editor-in-Chief** | *Jinan Railway Bureau (2024–2025)*
-    * Responsible for the operation and visual design of the official WeChat account.
-    * Completed the publicity campaign series across sixteen cities; achieved **200k+** views for a single post.
+<div class="exp-clean-container">
+  
+  <div class="exp-item mb-4">
+    <div class="d-flex justify-content-between align-items-baseline">
+      <h5 class="exp-role">New Media Editor-in-Chief</h5>
+      <span class="exp-date">2024 – 2025</span>
+    </div>
+    <div class="exp-company">Jinan Railway Bureau</div>
+    <p class="exp-desc">
+      Responsible for the operation and visual design of the official WeChat account. Completed the publicity campaign series across sixteen cities; achieved <strong>200k+</strong> views for a single post.
+    </p>
+  </div>
 
-* **Journalist & Editor** | *Procuratorial Daily (Shandong Station) & Lixia District Procuratorate (2022–2024)*
-    * Participated in the “Big Data Empowering Legal Supervision” project, utilising data analysis to enhance communication efficiency.
-    * Managed external new media channels (Weibo, WeChat, Toutiao) and promoted internal publicity for the political and legal system.
+  <div class="exp-item mb-4">
+    <div class="d-flex justify-content-between align-items-baseline">
+      <h5 class="exp-role">Journalist & Editor</h5>
+      <span class="exp-date">2022 – 2024</span>
+    </div>
+    <div class="exp-company">Procuratorial Daily (Shandong Station) & Lixia District Procuratorate</div>
+    <p class="exp-desc">
+      Participated in the “Big Data Empowering Legal Supervision” project. Managed external new media channels (Weibo, WeChat, Toutiao) and promoted internal publicity for the political and legal system.
+    </p>
+  </div>
+
+   <div class="exp-item mb-4">
+    <div class="d-flex justify-content-between align-items-baseline">
+      <h5 class="exp-role">Video Planner (Intern)</h5>
+      <span class="exp-date">2021</span>
+    </div>
+    <div class="exp-company">Dazhong Newspaper Group (Qilu Integrated Media Center)</div>
+    <p class="exp-desc">
+      Managed omni-media operations for health communication departments. Produced popular science short videos, creating viral content with <strong>100k+</strong> likes.
+    </p>
+  </div>
+
+</div>
 
 <div class="more-link">
     <a href="/experience/" class="read-more-btn">👉 View Full Experience</a>
@@ -112,20 +148,32 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
 <hr style="border-top: 1px solid #ddd; margin: 4rem 0;">
 
-<div class="contact-footer text-center mb-5">
+<div class="contact-footer text-left mb-6">
   <h3 class="contact-title mb-4">📬 Contact Information</h3>
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <ul class="contact-list">
-        <li><strong>Email:</strong> <a href="mailto:522025110043@smail.nju.edu.cn">522025110043@smail.nju.edu.cn</a></li>
-        <li><strong>Phone:</strong> +86 198 5281 8206</li>
-        <li><strong>WeChat:</strong> W_10269Y</li>
-        <li class="address-item">
-          <strong>Address:</strong><br>
-          School of Journalism and Communication, Nanjing University (Xianlin Campus),<br>
-          163 Xianlin Avenue, Qixia District, Nanjing, Jiangsu, China.
-        </li>
-      </ul>
+  
+  <div class="contact-details">
+    <div class="contact-row">
+      <span class="contact-label">Email</span>
+      <span class="contact-value"><a href="mailto:522025110043@smail.nju.edu.cn">522025110043@smail.nju.edu.cn</a></span>
+    </div>
+    
+    <div class="contact-row">
+      <span class="contact-label">Phone</span>
+      <span class="contact-value">+86 198 5281 8206</span>
+    </div>
+    
+    <div class="contact-row">
+      <span class="contact-label">WeChat</span>
+      <span class="contact-value">W_10269Y</span>
+    </div>
+    
+    <div class="contact-row mt-3">
+      <span class="contact-label">Address</span>
+      <span class="contact-value address-text">
+        School of Journalism and Communication,<br>
+        Nanjing University (Xianlin Campus),<br>
+        163 Xianlin Avenue, Qixia District, Nanjing, China.
+      </span>
     </div>
   </div>
 </div>
@@ -133,32 +181,112 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 🔴 核心修复：照片下方的文字美化 */
+  /* 1. 核心修复：照片整体上移 */
+  .profile {
+    margin-top: -20px !important; /* 往上提 */
+    margin-left: 35px !important; 
+    width: 28% !important; 
+    max-width: 200px !important; 
+  }
+
+  /* 2. 核心修复：Core Competencies 往下移，增加呼吸感 */
+  h3 {
+    font-family: 'Playfair Display', serif !important;
+    color: #1a1a1a !important;
+    margin-top: 4rem !important; /* 增加与上方个人简介/照片的距离 */
+    margin-bottom: 1.5rem !important;
+    border-bottom: 2px solid var(--nju-purple);
+    padding-bottom: 8px;
+    display: inline-block;
+    font-weight: 700;
+  }
+
+  /* 3. Experience 去除黑点样式优化 */
+  .exp-role {
+    font-weight: 800;
+    color: #2c3e50;
+    font-size: 1.15rem;
+    margin-bottom: 2px;
+  }
+  .exp-company {
+    font-style: italic;
+    color: var(--nju-purple);
+    font-family: 'Lora', serif;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  .exp-date {
+    font-size: 0.95rem;
+    color: #888;
+    font-weight: 500;
+  }
+  .exp-desc {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+
+  /* 4. Contact 左对齐美化 */
+  .contact-footer {
+    font-family: 'Lora', serif;
+  }
+  .contact-row {
+    display: flex;
+    margin-bottom: 12px;
+    align-items: baseline;
+  }
+  .contact-label {
+    width: 80px; /* 固定标签宽度，整齐划一 */
+    font-weight: 700;
+    color: var(--nju-purple);
+    font-size: 1rem;
+    flex-shrink: 0;
+  }
+  .contact-value {
+    color: #444;
+    font-size: 1rem;
+  }
+  .contact-value a {
+    color: #444;
+    text-decoration: underline;
+    text-decoration-color: #ddd;
+    transition: 0.3s;
+  }
+  .contact-value a:hover {
+    color: var(--nju-purple);
+    text-decoration-color: var(--nju-purple);
+  }
+  .address-text {
+    line-height: 1.6;
+    display: block;
+  }
+
+  /* 5. 侧边栏文字美化 (保持居中名片式) */
   .profile-info-refined {
-    text-align: center; /* 居中对齐，解决左对齐参差不齐的问题 */
+    text-align: center;
     margin-top: 15px;
     line-height: 1.4 !important;
   }
-  .univ-name {
-    font-weight: 800;
-    color: var(--nju-purple); /* 使用南大紫，突出学校 */
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-    font-family: 'Playfair Display', serif;
-  }
-  .dept-name {
-    font-size: 0.85rem;
-    color: #555; /* 使用深灰色，弱化学院显示 */
-    margin-bottom: 8px;
-    font-weight: 500;
-  }
-  .loc-name {
-    font-size: 0.8rem;
-    color: #999; /* 使用浅灰色，作为点缀 */
-    letter-spacing: 0.5px;
+  .univ-name { font-weight: 800; color: var(--nju-purple); font-size: 1.1rem; margin-bottom: 5px; font-family: 'Playfair Display', serif; }
+  .dept-name { font-size: 0.85rem; color: #555; margin-bottom: 8px; font-weight: 500; }
+  .loc-name { font-size: 0.8rem; color: #999; letter-spacing: 0.5px; }
+
+  /* 6. 去除列表黑点的通用类 */
+  .clean-list { list-style: none !important; padding-left: 0 !important; }
+  .clean-list li { position: relative; padding-left: 20px; margin-bottom: 10px; }
+  /* 用小方块或自定义符号代替黑点，或者什么都不加 */
+  .clean-list li::before {
+    content: "▪"; 
+    color: var(--nju-purple);
+    position: absolute;
+    left: 0;
+    top: -1px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
   }
 
-  /* 1. 全局样式 */
+  /* 全局基础样式 */
   body, p, li, .post-content {
     font-family: 'Lora', 'Georgia', serif !important;
     font-size: 1.1rem !important;
@@ -167,20 +295,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     text-align: justify;
   }
   
-  /* 2. 底部联系方式 */
-  .contact-title { font-family: 'Playfair Display', serif !important; color: var(--nju-purple) !important; font-weight: 700; border-bottom: none !important; }
-  .contact-list { list-style: none; padding: 0; font-size: 1.05rem !important; }
-  .contact-list li { margin-bottom: 1rem; color: #555; text-align: center; }
-  .contact-list strong { color: var(--nju-purple); font-weight: 700; margin-right: 8px; }
-  .contact-list a { color: #555 !important; text-decoration: underline; text-decoration-color: #ddd; transition: 0.3s; }
-  .contact-list a:hover { color: var(--nju-purple) !important; text-decoration-color: var(--nju-purple); }
-  .address-item { margin-top: 1.5rem; line-height: 1.6 !important; }
-
-  /* 3. 其他原有样式 */
-  h3 { font-family: 'Playfair Display', serif !important; color: #1a1a1a !important; margin-top: 3.5rem !important; margin-bottom: 1.5rem !important; border-bottom: 2px solid var(--nju-purple); padding-bottom: 8px; display: inline-block; font-weight: 700; }
-  .profile { margin-left: 35px !important; width: 28% !important; max-width: 200px !important; }
-  
-  /* 动态展播样式 */
+  /* 动态展播、按钮等组件 (保持不变) */
   #portfolioCarousel { border-radius: 20px; overflow: hidden; margin-top: 2rem; height: 450px; }
   .carousel-img { height: 450px; object-fit: cover; }
   .carousel-img-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 60%, transparent 100%); z-index: 1; }
@@ -196,5 +311,12 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
   .btn-pill.inactive { color: var(--nju-purple) !important; background-color: transparent; text-decoration: none; }
   .full-portfolio-btn, .read-more-btn { display: inline-block; padding: 10px 28px; border: 2px solid var(--nju-purple); border-radius: 50px; color: var(--nju-purple) !important; font-weight: 800; text-decoration: none !important; transition: 0.3s; }
   .full-portfolio-btn:hover, .read-more-btn:hover { background: var(--nju-purple); color: #fff !important; box-shadow: 0 5px 15px rgba(77,0,153,0.2); }
-  @media (max-width: 768px) { #portfolioCarousel, .carousel-img { height: 300px; } .carousel-caption { max-width: 90%; bottom: 10%; } .slider-title { font-size: 1.5rem !important; } .profile { float: none !important; width: 50% !important; margin: 0 auto 20px auto !important; } }
+  @media (max-width: 768px) { 
+    #portfolioCarousel, .carousel-img { height: 300px; } 
+    .carousel-caption { max-width: 90%; bottom: 10%; } 
+    .slider-title { font-size: 1.5rem !important; } 
+    .profile { float: none !important; width: 50% !important; margin: 0 auto 20px auto !important; } 
+    .contact-row { flex-direction: column; }
+    .contact-label { margin-bottom: 5px; }
+  }
 </style>
