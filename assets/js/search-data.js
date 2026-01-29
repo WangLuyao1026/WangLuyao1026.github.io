@@ -408,11 +408,11 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-campus-radio-station",
-          title: 'Campus Radio Station',
-          description: "Editor and planner at Jinan University Radio Station.",
+          section: "News",},{id: "projects-视觉识别与品牌设计",
+          title: '视觉识别与品牌设计',
+          description: "InDesign期刊排版、VI系统与Illustrator创意设计",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_campus_radio/";
+              window.location.href = "/projects/1_visual_design/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
