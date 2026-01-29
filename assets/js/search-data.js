@@ -55,7 +55,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-视觉识别与品牌设计",
           title: '视觉识别与品牌设计',
-          description: "品牌战略的视觉化演绎 | Visual Identity Design",
+          description: "品牌战略的视觉化转译 | Visual Identity Design",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_visual_design/";
             },},{id: "projects-信息长图设计",
