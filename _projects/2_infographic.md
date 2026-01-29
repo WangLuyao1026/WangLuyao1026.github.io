@@ -4,7 +4,7 @@ title: 信息长图设计
 description: 复杂政策与报告的视觉化转译 (Infographics)
 img: assets/img/infographic_report.png
 importance: 2
-category: data-visualization
+category: work
 ---
 
 ### 📜 政策解读与长图设计
