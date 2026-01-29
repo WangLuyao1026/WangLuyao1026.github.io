@@ -4,7 +4,7 @@ title: Research
 permalink: /publications/
 description: 学术研究与论文发表 | Academic Research
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 <div class="research-container mt-5">
