@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-research",
           title: "Research",
-          description: "Research",
+          description: "学术研究与论文发表 | Academic Research",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
