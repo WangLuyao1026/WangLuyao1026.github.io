@@ -2,7 +2,7 @@
 layout: page
 title: 微信公众号运营
 description: 10w+ 爆款推文与 H5 交互设计
-img: assets/img/wechat_ops.png
+img: /assets/img/wechat_ops.png
 importance: 4
 category: work
 ---
