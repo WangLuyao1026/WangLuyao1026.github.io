@@ -11,8 +11,7 @@ nav_order: 3
 
   <section class="exp-item mb-5">
     <div class="exp-header d-flex justify-content-between align-items-center mb-3">
-      <h2 class="exp-title">01 济南市历下区人民检察院</h2>
-      <span class="exp-dept text-muted">新闻宣传办公室</span>
+      <h2 class="exp-title">01 检察日报 山东记者站</h2>
     </div>
     
 
@@ -27,7 +26,6 @@ nav_order: 3
     <div class="exp-image-box mt-4">
       <img src="/assets/img/工作经历2.png" class="img-fluid rounded shadow-sm w-100" alt="工作经历2">
     </div>
-  </section>
 
   <hr class="section-divider">
 
