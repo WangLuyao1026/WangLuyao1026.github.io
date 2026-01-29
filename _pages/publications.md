@@ -4,7 +4,7 @@ title: Research
 permalink: /publications/
 description: 学术研究与论文发表 | Academic Research
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 <div class="research-container mt-5">
@@ -15,8 +15,10 @@ nav_order: 6
     <div class="card border-0 shadow-lg thesis-card">
       <div class="row g-0">
         
-        <div class="col-lg-6 col-md-12 bg-light d-flex align-items-center justify-content-center p-4" style="min-height: 400px;">
-          <img src="/assets/img/本科毕业论文.png" class="img-fluid thesis-img-centered shadow" alt="本科毕业论文封面">
+        <div class="col-lg-6 col-md-12 bg-light d-flex align-items-center justify-content-center position-relative" style="min-height: 500px;">
+          
+          <img src="/assets/img/本科毕业论文.png" class="thesis-img-final shadow" alt="本科毕业论文封面">
+          
         </div>
 
         <div class="col-lg-6 col-md-12">
@@ -31,7 +33,7 @@ nav_order: 6
                 </p>
 
                 <div class="thesis-abstract mt-4 mb-5">
-                  <p><strong>摘要 (Abstract):</strong> 本研究于聚焦疫情期间兴起的“云录制”模式，通过深度个案分析，探讨了电视综艺在物理空间受限下的生产范式重构、互动机制演变及其产生的社会效用。研究认为，云录制不仅是特殊时期的应急之举，更是媒体深度融合背景下的技术与文化预演。</p>
+                  <p><strong>摘要 (Abstract):</strong> 本研究聚焦于疫情期间兴起的“云录制”模式，通过深度个案分析，探讨了电视综艺在物理空间受限下的生产范式重构、互动机制演变及其产生的社会效用。研究认为，云录制不仅是特殊时期的应急之举，更是媒体深度融合背景下的技术与文化预演。</p>
                 </div>
             </div>
 
@@ -96,13 +98,14 @@ nav_order: 6
   }
   
   /* 🔴 核心修改：图片样式 */
-  .thesis-img-centered {
-    width: auto;         /* 宽度自动 */
-    max-width: 95%;      /* 最大占格子的 95%，留一点边距防止贴边 */
-    max-height: 550px;   /* 限制最大高度，防止在大屏上太长 */
-    display: block;
+  .thesis-img-final {
+    width: 85%;          /* 宽度占格子的 85%，足够大 */
+    height: auto;        /* 高度自适应 */
+    max-height: 90%;     /* 防止图片太高溢出 */
     object-fit: contain; /* 保持比例 */
-    border-radius: 4px;  /* 图片微圆角 */
+    display: block;      /* 块级元素 */
+    margin: 0 auto;      /* 水平自动居中 */
+    border-radius: 4px;
   }
 
   /* 4. 文字区域 */
