@@ -2,7 +2,7 @@
 layout: page
 title: 新闻纪实摄影
 description: 记录一线现场与人物风采 | News Documentary Photography
-img: /assets/img/作品列举1.png
+img: /assets/img/photo_work.png
 importance: 1
 category: work
 ---
