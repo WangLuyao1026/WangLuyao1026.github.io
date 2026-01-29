@@ -3,7 +3,7 @@ layout: page
 title: 视觉识别与品牌设计
 description: InDesign期刊排版、VI系统与Illustrator创意设计
 img: /assets/img/design_periodical.png
-importance: 1
+importance: 2
 category: work
 ---
 
