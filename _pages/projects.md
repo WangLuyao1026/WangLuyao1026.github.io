@@ -47,7 +47,7 @@ nav_order: 4
 
     <div class="video-list">
       {% assign video_titles = "作品系列 (01)|微电影《微光》|《大数据的力量》|《守护明天 检爱少年》" | split: "|" %}
-      {% assign video_descs = "官方媒体矩阵内容策划、短视频包装与分发实务。|获政法系统“三微”比赛十佳。聚焦未成年人法律保护。|检察创新纪实片。展示数据建模提升法律监督效能。|2022年度历下未检工作纪实专题片。" | split: "|" %}
+      {% assign video_descs = "官方媒体矩阵内容策划、新闻实务作品。|聚焦未成年人法律保护，获政法系统“三微”比赛十佳。|检察创新纪实片，展示数据建模提升法律监督效能。|2022年度历下未检工作纪实专题片。" | split: "|" %}
       {% assign video_imgs = "作品列举1.png|作品列举2.png|作品列举3.png|作品列举4.png" | split: "|" %}
 
       {% for i in (0..3) %}
@@ -76,13 +76,18 @@ nav_order: 4
   .section-title { font-size: 2rem; color: var(--nju-purple); font-weight: 800; border-left: 8px solid var(--nju-purple); padding-left: 20px; letter-spacing: -0.5px; }
   .my-6 { margin-top: 6rem !important; margin-bottom: 6rem !important; }
 
-  /* 图文卡片重塑 */
+  /* 图文卡片样式 */
   .card-wrapper { text-decoration: none !important; color: inherit !important; }
   .project-card { border-radius: 20px !important; transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); background: #fff; }
   .shadow-soft { box-shadow: 0 10px 40px rgba(0,0,0,0.04) !important; }
   .project-card:hover { transform: translateY(-10px); box-shadow: 0 20px 50px rgba(77, 0, 153, 0.12) !important; }
 
-  .card-img-container { height: 260px; overflow: hidden; border-radius: 20px 20px 0 0; }
+  /* 🔴 核心修改区：增加图片容器高度 */
+  .card-img-container {
+    height: 380px; /* 从 260px 增加到 380px，让图片更长 */
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+  }
   .card-img-top { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; }
   .project-card:hover .card-img-top { transform: scale(1.05); }
 
@@ -90,7 +95,7 @@ nav_order: 4
   .project-item-desc { font-size: 1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1.5rem; }
   .view-link { color: var(--nju-purple); font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; }
 
-  /* 视频列表美化 */
+  /* 视频列表样式 (保持不变) */
   .video-row { border-bottom: 1px solid #f0f0f0; }
   .video-row:last-child { border-bottom: none; }
   .video-card-title { font-size: 1.4rem; font-weight: 700; color: var(--nju-purple); }
@@ -107,6 +112,7 @@ nav_order: 4
   /* 移动端适配 */
   @media (max-width: 768px) {
     .section-title { font-size: 1.6rem; }
-    .card-img-container { height: 200px; }
+    /* 🔴 移动端也同步加高 */
+    .card-img-container { height: 300px; } /* 从 200px 增加到 300px */
   }
 </style>
