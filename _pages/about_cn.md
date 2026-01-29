@@ -20,8 +20,6 @@ latest_posts:
   <span class="btn-pill active">中文版</span>
 </div>
 
-<div class="main-content-cn">
-
 您好！我是**王璐瑶**，南京大学新闻传播学院 2025 级新闻与传播专业硕士生，研究方向为**计算传播学**。
 
 ### 🧩 核心竞争力：实务-数据-理论的三重融合
@@ -93,52 +91,49 @@ latest_posts:
     <a href="/projects/" class="read-more-btn">👉 点击进入【个人作品】展厅</a>
 </div>
 
-</div>
-
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 字体与正文排版 (解决“难看”的核心) */
-  body, p, li, .main-content-cn {
-    /* 强制使用“苹方”或“微软雅黑”，拒绝发虚的宋体 */
+  /* 1. 字体与排版 (不再依赖 div 包裹，直接作用于全局) */
+  article.post, .post-content {
+    /* 强制使用“苹方”或“微软雅黑” */
     font-family: "PingFang SC", "Microsoft YaHei", -apple-system, sans-serif !important;
-    font-size: 18px !important;    /* 字体调大，更清晰 */
-    line-height: 2.0 !important;   /* 行距加大到 2.0倍，增加呼吸感 */
-    color: #222 !important;        /* 字体颜色加深，避免太灰看不清 */
-    text-align: justify;           /* 两端对齐，解决右侧参差不齐 */
-    letter-spacing: 0.03em;        /* 增加微小字间距，防止汉字粘连 */
+    font-size: 18px !important;    /* 字体清晰 */
+    line-height: 2.0 !important;   /* 行距宽松 */
+    color: #222 !important;        /* 深灰色字体 */
+    text-align: justify;           
+    letter-spacing: 0.03em;        /* 适度字间距 */
   }
 
-  /* 2. 段落间距 (代替缩进，网页排版首选) */
+  /* 2. 段落优化 */
   p {
-    margin-bottom: 25px !important; /* 每个段落之间空开距离，显得清爽 */
-    text-indent: 0 !important;      /* 网页不建议首行缩进，太乱，用段间距代替 */
+    margin-bottom: 25px !important; /* 段落间距 */
   }
 
   /* 3. 标题美化 */
   h1, h2, h3, h4 {
     font-family: "PingFang SC", "Microsoft YaHei", sans-serif !important;
-    font-weight: 700 !important;  /* 标题加粗 */
+    font-weight: 700 !important;
     color: #000 !important;
   }
   h3 {
-    margin-top: 3.5rem !important;    /* 标题上方留出大片空白 */
-    margin-bottom: 1.2rem !important; /* 标题下方留出空隙 */
-    border-bottom: 3px solid var(--nju-purple); /* 底部线条加粗 */
+    margin-top: 3.5rem !important;
+    margin-bottom: 1.2rem !important;
+    border-bottom: 3px solid var(--nju-purple);
     padding-bottom: 8px;
     display: inline-block;
     font-size: 1.5rem !important;
   }
 
-  /* 4. 照片尺寸控制 (解决“太大了”) */
+  /* 4. 照片控制 (解决太大问题) */
   .profile {
     margin-left: 40px !important;
-    width: 28% !important;           /* 宽度限制在 28% */
-    max-width: 180px !important;     /* 绝对不超过 180px */
+    width: 28% !important;
+    max-width: 180px !important;
   }
   .profile img {
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.15); /* 加点阴影，更有质感 */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
     border-radius: 4px;
   }
   .profile-info {
@@ -148,18 +143,9 @@ latest_posts:
     color: #555;
   }
 
-  /* 5. 列表排版优化 */
-  ul {
-    padding-left: 20px !important;
-    margin-bottom: 30px !important;
-  }
-  li {
-    margin-bottom: 12px !important; /* 列表项之间也有间距 */
-  }
-
-  /* 6. 按钮与链接 */
+  /* 5. 链接与按钮 */
   a { color: var(--nju-purple) !important; text-decoration: none; }
-  .lang-switcher { margin-bottom: 40px; } /* 按钮离正文远一点 */
+  .lang-switcher { margin-bottom: 40px; }
   .btn-pill {
     display: inline-block; padding: 6px 20px; border-radius: 50px;
     font-family: sans-serif; font-weight: bold; font-size: 0.95rem;
@@ -167,14 +153,19 @@ latest_posts:
   }
   .btn-pill.active { background-color: var(--nju-purple); color: #fff !important; }
   .btn-pill.inactive { color: var(--nju-purple) !important; background-color: transparent; opacity: 0.7; }
+  
+  .read-more-btn { 
+    display: inline-block; padding: 8px 22px; 
+    border: 1px solid var(--nju-purple); border-radius: 4px; 
+    color: var(--nju-purple) !important; font-weight: bold; font-size: 0.9rem;
+  }
 
-  /* 7. 卡片优化 */
+  /* 6. 卡片优化 */
   .card-img-top { height: 160px !important; object-fit: cover; }
   .card { border: none !important; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
 
   /* 移动端适配 */
   @media (max-width: 768px) {
      .profile { float: none !important; width: 60% !important; margin: 0 auto 30px auto !important; display: block; }
-     .profile-info { text-align: center; }
   }
 </style>
