@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-experience",
-          title: "Experience",
-          description: "工作经历与专业实践 | Professional Experience",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/experience/";
-          },
-        },{id: "nav-中文版",
+  },{id: "nav-中文版",
           title: "中文版",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cn/";
+          },
+        },{id: "nav-experience",
+          title: "Experience",
+          description: "工作经历与专业实践 | Professional Experience",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/experience/";
           },
         },{id: "nav-portfolio",
           title: "Portfolio",
