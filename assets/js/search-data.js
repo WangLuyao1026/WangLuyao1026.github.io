@@ -408,12 +408,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-viral-short-video-production",
-          title: 'Viral Short Video Production',
-          description: "Health communication projects at Dazhong Newspaper Group.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_dazhong_video/";
-            },},{id: "projects-",
+          section: "News",},{id: "projects-",
           title: '',
           description: "",
           section: "Projects",handler: () => {
