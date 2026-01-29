@@ -2,9 +2,9 @@
 layout: page
 title: 视觉识别与品牌设计
 description: InDesign期刊排版、VI系统与Illustrator创意设计
-img: assets/img/design_periodical.png
+img: /assets/img/design_periodical.png
 importance: 1
-category: visual-design
+category: work  
 ---
 
 ### 🎨 InDesign 排版与品牌设计
