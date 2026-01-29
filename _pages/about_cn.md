@@ -110,6 +110,7 @@ nav_order: 2
   <div class="timeline-box">
     <div class="timeline-row">
       <div class="timeline-time">2024 - 2025</div>
+      <div class="timeline-dot"></div>
       <div class="timeline-content">
         <h5 class="job-title">新媒体主编</h5>
         <div class="job-comp">济南铁路局</div>
@@ -120,6 +121,7 @@ nav_order: 2
     </div>
     <div class="timeline-row">
       <div class="timeline-time">2022 - 2024</div>
+      <div class="timeline-dot"></div>
       <div class="timeline-content">
         <h5 class="job-title">记者 / 编辑</h5>
         <div class="job-comp">检察日报 & 历下区检察院</div>
@@ -130,6 +132,7 @@ nav_order: 2
     </div>
     <div class="timeline-row">
       <div class="timeline-time">2021</div>
+      <div class="timeline-dot"></div>
       <div class="timeline-content">
         <h5 class="job-title">视频策划 (实习)</h5>
         <div class="job-comp">大众报业集团</div>
@@ -139,7 +142,7 @@ nav_order: 2
       </div>
     </div>
     
-    <div class="text-center mt-4">
+    <div class="text-center mt-5">
       <a href="/experience/" class="link-simple">查看完整履历档案 &rarr;</a>
     </div>
   </div>
