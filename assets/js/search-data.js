@@ -408,12 +408,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-big-data-empowering-legal-supervision",
-          title: 'Big Data Empowering Legal Supervision',
-          description: "Data-driven content optimization for Lixia District Procuratorate.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_legal_data/";
-            },},{id: "projects-",
+          section: "News",},{id: "projects-",
           title: '',
           description: "",
           section: "Projects",handler: () => {
