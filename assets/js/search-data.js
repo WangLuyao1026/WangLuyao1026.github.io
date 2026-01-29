@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-中文版",
           title: "中文版",
-          description: "",
+          description: "关于我 | About Me",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cn/";
