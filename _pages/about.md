@@ -7,14 +7,15 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
+  # 🔴 核心修改：改为“名片式”精致排版
   more_info: >
-    <div class="profile-info">
-      <p class="dept">School of Journalism and Communication</p>
-      <p class="univ">Nanjing University</p>
-      <p class="loc">Nanjing, China</p>
+    <div class="profile-info-refined">
+      <div class="univ-name">Nanjing University</div>
+      <div class="dept-name">School of Journalism & Communication</div>
+      <div class="loc-name">📍 Nanjing, China</div>
     </div>
 selected_papers: false
-social: false  # 🔴 改为 false，关掉默认的大图标
+social: false
 nav: false
 nav_order: 1
 announcements:
@@ -113,20 +114,12 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
 <div class="contact-footer text-center mb-5">
   <h3 class="contact-title mb-4">📬 Contact Information</h3>
-  
   <div class="row justify-content-center">
     <div class="col-md-8">
       <ul class="contact-list">
-        <li>
-          <strong>Email:</strong> 
-          <a href="mailto:522025110043@smail.nju.edu.cn">522025110043@smail.nju.edu.cn</a>
-        </li>
-        <li>
-          <strong>Phone:</strong> +86 198 5281 8206
-        </li>
-        <li>
-          <strong>WeChat:</strong> W_10269Y
-        </li>
+        <li><strong>Email:</strong> <a href="mailto:522025110043@smail.nju.edu.cn">522025110043@smail.nju.edu.cn</a></li>
+        <li><strong>Phone:</strong> +86 198 5281 8206</li>
+        <li><strong>WeChat:</strong> W_10269Y</li>
         <li class="address-item">
           <strong>Address:</strong><br>
           School of Journalism and Communication, Nanjing University (Xianlin Campus),<br>
@@ -140,7 +133,32 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 全局样式 (保持之前的修复) */
+  /* 🔴 核心修复：照片下方的文字美化 */
+  .profile-info-refined {
+    text-align: center; /* 居中对齐，解决左对齐参差不齐的问题 */
+    margin-top: 15px;
+    line-height: 1.4 !important;
+  }
+  .univ-name {
+    font-weight: 800;
+    color: var(--nju-purple); /* 使用南大紫，突出学校 */
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+  }
+  .dept-name {
+    font-size: 0.85rem;
+    color: #555; /* 使用深灰色，弱化学院显示 */
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  .loc-name {
+    font-size: 0.8rem;
+    color: #999; /* 使用浅灰色，作为点缀 */
+    letter-spacing: 0.5px;
+  }
+
+  /* 1. 全局样式 */
   body, p, li, .post-content {
     font-family: 'Lora', 'Georgia', serif !important;
     font-size: 1.1rem !important;
@@ -149,53 +167,20 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     text-align: justify;
   }
   
-  /* 2. 底部联系方式美化 */
-  .contact-title {
-    font-family: 'Playfair Display', serif !important;
-    color: var(--nju-purple) !important;
-    font-weight: 700;
-    border-bottom: none !important; /* 去掉之前的下划线样式 */
-  }
+  /* 2. 底部联系方式 */
+  .contact-title { font-family: 'Playfair Display', serif !important; color: var(--nju-purple) !important; font-weight: 700; border-bottom: none !important; }
+  .contact-list { list-style: none; padding: 0; font-size: 1.05rem !important; }
+  .contact-list li { margin-bottom: 1rem; color: #555; text-align: center; }
+  .contact-list strong { color: var(--nju-purple); font-weight: 700; margin-right: 8px; }
+  .contact-list a { color: #555 !important; text-decoration: underline; text-decoration-color: #ddd; transition: 0.3s; }
+  .contact-list a:hover { color: var(--nju-purple) !important; text-decoration-color: var(--nju-purple); }
+  .address-item { margin-top: 1.5rem; line-height: 1.6 !important; }
 
-  .contact-list {
-    list-style: none;
-    padding: 0;
-    font-size: 1.05rem !important;
-  }
-
-  .contact-list li {
-    margin-bottom: 1rem;
-    color: #555;
-    text-align: center; /* 居中显示 */
-  }
-
-  .contact-list strong {
-    color: var(--nju-purple);
-    font-weight: 700;
-    margin-right: 8px;
-  }
-
-  .contact-list a {
-    color: #555 !important;
-    text-decoration: underline;
-    text-decoration-color: #ddd;
-    transition: 0.3s;
-  }
-  
-  .contact-list a:hover {
-    color: var(--nju-purple) !important;
-    text-decoration-color: var(--nju-purple);
-  }
-
-  .address-item {
-    margin-top: 1.5rem;
-    line-height: 1.6 !important;
-  }
-
-  /* 3. 其他原有样式 (保持不变) */
+  /* 3. 其他原有样式 */
   h3 { font-family: 'Playfair Display', serif !important; color: #1a1a1a !important; margin-top: 3.5rem !important; margin-bottom: 1.5rem !important; border-bottom: 2px solid var(--nju-purple); padding-bottom: 8px; display: inline-block; font-weight: 700; }
   .profile { margin-left: 35px !important; width: 28% !important; max-width: 200px !important; }
-  .profile-info p { margin-bottom: 5px !important; line-height: 1.4 !important; font-size: 0.9rem !important; }
+  
+  /* 动态展播样式 */
   #portfolioCarousel { border-radius: 20px; overflow: hidden; margin-top: 2rem; height: 450px; }
   .carousel-img { height: 450px; object-fit: cover; }
   .carousel-img-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 60%, transparent 100%); z-index: 1; }
