@@ -13,85 +13,80 @@ nav_order: 2
   <span class="lang-active">中文</span>
 </div>
 
-<div class="academic-hero text-center">
-  <div class="nju-logo-wrapper mb-4">
-    <img src="/assets/img/南京大学-logo-2048px.jpg" alt="Nanjing University Logo" class="nju-main-logo">
+<div class="hero-header text-center mt-5 mb-5">
+  <div class="nju-brand mb-4">
+    <img src="/assets/img/南京大学-logo-2048px.png" alt="南京大学" class="nju-logo">
   </div>
   
   <h1 class="hero-name">王 璐 瑶</h1>
   <p class="hero-name-en">LUYAO WANG</p>
   
   <div class="hero-identity mt-4">
-    <span class="uni-tag">NANJING UNIVERSITY</span>
-    <span class="dept-text">新闻传播学院 · 2025 级研究生</span>
+    <span class="uni-badge">NANJING UNIVERSITY</span>
+    <span class="dept-text">新闻传播学院 · 2025 级硕士研究生</span>
   </div>
 
-  <div class="mission-statement mt-5">
-    <p class="statement-main">
+  <div class="statement-block mt-5">
+    <p class="main-quote">
       “致力于探索<strong>数据理性</strong>、<strong>用户行为</strong>与<strong>社会理论</strong>的连接点。”
     </p>
-    <div class="statement-divider"></div>
-    <p class="statement-sub">
+    <div class="quote-line"></div>
+    <p class="sub-quote">
       重点关注数字平台上的用户行为心理、信息扩散的社会动力学，<br class="d-none d-md-block">
       以及计算叙事对公众认知与情感的影响。
     </p>
   </div>
 </div>
 
+<hr class="divider-fade">
+
 <div class="section-container mt-6">
   <div class="section-header text-center">
-    <h3 class="cn-title">核心竞争力</h3>
-    <p class="en-subtitle">CORE COMPETENCIES</p>
-    <div class="title-underline"></div>
+    <h3 class="section-cn-title">核心竞争力</h3>
+    <p class="section-en-title">CORE COMPETENCIES</p>
   </div>
 
-  <div class="row g-4">
+  <div class="row g-4 mt-2">
     <div class="col-md-4">
-      <div class="feature-card">
-        <div class="feature-icon">🎬</div>
+      <div class="skill-card-clean">
+        <div class="skill-icon">🎬</div>
         <h4>专业实践</h4>
-        <p class="feature-desc">
-          深耕新闻实务与广播电视领域，具备敏锐的选题策划与视听语言表达能力。从传统媒体深度报道到全媒体矩阵运营，拥有跨平台的传播实战经验。
-        </p>
+        <p>广播电视编导学士，拥有丰富的新闻媒体及全媒体平台实务经验，具备敏锐的选题策划与视听表达能力。</p>
       </div>
     </div>
     <div class="col-md-4">
-      <div class="feature-card highlight-card">
-        <div class="feature-icon">📊</div>
+      <div class="skill-card-clean highlight-border">
+        <div class="skill-icon">📊</div>
         <h4>数据能力</h4>
-        <p class="feature-desc">
-          精通 Python/R 语言，深度应用社会网络分析 (SNA)、网络数据挖掘与高级统计建模。擅长从复杂数据中解构用户行为逻辑，量化传播效应。
-        </p>
+        <p>擅长使用 Python/R 进行社会网络分析 (SNA)、网络数据分析和高级统计等，专注于用户行为的量化研究。</p>
       </div>
     </div>
     <div class="col-md-4">
-      <div class="feature-card">
-        <div class="feature-icon">🧠</div>
+      <div class="skill-card-clean">
+        <div class="skill-icon">🧠</div>
         <h4>理论视野</h4>
-        <p class="feature-desc">
-          聚焦智媒时代下数据、技术、媒体与社会结构间的深度互动。在跨学科视野中保持对智能传播时代的批判性观察与理论建构。
-        </p>
+        <p>聚焦智媒时代下数据、用户、媒体与社会结构之间的深度互动，在跨学科视野中保持批判性思考。</p>
       </div>
     </div>
   </div>
 </div>
 
 <div class="section-container mt-6">
-  <div class="thesis-editorial-card">
+  <div class="featured-thesis-card">
     <div class="row align-items-center">
-      <div class="col-md-4 text-center border-right-sep">
-        <div class="academic-badge">
-          <span class="badge-year">2022</span>
-          <span class="badge-honor">校级优秀<br>毕业论文</span>
+      <div class="col-md-3 text-center border-right-md">
+        <div class="academic-honor">
+          <span class="h-year">2022</span>
+          <span class="h-text">校级优秀<br>毕业论文</span>
         </div>
       </div>
-      <div class="col-md-8 pl-md-5">
-        <span class="tag-academic">UNDERGRADUATE RESEARCH</span>
-        <h4 class="thesis-title-refined">《云录制的生产制播范式与效用研究》</h4>
-        <p class="thesis-summary-text">
-          本研究以现象级节目为样本，深度剖析了“云录制”这一应急技术模式如何重塑视听生产流程，并演变为媒体深度融合背景下的技术与文化预演。
+      <div class="col-md-9 pl-md-5">
+        <span class="academic-tag">UNDERGRADUATE RESEARCH</span>
+        <h4 class="thesis-main-title">《云录制的生产制播范式与效用研究》</h4>
+        <p class="thesis-main-desc">
+          通过个案分析探讨疫情期间“云录制”节目的生产流程重构与互动机制演变。研究认为，云录制不仅是应急之举，更是媒体深度融合背景下的技术与文化预演。
         </p>
-        <a href="/publications/" class="link-arrow-refined">查看研究详情 & 下载 PDF &rarr;</a>
+        <a href="/publications/" class="link-more">阅读研究详情 &rarr;</a>
       </div>
     </div>
   </div>
@@ -99,103 +94,99 @@ nav_order: 2
 
 <div class="section-container mt-6">
   <div class="section-header text-center mb-5">
-    <h3 class="cn-title">职业轨迹</h3>
-    <p class="en-subtitle">PROFESSIONAL EXPERIENCE</p>
-    <div class="title-underline"></div>
+    <h3 class="section-cn-title">职业轨迹</h3>
+    <p class="section-en-title">PROFESSIONAL EXPERIENCE</p>
   </div>
 
-  <div class="vertical-timeline">
+  <div class="custom-timeline">
     <div class="timeline-entry">
-      <div class="entry-time">2024 - 2025</div>
-      <div class="entry-dot"></div>
-      <div class="entry-content">
-        <h5 class="job-name">新媒体主编</h5>
-        <div class="job-location">济南铁路局 · 融媒体中心</div>
-        <p class="job-details">
-          负责官方政务公众号的视觉体系构建与运营。通过数据驱动优化选题策略，策划跨区域品牌宣传活动，总阅读量突破 <strong>130万+</strong>。
-        </p>
+      <div class="t-time">2024 - 2025</div>
+      <div class="t-dot"></div>
+      <div class="t-content">
+        <h5 class="t-job">新媒体编辑运营</h5>
+        <div class="t-org">山东省委政法委·济南铁路局</div>
+        <p class="t-desc">负责官方公众号视觉设计与运营。策划跨越 16 个城市的系列宣传，通过数据驱动优化选题，总阅读量突破 <strong>130万+</strong>。</p>
       </div>
     </div>
     <div class="timeline-entry">
-      <div class="entry-time">2022 - 2024</div>
-      <div class="entry-dot"></div>
-      <div class="entry-content">
-        <h5 class="job-name">记者 / 编辑</h5>
-        <div class="job-location">检察日报 & 历下区检察院</div>
-        <p class="job-details">
-          深度参与“大数据赋能法律监督”创新实验。统筹管理微博、微信等全媒体矩阵，负责政法系统的一线纪实与专业法治传播工作。
-        </p>
+      <div class="t-time">2022 - 2024</div>
+      <div class="t-dot"></div>
+      <div class="t-content">
+        <h5 class="t-job">记者 / 编辑</h5>
+        <div class="t-org">检察日报 & 历下区检察院</div>
+        <p class="t-desc">参与“大数据赋能法律监督”创新项目。统筹管理微博、微信等新媒体矩阵，负责政法系统的对内对外宣传工作。</p>
       </div>
     </div>
     <div class="timeline-entry">
-      <div class="entry-time">2021</div>
-      <div class="entry-dot"></div>
-      <div class="entry-content">
-        <h5 class="job-name">视频策划 (实习)</h5>
-        <div class="job-location">大众报业集团 · 齐鲁融媒</div>
-        <p class="job-details">
-          负责健康传播板块的短视频运营。独立完成脚本策划与后期剪辑，打造了多部点赞量破 <strong>10万+</strong> 的医学科普爆款视频。
-        </p>
+      <div class="t-time">2021</div>
+      <div class="t-dot"></div>
+      <div class="t-content">
+        <h5 class="t-job">新媒体编辑与策划</h5>
+        <div class="t-org">大众报业集团</div>
+        <p class="t-desc">负责三甲医院健康传播运营。独立完成脚本策划与后期剪辑，打造了点赞量破 <strong>10万+</strong> 的科普爆款视频。</p>
       </div>
     </div>
   </div>
   
   <div class="text-center mt-5">
-    <a href="/experience/" class="btn-more-archive">查看完整履历档案</a>
+    <a href="/experience/" class="btn-archive-link">查看完整履历档案</a>
   </div>
 </div>
 
 <div class="section-container mt-6 mb-6">
   <div class="section-header text-center">
-    <h3 class="cn-title">精选作品</h3>
-    <p class="en-subtitle">SELECTED PORTFOLIO</p>
-    <div class="title-underline"></div>
+    <h3 class="section-cn-title">精选作品</h3>
+    <p class="section-en-title">SELECTED PORTFOLIO</p>
   </div>
 
   <div class="row g-4">
     <div class="col-md-6">
-      <div class="portfolio-work-card">
-        <a href="/projects/" class="work-link">
-          <div class="work-img-frame">
-            <img src="/assets/img/about展示封面-微光.jpg" alt="微电影">
-            <div class="work-overlay"><span>观看详情</span></div>
+      <a href="/projects/" class="work-card-link">
+        <div class="work-card">
+          <div class="work-img-wrapper">
+             <img src="/assets/img/about展示封面-微光.jpg" alt="微电影">
+             <div class="work-mask"><span>观看详情</span></div>
           </div>
-          <div class="work-info">
-            <span class="work-cat">News & Documentary</span>
+          <div class="work-body">
+            <span class="work-label">News & Documentary</span>
             <h5>微电影：《微光》</h5>
-            <p>政法系统获奖作品，探讨未成年人保护中的社会正义。</p>
+            <p>政法系统获奖作品，以影像叙事探讨社会正义。</p>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
     <div class="col-md-6">
-      <div class="portfolio-work-card">
-        <a href="/projects/" class="work-link">
-          <div class="work-img-frame">
-            <img src="/assets/img/about展示封面-1.png" alt="VI设计">
-            <div class="work-overlay"><span>查看设计</span></div>
+      <a href="/projects/" class="work-card-link">
+        <div class="work-card">
+          <div class="work-img-wrapper">
+             <img src="/assets/img/about展示封面-1.png" alt="VI设计">
+             <div class="work-mask"><span>查看设计</span></div>
           </div>
-          <div class="work-info">
-            <span class="work-cat">Visual Identity</span>
+          <div class="work-body">
+            <span class="work-label">Visual Identity</span>
             <h5>视觉识别系统 (VI)</h5>
-            <p>为公共部门打造的政治传播战略与品牌视觉化方案。</p>
+            <p>为相关单位提供政治传播战略视觉化设计方案。</p>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
+  </div>
+  
+  <div class="text-center mt-5">
+    <a href="/projects/" class="btn-gallery">进入作品集长廊</a>
   </div>
 </div>
 
-<hr class="divider-full">
+<hr class="divider-fade">
 
-<div class="academic-footer text-center mb-5">
-  <div class="footer-name">LUYAO WANG</div>
-  <div class="footer-contact mt-3">
+<div class="clean-footer text-center mb-5">
+  <div class="f-name">LUYAO WANG</div>
+  <div class="f-contact mt-3">
     <span><i class="fas fa-envelope"></i> <a href="mailto:522025110043@smail.nju.edu.cn">522025110043@smail.nju.edu.cn</a></span>
     <span class="mx-3">|</span>
     <span><i class="fab fa-weixin"></i> W_10269Y</span>
   </div>
-  <div class="footer-addr mt-2 text-muted">
+  <div class="f-addr mt-2 text-muted">
     南京大学新闻传播学院 · 中国南京仙林校区
   </div>
 </div>
@@ -205,99 +196,93 @@ nav_order: 2
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
 <style>
-  :root { --nju-purple: #4D0099; --nju-purple-soft: #f8f6fc; --text-main: #1a1a1a; }
+  :root { --nju-purple: #4D0099; --nju-light: #f9f7fd; }
 
-  /* 全局基础设置 */
+  /* 全局重置 */
   body, p, li, h1, h2, h3, h4, h5, div { font-family: "Noto Serif SC", serif !important; }
-  body { line-height: 1.8; color: var(--text-main); -webkit-font-smoothing: antialiased; }
-  a { transition: 0.3s; }
+  body { line-height: 1.8; color: #333; -webkit-font-smoothing: antialiased; }
   
   .lang-switcher-float { position: absolute; top: 0; right: 0; font-family: sans-serif !important; font-size: 0.9rem; }
-  .lang-link { color: #999; text-decoration: none; }
+  .lang-link { color: #aaa; text-decoration: none; }
   .lang-active { color: var(--nju-purple); font-weight: bold; }
-  .lang-sep { color: #ddd; margin: 0 8px; }
+  .lang-sep { color: #eee; margin: 0 8px; }
 
-  /* 1. Academic Hero 样式 */
-  .academic-hero {
-    background: linear-gradient(180deg, var(--nju-purple-soft) 0%, #fff 100%);
-    padding: 80px 20px 60px 20px;
-    border-radius: 20px;
-    margin-bottom: 4rem;
-  }
-  .nju-main-logo { height: 100px; width: auto; filter: drop-shadow(0 4px 10px rgba(0,0,0,0.05)); }
-  .hero-name { font-size: 3rem; font-weight: 900; color: var(--nju-purple); letter-spacing: 12px; margin-bottom: 5px; }
-  .hero-name-en { font-family: sans-serif !important; font-size: 1rem; color: #999; letter-spacing: 5px; margin-bottom: 30px; }
-  .uni-tag { font-family: sans-serif !important; font-weight: 700; font-size: 0.9rem; color: var(--nju-purple); border: 1.5px solid var(--nju-purple); padding: 3px 12px; border-radius: 4px; letter-spacing: 1px; }
-  .dept-text { margin-left: 15px; color: #666; font-weight: 500; }
+  /* 1. Hero 样式修复 */
+  .hero-header { padding: 40px 0; }
+  .nju-logo { height: 90px; width: auto; }
+  .hero-name { font-size: 2.8rem; font-weight: 900; color: var(--nju-purple); letter-spacing: 10px; margin-bottom: 5px; }
+  .hero-name-en { font-family: sans-serif !important; font-size: 0.9rem; color: #bbb; letter-spacing: 4px; margin-bottom: 30px; }
+  .uni-badge { font-family: sans-serif !important; font-weight: 700; font-size: 0.85rem; color: var(--nju-purple); border: 1.5px solid var(--nju-purple); padding: 2px 10px; border-radius: 4px; }
+  .dept-text { margin-left: 12px; color: #888; font-weight: 500; }
 
-  /* 学术宣言区块 */
-  .mission-statement { max-width: 850px; margin: 0 auto; padding: 40px; background: rgba(255,255,255,0.7); border-radius: 15px; box-shadow: 0 10px 40px rgba(77,0,153,0.03); }
-  .statement-main { font-size: 1.45rem; color: #111; font-weight: 500; margin-bottom: 20px; line-height: 1.6; }
-  .statement-divider { width: 40px; height: 3px; background: var(--nju-purple); margin: 0 auto 25px auto; border-radius: 2px; }
-  .statement-sub { font-size: 1.1rem; color: #666; font-weight: 400; line-height: 1.9; }
+  .statement-block { max-width: 800px; margin: 0 auto; }
+  .main-quote { font-size: 1.4rem; font-weight: 500; color: #111; margin-bottom: 15px; }
+  .quote-line { width: 30px; height: 3px; background: var(--nju-purple); margin: 0 auto 20px auto; border-radius: 2px; }
+  .sub-quote { font-size: 1.05rem; color: #666; }
 
-  /* 2. Section 标题 */
-  .section-header { margin-bottom: 4rem; }
-  .cn-title { font-size: 1.8rem; font-weight: 900; color: #000; letter-spacing: 4px; }
-  .en-subtitle { font-family: sans-serif !important; font-size: 0.8rem; color: #ccc; letter-spacing: 2px; margin-top: 5px; }
-  .title-underline { width: 35px; height: 4px; background: var(--nju-purple); margin: 15px auto 0 auto; border-radius: 2px; }
+  /* 2. 核心竞争力：去杂质排版 */
+  .section-container { max-width: 1000px; margin-left: auto; margin-right: auto; }
+  .section-cn-title { font-size: 1.6rem; font-weight: 800; color: #222; letter-spacing: 3px; margin-bottom: 2px; }
+  .section-en-title { font-family: sans-serif !important; font-size: 0.75rem; color: #ccc; letter-spacing: 2px; }
+  
+  .skill-card-clean { padding: 30px 20px; text-align: center; border: 1px solid #f0f0f0; border-radius: 12px; height: 100%; transition: 0.3s; }
+  .skill-card-clean:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+  .highlight-border { border-top: 4px solid var(--nju-purple); }
+  .skill-icon { font-size: 2rem; margin-bottom: 15px; }
+  .skill-card-clean h4 { font-size: 1.2rem; font-weight: 700; color: var(--nju-purple); margin-bottom: 12px; }
+  .skill-card-clean p { font-size: 0.95rem; color: #666; line-height: 1.6; margin: 0; }
 
-  /* 核心竞争力卡片 */
-  .feature-card { background: #fff; padding: 45px 30px; height: 100%; border-radius: 15px; border: 1px solid #f2f2f2; transition: 0.4s; }
-  .feature-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.06); }
-  .highlight-card { border-top: 6px solid var(--nju-purple); }
-  .feature-icon { font-size: 2.2rem; margin-bottom: 25px; }
-  .feature-card h4 { font-size: 1.3rem; font-weight: 700; color: var(--nju-purple); margin-bottom: 15px; }
-  .feature-desc { font-size: 1rem; color: #555; text-align: justify; }
+  /* 3. 毕业论文：最美版式回归 */
+  .featured-thesis-card { background: #fafafa; border-radius: 15px; padding: 40px; border: 1px solid #eee; margin-top: 2rem; }
+  .academic-honor { width: 110px; height: 110px; border-radius: 50%; border: 2.5px solid var(--nju-purple); color: var(--nju-purple); display: inline-flex; flex-direction: column; justify-content: center; align-items: center; }
+  .h-year { font-family: sans-serif !important; font-weight: 800; font-size: 1.2rem; }
+  .h-text { font-size: 0.85rem; font-weight: 700; line-height: 1.3; }
+  .academic-tag { font-family: sans-serif !important; font-size: 0.7rem; color: #999; letter-spacing: 1px; }
+  .thesis-main-title { font-size: 1.45rem; font-weight: 800; margin: 12px 0; color: #000; }
+  .thesis-main-desc { font-size: 1rem; color: #555; text-align: justify; }
+  .link-more { color: var(--nju-purple) !important; font-weight: 700; text-decoration: none; font-size: 0.95rem; }
 
-  /* 3. 研究成果卡片 */
-  .thesis-editorial-card { background: #fafafa; border-radius: 20px; padding: 50px; border: 1px solid #eee; }
-  .academic-badge { width: 120px; height: 120px; border-radius: 50%; border: 2px solid var(--nju-purple); color: var(--nju-purple); display: inline-flex; flex-direction: column; justify-content: center; align-items: center; }
-  .badge-year { font-family: sans-serif !important; font-weight: 800; font-size: 1.3rem; }
-  .badge-honor { font-size: 0.9rem; font-weight: 700; line-height: 1.4; }
-  .tag-academic { font-family: sans-serif !important; font-size: 0.75rem; background: #eee; color: #777; padding: 4px 12px; border-radius: 4px; font-weight: 600; letter-spacing: 1px; }
-  .thesis-title-refined { font-size: 1.6rem; font-weight: 900; margin: 15px 0 20px 0; color: #000; }
-  .thesis-summary-text { font-size: 1.1rem; color: #555; line-height: 1.9; text-align: justify; }
-  .link-arrow-refined { color: var(--nju-purple) !important; font-weight: 700; text-decoration: none; font-size: 1.05rem; }
+  /* 4. 时间轴：连贯设计 */
+  .custom-timeline { max-width: 850px; margin: 0 auto; position: relative; padding-left: 20px; }
+  .custom-timeline::before { content: ""; position: absolute; left: 160px; top: 10px; bottom: 40px; width: 2px; background: #eee; }
+  .timeline-entry { display: flex; margin-bottom: 50px; position: relative; }
+  .t-time { width: 140px; flex-shrink: 0; text-align: right; padding-right: 40px; font-family: sans-serif !important; font-weight: 700; color: var(--nju-purple); font-size: 1rem; padding-top: 4px; }
+  .t-dot { width: 12px; height: 12px; background: #fff; border: 3px solid var(--nju-purple); border-radius: 50%; position: absolute; left: 160px; top: 11px; transform: translateX(-50%); z-index: 2; box-shadow: 0 0 0 5px #fff; }
+  .t-content { flex-grow: 1; padding-left: 50px; }
+  .t-job { font-weight: 800; font-size: 1.2rem; margin-bottom: 4px; color: #111; }
+  .t-org { font-family: sans-serif !important; font-size: 0.9rem; font-weight: 600; color: #888; margin-bottom: 10px; }
+  .t-desc { font-size: 0.95rem; color: #666; margin: 0; }
+  .btn-archive-link { display: inline-block; padding: 10px 35px; border: 1.5px solid #ddd; color: #999 !important; border-radius: 50px; font-weight: 600; text-decoration: none; font-size: 0.9rem; }
+  .btn-archive-link:hover { border-color: var(--nju-purple); color: var(--nju-purple) !important; }
 
-  /* 4. 时间轴样式 */
-  .vertical-timeline { max-width: 900px; margin: 0 auto; position: relative; padding-left: 20px; }
-  .vertical-timeline::before { content: ""; position: absolute; left: 160px; top: 10px; bottom: 30px; width: 2.5px; background: #f0f0f0; }
-  .timeline-entry { display: flex; margin-bottom: 60px; position: relative; }
-  .entry-time { width: 140px; flex-shrink: 0; text-align: right; padding-right: 40px; font-family: sans-serif !important; font-weight: 800; color: var(--nju-purple); font-size: 1.1rem; padding-top: 4px; }
-  .entry-dot { width: 14px; height: 14px; background: #fff; border: 4px solid var(--nju-purple); border-radius: 50%; position: absolute; left: 160px; top: 11px; transform: translateX(-50%); z-index: 2; box-shadow: 0 0 0 6px #fff; }
-  .entry-content { flex-grow: 1; padding-left: 50px; }
-  .job-name { font-weight: 900; font-size: 1.35rem; margin-bottom: 5px; color: #000; }
-  .job-location { font-family: sans-serif !important; font-size: 1rem; font-weight: 600; color: #888; margin-bottom: 15px; }
-  .job-details { font-size: 1.05rem; color: #555; text-align: justify; }
-  .btn-more-archive { display: inline-block; padding: 12px 40px; border: 1.5px solid #ddd; color: #888 !important; border-radius: 50px; font-weight: 600; font-size: 0.95rem; text-decoration: none; }
-  .btn-more-archive:hover { border-color: var(--nju-purple); color: var(--nju-purple) !important; }
+  /* 5. 作品展示 */
+  .work-card { background: #fff; transition: 0.4s; }
+  .work-img-wrapper { height: 260px; border-radius: 12px; overflow: hidden; position: relative; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
+  .work-img-wrapper img { width: 100%; height: 100%; object-fit: cover; transition: 0.6s; }
+  .work-mask { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(77,0,153,0.7); display: flex; align-items: center; justify-content: center; opacity: 0; transition: 0.3s; }
+  .work-mask span { color: #fff; font-weight: 700; border: 1px solid #fff; padding: 8px 20px; border-radius: 50px; font-family: sans-serif !important; }
+  .work-card:hover .work-mask { opacity: 1; }
+  .work-card:hover img { transform: scale(1.1); }
+  .work-body { padding: 20px 0; }
+  .work-label { font-family: sans-serif !important; font-size: 0.75rem; color: var(--nju-purple); font-weight: 800; letter-spacing: 1px; }
+  .work-body h5 { font-weight: 800; font-size: 1.2rem; margin: 6px 0; }
+  .btn-gallery { display: inline-block; padding: 12px 40px; border: 2px solid var(--nju-purple); color: var(--nju-purple) !important; font-weight: 800; border-radius: 4px; text-decoration: none !important; }
+  .btn-gallery:hover { background: var(--nju-purple); color: #fff !important; }
 
-  /* 5. 作品集 */
-  .portfolio-work-card { background: #fff; transition: 0.4s; }
-  .work-img-frame { height: 300px; overflow: hidden; border-radius: 15px; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
-  .work-img-frame img { width: 100%; height: 100%; object-fit: cover; transition: 0.8s; }
-  .work-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(77,0,153,0.7); display: flex; align-items: center; justify-content: center; opacity: 0; transition: 0.4s; }
-  .work-overlay span { color: #fff; font-weight: 700; border: 1px solid #fff; padding: 10px 25px; border-radius: 50px; font-family: sans-serif !important; }
-  .portfolio-work-card:hover .work-img-frame img { transform: scale(1.1); }
-  .portfolio-work-card:hover .work-overlay { opacity: 1; }
-  .work-info { padding: 25px 0; }
-  .work-cat { font-family: sans-serif !important; font-size: 0.8rem; color: var(--nju-purple); font-weight: 800; letter-spacing: 1.5px; }
-  .work-info h5 { font-weight: 900; font-size: 1.3rem; margin: 8px 0; color: #000; }
-  .btn-outline-cn { display: inline-block; padding: 14px 45px; border: 2.5px solid var(--nju-purple); color: var(--nju-purple) !important; font-weight: 900; border-radius: 4px; text-decoration: none !important; font-size: 1.1rem; }
-  .btn-outline-cn:hover { background: var(--nju-purple); color: #fff !important; }
+  /* 板块控制 */
+  .mt-6 { margin-top: 5.5rem; }
+  .divider-fade { border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.1), rgba(0,0,0,0)); margin: 3rem 0; }
+  .divider-full { border-top: 1px solid #eee; margin: 6rem 0 4rem 0; }
+  
+  .f-name { font-family: sans-serif !important; font-weight: 900; letter-spacing: 3px; color: #ddd; font-size: 1.2rem; }
+  .f-contact { font-family: sans-serif !important; font-size: 0.9rem; color: #666; }
+  .f-contact a { color: #666; text-decoration: none; border-bottom: 1px solid #ddd; }
 
-  /* 6. Footer */
-  .divider-full { border-top: 1px solid #eee; margin: 8rem 0 5rem 0; }
-  .footer-name { font-family: sans-serif !important; font-weight: 900; font-size: 1.4rem; letter-spacing: 4px; color: #eee; }
-  .footer-contact { font-size: 1rem; color: #555; font-family: sans-serif !important; }
-  .footer-contact a { color: #555; text-decoration: none; border-bottom: 1px solid #ddd; }
-
-  @media (max-width: 992px) {
-    .vertical-timeline::before, .entry-dot { display: none; }
+  @media (max-width: 768px) {
+    .custom-timeline::before, .t-dot { display: none; }
     .timeline-entry { flex-direction: column; }
-    .entry-time { text-align: left; width: auto; padding-right: 0; margin-bottom: 10px; }
-    .entry-content { padding-left: 0; }
-    .border-right-sep { border-right: none; border-bottom: 1px dashed #ddd; padding-bottom: 30px; margin-bottom: 30px; }
+    .t-time { text-align: left; width: auto; padding-right: 0; margin-bottom: 5px; }
+    .t-content { padding-left: 0; }
+    .border-right-md { border-right: none; border-bottom: 1px dashed #ddd; padding-bottom: 30px; margin-bottom: 30px; }
   }
 </style>
