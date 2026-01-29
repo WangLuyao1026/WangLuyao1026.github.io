@@ -14,7 +14,7 @@ profile:
       <p class="loc">Nanjing, China</p>
     </div>
 selected_papers: false
-social: true
+social: false  # 🔴 改为 false，关掉默认的大图标
 nav: false
 nav_order: 1
 announcements:
@@ -75,7 +75,6 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     <li data-target="#portfolioCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#portfolioCarousel" data-slide-to="1"></li>
   </ol>
-
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="carousel-img-overlay"></div>
@@ -87,7 +86,6 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
         <a href="/projects/" class="btn btn-view">Explore More <i class="fas fa-arrow-right ml-2"></i></a>
       </div>
     </div>
-
     <div class="carousel-item">
       <div class="carousel-img-overlay"></div>
       <img src="/assets/img/about展示封面-1.png" class="d-block w-100 carousel-img" alt="Visual Identity">
@@ -99,7 +97,6 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
       </div>
     </div>
   </div>
-
   <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
   </a>
@@ -112,57 +109,107 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     <a href="/projects/" class="full-portfolio-btn">👉 View All Graphic & Video Works</a>
 </div>
 
+<hr style="border-top: 1px solid #ddd; margin: 4rem 0;">
+
+<div class="contact-footer text-center mb-5">
+  <h3 class="contact-title mb-4">📬 Contact Information</h3>
+  
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <ul class="contact-list">
+        <li>
+          <strong>Email:</strong> 
+          <a href="mailto:522025110043@smail.nju.edu.cn">522025110043@smail.nju.edu.cn</a>
+        </li>
+        <li>
+          <strong>Phone:</strong> +86 198 5281 8206
+        </li>
+        <li>
+          <strong>WeChat:</strong> W_10269Y
+        </li>
+        <li class="address-item">
+          <strong>Address:</strong><br>
+          School of Journalism and Communication, Nanjing University (Xianlin Campus),<br>
+          163 Xianlin Avenue, Qixia District, Nanjing, Jiangsu, China.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 强制全局美化：修复乱码与行距的核心代码 */
+  /* 1. 全局样式 (保持之前的修复) */
   body, p, li, .post-content {
-    font-family: 'Lora', 'Georgia', serif !important; /* 学术感衬线体 */
+    font-family: 'Lora', 'Georgia', serif !important;
     font-size: 1.1rem !important;
-    line-height: 1.9 !important; /* 强制大行距，解决拥挤 */
+    line-height: 1.9 !important;
     color: #2c3e50;
-    text-align: justify; /* 两端对齐，大方得体 */
-  }
-
-  /* 2. 标题高级感 */
-  h3 {
-    font-family: 'Playfair Display', serif !important;
-    color: #1a1a1a !important;
-    margin-top: 3.5rem !important;
-    margin-bottom: 1.5rem !important;
-    border-bottom: 2px solid var(--nju-purple);
-    padding-bottom: 8px;
-    display: inline-block;
-    font-weight: 700;
+    text-align: justify;
   }
   
-  /* 3. 右侧个人信息栏微调 */
+  /* 2. 底部联系方式美化 */
+  .contact-title {
+    font-family: 'Playfair Display', serif !important;
+    color: var(--nju-purple) !important;
+    font-weight: 700;
+    border-bottom: none !important; /* 去掉之前的下划线样式 */
+  }
+
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.05rem !important;
+  }
+
+  .contact-list li {
+    margin-bottom: 1rem;
+    color: #555;
+    text-align: center; /* 居中显示 */
+  }
+
+  .contact-list strong {
+    color: var(--nju-purple);
+    font-weight: 700;
+    margin-right: 8px;
+  }
+
+  .contact-list a {
+    color: #555 !important;
+    text-decoration: underline;
+    text-decoration-color: #ddd;
+    transition: 0.3s;
+  }
+  
+  .contact-list a:hover {
+    color: var(--nju-purple) !important;
+    text-decoration-color: var(--nju-purple);
+  }
+
+  .address-item {
+    margin-top: 1.5rem;
+    line-height: 1.6 !important;
+  }
+
+  /* 3. 其他原有样式 (保持不变) */
+  h3 { font-family: 'Playfair Display', serif !important; color: #1a1a1a !important; margin-top: 3.5rem !important; margin-bottom: 1.5rem !important; border-bottom: 2px solid var(--nju-purple); padding-bottom: 8px; display: inline-block; font-weight: 700; }
   .profile { margin-left: 35px !important; width: 28% !important; max-width: 200px !important; }
   .profile-info p { margin-bottom: 5px !important; line-height: 1.4 !important; font-size: 0.9rem !important; }
-
-  /* 4. 动态展播样式 (保持不变) */
   #portfolioCarousel { border-radius: 20px; overflow: hidden; margin-top: 2rem; height: 450px; }
   .carousel-img { height: 450px; object-fit: cover; }
   .carousel-img-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 60%, transparent 100%); z-index: 1; }
   .carousel-caption { z-index: 2; left: 8%; bottom: 15%; max-width: 50%; }
-  .slider-title { font-family: 'Playfair Display', serif !important; font-size: 2.2rem !important; font-weight: 700 !important; color: #fff !important; margin-bottom: 1rem; line-height: 1.2 !important; }
+  .slider-title { font-family: 'Playfair Display', serif !important; font-size: 2.2rem !important; font-weight: 700 !important; color: #fff !important; margin-bottom: 1rem; line-height: 1.2 !important; border:none!important; }
   .slider-desc { font-size: 1rem !important; line-height: 1.6 !important; color: rgba(255,255,255,0.9) !important; margin-bottom: 1.5rem; }
   .badge-nju { background-color: var(--nju-purple); color: white; padding: 6px 12px; border-radius: 4px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; }
   .btn-view { border: 1px solid white; color: white !important; padding: 8px 20px; border-radius: 50px; font-weight: 600; transition: 0.3s; }
   .btn-view:hover { background: white; color: var(--nju-purple) !important; transform: scale(1.05); }
-
-  /* 5. 按钮样式 */
   .lang-switcher { margin-bottom: 25px; }
   .btn-pill { display: inline-block; padding: 6px 20px; border-radius: 50px; font-weight: bold; border: 2px solid var(--nju-purple); font-family: 'Playfair Display', serif; }
   .btn-pill.active { background-color: var(--nju-purple); color: #fff !important; }
   .btn-pill.inactive { color: var(--nju-purple) !important; background-color: transparent; text-decoration: none; }
   .full-portfolio-btn, .read-more-btn { display: inline-block; padding: 10px 28px; border: 2px solid var(--nju-purple); border-radius: 50px; color: var(--nju-purple) !important; font-weight: 800; text-decoration: none !important; transition: 0.3s; }
   .full-portfolio-btn:hover, .read-more-btn:hover { background: var(--nju-purple); color: #fff !important; box-shadow: 0 5px 15px rgba(77,0,153,0.2); }
-
-  @media (max-width: 768px) {
-    #portfolioCarousel, .carousel-img { height: 300px; }
-    .carousel-caption { max-width: 90%; bottom: 10%; }
-    .slider-title { font-size: 1.5rem !important; }
-    .profile { float: none !important; width: 50% !important; margin: 0 auto 20px auto !important; }
-  }
+  @media (max-width: 768px) { #portfolioCarousel, .carousel-img { height: 300px; } .carousel-caption { max-width: 90%; bottom: 10%; } .slider-title { font-size: 1.5rem !important; } .profile { float: none !important; width: 50% !important; margin: 0 auto 20px auto !important; } }
 </style>
