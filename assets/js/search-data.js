@@ -408,12 +408,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-",
-          title: '',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_railway_ip/";
-            },},{id: "projects-official-account-operation-matrix",
+          section: "News",},{id: "projects-official-account-operation-matrix",
           title: 'Official Account Operation Matrix',
           description: "Managing &quot;Shandong Railway Protection&quot; &amp; &quot;Lixia Procuratorate&quot; accounts.",
           section: "Projects",handler: () => {
