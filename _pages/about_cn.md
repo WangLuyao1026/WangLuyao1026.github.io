@@ -1,18 +1,10 @@
 ---
-layout: about
+layout: page
 title: 中文版
 permalink: /cn/
-selected_papers: false
-social: true
+description: 关于我 | About Me
 nav: true
 nav_order: 2
-nav_title: 中文版
-announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
-latest_posts:
-  enabled: false
 ---
 
 <div class="lang-switcher">
@@ -20,152 +12,222 @@ latest_posts:
   <span class="btn-pill active">中文版</span>
 </div>
 
-您好！我是**王璐瑶**，南京大学新闻传播学院 2025 级新闻与传播专业硕士生，研究方向为**计算传播学**。
+我是 **王璐瑶**，目前在 [南京大学](https://www.nju.edu.cn/) 新闻传播学院攻读硕士学位（2025级），主修 **计算传播学**。
 
-### 🧩 核心竞争力：实务-数据-理论的三重融合
+我的研究致力于连接数据科学与传播理论，重点关注数字平台上的 **用户行为心理**、信息扩散的 **社会动力学**，以及 **计算叙事** 对公众认知与情感的影响。
 
-我构建了清晰的“实务-数据-理论”三重能力架构，这构成了我学术研究的独特基石：
+---
 
-* **实务根基**：本科毕业于济南大学文学院广播电视专业，拥有丰富的新闻媒体与全媒体平台实战经验。
-* **数据能力**：硕士阶段转向计算传播领域，系统学习社会网络分析、文本挖掘与统计分析等计算方法。
-* **理论关怀**：聚焦数据、用户、媒体与社会的交叉地带，回应智能媒体时代的关键议题。
+### 🧩 核心竞争力
+
+<div class="competencies-box">
+  <ul class="clean-list">
+    <li><strong style="color: #4D0099;">专业实践：</strong> 拥有广播电视编导学士学位，具备丰富的新闻媒体及全媒体平台实务经验。</li>
+    <li><strong style="color: #4D0099;">数据能力：</strong> 精通社会网络分析 (SNA)、文本挖掘及统计建模，擅长大规模用户行为分析。</li>
+    <li><strong style="color: #4D0099;">理论视野：</strong> 聚焦智媒时代下数据、用户、媒体与社会之间的深度互动关系。</li>
+  </ul>
+</div>
 
 ---
 
 ### 🎓 本科毕业论文 (摘要)
 
-* **题目**：**《云录制的生产制播范式与效用研究——以<天天云时间>为例》**
-* **荣誉**：校级优秀毕业论文
-* **摘要**：本研究以2020年疫情期间诞生的“云录制”节目为对象，深入探讨了其作为一种创新制播范式的生产流程、互动机制及社会效用，展望了后疫情时代广电行业的数字化转型路径。
+<div class="clean-list-container">
+  <ul class="clean-list">
+    <li><strong>题目：</strong> <em>《云录制的生产制播范式与效用研究》</em></li>
+    <li><strong>荣誉：</strong> 校级优秀毕业论文</li>
+    <li><strong>摘要：</strong> 本研究通过深度个案分析，探讨了疫情期间“云录制”节目的生产流程重构、互动机制演变及其社会效用，为广电行业的数字化转型提供了实证参考。</li>
+  </ul>
+</div>
 
 <div class="more-link">
-    <a href="/publications/" class="read-more-btn">👉 点击查看详细论文信息</a>
+    <a href="/publications/" class="read-more-btn">👉 查看研究详情</a>
 </div>
 
 ---
 
-### 💼 工作经历 (概览)
+### 💼 工作经历 (精选)
 
-* **新媒体主编** | 济南铁路局 (2024 - 2025)
-    * 负责官方公众号运营与可视化设计，完成十六地市系列宣传工作，单篇阅读量突破 **20w+**。
-* **新闻记者/编辑** | 检察日报山东记者站 历下区人民检察院 (2022 - 2024)
-    * 参与“大数据赋能法律监督”项目，利用数据分析提升传播效能。
-    * 负责微博、微信和今日头条等外宣新媒体工作，推进政法系统公检法内宣。
-* **视频策划 (实习)** | 大众报业集团 齐鲁融媒中心 (2021)
-    * 负责山东省内三甲医院宣传部门健康传播全媒体运营与科普短视频制作，打造 **10w+** 爆款内容。
+<div class="exp-clean-container">
+  
+  <div class="exp-item mb-4">
+    <div class="d-flex justify-content-between align-items-baseline">
+      <h5 class="exp-role">新媒体主编</h5>
+      <span class="exp-date">2024 – 2025</span>
+    </div>
+    <div class="exp-company">济南铁路局</div>
+    <p class="exp-desc">
+      负责官方微信公众号的整体运营与视觉设计。完成了跨越 16 个城市的系列宣传策划，单篇推文阅读量突破 <strong>20万+</strong>。
+    </p>
+  </div>
+
+  <div class="exp-item mb-4">
+    <div class="d-flex justify-content-between align-items-baseline">
+      <h5 class="exp-role">记者 & 编辑</h5>
+      <span class="exp-date">2022 – 2024</span>
+    </div>
+    <div class="exp-company">检察日报（山东记者站） & 历下区人民检察院</div>
+    <p class="exp-desc">
+      参与“大数据赋能法律监督”项目，利用数据分析优化传播效率。统筹管理微博、微信、头条等外部新媒体矩阵，负责政法系统内部宣传工作。
+    </p>
+  </div>
+
+  <div class="exp-item mb-4">
+    <div class="d-flex justify-content-between align-items-baseline">
+      <h5 class="exp-role">视频策划 (实习)</h5>
+      <span class="exp-date">2021</span>
+    </div>
+    <div class="exp-company">大众报业集团（齐鲁融媒中心）</div>
+    <p class="exp-desc">
+      负责三甲医院健康传播部门的全媒体运营。策划并制作科普短视频，打造了点赞量破 <strong>10万+</strong> 的爆款内容。
+    </p>
+  </div>
+
+</div>
 
 <div class="more-link">
-    <a href="/cv/" class="read-more-btn">👉 点击查看完整工作履历 (Experience)</a>
+    <a href="/experience/" class="read-more-btn">👉 查看完整履历</a>
 </div>
 
 ---
 
-### 🎨 精选作品 (Portfolio)
+### 🎨 精选作品集
 
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        <div class="card h-100">
-            <a href="/projects/4_glimmer/">
-                <img class="card-img-top" src="/assets/img/work_glimmer.jpg" alt="微光" onerror="this.src='https://placehold.co/600x400?text=Work';">
-                <div class="card-body">
-                    <h5 class="card-title">微电影：《微光》 🔗</h5>
-                    <p class="card-text">【获奖作品】关注青少年心理健康的叙事微电影。</p>
-                </div>
-            </a>
-        </div>
+<div id="portfolioCarouselCN" class="carousel slide carousel-fade shadow-lg" data-ride="carousel" data-interval="4000">
+  <ol class="carousel-indicators">
+    <li data-target="#portfolioCarouselCN" data-slide-to="0" class="active"></li>
+    <li data-target="#portfolioCarouselCN" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-img-overlay"></div>
+      <img src="/assets/img/about展示封面-微光.jpg" class="d-block w-100 carousel-img" alt="微电影《微光》">
+      <div class="carousel-caption d-none d-md-block text-left">
+        <span class="badge badge-nju mb-2">精选视频</span>
+        <h2 class="slider-title">微电影：《微光》</h2>
+        <p class="slider-desc">政法系统获奖作品。以影像叙事探讨未成年人保护与社会正义。</p>
+        <a href="/projects/" class="btn btn-view">查看详情 <i class="fas fa-arrow-right ml-2"></i></a>
+      </div>
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        <div class="card h-100">
-            <a href="/projects/2_railway_ip/">
-                <img class="card-img-top" src="/assets/img/work_design.jpg" alt="设计" onerror="this.src='https://placehold.co/600x400?text=Work';">
-                <div class="card-body">
-                    <h5 class="card-title">视觉设计系统 🔗</h5>
-                    <p class="card-text">铁路安全宣传的品牌化与可视化设计实践。</p>
-                </div>
-            </a>
-        </div>
+    <div class="carousel-item">
+      <div class="carousel-img-overlay"></div>
+      <img src="/assets/img/about展示封面-1.png" class="d-block w-100 carousel-img" alt="视觉识别系统">
+      <div class="carousel-caption d-none d-md-block text-left">
+        <span class="badge badge-nju mb-2">平面设计</span>
+        <h2 class="slider-title">视觉识别系统 (VI)</h2>
+        <p class="slider-desc">为公共部门提供的品牌战略与基础设施视觉化设计方案。</p>
+        <a href="/projects/" class="btn btn-view">查看详情 <i class="fas fa-arrow-right ml-2"></i></a>
+      </div>
     </div>
+  </div>
+  <a class="carousel-control-prev" href="#portfolioCarouselCN" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+  <a class="carousel-control-next" href="#portfolioCarouselCN" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </a>
 </div>
 
-<div class="more-link" style="margin-top: 20px;">
-    <a href="/projects/" class="read-more-btn">👉 点击进入【个人作品】展厅</a>
+<div class="more-link-container text-center mt-5 mb-5">
+    <a href="/projects/" class="full-portfolio-btn">👉 查看所有图文与视频作品</a>
 </div>
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<hr style="border-top: 1px solid #ddd; margin: 4rem 0;">
+
+<div class="contact-footer text-left mb-6">
+  <h3 class="contact-title mb-4">📬 联系方式</h3>
+  
+  <div class="contact-details">
+    <div class="contact-row">
+      <span class="contact-label">邮箱</span>
+      <span class="contact-value"><a href="mailto:522025110043@smail.nju.edu.cn">522025110043@smail.nju.edu.cn</a></span>
+    </div>
+    
+    <div class="contact-row">
+      <span class="contact-label">电话</span>
+      <span class="contact-value">+86 198 5281 8206</span>
+    </div>
+    
+    <div class="contact-row">
+      <span class="contact-label">微信</span>
+      <span class="contact-value">W_10269Y</span>
+    </div>
+    
+    <div class="contact-row mt-3">
+      <span class="contact-label">地址</span>
+      <span class="contact-value address-text">
+        江苏省南京市栖霞区仙林大道163号<br>
+        南京大学仙林校区新闻传播学院
+      </span>
+    </div>
+  </div>
+</div>
+
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 字体与排版 (不再依赖 div 包裹，直接作用于全局) */
-  article.post, .post-content {
-    /* 强制使用“苹方”或“微软雅黑” */
-    font-family: "PingFang SC", "Microsoft YaHei", -apple-system, sans-serif !important;
-    font-size: 18px !important;    /* 字体清晰 */
-    line-height: 2.0 !important;   /* 行距宽松 */
-    color: #222 !important;        /* 深灰色字体 */
-    text-align: justify;           
-    letter-spacing: 0.03em;        /* 适度字间距 */
+  /* 1. 强制全局字体优化 */
+  body, p, li, h1, h2, h3, h4, h5, .navbar {
+    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  }
+  
+  /* 解决字体太细的问题：对中文加粗一点点 */
+  body {
+    -webkit-font-smoothing: antialiased; /* 让字体更清晰 */
+    font-weight: 500 !important; /* 稍微加粗，解决发虚问题 */
+    line-height: 1.9 !important; /* 统一宽松行距 */
+    color: #2c3e50;
   }
 
-  /* 2. 段落优化 */
-  p {
-    margin-bottom: 25px !important; /* 段落间距 */
+  /* 2. 导航栏美化（防止导航栏字体太细） */
+  .navbar {
+    font-weight: 600 !important;
   }
 
   /* 3. 标题美化 */
-  h1, h2, h3, h4 {
-    font-family: "PingFang SC", "Microsoft YaHei", sans-serif !important;
-    font-weight: 700 !important;
-    color: #000 !important;
-  }
-  h3 {
+  h3, .contact-title {
+    font-family: 'Playfair Display', "PingFang SC", serif !important;
+    color: #1a1a1a !important;
     margin-top: 3.5rem !important;
-    margin-bottom: 1.2rem !important;
-    border-bottom: 3px solid var(--nju-purple);
+    margin-bottom: 1.5rem !important;
+    border-bottom: 2px solid var(--nju-purple) !important;
     padding-bottom: 8px;
     display: inline-block;
-    font-size: 1.5rem !important;
+    font-weight: 700 !important;
   }
 
-  /* 4. 照片控制 (解决太大问题) */
-  .profile {
-    margin-left: 40px !important;
-    width: 28% !important;
-    max-width: 180px !important;
-  }
-  .profile img {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-    border-radius: 4px;
-  }
-  .profile-info {
-    margin-top: 15px !important;
-    font-size: 0.9rem !important;
-    line-height: 1.6 !important;
-    color: #555;
-  }
-
-  /* 5. 链接与按钮 */
-  a { color: var(--nju-purple) !important; text-decoration: none; }
-  .lang-switcher { margin-bottom: 40px; }
-  .btn-pill {
-    display: inline-block; padding: 6px 20px; border-radius: 50px;
-    font-family: sans-serif; font-weight: bold; font-size: 0.95rem;
-    margin-right: 12px; border: 2px solid var(--nju-purple);
-  }
-  .btn-pill.active { background-color: var(--nju-purple); color: #fff !important; }
-  .btn-pill.inactive { color: var(--nju-purple) !important; background-color: transparent; opacity: 0.7; }
+  /* 4. 组件样式移植 (与英文版保持完全一致) */
+  .clean-list { list-style: none !important; padding-left: 0 !important; }
+  .clean-list li { position: relative; padding-left: 20px; margin-bottom: 10px; }
+  .clean-list li::before { content: "▪"; color: var(--nju-purple); position: absolute; left: 0; top: -1px; font-size: 1.2rem; }
   
-  .read-more-btn { 
-    display: inline-block; padding: 8px 22px; 
-    border: 1px solid var(--nju-purple); border-radius: 4px; 
-    color: var(--nju-purple) !important; font-weight: bold; font-size: 0.9rem;
-  }
+  .exp-role { font-weight: 800; color: #2c3e50; font-size: 1.15rem; margin-bottom: 2px; }
+  .exp-company { font-style: italic; color: var(--nju-purple); font-weight: 600; margin-bottom: 8px; }
+  .exp-date { font-size: 0.95rem; color: #888; font-weight: 500; }
+  
+  .contact-row { display: flex; margin-bottom: 12px; align-items: baseline; }
+  .contact-label { width: 60px; font-weight: 700; color: var(--nju-purple); flex-shrink: 0; }
+  .contact-value a { color: #444; text-decoration: underline; transition: 0.3s; }
+  .contact-value a:hover { color: var(--nju-purple); }
 
-  /* 6. 卡片优化 */
-  .card-img-top { height: 160px !important; object-fit: cover; }
-  .card { border: none !important; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+  /* 按钮与轮播 */
+  .btn-pill { display: inline-block; padding: 6px 20px; border-radius: 50px; font-weight: bold; border: 2px solid var(--nju-purple); }
+  .btn-pill.active { background-color: var(--nju-purple); color: #fff !important; }
+  .btn-pill.inactive { color: var(--nju-purple) !important; background-color: transparent; text-decoration: none; }
+  
+  .read-more-btn, .full-portfolio-btn { display: inline-block; padding: 10px 28px; border: 2px solid var(--nju-purple); border-radius: 50px; color: var(--nju-purple) !important; font-weight: 800; text-decoration: none !important; transition: 0.3s; }
+  .read-more-btn:hover, .full-portfolio-btn:hover { background: var(--nju-purple); color: #fff !important; }
 
-  /* 移动端适配 */
-  @media (max-width: 768px) {
-     .profile { float: none !important; width: 60% !important; margin: 0 auto 30px auto !important; display: block; }
-  }
+  #portfolioCarouselCN { border-radius: 20px; overflow: hidden; margin-top: 2rem; height: 450px; }
+  .carousel-img { height: 450px; object-fit: cover; }
+  .carousel-img-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 60%, transparent 100%); z-index: 1; }
+  .carousel-caption { z-index: 2; left: 8%; bottom: 15%; max-width: 50%; }
+  .slider-title { font-family: 'Playfair Display', "PingFang SC", serif !important; font-size: 2.2rem !important; font-weight: 700 !important; color: #fff !important; margin-bottom: 1rem; border:none!important; }
+  .slider-desc { font-size: 1rem !important; line-height: 1.6 !important; color: rgba(255,255,255,0.9) !important; margin-bottom: 1.5rem; }
+  .badge-nju { background-color: var(--nju-purple); color: white; padding: 6px 12px; border-radius: 4px; font-size: 0.75rem; }
+  .btn-view { border: 1px solid white; color: white !important; padding: 8px 20px; border-radius: 50px; font-weight: 600; }
+  .btn-view:hover { background: white; color: var(--nju-purple) !important; }
+
+  @media (max-width: 768px) { #portfolioCarouselCN, .carousel-img { height: 300px; } .carousel-caption { max-width: 90%; } .slider-title { font-size: 1.5rem !important; } .contact-row { flex-direction: column; } .contact-label { margin-bottom: 5px; } }
 </style>
