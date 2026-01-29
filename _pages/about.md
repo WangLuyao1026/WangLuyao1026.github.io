@@ -42,9 +42,9 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
 ### 🎓 Undergraduate Thesis (Summary)
 
-* **Title**: *"Research on Production Paradigm and Utility of Cloud Recording"*
+* **Title**: *“Research on Production Paradigm and Utility of Cloud Recording”*
 * **Honor**: Outstanding Graduation Thesis
-* **Abstract**: This study explores the production process, interaction mechanisms, and social utility of "Cloud Recording" programmes during the pandemic, offering insights into the digital transformation of the broadcasting industry.
+* **Abstract**: This study explores the production process, interaction mechanisms, and social utility of “Cloud Recording” programmes during the pandemic, offering insights into the digital transformation of the broadcasting industry.
 
 <div class="more-link">
     <a href="/publications/" class="read-more-btn">👉 View Research Details</a>
@@ -54,20 +54,16 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
 ### 💼 Professional Experience (Highlights)
 
-* **New Media Editor-in-Chief** | *Jinan Railway Bureau (2024 - 2025)*
+* **New Media Editor-in-Chief** | *Jinan Railway Bureau (2024–2025)*
     * Responsible for the operation and visual design of the official WeChat account.
     * Completed the publicity campaign series across sixteen cities; achieved **200k+** views for a single post.
 
-* **Journalist & Editor** | *Procuratorial Daily (Shandong Station) & Lixia District Procuratorate (2022 - 2024)*
-    * Participated in the "Big Data Empowering Legal Supervision" project, utilising data analysis to enhance communication efficiency.
+* **Journalist & Editor** | *Procuratorial Daily (Shandong Station) & Lixia District Procuratorate (2022–2024)*
+    * Participated in the “Big Data Empowering Legal Supervision” project, utilising data analysis to enhance communication efficiency.
     * Managed external new media channels (Weibo, WeChat, Toutiao) and promoted internal publicity for the political and legal system.
 
-* **Video Planner (Intern)** | *Dazhong Newspaper Group (Qilu Integrated Media Center) (2021)*
-    * Managed omni-media operations for health communication departments of Grade-A tertiary hospitals.
-    * Produced popular science short videos, creating viral content with **100k+** likes.
-
 <div class="more-link">
-    <a href="/cv/" class="read-more-btn">👉 View Full Experience</a>
+    <a href="/experience/" class="read-more-btn">👉 View Full Experience</a>
 </div>
 
 ---
@@ -77,10 +73,10 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="card h-100">
-            <a href="/projects/4_glimmer/">
-                <img class="card-img-top" src="/assets/img/work_glimmer.jpg" alt="Glimmer" onerror="this.src='https://placehold.co/600x400?text=Work';">
+            <a href="/projects/">
+                <img class="card-img-top" src="/assets/img/about展示封面-微光.jpg" alt="Micro-film Glimmer">
                 <div class="card-body">
-                    <h5 class="card-title">Micro-film: "Glimmer" 🔗</h5>
+                    <h5 class="card-title">Micro-film: “Glimmer” 🔗</h5>
                     <p class="card-text">Award-winning film on juvenile protection.</p>
                 </div>
             </a>
@@ -88,8 +84,8 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="card h-100">
-            <a href="/projects/2_railway_ip/">
-                <img class="card-img-top" src="/assets/img/work_design.jpg" alt="Design" onerror="this.src='https://placehold.co/600x400?text=Work';">
+            <a href="/projects/">
+                <img class="card-img-top" src="/assets/img/about展示封面-1.png" alt="Visual Identity">
                 <div class="card-body">
                     <h5 class="card-title">Visual Identity System 🔗</h5>
                     <p class="card-text">Brand design for Railway Safety.</p>
@@ -103,66 +99,38 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     <a href="/projects/" class="read-more-btn">👉 Explore Full Portfolio</a>
 </div>
 
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 修复乱码：针对文章容器设置字体，而不是包裹 div */
+  /* 修复排版：提升高级感 */
   article.post, .post-content {
-    font-family: 'Lora', serif !important;
-    font-size: 18px !important;
-    line-height: 1.7 !important;
-    color: #333 !important;
+    font-family: 'Lora', 'Georgia', serif !important;
+    font-size: 1.1rem !important;
+    line-height: 1.9 !important; /* 加宽行距 */
+    color: #2c3e50 !important;
     text-align: justify;
+    font-feature-settings: "kern", "liga", "clig", "calt"; /* 启用高级排版特性 */
   }
 
-  /* 2. 标题加粗美化 */
-  header .post-title, h1.post-title {
-    font-family: 'Playfair Display', serif !important;
-    font-weight: 900 !important; /* 强制极粗 */
-    letter-spacing: -0.5px !important;
-    color: #000 !important;
-  }
-  
+  /* 标题美化 */
   h3 {
     font-family: 'Playfair Display', serif !important;
     color: #000 !important;
-    margin-top: 2.5rem !important;
-    margin-bottom: 1rem !important;
+    margin-top: 3rem !important;
+    margin-bottom: 1.2rem !important;
     border-bottom: 2px solid var(--nju-purple);
     padding-bottom: 5px;
     display: inline-block;
+    font-weight: 700;
   }
 
-  /* 3. 照片缩小并美化 */
-  .profile {
-    margin-left: 30px !important;
-    width: 25% !important; /* 缩小宽度 */
-    max-width: 180px !important;
-  }
-  .profile-info { font-size: 0.85rem !important; line-height: 1.3 !important; margin-top: 10px !important; }
-
-  /* 4. 作品卡片优化 */
-  .card-img-top { height: 140px !important; object-fit: cover; }
-  .card-title { font-size: 1rem !important; font-weight: bold; color: var(--nju-purple) !important; margin-bottom: 0.3rem !important; }
-  .card-text { font-size: 0.85rem !important; line-height: 1.5 !important; }
-  .card { margin-bottom: 15px !important; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border: none !important; }
-
-  /* 按钮样式 */
-  .lang-switcher { margin-bottom: 25px; }
-  .btn-pill {
-    display: inline-block; padding: 5px 18px; border-radius: 50px;
-    font-family: 'Playfair Display', sans-serif; font-weight: bold; font-size: 0.9rem;
-    margin-right: 10px; border: 2px solid var(--nju-purple);
-  }
-  .btn-pill.active { background-color: var(--nju-purple); color: #fff !important; }
-  .btn-pill.inactive { color: var(--nju-purple) !important; background-color: transparent; opacity: 0.6; text-decoration: none; }
+  /* 图片比例 */
+  .card-img-top { height: 180px !important; object-fit: cover; }
   
-  .read-more-btn { display: inline-block; padding: 6px 18px; border: 1px solid var(--nju-purple); border-radius: 4px; color: var(--nju-purple) !important; font-weight: bold; font-size: 0.9rem; }
-  .more-link { text-align: center; margin-top: 15px; margin-bottom: 30px; }
-  a { color: var(--nju-purple) !important; text-decoration: none; }
-
-  @media (max-width: 768px) {
-     .profile { float: none !important; width: 50% !important; margin: 0 auto 20px auto !important; }
-  }
+  /* 标点美化：针对冒号和引号 */
+  strong { color: #000; font-weight: 600; }
+  
+  .profile { margin-left: 30px !important; width: 25% !important; max-width: 180px !important; }
+  .btn-pill { display: inline-block; padding: 5px 18px; border-radius: 50px; font-weight: bold; border: 2px solid var(--nju-purple); }
+  .btn-pill.active { background-color: var(--nju-purple); color: #fff !important; }
 </style>
