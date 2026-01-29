@@ -2,7 +2,7 @@
 layout: page
 title: 数据可视化设计
 description: 检察数据的新闻化呈现 (Data Visualization)
-img: assets/img/data_viz.png
+img: /assets/img/data_viz.png
 importance: 3
 category: work
 ---
