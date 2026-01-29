@@ -52,7 +52,7 @@ nav_order: 5
   <hr class="divider my-6">
   
   <section class="wip-section mb-6">
-    <h2 class="section-title mb-4">🚀 进行中的研究 | Work in Progress</h2>
+    <h2 class="section-title mb-4">🖥️ 进行中的研究 | Work in Progress</h2>
     <div class="wip-box p-5">
       <h4 style="color: var(--nju-purple); font-weight: 700;">Computational Narrative & User Behavior</h4>
       <p class="mt-3" style="font-size: 1.1rem;">Currently focusing on the social dynamics of information diffusion and user behavioural psychology in digital platforms.</p>
