@@ -60,7 +60,7 @@ category: visual-design
           <img src="/assets/img/design_country.png" class="img-fluid-auto shadow-md" alt="进农村活动">
         </div>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-12">
         <div class="img-frame-standard mt-3">
           <img src="/assets/img/design_activity.png" class="img-fluid-auto shadow-md" alt="物料展示">
         </div>
