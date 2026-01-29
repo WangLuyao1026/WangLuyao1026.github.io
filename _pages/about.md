@@ -15,7 +15,7 @@ profile:
     </div>
 selected_papers: false
 social: true
-nav: true
+nav: false
 nav_order: 1
 announcements:
   enabled: true
