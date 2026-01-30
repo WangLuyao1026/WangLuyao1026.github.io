@@ -148,31 +148,29 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
 <hr style="border-top: 1px solid #ddd; margin: 4rem 0;">
 
-<div class="contact-footer text-left mb-6">
+<div class="contact-footer-refined mb-6">
   <h3 class="contact-title mb-4">📬 Contact Information</h3>
   
-  <div class="contact-details">
-    <div class="contact-row">
-      <span class="contact-label">Email</span>
-      <span class="contact-value"><a href="mailto:522025110043@smail.nju.edu.cn">522025110043@smail.nju.edu.cn</a></span>
+  <div class="contact-rows-container">
+    <div class="contact-single-row">
+      <span class="contact-label-fixed">Email:</span>
+      <span class="contact-value-fixed"><a href="mailto:522025110043@smail.nju.edu.cn">522025110043@smail.nju.edu.cn</a></span>
     </div>
     
-    <div class="contact-row">
-      <span class="contact-label">Phone</span>
-      <span class="contact-value">+86 198 5281 8206</span>
+    <div class="contact-single-row">
+      <span class="contact-label-fixed">Phone:</span>
+      <span class="contact-value-fixed">+86 198 5281 8206</span>
     </div>
     
-    <div class="contact-row">
-      <span class="contact-label">WeChat</span>
-      <span class="contact-value">W_10269Y</span>
+    <div class="contact-single-row">
+      <span class="contact-label-fixed">WeChat:</span>
+      <span class="contact-value-fixed">W_10269Y</span>
     </div>
     
-    <div class="contact-row mt-3">
-      <span class="contact-label">Address</span>
-      <span class="contact-value address-text">
-        School of Journalism and Communication,<br>
-        Nanjing University (Xianlin Campus),<br>
-        163 Xianlin Avenue, Qixia District, Nanjing, China.
+    <div class="contact-single-row mt-2">
+      <span class="contact-label-fixed">Address:</span>
+      <span class="contact-value-fixed">
+        School of Journalism and Communication, Nanjing University (Xianlin Campus), 163 Xianlin Avenue, Qixia District, Nanjing, China.
       </span>
     </div>
   </div>
@@ -183,17 +181,17 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
   /* 1. 核心修复：照片整体上移 */
   .profile {
-    margin-top: -20px !important; /* 往上提 */
+    margin-top: -20px !important; 
     margin-left: 35px !important; 
     width: 28% !important; 
     max-width: 200px !important; 
   }
 
-  /* 2. 核心修复：Core Competencies 往下移，增加呼吸感 */
+  /* 2. 核心修复：Core Competencies 往下移 */
   h3 {
     font-family: 'Playfair Display', serif !important;
     color: #1a1a1a !important;
-    margin-top: 4rem !important; /* 增加与上方个人简介/照片的距离 */
+    margin-top: 4rem !important; 
     margin-bottom: 1.5rem !important;
     border-bottom: 2px solid var(--nju-purple);
     padding-bottom: 8px;
@@ -201,7 +199,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     font-weight: 700;
   }
 
-  /* 3. Experience 去除黑点样式优化 */
+  /* 3. Experience 样式优化 */
   .exp-role {
     font-weight: 800;
     color: #2c3e50;
@@ -227,44 +225,46 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     margin-bottom: 0;
   }
 
-  /* 4. Contact 左对齐美化 */
-  .contact-footer {
+  /* 🔴 核心修改：Contact 全居中样式 */
+  .contact-footer-refined {
     font-family: 'Lora', serif;
     text-align: center;
+    width: 100%;
   }
-  .contact-row {
-    display: inline-flex;
-    margin: 0 auto 12px;
-    align-items: baseline;
+  .contact-rows-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
-  
-  .contact-label {
-    width: 80px; /* 固定标签宽度，整齐划一 */
+  .contact-single-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 8px;
+  }
+  .contact-label-fixed {
     font-weight: 700;
     color: var(--nju-purple);
     font-size: 1rem;
-    flex-shrink: 0;
   }
-  .contact-value {
+  .contact-value-fixed {
     color: #444;
     font-size: 1rem;
+    max-width: 600px;
   }
-  .contact-value a {
+  .contact-value-fixed a {
     color: #444;
     text-decoration: underline;
     text-decoration-color: #ddd;
     transition: 0.3s;
   }
-  .contact-value a:hover {
+  .contact-value-fixed a:hover {
     color: var(--nju-purple);
     text-decoration-color: var(--nju-purple);
   }
-  .address-text {
-    line-height: 1.6;
-    display: block;
-  }
 
-  /* 5. 侧边栏文字美化 (保持居中名片式) */
+  /* 侧边栏文字美化 */
   .profile-info-refined {
     text-align: center;
     margin-top: 15px;
@@ -274,10 +274,9 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
   .dept-name { font-size: 0.85rem; color: #555; margin-bottom: 8px; font-weight: 500; }
   .loc-name { font-size: 0.8rem; color: #999; letter-spacing: 0.5px; }
 
-  /* 6. 去除列表黑点的通用类 */
+  /* 去除列表黑点的通用类 */
   .clean-list { list-style: none !important; padding-left: 0 !important; }
   .clean-list li { position: relative; padding-left: 20px; margin-bottom: 10px; }
-  /* 用小方块或自定义符号代替黑点，或者什么都不加 */
   .clean-list li::before {
     content: "▪"; 
     color: var(--nju-purple);
@@ -297,7 +296,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     text-align: justify;
   }
   
-  /* 动态展播、按钮等组件 (保持不变) */
+  /* 动态展播、按钮等组件 */
   #portfolioCarousel { border-radius: 20px; overflow: hidden; margin-top: 2rem; height: 450px; }
   .carousel-img { height: 450px; object-fit: cover; }
   .carousel-img-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 60%, transparent 100%); z-index: 1; }
@@ -318,7 +317,6 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     .carousel-caption { max-width: 90%; bottom: 10%; } 
     .slider-title { font-size: 1.5rem !important; } 
     .profile { float: none !important; width: 50% !important; margin: 0 auto 20px auto !important; } 
-    .contact-row { flex-direction: column; }
-    .contact-label { margin-bottom: 5px; }
+    .contact-single-row { flex-direction: column; }
   }
 </style>
