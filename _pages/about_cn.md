@@ -228,7 +228,7 @@ nav_order: 2
       </p>
 
       <div class="wilderness-quote">
-        <p class="highlight-serif" style="margin-bottom: 0;">
+        <p class="highlight-serif" style="font-style: normal; margin-bottom: 0;">
           答案就像迟子建在《也是冬天，也是春天》一书中说的那样：“我想，人生是可以慢半拍、再慢半拍的，生命的钟表，不能一味地往前拨，要习惯自己是生活的迟到者。”
         </p>
       </div>
