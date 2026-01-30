@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我的年度省思
+title: 年度省思
 date: 2026-01-01
 inline: false
 permalink: /news/reflection/
@@ -165,7 +165,7 @@ permalink: /news/reflection/
   
   /* 主标题：更紧凑，不换行 */
   .mag-main-title { 
-    font-size: 2.2rem; /* 调整字号防止移动端强制换行过多 */
+    font-size: 1.8rem; /* 调整字号防止移动端强制换行过多 */
     font-weight: 900; 
     line-height: 1.4; 
     margin-bottom: 15px; 
