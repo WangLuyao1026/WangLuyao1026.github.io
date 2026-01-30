@@ -12,10 +12,10 @@ nav_order: 3
 <div class="experience-container mt-5">
 
   <section class="exp-item mb-6">
-    <div class="exp-header mb-3">
-      <h2 class="experience-section-title">
-        <span class="exp-index">01</span>
-        <span class="exp-text">检察日报·山东记者站</span>
+    <div class="exp-header mb-4">
+      <h2 class="section-title">
+        <span class="exp-index-num">01</span>
+        <span class="exp-unit-name">检察日报·山东记者站</span>
       </h2>
     </div>
     
@@ -36,12 +36,12 @@ nav_order: 3
 
   <section class="exp-item mb-6">
     <div class="exp-header mb-4">
-      <h2 class="experience-section-title">
-        <span class="exp-index">02</span>
-        <span class="exp-text">山东省委政法委·济南市铁路局</span>
+      <h2 class="section-title">
+        <span class="exp-index-num">02</span>
+        <span class="exp-unit-name">山东省委政法委·济南市铁路局</span>
         <span class="exp-divider">/</span>
-        <span class="exp-index">03</span>
-        <span class="exp-text">大众报业集团·齐鲁融媒</span>
+        <span class="exp-index-num">03</span>
+        <span class="exp-unit-name">大众报业集团·齐鲁融媒</span>
       </h2>
     </div>
 
@@ -55,19 +55,10 @@ nav_order: 3
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 🔴 1. 导航栏像素级同步 (同步 Research 页面的美观 Navbar) */
-  .navbar { 
-    font-family: 'Lora', "PingFang SC", sans-serif !important;
-    font-weight: 600 !important; 
-    letter-spacing: 0.5px !important;
-  }
-  .nav-link { 
-    font-size: 1rem !important; 
-    transition: color 0.3s ease;
-  }
-
-  /* 🔴 2. 全局字体与顶级标题优化 (同步 Research) */
-  body, p, li, h1, h2, h3, h4, h5 {
+  /* =======================================================
+     1. 全局字体与导航栏 (完全复制 Research 代码)
+     ======================================================= */
+  body, p, li, h1, h2, h3, h4, h5, .navbar {
     font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
   }
   body {
@@ -76,52 +67,75 @@ nav_order: 3
     line-height: 1.9 !important;
     color: #2c3e50;
   }
+  .navbar { font-weight: 600 !important; }
 
-  /* 顶级大标题 Experience：黑色，无边框，对齐 Research 顶部 */
+  /* =======================================================
+     2. 顶部大标题修正 (关键！!)
+     Research代码里没动h1，所以这里要确保它是干净的黑色无边框
+     ======================================================= */
   .post-title, h1 {
-    color: #000 !important;
-    font-weight: 800 !important;
-    font-size: 2.5rem !important;
     font-family: 'Playfair Display', serif !important;
-    border-left: none !important;
+    font-weight: 800 !important;
+    /* 确保是黑色，而不是紫色 */
+    color: #000 !important; 
+    /* 🔴 严禁出现左边框，Research顶部没有线 */
+    border-left: none !important; 
     padding-left: 0 !important;
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 1rem !important;
   }
 
-  .post-description {
+  /* 描述文字同步 */
+  .post-description, .page-description {
+    font-family: 'Lora', "PingFang SC", sans-serif !important;
     font-size: 1.1rem !important;
     color: #666 !important;
-    margin-bottom: 3rem !important;
     padding-left: 0 !important;
   }
 
-  /* 🔴 3. 内部小标题同步：克隆 Research 的 .section-title */
-  .experience-section-title {
-    color: var(--nju-purple) !important;
-    font-weight: 800 !important;
-    font-size: 1.8rem !important;
+  /* =======================================================
+     3. 内部小标题 (完全复制 Research 的 .section-title)
+     ======================================================= */
+  .section-title {
+    color: var(--nju-purple);
+    font-weight: 800;
+    font-size: 1.8rem;
     font-family: 'Playfair Display', serif !important;
-    border-left: 8px solid var(--nju-purple) !important; /* 紫色边框 */
-    padding-left: 20px !important;
+    /* 🔴 这里才有紫线，对齐“本科毕业论文” */
+    border-left: 8px solid var(--nju-purple);
+    padding-left: 20px;
+    
+    /* 适配数字和文字的对齐 */
     display: flex;
     align-items: baseline;
-    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
   }
 
-  /* 数字：Helvetica 无衬线体 */
-  .exp-index {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
+  /* 数字：保留 Helvetica 以示区分，但融合在标题里 */
+  .exp-index-num {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-weight: 900;
-    font-size: 2.2rem; 
-    color: #e0e0e0; 
+    font-size: 2.0rem; 
+    color: #e0e0e0; /* 浅灰数字 */
     margin-right: 15px;
-    line-height: 1;
-    position: relative;
-    top: 2px;
+  }
+  
+  /* 单位名称：继承 section-title 的 Playfair 字体 */
+  .exp-unit-name {
+    font-weight: 800;
   }
 
-  .experience-container { max-width: 1100px; margin: auto; }
+  .exp-divider {
+    margin: 0 15px;
+    color: #ddd;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
 
+  /* =======================================================
+     4. 布局与卡片
+     ======================================================= */
+  .experience-container { max-width: 1100px; margin: auto; }
+  
   /* 图片容器美化 */
   .exp-image-box {
     border: 1px solid #eee;
@@ -134,4 +148,5 @@ nav_order: 3
   .exp-image-box:hover { transform: translateY(-5px); }
 
   .section-divider { margin: 5rem 0; border-top: 1px dashed #ddd; }
+  .mb-6 { margin-bottom: 5rem; }
 </style>
