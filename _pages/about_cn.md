@@ -10,7 +10,7 @@ nav_order: 2
 <div class="lang-switcher-fixed">
   <a href="/" class="ls-link">English</a>
   <span class="ls-sep">/</span>
-  <span class="ls-active">中文</span>
+  <span class="ls-active">中文版</span>
 </div>
 
 <section class="hero-container">
