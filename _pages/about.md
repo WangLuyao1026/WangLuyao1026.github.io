@@ -63,37 +63,37 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 ### 💼 Professional Experience (Highlights)
 
 <div class="exp-clean-container">
-  
+
   <div class="exp-item mb-4">
     <div class="d-flex justify-content-between align-items-baseline">
-      <h5 class="exp-role">New Media Editor-in-Chief</h5>
+      <h5 class="exp-role">New Media Editor & Operation</h5>
       <span class="exp-date">2024 – 2025</span>
     </div>
-    <div class="exp-company">Jinan Railway Bureau</div>
+    <div class="exp-company">Shandong Provincial Party Committee Political and Legal Affairs Commission · Jinan Railway Bureau</div>
     <p class="exp-desc">
-      Responsible for the operation and visual design of the official WeChat account. Completed the publicity campaign series across sixteen cities; achieved <strong>200k+</strong> views for a single post.
+      Responsible for planning, shooting, and operation of official platforms. Planned a series of promotional campaigns spanning 16 cities, achieving a total reading volume of over 1.3 million.
     </p>
   </div>
 
   <div class="exp-item mb-4">
     <div class="d-flex justify-content-between align-items-baseline">
-      <h5 class="exp-role">Journalist & Editor</h5>
+      <h5 class="exp-role">Journalist / Editor</h5>
       <span class="exp-date">2022 – 2024</span>
     </div>
-    <div class="exp-company">Procuratorial Daily (Shandong Station) & Lixia District Procuratorate</div>
+    <div class="exp-company">Procuratorial Daily (Shandong Station) & Lixia District People’s Procuratorate</div>
     <p class="exp-desc">
-      Participated in the “Big Data Empowering Legal Supervision” project. Managed external new media channels (Weibo, WeChat, Toutiao) and promoted internal publicity for the political and legal system.
+      Participated in the "Big Data Empowering Legal Supervision" innovation project. Coordinated and managed the all - media matrix including Weibo, WeChat, etc.
     </p>
   </div>
 
-   <div class="exp-item mb-4">
+  <div class="exp-item mb-4">
     <div class="d-flex justify-content-between align-items-baseline">
-      <h5 class="exp-role">Video Planner (Intern)</h5>
+      <h5 class="exp-role">News Editing & Planning</h5>
       <span class="exp-date">2021</span>
     </div>
-    <div class="exp-company">Dazhong Newspaper Group (Qilu Integrated Media Center)</div>
+    <div class="exp-company">Dazhong Newspaper Group · Qilu Integrated Media Center</div>
     <p class="exp-desc">
-      Managed omni-media operations for health communication departments. Produced popular science short videos, creating viral content with <strong>100k+</strong> likes.
+      Responsible for health communication operations of top - tier Class III hospitals in Shandong Province (such as Qilu Hospital). Independently completed planning, shooting, and post - production, creating viral videos with over 100,000 views.
     </p>
   </div>
 
@@ -170,7 +170,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     <div class="contact-line mt-2">
       <span class="c-lbl">Address:</span>
       <span class="c-val c-addr">
-        School of Journalism and Communication, Nanjing University (Xianlin Campus), 163 Xianlin Avenue, Qixia District, Nanjing, China.
+        School of Journalism and Communication, Nanjing University (Xianlin Campus),<br>163 Xianlin Avenue, Qixia District, Nanjing, China.
       </span>
     </div>
   </div>
@@ -199,34 +199,34 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     font-weight: 700;
   }
 
-  /* 🔴 核心修改：强制全居中 */
+  /* 🔴 核心修改：强制全居中并左对齐内容 */
   .contact-footer-final {
     width: 100%;
     text-align: center !important;
     font-family: 'Lora', serif;
   }
   .contact-stack {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    align-items: center; /* 确保子元素在交叉轴居中 */
-    justify-content: center;
+    align-items: flex-start; /* 内容内部左对齐 */
+    text-align: left;
+    margin: 0 auto;
     gap: 8px;
   }
   .contact-line {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: baseline;
-    gap: 10px;
+    gap: 15px;
     width: 100%;
   }
   .c-lbl {
     font-weight: 700;
     color: var(--nju-purple);
-    min-width: 70px;
-    text-align: right;
+    width: 75px; /* 固定宽度保证对齐 */
+    text-align: left;
   }
   .c-val {
-    text-align: left;
     color: #444;
   }
   .c-val a {
@@ -236,15 +236,14 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
   }
   .c-val a:hover { color: var(--nju-purple); }
   
-  /* 地址栏宽度控制，防止过长破坏居中感 */
+  /* 地址栏宽度控制 */
   .c-addr {
-    max-width: 500px;
-    line-height: 1.5;
+    line-height: 1.6;
   }
 
   /* Experience 优化 */
   .exp-role { font-weight: 800; color: #2c3e50; font-size: 1.15rem; }
-  .exp-company { font-style: italic; color: var(--nju-purple); font-family: 'Lora', serif; font-weight: 600; }
+  .exp-company { font-style: italic; color: var(--nju-purple); font-family: 'Lora', serif; font-weight: 600; margin-bottom: 5px; }
   .exp-date { font-size: 0.95rem; color: #888; }
   .exp-desc { font-size: 1rem; color: #555; line-height: 1.6; }
 
@@ -295,7 +294,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     .carousel-caption { max-width: 90%; } 
     .profile { float: none !important; width: 50% !important; margin: 0 auto 20px auto !important; } 
     .contact-line { flex-direction: column; align-items: center; gap: 2px; }
-    .c-lbl { text-align: center; }
+    .c-lbl { text-align: center; width: auto; }
     .c-val { text-align: center; }
   }
 </style>
