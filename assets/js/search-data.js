@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-中文版",
-          title: "“中文版”",
+          title: "中文版",
           description: "关于我 | About Me",
           section: "Navigation",
           handler: () => {
