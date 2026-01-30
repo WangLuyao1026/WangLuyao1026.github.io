@@ -15,7 +15,7 @@ category: visual-design
     <h3 class="section-main-title">🎨 InDesign 排版与品牌设计</h3>
     <p class="intro-text">
       <strong>作品简介：</strong><br>
-      本板块涵盖政府期刊排版、大型活动视觉物料及品牌 VI 系统设计。在设计实践中，我始终注重版式的<strong>呼吸感</strong>与<strong>信息层级</strong>的清晰传达，力求在严谨的政务传播中融入现代审美张力。
+      本板块涵盖政府期刊排版、大型活动视觉物料及品牌 VI 系统设计。在设计实践中，注重版式的<strong>呼吸感</strong>与<strong>信息层级</strong>的清晰传达，力求在严谨的政务传播中融入现代审美张力。
     </p>
   </section>
 
@@ -78,11 +78,11 @@ category: visual-design
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 字体与行间距：严格同步摄影页 */
+  /* 1. 字体与行间距 */
   .visual-design-container, .post-content {
     font-family: "Noto Serif SC", serif !important;
     font-size: 1.15rem !important;
-    line-height: 2.0 !important; /* 2.0倍行距 */
+    line-height: 2.0 !important;
     color: #333;
     max-width: 900px;
     margin: 0 auto;
@@ -104,15 +104,19 @@ category: visual-design
     margin-bottom: 0.8rem;
   }
   
-  strong { color: var(--nju-purple); }
+  /* 🔴 核心修复：强制加粗，颜色统一 */
+  strong { 
+    color: var(--nju-purple); 
+    font-weight: 900 !important; /* 使用最粗字重 */
+  }
 
-  /* 3. 图片防畸形与展示效果 (Fluid & Stable) */
+  /* 3. 图片展示效果 */
   .img-fluid-auto {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 8px;
-    object-fit: contain; /* 核心：防止畸形 */
+    object-fit: contain;
   }
 
   .img-frame-hero {
