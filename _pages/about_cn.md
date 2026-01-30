@@ -56,7 +56,7 @@ nav_order: 2
       <div class="comp-icon">🎬</div>
       <div class="comp-text">
         <h5>专业实践</h5>
-        <p>本科就读于文学院新闻传播大类广播电视学专业，具备敏锐的选题策划与视听语言表达能力，拥有丰富的新闻媒体实务实践与一线工作经验。</p>
+        <p>本科就读于文学院新闻传播大类广播电视学，具备敏锐的选题策划与视听语言表达能力，拥有丰富的新闻媒体实务实践与一线工作经验。</p>
       </div>
     </div>
     <div class="comp-item highlight">
@@ -203,7 +203,7 @@ nav_order: 2
 <section class="content-section mb-6">
   <div class="thesis-block">
     <div class="thesis-medal">
-      <span class="tm-year">2022</span>
+      <span class="tm-year">2021</span>
       <span class="tm-text">校级优秀<br>毕业论文</span>
     </div>
     <div class="thesis-content">
