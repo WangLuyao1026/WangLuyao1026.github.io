@@ -95,7 +95,7 @@ category: visual-design
     color: var(--nju-purple) !important;
     border-left: 5px solid var(--nju-purple);
     padding-left: 15px !important;
-    margin-bottom: 2.5rem !important;
+    margin-bottom: 4.0rem !important;
   }
   .sub-heading {
     font-weight: 700;
