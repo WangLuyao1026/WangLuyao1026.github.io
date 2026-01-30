@@ -42,8 +42,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-一名政法记者的年度转型答卷",
-          title: '一名政法记者的年度转型答卷',
+            },},{id: "news-我的年度省思",
+          title: '我的年度省思',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/reflection/";
