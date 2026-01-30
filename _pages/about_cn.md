@@ -1,6 +1,6 @@
 ---
 layout: page
-title: “中文版”
+title: 中文版
 permalink: /cn/
 description: 关于我 | About Me
 nav: true
@@ -82,9 +82,10 @@ nav_order: 2
 <section class="content-section">
   <div class="reflection-paper">
     <div class="paper-content">
+      <h4 class="paper-title-new">升维：从“政法记录者”到“算法明辨者”</h4>
       <span class="paper-label">ANNUAL REFLECTION</span>
-      <h4 class="paper-title">升维：从“政法记录者”到“算法明辨者”</h4>
-      <div class="paper-body">
+      
+      <div class="paper-body-new">
         <p>
           “ 那些关于传播效能、舆论生成和社会心态‘未尽的追问’，在媒体深度融合的浪潮中强烈地叩击着我。我选择奔赴心中多年的学术梦校——南京大学，在计算传播的逻辑里，去解析那些隐藏在算法背后的社会脉动。 ”
         </p>
@@ -229,6 +230,8 @@ nav_order: 2
   <div class="wilderness-box">
     <div class="wilderness-deco">”</div>
     <h4 class="wilderness-title-serif">在知识的旷野中追寻无限可能</h4>
+
+
     
     <div class="wilderness-content-serif">
       <p>
@@ -381,11 +384,26 @@ nav_order: 2
   .comp-text h5 { font-weight: 700; font-size: 1.2rem; color: var(--primary); margin-bottom: 10px; }
   .comp-text p { font-size: 0.95rem; color: var(--text-light); text-align: justify; }
 
-  /* 年度省思 */
+  /* 年度省思样式调整 */
   .reflection-paper { background: #fff; border: 1px solid var(--border-color); border-radius: 8px; padding: 50px; box-shadow: 0 5px 20px rgba(0,0,0,0.02); position: relative; }
-  .paper-label { font-family: sans-serif !important; font-size: 0.75rem; color: #bbb; letter-spacing: 1px; display: block; margin-bottom: 10px; text-align: center; }
-  .paper-title { font-size: 1.5rem; font-weight: 700; color: #000; text-align: center; margin-bottom: 30px; }
-  .paper-body { font-size: 1.15rem; color: #444; line-height: 2; font-style: italic; text-align: justify; max-width: 800px; margin: 0 auto; }
+  .paper-label { font-family: sans-serif !important; font-size: 0.75rem; color: #bbb; letter-spacing: 1px; display: block; margin-top: 15px; text-align: center; }
+  .paper-title-new { 
+    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important; 
+    font-size: 1.2rem; /* 缩小一号，对应 tl-org 的大小感 */
+    font-weight: 800; 
+    color: #000; 
+    text-align: center; 
+    margin-bottom: 10px; 
+  }
+  .paper-body-new { 
+    font-size: 1.05rem; 
+    color: #444; 
+    line-height: 2; 
+    text-align: justify; 
+    max-width: 800px; 
+    margin: 20px auto 0 auto; 
+    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important; /* 更换为非黑体系统 */
+  }
   .paper-action { text-align: center; margin-top: 30px; }
   .btn-paper { color: var(--primary); font-weight: 700; border-bottom: 1px solid var(--primary); padding-bottom: 2px; }
 
