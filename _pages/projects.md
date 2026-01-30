@@ -139,3 +139,27 @@ nav_order: 4
     .card-img-container { height: 300px; }
   }
 </style>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  /* 1. 引入高级英文字体 + 强制中文黑体加粗 */
+  body, p, li, h1, h2, h3, h4, h5, .navbar {
+    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  }
+  
+  /* 2. 解决字体太细、发虚的问题 */
+  body {
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500 !important; /* 核心：稍微加粗，质感立刻提升 */
+    color: #2c3e50;
+  }
+
+  /* 3. 导航栏加粗 */
+  .navbar {
+    font-weight: 600 !important;
+  }
+
+  /* 4. 标题使用衬线体 */
+  h1, h2, h3, .section-title, .thesis-title, .project-item-title {
+    font-family: 'Playfair Display', "PingFang SC", serif !important;
+  }
+</style>
