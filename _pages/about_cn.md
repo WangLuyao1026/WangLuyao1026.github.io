@@ -409,7 +409,7 @@ nav_order: 2
   .comp-item:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
   .comp-item.highlight { border-top: 4px solid var(--primary); }
   .comp-icon { font-size: 2rem; margin-bottom: 15px; }
-  .comp-text h5 { font-weight: 700; font-size: 1.2rem; color: var(--primary); margin-bottom: 10px; }
+  .comp-text h5 { font-weight: 700; font-size: 1.2rem; color: var(--primary); margin-bottom: 20px; }
   .comp-text p { font-size: 0.95rem; color: var(--text-light); text-align: justify; }
 
   /* 年度省思容器 */
