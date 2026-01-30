@@ -42,8 +42,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-升维-一名政法记者的年度转型答卷",
-          title: '升维：一名政法记者的年度转型答卷',
+            },},{id: "news-从-政法记录者-到-算法明辨者-一名政法记者的年度转型答卷",
+          title: '《从“政法记录者”到“算法明辨者”：一名政法记者的年度转型答卷》',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/reflection/";
