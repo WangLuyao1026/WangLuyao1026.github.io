@@ -53,7 +53,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-视觉识别与品牌设计",
+          section: "News",},{id: "news-升维-一名政法记者的年度转型答卷",
+          title: '升维：一名政法记者的年度转型答卷',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/reflection/";
+            },},{id: "projects-视觉识别与品牌设计",
           title: '视觉识别与品牌设计',
           description: "InDesign期刊排版、VI系统与Illustrator创意设计",
           section: "Projects",handler: () => {
