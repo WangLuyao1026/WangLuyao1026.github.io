@@ -59,7 +59,7 @@ category: work
     line-height: 2.0 !important;
     color: #333 !important;
     text-align: justify;
-    max-width: 960px; /* 稍微放宽以展示长图细节 */
+    max-width: 960px;
     margin: 0 auto;
   }
 
@@ -72,21 +72,25 @@ category: work
     padding-left: 15px !important;
   }
 
+  /* 🔴 核心修复：添加对粗体字的颜色定义 */
+  strong {
+    color: var(--nju-purple);
+    font-weight: 700;
+  }
+
   /* 2. 核心：长图滚动窗口 */
   .scroll-window {
-    height: 600px; /* 固定高度，形成统一窗口 */
-    overflow-y: auto; /* 允许纵向滚动 */
+    height: 600px;
+    overflow-y: auto;
     overflow-x: hidden;
     background: #f9f9f9;
     border: 1px solid #eee;
     border-radius: 12px;
     position: relative;
-    /* 自定义滚动条样式 */
     scrollbar-width: thin;
     scrollbar-color: var(--nju-purple) #f0f0f0;
   }
   
-  /* Webkit 滚动条美化 */
   .scroll-window::-webkit-scrollbar { width: 6px; }
   .scroll-window::-webkit-scrollbar-track { background: #f0f0f0; }
   .scroll-window::-webkit-scrollbar-thumb { background-color: var(--nju-purple); border-radius: 10px; }
@@ -123,6 +127,6 @@ category: work
   .btn-back:hover { background: var(--nju-purple); color: white !important; }
 
   @media (max-width: 768px) {
-    .scroll-window { height: 450px; } /* 移动端适当减小高度 */
+    .scroll-window { height: 450px; }
   }
 </style>
