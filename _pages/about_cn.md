@@ -75,18 +75,26 @@ nav_order: 2
 
 
 <section class="content-section">
-  <div class="wilderness-block mb-5">
-    <div class="quote-card">
-      <p class="quote-highlight">
-        “ 旷野从不拒绝月色后升起的骤雨，生命轨迹本就不该有固定的程序。<br>
-        你可以随意选择自己的交卷时间。 ”
-      </p>
-      <div class="philosophical-text">
-        <p>或许有人会好奇，在政法一线工作数年后，我为何选择重返校园？</p>
-        <p>答案一如迟子建在《也是冬天，也是春天》中所写：“我想，人生是可以慢半拍、再慢半拍的，生命的钟表，不能一味地往前拨，要习惯自己是生活的迟到者。”</p>
-        <p>新闻传播领域犹如一片无尽的知识旷野，值得在其中不断探索、求知。知识不可能俯身去够人类，只有人类垫脚去够知识。做一名<strong>“终身学习者”</strong>，是我对自己最深刻的期许。</p>
-        <p>如今，我满怀热忱，愿在这片学术沃土里继续追逐梦想。像校园里即将肆意绽放的海棠一样，这会是一个皆大欢喜的、美好的春天。</p>
+  
+  <div class="literary-note mb-6">
+    <h3 class="note-title">在知识的旷野中追寻无限可能</h3>
+    <div class="note-body">
+      <p>或许有人会好奇，在政法一线工作数年后，我为何选择重返校园？</p>
+      
+      <div class="book-quote">
+        “ 我想，人生是可以慢半拍、再慢半拍的。<br>
+        生命的钟表，不能一味地往前拨，要习惯自己是生活的迟到者。 ”
+        <span class="quote-author">—— 迟子建《也是冬天，也是春天》</span>
       </div>
+
+      <p>
+        新闻传播领域犹如一片无尽的旷野。知识不可能俯身去够人类，只有人类垫脚去够知识。
+        做一名<strong>“终身学习者”</strong>，是我对自己最深刻的期许。
+      </p>
+      <p>
+        旷野从不拒绝月色后升起的骤雨，生命轨迹本就不该有固定的程序。你可以随意选择自己的交卷时间。
+        如今，我满怀热忱，愿在这片学术沃土里继续追逐梦想。像校园里即将肆意绽放的海棠一样，这会是一个皆大欢喜的、美好的春天。
+      </p>
     </div>
   </div>
 
@@ -122,7 +130,7 @@ nav_order: 2
       <div class="tl-marker"></div>
       <div class="tl-right">
         <h5 class="tl-org">山东省委政法委 · 济南铁路局</h5>
-        <p class="tl-desc">负责官方平台策划、拍摄与运营。策划跨越 16 个城市的系列宣传，总阅读量突破 <strong>130万+</strong>。</p>
+        <p class="tl-desc">负责官方平台策划、拍摄与运营，策划跨越 16 个城市的系列宣传，总阅读量突破 <strong>130万+</strong>。</p>
       </div>
     </div>
     <div class="tl-item">
@@ -132,19 +140,19 @@ nav_order: 2
       </div>
       <div class="tl-marker"></div>
       <div class="tl-right">
-        <h5 class="tl-org">检察日报 & 历下区检察院</h5>
-        <p class="tl-desc">参与负责“大数据赋能法律监督”创新项目。统筹管理微博、微信等全媒体矩阵。</p>
+        <h5 class="tl-org">检察日报 & 历下区人民检察院</h5>
+        <p class="tl-desc">参与负责“大数据赋能法律监督”创新项目。统筹管理微博、微信等全媒体矩阵，内宣外宣调度运维等。</p>
       </div>
     </div>
     <div class="tl-item">
       <div class="tl-left">
         <span class="tl-year">2021</span>
-        <span class="tl-role">视频策划 (实习)</span>
+        <span class="tl-role">新闻编辑策划</span>
       </div>
       <div class="tl-marker"></div>
       <div class="tl-right">
-        <h5 class="tl-org">大众报业集团</h5>
-        <p class="tl-desc">负责三甲医院健康传播运营。独立完成脚本、拍摄与后期，打造点赞量 <strong>10万+</strong> 的爆款视频。</p>
+        <h5 class="tl-org">大众报业集团·齐鲁融媒</h5>
+        <p class="tl-desc">负责齐鲁医院等山东省内三甲医院健康传播运营。独立完成策划、拍摄与后期，打造点赞量 <strong>10万+</strong> 的爆款视频。</p>
       </div>
     </div>
     
@@ -247,7 +255,7 @@ nav_order: 2
 </div>
 
 
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
 
 <style>
   :root { 
@@ -287,25 +295,16 @@ nav_order: 2
   .hero-brand-mark { position: absolute; top: 30px; right: 30px; }
   .brand-logo { height: 80px; width: auto; opacity: 0.9; }
   
-  /* 姓名样式修复 */
-  .name-cn { 
-    font-size: 3.5rem; 
-    font-weight: 900; 
-    color: var(--primary); 
-    letter-spacing: 12px; 
-    margin-bottom: 5px; 
-    line-height: 1.1; 
-  }
-  /* 🔴 英文名修复重点：字体换为宋体，加粗，加间距 */
+  .name-cn { font-size: 3.5rem; font-weight: 900; color: var(--primary); letter-spacing: 12px; margin-bottom: 5px; line-height: 1.1; }
+  /* 🔴 英文名修正：灰色、紧凑衬线体 */
   .name-en { 
-    font-family: "Noto Serif SC", serif !important; /* 强制衬线体 */
-    font-size: 1.1rem; /* 字号加大 */
-    letter-spacing: 6px; /* 间距拉开 */
-    font-weight: 700; /* 加粗 */
-    color: #4D0099; /* 使用主题色 */
-    opacity: 0.7; /* 稍微透明一点以免抢戏 */
+    font-family: "Noto Serif SC", serif !important;
+    font-size: 1.1rem; 
+    letter-spacing: 2px; 
+    color: #777; 
+    font-weight: 600;
     margin-bottom: 30px; 
-    margin-top: 5px;
+    margin-top: 8px;
     text-transform: uppercase;
   }
   
@@ -319,7 +318,7 @@ nav_order: 2
   .badge-item { display: inline-block; padding: 4px 12px; border: 1px solid var(--primary); color: var(--primary); font-size: 0.8rem; font-weight: 700; border-radius: 4px; margin-right: 10px; }
 
   /* 2. 板块通用 */
-  .content-section { max-width: 960px; margin: 0 auto 6rem auto; }
+  .content-section { max-width: 900px; margin: 0 auto 6rem auto; }
   .section-head { text-align: center; margin-bottom: 3.5rem; }
   .head-cn { font-size: 1.8rem; font-weight: 800; letter-spacing: 4px; color: #000; margin-bottom: 5px; }
   .head-en { font-family: sans-serif !important; font-size: 0.8rem; letter-spacing: 2px; color: #ccc; }
@@ -335,16 +334,41 @@ nav_order: 2
   .comp-text h5 { font-weight: 700; font-size: 1.2rem; color: var(--primary); margin-bottom: 10px; }
   .comp-text p { font-size: 0.95rem; color: var(--text-light); text-align: justify; }
 
-  /* 4. 重返旷野 & 年度省思 */
-  .quote-card { background: #fff; padding: 20px 40px; border-radius: 8px; }
-  .quote-highlight { font-size: 1.4rem; font-weight: 500; color: #000; text-align: center; border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 30px 0; margin-bottom: 40px; line-height: 1.6; }
-  .philosophical-text p { font-size: 1.05rem; color: #444; text-align: justify; margin-bottom: 1.5rem; text-indent: 2em; }
-  .philosophical-text strong { color: var(--primary); }
+  /* 4. 思想升维：旷野 & 年度省思 */
+  /* A. 旷野手记：信笺风格 */
+  .literary-note {
+    background: #fff; padding: 0 20px; text-align: center;
+  }
+  .note-title { font-size: 1.6rem; font-weight: 800; margin-bottom: 30px; color: #222; letter-spacing: 2px; }
+  .note-body p { font-size: 1.1rem; color: #444; line-height: 2.2; margin-bottom: 1.5rem; }
+  .note-body strong { color: var(--primary); }
+  
+  /* 书卷引言块 */
+  .book-quote {
+    margin: 40px auto; max-width: 700px;
+    padding: 30px 0;
+    border-top: 1px solid #eee; border-bottom: 1px solid #eee;
+    font-size: 1.25rem; font-weight: 500; color: #000; line-height: 1.8;
+  }
+  .quote-author { display: block; font-size: 0.9rem; color: #888; margin-top: 15px; font-weight: 400; }
 
-  .reflection-paper { background: #fff; border: 1px solid var(--border-color); border-radius: 8px; padding: 50px; box-shadow: 0 5px 20px rgba(0,0,0,0.02); margin-top: 40px; }
+  /* B. 年度省思卡片 (修正点2：取消倾斜) */
+  .reflection-paper { 
+    background: #fdfdfd; border: 1px solid #eee; border-radius: 8px; padding: 50px; 
+    box-shadow: 0 5px 20px rgba(0,0,0,0.02); margin-top: 60px; 
+  }
   .paper-label { font-family: sans-serif !important; font-size: 0.75rem; color: #bbb; letter-spacing: 1px; display: block; margin-bottom: 10px; text-align: center; }
   .paper-title { font-size: 1.5rem; font-weight: 700; color: #000; text-align: center; margin-bottom: 30px; }
-  .paper-body { font-size: 1.15rem; color: #444; line-height: 2; font-style: italic; text-align: justify; max-width: 800px; margin: 0 auto; }
+  /* 正文样式修正：正常字体，不倾斜 */
+  .paper-body { 
+    font-size: 1.15rem; 
+    color: #333; 
+    line-height: 2.2; 
+    font-style: normal; /* 强制不倾斜 */
+    text-align: justify; 
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
   .paper-action { text-align: center; margin-top: 30px; }
   .btn-paper { color: var(--primary); font-weight: 700; border-bottom: 1px solid var(--primary); padding-bottom: 2px; }
 
