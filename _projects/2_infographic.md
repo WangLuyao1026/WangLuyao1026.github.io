@@ -29,7 +29,7 @@ category: work
       <div class="scroll-hint mt-2">
         <i class="fas fa-arrows-alt-v"></i> 在框内上下滑动查看完整长图
       </div>
-      <h5 class="img-caption mt-3">《向人民报告》年度工作汇报 H5</h5>
+      <h5 class="img-caption mt-3">《向人民报告》年度工作汇报</h5>
     </div>
     
     <div class="col-md-6">
