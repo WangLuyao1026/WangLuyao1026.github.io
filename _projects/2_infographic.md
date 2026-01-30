@@ -12,7 +12,7 @@ category: work
 <div class="project-container">
 
   <section class="mb-5">
-    <h3>📜 政策解读与长图设计</h3>
+    <h3>📑 政策解读与长图设计</h3>
     <p>
       <strong>作品简介：</strong><br>
       在智媒传播语境下，复杂的文字信息需要更直观的视觉表达。我利用 Photoshop 将繁杂的政府工作报告、法律条文与安全条例转化为通俗易懂的“一图读懂”系列。通过重构信息层级与色彩引导，极大地提升了政务信息的触达率与传播效率。
