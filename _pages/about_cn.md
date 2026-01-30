@@ -54,7 +54,7 @@ nav_order: 2
         <div class="feature-icon">🎬</div>
         <h4>专业实践</h4>
         <p class="feature-desc">
-          广播电视编导学士，拥有丰富的新闻媒体及全媒体平台实务经验。具备敏锐的选题策划与视听语言表达能力。
+          广播电视学士，拥有丰富的新闻媒体及全媒体平台实务经验，具备敏锐的选题策划与视听语言表达能力。
         </p>
       </div>
     </div>
@@ -114,10 +114,10 @@ nav_order: 2
       <div class="timeline-time">2024 - 2025</div>
       <div class="timeline-dot"></div>
       <div class="timeline-content">
-        <h5 class="job-title">新媒体主编</h5>
-        <div class="job-comp">济南铁路局</div>
+        <h5 class="job-title">新媒体编辑运营</h5>
+        <div class="job-comp">山东省委政法委·济南铁路局</div>
         <p class="job-desc">
-          负责官方公众号视觉设计与运营。策划跨越 16 个城市的系列宣传，通过数据驱动优化选题，总阅读量突破 <strong>130万+</strong>。
+          负责官方平台策划、拍摄与运营。统筹策划跨越 16 个城市的系列宣传，通过数据驱动优化选题，总阅读量突破 <strong>130万+</strong>。
         </p>
       </div>
     </div>
@@ -128,7 +128,7 @@ nav_order: 2
         <h5 class="job-title">记者 / 编辑</h5>
         <div class="job-comp">检察日报 & 历下区检察院</div>
         <p class="job-desc">
-          参与“大数据赋能法律监督”创新项目。统筹管理微博、微信等新媒体矩阵，负责政法系统的对内对外宣传工作。
+          参与负责“大数据赋能法律监督”创新项目。统筹管理微博、微信等新媒体矩阵，负责政法系统的对内对外宣传工作。
         </p>
       </div>
     </div>
@@ -139,7 +139,7 @@ nav_order: 2
         <h5 class="job-title">视频策划 (实习)</h5>
         <div class="job-comp">大众报业集团</div>
         <p class="job-desc">
-          负责三甲医院健康传播运营。独立完成脚本策划与后期剪辑，打造了点赞量破 <strong>10万+</strong> 的科普爆款视频。
+          负责齐鲁医院等山东省三甲医院的健康传播运营。独立完成脚本策划、拍摄与后期剪辑等，打造了点赞量破 <strong>10万+</strong> 的科普爆款视频。
         </p>
       </div>
     </div>
@@ -170,7 +170,7 @@ nav_order: 2
           <div class="portfolio-text">
             <span class="p-category">微电影 / News & Justice</span>
             <h5>《微光》：未成年人保护纪实</h5>
-            <p>政法系统获奖作品。以影像叙事探讨社会正义。</p>
+            <p>政法系统三微比赛优秀获奖作品。以影像叙事探讨社会正义。</p>
           </div>
         </div>
       </a>
