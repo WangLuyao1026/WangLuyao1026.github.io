@@ -133,7 +133,7 @@ nav_order: 2
       <div class="st-time">2021</div>
       <div class="st-dot"></div>
       <div class="st-content">
-        <h5 class="st-job">视频策划 (实习)</h5>
+        <h5 class="st-job">新媒体编辑策划</h5>
         <div class="st-org">大众报业集团</div>
         <p class="st-desc">负责三甲医院健康传播运营，打造点赞量 <strong>10万+</strong> 的科普爆款视频。</p>
       </div>
