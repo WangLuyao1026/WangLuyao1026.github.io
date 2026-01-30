@@ -36,9 +36,9 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
 <div class="competencies-box">
   <ul class="clean-list">
-    <li><strong style="color: #4D0099;">Professional Practice:</strong> Extensive experience in news media and omni-media platforms, with a B.A. in Broadcasting and Television.</li>
-    <li><strong style="color: #4D0099;">Data Capabilities:</strong> Proficient in Social Network Analysis (SNA), Text Mining, and Statistical Modelling for large-scale user behavioural analysis.</li>
-    <li><strong style="color: #4D0099;">Theoretical Vision:</strong> Focusing on the interplay between data, users, media, and society in the intelligent media era.</li>
+    <li><strong style="color: #4D0099;">Professional Practice:</strong> Pursuing a B.A. in Broadcasting and Television under the Journalism and Communication category at the Faculty of Arts, I possess keen capabilities in topic planning and audiovisual expression, along with rich hands - on experience and frontline work exposure in news media.</li>
+    <li><strong style="color: #4D0099;">Data Capabilities:</strong> Skilled in using Python/R for Social Network Analysis (SNA), network data analysis, and advanced statistical methods. My current research interest lies in the quantitative study and reflection on user psychology and behavior.</li>
+    <li><strong style="color: #4D0099;">Theoretical Vision:</strong> Focusing on the deep interaction and tension among data, technology, media, and social structure in the intelligent media era, while maintaining critical thinking and observation from an interdisciplinary perspective.</li>
   </ul>
 </div>
 
