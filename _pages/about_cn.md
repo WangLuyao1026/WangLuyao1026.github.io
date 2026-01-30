@@ -139,12 +139,12 @@ nav_order: 2
     <div class="tl-item">
       <div class="tl-left">
         <span class="tl-year">2021</span>
-        <span class="tl-role">新媒体编辑策划</span>
+        <span class="tl-role">视频策划 (实习)</span>
       </div>
       <div class="tl-marker"></div>
       <div class="tl-right">
         <h5 class="tl-org">大众报业集团</h5>
-        <p class="tl-desc">负责齐鲁医院等山东省内三甲医院健康传播运营。独立完成脚本、拍摄与后期，打造点赞量 <strong>10万+</strong> 的爆款视频。</p>
+        <p class="tl-desc">负责三甲医院健康传播运营。独立完成脚本、拍摄与后期，打造点赞量 <strong>10万+</strong> 的爆款视频。</p>
       </div>
     </div>
     
@@ -287,8 +287,27 @@ nav_order: 2
   .hero-brand-mark { position: absolute; top: 30px; right: 30px; }
   .brand-logo { height: 80px; width: auto; opacity: 0.9; }
   
-  .name-cn { font-size: 3.2rem; font-weight: 900; color: var(--primary); letter-spacing: 10px; margin-bottom: 5px; line-height: 1; }
-  .name-en { font-family: sans-serif !important; font-size: 0.9rem; letter-spacing: 4px; color: #999; margin-bottom: 30px; }
+  /* 姓名样式修复 */
+  .name-cn { 
+    font-size: 3.5rem; 
+    font-weight: 900; 
+    color: var(--primary); 
+    letter-spacing: 12px; 
+    margin-bottom: 5px; 
+    line-height: 1.1; 
+  }
+  /* 🔴 英文名修复重点：字体换为宋体，加粗，加间距 */
+  .name-en { 
+    font-family: "Noto Serif SC", serif !important; /* 强制衬线体 */
+    font-size: 1.1rem; /* 字号加大 */
+    letter-spacing: 6px; /* 间距拉开 */
+    font-weight: 700; /* 加粗 */
+    color: #4D0099; /* 使用主题色 */
+    opacity: 0.7; /* 稍微透明一点以免抢戏 */
+    margin-bottom: 30px; 
+    margin-top: 5px;
+    text-transform: uppercase;
+  }
   
   .bio-main { max-width: 700px; }
   .tagline { font-size: 1.2rem; font-weight: 700; margin-bottom: 20px; color: #333; }
