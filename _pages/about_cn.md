@@ -18,7 +18,7 @@ nav_order: 2
     <img src="/assets/img/南京大学-logo-2048px.png" alt="Nanjing University" class="brand-logo">
   </div>
 
-  <div class="hero-text-body">
+  <div class="hero-text-body hero-shift-right">
     
     <div class="name-wrapper mb-4">
       <h1 class="name-cn-serif">王 璐 瑶</h1>
@@ -82,10 +82,9 @@ nav_order: 2
 <section class="content-section">
   <div class="reflection-paper">
     <div class="paper-content">
-      <h4 class="paper-title-new">升维：从“政法记录者”到“算法明辨者”</h4>
-      <span class="paper-label">ANNUAL REFLECTION</span>
-      
-      <div class="paper-body-new">
+      <h4 class="reflection-title-serif">升维：从“政法记录者”到“算法明辨者”</h4>
+      <span class="paper-label-bottom">ANNUAL REFLECTION</span>
+      <div class="paper-body-standard">
         <p>
           “ 那些关于传播效能、舆论生成和社会心态‘未尽的追问’，在媒体深度融合的浪潮中强烈地叩击着我。我选择奔赴心中多年的学术梦校——南京大学，在计算传播的逻辑里，去解析那些隐藏在算法背后的社会脉动。 ”
         </p>
@@ -229,9 +228,7 @@ nav_order: 2
 <section class="content-section">
   <div class="wilderness-box">
     <div class="wilderness-deco">”</div>
-    <h4 class="wilderness-title-serif">在知识的旷野中追寻无限可能</h4>
-
-
+    <h4 class="wilderness-title-serif wilderness-margin-bottom">在知识的旷野中追寻无限可能</h4>
     
     <div class="wilderness-content-serif">
       <p>
@@ -305,12 +302,17 @@ nav_order: 2
   /* 1. 开头姓名优化 */
   .name-cn-serif {
     font-family: 'Playfair Display', "Noto Serif SC", serif !important;
-    font-size: 3.5rem; 
+    font-size: 2.5rem; 
     font-weight: 900; /* 极粗衬线体 */
     color: var(--primary); 
     letter-spacing: 5px; 
     margin-bottom: 5px; 
     line-height: 1.1;
+  }
+
+  /* Hero区整体挪动 */
+  .hero-shift-right {
+    padding-left: 60px; /* 增加左间距使文字整体右移 */
   }
 
   /* 2. 知识旷野板块字体修改 */
@@ -319,12 +321,16 @@ nav_order: 2
     font-size: 1.6rem;
     font-weight: 900;
     color: #222;
-    margin-bottom: 1.5rem;
     text-align: center;
     letter-spacing: 1px;
   }
+  
+  .wilderness-margin-bottom {
+    margin-bottom: 3.5rem !important; /* 增大标题与文字的空隙 */
+  }
+
   .wilderness-content-serif p {
-    font-family: "Noto Serif SC", serif !important; /* 全面替换该区域的黑体 */
+    font-family: "Noto Serif SC", serif !important; 
     margin-bottom: 1.5rem;
     color: #444;
     text-align: justify;
@@ -334,6 +340,38 @@ nav_order: 2
     font-family: "Noto Serif SC", serif !important;
     font-weight: 900 !important;
     color: var(--primary) !important;
+  }
+
+  /* 3. 升维板块字体修改 (复刻职业轨迹风格) */
+  .reflection-title-serif {
+    font-family: "Noto Serif SC", serif !important;
+    font-weight: 800;
+    font-size: 1.3rem; /* 相比职业轨迹略小一号 */
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    font-style: normal !important; /* 去掉斜体 */
+  }
+
+  .paper-label-bottom {
+    display: block;
+    font-family: sans-serif !important;
+    font-size: 0.75rem;
+    color: #bbb;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .paper-body-standard p {
+    font-family: "Noto Serif SC", serif !important;
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 2;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    font-style: normal !important; /* 去掉斜体 */
   }
 
   /* ----------------------------------------------------- */
@@ -384,26 +422,9 @@ nav_order: 2
   .comp-text h5 { font-weight: 700; font-size: 1.2rem; color: var(--primary); margin-bottom: 10px; }
   .comp-text p { font-size: 0.95rem; color: var(--text-light); text-align: justify; }
 
-  /* 年度省思样式调整 */
+  /* 年度省思容器 */
   .reflection-paper { background: #fff; border: 1px solid var(--border-color); border-radius: 8px; padding: 50px; box-shadow: 0 5px 20px rgba(0,0,0,0.02); position: relative; }
-  .paper-label { font-family: sans-serif !important; font-size: 0.75rem; color: #bbb; letter-spacing: 1px; display: block; margin-top: 15px; text-align: center; }
-  .paper-title-new { 
-    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important; 
-    font-size: 1.2rem; /* 缩小一号，对应 tl-org 的大小感 */
-    font-weight: 800; 
-    color: #000; 
-    text-align: center; 
-    margin-bottom: 10px; 
-  }
-  .paper-body-new { 
-    font-size: 1.05rem; 
-    color: #444; 
-    line-height: 2; 
-    text-align: justify; 
-    max-width: 800px; 
-    margin: 20px auto 0 auto; 
-    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important; /* 更换为非黑体系统 */
-  }
+
   .paper-action { text-align: center; margin-top: 30px; }
   .btn-paper { color: var(--primary); font-weight: 700; border-bottom: 1px solid var(--primary); padding-bottom: 2px; }
 
@@ -468,6 +489,7 @@ nav_order: 2
   @media (max-width: 768px) {
     .hero-container { padding: 40px 20px; }
     .hero-brand-mark { position: static; text-align: left; margin-bottom: 20px; }
+    .hero-shift-right { padding-left: 0; }
     .name-cn-serif { font-size: 2.5rem; letter-spacing: 2px; }
     .name-en { font-size: 0.8rem; letter-spacing: 4px; }
     .thesis-block { flex-direction: column; text-align: center; }
