@@ -7,6 +7,8 @@ nav: true
 nav_order: 4
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+
 <div class="projects-container mt-5">
   
   <section class="graphic-section mb-6">
@@ -71,9 +73,31 @@ nav_order: 4
 <style>
   :root { --nju-purple: #4D0099; --text-light: #666; }
 
-  /* 全局呼吸感调整 */
-  .projects-container { font-family: "Lora", "PingFang SC", serif; }
-  .section-title { font-size: 2rem; color: var(--nju-purple); font-weight: 800; border-left: 8px solid var(--nju-purple); padding-left: 20px; letter-spacing: -0.5px; }
+  /* 🔴 核心修复：全局应用高级衬线体 (覆盖页面大标题) */
+  body, p, li, h1, h2, h3, h4, h5, .post-title, .post-description {
+    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  }
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500 !important;
+    line-height: 1.9 !important; /* 增加行距，提升呼吸感 */
+    color: #2c3e50;
+  }
+
+  /* 布局容器 */
+  .projects-container { max-width: 1100px; margin: 0 auto; }
+
+  /* 标题美化 */
+  .section-title {
+    color: var(--nju-purple);
+    font-family: 'Playfair Display', serif !important; /* 强调性大标题字体 */
+    font-weight: 800;
+    font-size: 2rem;
+    border-left: 8px solid var(--nju-purple);
+    padding-left: 20px;
+    letter-spacing: -0.5px;
+  }
   .my-6 { margin-top: 6rem !important; margin-bottom: 6rem !important; }
 
   /* 图文卡片样式 */
@@ -82,9 +106,9 @@ nav_order: 4
   .shadow-soft { box-shadow: 0 10px 40px rgba(0,0,0,0.04) !important; }
   .project-card:hover { transform: translateY(-10px); box-shadow: 0 20px 50px rgba(77, 0, 153, 0.12) !important; }
 
-  /* 🔴 核心修改区：增加图片容器高度 */
+  /* 增加图片容器高度 */
   .card-img-container {
-    height: 380px; /* 从 260px 增加到 380px，让图片更长 */
+    height: 380px;
     overflow: hidden;
     border-radius: 20px 20px 0 0;
   }
@@ -95,7 +119,7 @@ nav_order: 4
   .project-item-desc { font-size: 1rem; line-height: 1.8; color: var(--text-light); margin-bottom: 1.5rem; }
   .view-link { color: var(--nju-purple); font-weight: 600; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; }
 
-  /* 视频列表样式 (保持不变) */
+  /* 视频列表样式 */
   .video-row { border-bottom: 1px solid #f0f0f0; }
   .video-row:last-child { border-bottom: none; }
   .video-card-title { font-size: 1.4rem; font-weight: 700; color: var(--nju-purple); }
@@ -112,7 +136,6 @@ nav_order: 4
   /* 移动端适配 */
   @media (max-width: 768px) {
     .section-title { font-size: 1.6rem; }
-    /* 🔴 移动端也同步加高 */
-    .card-img-container { height: 300px; } /* 从 200px 增加到 300px */
+    .card-img-container { height: 300px; }
   }
 </style>
