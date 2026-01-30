@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 升维：一名政法记者的年度转型答卷
-date: 2026-01-29
+title: 《从“政法记录者”到“算法明辨者”：一名政法记者的年度转型答卷》
+date: 2026-01-01
 inline: false
 permalink: /news/reflection/
 ---
@@ -15,20 +15,13 @@ permalink: /news/reflection/
   </div>
 
   <header class="mag-masthead">
-    <div class="mag-meta">
-      <span class="mag-category">ESSAY</span>
-      <span class="mag-date">2025 ANNUAL REFLECTION</span>
-    </div>
+    <h1 class="mag-main-title">升维：从“政法记录者”到“算法明辨者”</h1>
     
-    <h1 class="mag-main-title">升维：从“政法记录者”<br>到“算法明辨者”</h1>
-    <h2 class="mag-subtitle">——在全面依法治国浪潮中，一名政法记者的年度转型答卷</h2>
+    <h2 class="mag-subtitle">—— 在全面依法治国浪潮中，一名政法记者的年度转型答卷</h2>
     
-    <div class="mag-divider-line">
-      <span class="mag-divider-icon">♦</span>
-    </div>
-
-    <div class="mag-author-block">
+    <div class="mag-author-line">
       <span class="author-name">WANG LUYAO</span>
+      <span class="sep">|</span>
       <span class="author-title">Nanjing University</span>
     </div>
   </header>
@@ -42,14 +35,14 @@ permalink: /news/reflection/
       </h3>
 
       <p class="mag-p first-para">
-        <span class="drop-cap">2</span>025年盛夏，在按下发送键、完成最后一篇关于未成年人“法治+”全链条帮扶体系的深度报道后，我正式告别了工作多年的政法新闻一线。回望那些浸润着油墨与思考的岁月，我手中记录的是中国法治进程最鲜活的注脚：从“慧治历下”未成年人检察品牌下一个个迷途知返的少年故事，到12309检察服务中心里“群众信访件件有回复”背后的治理温度；从新闻宣传办公室里策划的每一场“检察开放日”，到“服务保障营商环境”的每一个典型案例。
+        2025年盛夏，在按下发送键、完成最后一篇关于未成年人“法治+”全链条帮扶体系的深度报道后，我正式告别了工作多年的政法新闻一线。回望那些浸润着油墨与思考的岁月，我手中记录的是中国法治进程最鲜活的注脚：从“慧治历下”未成年人检察品牌下一个个迷途知返的少年故事，到12309检察服务中心里“群众信访件件有回复”背后的治理温度；从新闻宣传办公室里策划的每一场“检察开放日”，到“服务保障营商环境”的每一个典型案例。
       </p>
 
       <p class="mag-p">
         作为一名忠实的记录者，我用笔和镜头见证了“法治中国”从宏大理念到基层实践的生动落地。然而，新闻记者职业的成就感常伴随一种深层的困惑：当我精心采写的预防校园欺凌报道，数据上阅读量可观，却依然听闻类似事件发生；当我们将“检察为民办实事”的成果集纳成册，却难以精确知晓这些信息究竟触达了谁、改变了什么。
       </p>
 
-      <div class="mag-pull-quote">
+      <div class="mag-quote-modern">
         <p>“我的工作如同在一条奔涌的河流旁，细致描摹着每片浪花的光影，却难以估量整条江河的流向、速度与暗涌。”</p>
       </div>
 
@@ -136,24 +129,24 @@ permalink: /news/reflection/
   :root { --nju-purple: #4D0099; --text-main: #111; --text-light: #555; }
   
   body {
-    background-color: #fdfdfd; /* 极淡的纸张白，不刺眼 */
+    background-color: #fdfdfd;
     color: var(--text-main);
     font-family: "Noto Serif SC", serif !important;
   }
 
   /* 1. 容器 */
   .magazine-article-container {
-    max-width: 740px; /* 黄金阅读宽度 */
+    max-width: 740px;
     margin: 40px auto 100px auto;
     padding: 0 20px;
   }
 
-  /* 🔴 新增：题图样式 */
+  /* 题图 */
   .mag-feature-image-box {
     margin-bottom: 60px;
     border-radius: 2px;
     overflow: hidden;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.08); /* 优雅的阴影 */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
     border: 1px solid #f0f0f0;
   }
   .feature-img {
@@ -161,24 +154,52 @@ permalink: /news/reflection/
     height: auto;
     display: block;
     object-fit: cover;
-    max-height: 450px; /* 限制最大高度，避免图片占据太多首屏空间 */
+    max-height: 450px;
   }
 
-  /* 2. 刊头 (Masthead) */
-  .mag-masthead { text-align: center; margin-bottom: 70px; padding-bottom: 50px; border-bottom: 1px solid rgba(0,0,0,0.1); }
-  .mag-meta { margin-bottom: 25px; }
-  .mag-category { font-family: sans-serif; font-size: 0.75rem; letter-spacing: 3px; font-weight: 700; background: #eee; padding: 4px 10px; border-radius: 2px; color: #666; vertical-align: middle; }
-  .mag-date { font-family: 'Playfair Display', serif; font-size: 0.9rem; font-style: italic; color: #999; margin-left: 15px; vertical-align: middle; }
+  /* 2. 刊头 (重构) */
+  .mag-masthead { 
+    text-align: center; 
+    margin-bottom: 60px; 
+    padding-bottom: 50px; 
+    border-bottom: 1px solid rgba(0,0,0,0.08); 
+  }
   
-  .mag-main-title { font-size: 3rem; font-weight: 900; line-height: 1.25; margin-bottom: 20px; color: #000; letter-spacing: -1px; }
-  .mag-subtitle { font-size: 1.2rem; font-weight: 400; color: #666; font-style: italic; margin-bottom: 30px; }
+  /* 主标题：更紧凑，不换行 */
+  .mag-main-title { 
+    font-size: 2.2rem; /* 调整字号防止移动端强制换行过多 */
+    font-weight: 900; 
+    line-height: 1.4; 
+    margin-bottom: 15px; 
+    color: #000; 
+    letter-spacing: -0.5px;
+  }
   
-  .mag-divider-line { position: relative; height: 1px; background: #ddd; width: 60px; margin: 0 auto 30px auto; }
-  .mag-divider-icon { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #fdfdfd; padding: 0 10px; color: var(--nju-purple); font-size: 1.2rem; }
+  /* 副标题：协调性优化 */
+  .mag-subtitle { 
+    font-size: 1.15rem; 
+    font-weight: 400; 
+    color: #666; 
+    font-style: italic; 
+    margin-bottom: 30px; 
+    line-height: 1.6;
+    font-family: "Noto Serif SC", serif;
+  }
   
-  .mag-author-block { font-family: sans-serif; letter-spacing: 1px; }
-  .author-name { font-weight: 900; color: #000; font-size: 0.9rem; margin-right: 10px; }
-  .author-title { color: #888; font-size: 0.85rem; }
+  /* 作者信息行 */
+  .mag-author-line {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+    color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .author-name { font-weight: 900; color: #333; }
+  .sep { color: #ddd; }
+  .author-title { color: #777; }
 
   /* 3. 正文排版 */
   .mag-body { font-size: 1.15rem; line-height: 2.1; text-align: justify; }
@@ -190,25 +211,41 @@ permalink: /news/reflection/
   .ch-num { font-family: 'Playfair Display', serif; color: var(--nju-purple); margin-right: 8px; font-style: italic; font-size: 1.6rem; }
   .chapter-separator { text-align: center; color: #ddd; letter-spacing: 10px; margin: 60px 0; font-size: 1.2rem; }
 
-  /* 首字下沉 */
-  .drop-cap { float: left; font-family: 'Playfair Display', serif; font-size: 4.5rem; line-height: 0.8; font-weight: 900; color: var(--nju-purple); padding-right: 12px; margin-top: 5px; }
-
-  /* 金句引用 */
-  .mag-pull-quote { margin: 50px -40px; padding: 0 40px; text-align: center; }
-  .mag-pull-quote p { 
-    font-family: 'Noto Serif SC', serif; font-size: 1.6rem; font-weight: 700; 
-    line-height: 1.6; color: var(--nju-purple); font-style: italic; 
-    border-top: 1px solid #eee; border-bottom: 1px solid #eee; padding: 30px 0;
+  /* 🔴 重设计：现代特稿引用块 (替代原来的紫色居中样式) */
+  .mag-quote-modern {
+    background: #f8f9fa; /* 极浅灰背景 */
+    border-left: 6px solid var(--nju-purple); /* 左侧实线强调 */
+    padding: 30px 35px;
+    margin: 40px 0;
+    border-radius: 4px;
+  }
+  .mag-quote-modern p {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.8;
+    color: #333; /* 深灰文字，更易读 */
+    font-style: normal;
+    margin: 0;
+    text-align: left; /* 左对齐，更显正式 */
   }
 
   /* 高亮文本框 */
-  .mag-highlight-box { background: #fcfaff; padding: 35px; margin: 40px 0; border-left: 4px solid var(--nju-purple); font-weight: 600; color: #444; font-size: 1.1rem; }
+  .mag-highlight-box {
+    background: #fcfaff;
+    padding: 35px;
+    margin: 40px 0;
+    border-left: 4px solid var(--nju-purple);
+    font-weight: 600;
+    color: #444;
+    font-size: 1.1rem;
+  }
 
   /* 座右铭 */
   .mag-motto { text-align: center; margin: 50px 0; }
   .motto-cn { display: inline-block; border: 2px solid #000; padding: 15px 30px; font-weight: 800; font-size: 1.2rem; letter-spacing: 3px; }
 
-  /* 4. 页脚 */
+  /* 4. 页脚印章 */
   .mag-footer { margin-top: 100px; text-align: center; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 60px; }
   .mag-seal { 
     width: 100px; height: 100px; border: 3px solid var(--nju-purple); border-radius: 50%; 
@@ -221,12 +258,10 @@ permalink: /news/reflection/
   .btn-text-back { font-family: sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 1px; color: #999; text-decoration: none; border-bottom: 1px solid transparent; transition: 0.3s; }
   .btn-text-back:hover { color: var(--nju-purple); border-bottom-color: var(--nju-purple); }
 
-  /* 响应式 */
   @media (max-width: 768px) {
     .magazine-article-container { padding: 0 25px; }
-    .mag-main-title { font-size: 2rem; }
-    .mag-pull-quote { margin: 40px 0; padding: 0; }
-    .mag-pull-quote p { font-size: 1.3rem; }
-    .drop-cap { font-size: 3.5rem; }
+    .mag-main-title { font-size: 1.8rem; } /* 移动端适当缩小以防换行过多 */
+    .mag-quote-modern { padding: 25px; }
+    .mag-quote-modern p { font-size: 1.15rem; }
   }
 </style>
