@@ -12,7 +12,8 @@ nav_order: 3
   <div class="mb-6">
     <div class="custom-title-wrapper mb-4">
       <div class="purple-bar"></div>
-      <span class="title-icon">💼</span> <h2 class="custom-header-text">
+      <span class="title-icon">💼</span> 
+      <h2 class="custom-header-text">
         01 检察日报·山东记者站 <span class="divider">|</span> 济南市历下区人民检察院
       </h2>
     </div>
@@ -33,7 +34,7 @@ nav_order: 3
   <div class="mb-6">
     <div class="custom-title-wrapper mb-4">
       <div class="purple-bar"></div>
-      <span class="title-icon">💼</span>
+      <span class="title-icon">🎥</span>
       <h2 class="custom-header-text">
         02 山东省委政法委·济南市铁路局 <span class="divider">/</span> 03 大众报业集团·齐鲁融媒
       </h2>
@@ -49,29 +50,32 @@ nav_order: 3
 </div>
 
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
 
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 全局字体配置 */
+  /* ========================================= */
+  /* 1. [修复] 全局字体还原 */
+  /* 还原为 Research 页面一致的 PingFang SC (黑体) */
+  /* ========================================= */
   body, p, li, h1, h2, h3, h4, h5, .navbar {
-    font-family: 'Lora', "Noto Serif SC", "PingFang SC", serif !important;
+    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
   }
   body {
     -webkit-font-smoothing: antialiased;
-    font-weight: 500;
-    line-height: 1.9;
+    font-weight: 500 !important; /* 保持原有的粗度 */
+    line-height: 1.9 !important;
     color: #2c3e50;
   }
   .navbar { font-weight: 600 !important; }
 
-  /* 2. 容器设置 */
+  /* 2. 容器布局 */
   .experience-container { max-width: 1000px; margin: auto; }
   .mb-6 { margin-bottom: 5rem; }
 
   /* ========================================= */
-  /* [核心] 自定义标题样式 (复刻参考图) */
+  /* 3. 自定义标题样式 (仅此处模仿图片风格) */
   /* ========================================= */
   .custom-title-wrapper {
     display: flex;
@@ -82,23 +86,23 @@ nav_order: 3
 
   /* 紫色竖条 */
   .purple-bar {
-    width: 8px; /* 竖条宽度 */
-    height: 40px; /* 竖条高度，可根据文字高度微调 */
+    width: 8px; 
+    height: 40px; 
     background-color: var(--nju-purple);
-    margin-right: 15px; /* 竖条与图标的间距 */
+    margin-right: 15px; 
   }
 
   /* 图标 */
   .title-icon {
     font-size: 1.8rem;
     margin-right: 10px;
-    margin-bottom: 4px; /* 微调垂直对齐 */
+    margin-bottom: 4px; 
   }
 
-  /* 文字样式 */
+  /* 标题文字：使用 Noto Serif SC (宋体) 以匹配您提供的图片格式 */
   .custom-header-text {
     font-family: 'Playfair Display', "Noto Serif SC", serif !important;
-    font-weight: 800; /* 加粗 */
+    font-weight: 900 !important; /* 加粗 */
     font-size: 1.8rem;
     color: var(--nju-purple);
     margin: 0;
@@ -106,7 +110,6 @@ nav_order: 3
     padding-top: 2px;
   }
 
-  /* 分隔符样式 */
   .divider {
     color: #ccc;
     font-weight: 300;
@@ -114,12 +117,11 @@ nav_order: 3
   }
 
   /* ========================================= */
-  /* 图片容器样式 */
+  /* 4. 图片容器 */
   /* ========================================= */
   .image-only-card {
     background: #fff;
     border-radius: 12px;
-    /* 这里的 padding 由 class="p-3 p-md-4" 控制，给图片留白 */
   }
 
   .exp-img-full {
@@ -127,7 +129,7 @@ nav_order: 3
     height: auto;
     border-radius: 6px;
     display: block;
-    object-fit: contain; /* 保证图片完整显示不被裁切 */
+    object-fit: contain;
   }
   
   /* 移动端适配 */
