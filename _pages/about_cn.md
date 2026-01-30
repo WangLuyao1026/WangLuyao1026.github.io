@@ -30,8 +30,8 @@ nav_order: 2
       <p class="tagline">计算传播学 · 探索者与实践者</p>
       <div class="divider-short"></div>
       <p class="intro">
-        南京大学新闻传播学院 2025 级硕士研究生。<br>
-        我在寻找 <strong>数据理性</strong> 与 <strong>人文感性</strong> 的交汇点。
+        南京大学新闻传播学院 2025 级硕士研究生<br>
+        寻找 <strong>数据理性</strong> 与 <strong>人文感性</strong> 的交汇点
       </p>
       <p class="intro-sub">
         深耕数据科学、用户行为与社会理论的交汇点，聚焦数字平台上的行为心理、信息扩散动力学及计算叙事对公众认知与情感的塑造作用。
