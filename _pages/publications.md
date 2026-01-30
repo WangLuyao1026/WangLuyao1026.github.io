@@ -115,7 +115,7 @@ nav_order: 5
   }
 
   /* 4. 文字区域 */
-  .thesis-title { font-family: 'Playfair Display', serif !important; font-weight: 800; color: #1a1a1a; font-size: 1.7rem; line-height: 1.3; }
+  .thesis-title { font-family: 'Playfair Display', serif !important; font-weight: 800; color: #1a1a1a; font-size: 1.6rem; line-height: 1.3; }
   .badge-purple { background-color: var(--nju-purple); color: white; padding: 6px 15px; border-radius: 50px; font-weight: 700; font-size: 0.85rem; }
   .thesis-abstract { font-size: 1rem; color: #444; background: #f8f6fc; padding: 20px; border-radius: 12px; border-left: 4px solid var(--nju-purple); }
 
