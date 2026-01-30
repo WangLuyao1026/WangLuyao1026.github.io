@@ -55,8 +55,11 @@ nav_order: 3
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 全局字体设置 */
-  body, p, li, h1, h2, h3, h4, h5, .post-title, .post-description {
+  /* 🔴 核心修复：完全复制 Research 页面的字体配置 */
+  
+  /* 1. 全局字体：Lora (英) + PingFang SC (中) */
+  /* 这里去掉了 Noto Serif，确保中文显示为干净的黑体，与 Research 页面一致 */
+  body, p, li, h1, h2, h3, h4, h5, .post-title, .post-description, .navbar {
     font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
   }
   
@@ -69,37 +72,44 @@ nav_order: 3
 
   .experience-container { max-width: 1000px; margin: 0 auto; }
 
-  /* 2. 标题组排版 (核心修改) */
+  /* 2. 顶部大标题样式同步 */
+  .post-title {
+    font-weight: 800 !important;
+    letter-spacing: -0.5px;
+    /* 如果 Research 页面的大标题是用 Playfair Display 的，这里也加上 */
+    font-family: 'Playfair Display', "PingFang SC", serif !important; 
+  }
+
+  /* 3. 内部小标题 (01 检察日报...) */
   .exp-title-group {
     display: flex;
-    align-items: baseline; /* 基线对齐，确保文字底部在一条线上 */
+    align-items: baseline; 
     flex-wrap: wrap;
     border-bottom: 3px solid var(--nju-purple);
     padding-bottom: 15px;
     margin-bottom: 10px;
   }
 
-  /* 数字样式：使用无衬线体，营造现代感 */
+  /* 数字：保持 Helvetica (无衬线) */
   .exp-index {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; /* 强制无衬线 */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
     font-weight: 900;
-    font-size: 2.2rem; /* 数字大一点 */
-    color: #e0e0e0; /* 浅灰色，作为背景装饰 */
+    font-size: 2.2rem; 
+    color: #e0e0e0; 
     margin-right: 15px;
     line-height: 1;
     position: relative;
-    top: 2px; /* 微调垂直位置 */
+    top: 2px;
   }
 
-  /* 标题文字样式：使用衬线体，营造书卷气 */
+  /* 内部文字：Playfair (英) + PingFang (中) */
   .exp-text {
-    font-family: 'Playfair Display', "Noto Serif SC", serif !important;
+    font-family: 'Playfair Display', "PingFang SC", serif !important;
     font-weight: 700;
     font-size: 1.6rem;
     color: var(--nju-purple);
   }
 
-  /* 斜杠分隔符 */
   .exp-divider {
     margin: 0 15px;
     color: #ddd;
@@ -107,7 +117,7 @@ nav_order: 3
     font-size: 1.5rem;
   }
 
-  /* 3. 图片容器 */
+  /* 4. 图片容器 */
   .exp-image-box {
     border: 1px solid #eee;
     padding: 8px;
@@ -118,7 +128,7 @@ nav_order: 3
   }
   .exp-image-box:hover { transform: translateY(-5px); }
 
-  /* 4. 分割线 */
+  /* 5. 分割线 */
   .section-divider { margin: 4rem 0; border-top: 1px dashed #ddd; }
   .mb-6 { margin-bottom: 5rem; }
 </style>
