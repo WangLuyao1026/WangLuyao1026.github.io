@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Noto+Serif+SC:wght@400;700;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
 
 <div class="experience-container mt-5">
 
@@ -55,17 +55,38 @@ nav_order: 3
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 容器内正文字体：与 Research 保持一致 (Lora + PingFang) */
-  /* 注意：这里不使用全局 body 选择器，避免影响页面顶部大标题 */
-  .experience-container {
-    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
-    line-height: 1.9;
-    color: #2c3e50;
-    max-width: 1000px;
-    margin: 0 auto;
+  /* =========================================
+     1. 全局标题统一 (解决“Research”与“Experience”标题不一致问题)
+     ========================================= */
+  
+  /* 强制页面顶部大标题 (Experience) 使用 Playfair + 宋体 */
+  .post-title, h1 {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.5px;
   }
 
-  /* 2. 标题组排版 (01 检察日报...) */
+  /* 强制页面描述 (Professional Experience...) 使用 Lora + 宋体 */
+  .post-description, .page-description {
+    font-family: 'Lora', 'Noto Serif SC', serif !important;
+    font-weight: 400 !important;
+    color: #666;
+  }
+
+  /* 全局正文基础字体 */
+  body {
+    font-family: 'Lora', 'Noto Serif SC', serif !important;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.9;
+    color: #2c3e50;
+  }
+
+  .experience-container { max-width: 1000px; margin: 0 auto; }
+
+  /* =========================================
+     2. 内部标题 (01 检察日报...) 字体修正
+     ========================================= */
+  
   .exp-title-group {
     display: flex;
     align-items: baseline; 
@@ -75,22 +96,21 @@ nav_order: 3
     margin-bottom: 10px;
   }
 
-  /* 3. 数字字体：Playfair Display (与 Research 标题英文一致) */
+  /* 数字：改为 Playfair Display (衬线体)，与 Research 风格一致 */
   .exp-index {
     font-family: 'Playfair Display', serif !important; 
-    font-weight: 800;
+    font-weight: 900;
     font-size: 2.2rem; 
-    color: #e0e0e0; /* 浅灰装饰色 */
+    color: #e0e0e0; /* 浅灰装饰 */
     margin-right: 15px;
     line-height: 1;
     position: relative;
     top: 3px;
   }
 
-  /* 4. 中文标题字体：PingFang SC (与 Research 中文一致，去除宋体) */
+  /* 文字：改为 Noto Serif SC (宋体)，与“本科毕业论文”字体一致 */
   .exp-text {
-    /* 英文用 Playfair，中文回退到 PingFang (黑体) */
-    font-family: 'Playfair Display', "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-family: 'Noto Serif SC', serif !important;
     font-weight: 700;
     font-size: 1.6rem;
     color: var(--nju-purple);
@@ -103,7 +123,9 @@ nav_order: 3
     font-size: 1.5rem;
   }
 
-  /* 5. 图片容器 */
+  /* =========================================
+     3. 其他样式
+     ========================================= */
   .exp-image-box {
     border: 1px solid #eee;
     padding: 8px;
@@ -114,7 +136,6 @@ nav_order: 3
   }
   .exp-image-box:hover { transform: translateY(-5px); }
 
-  /* 6. 分割线 */
   .section-divider { margin: 4rem 0; border-top: 1px dashed #ddd; }
   .mb-6 { margin-bottom: 5rem; }
 </style>
