@@ -65,7 +65,7 @@ ninja.data = [{
               window.location.href = "/projects/2_infographic/";
             },},{id: "projects-数据可视化设计",
           title: '数据可视化设计',
-          description: "检察数据的新闻化呈现 (Data Visualization)",
+          description: "检察数据的新闻化呈现 | Data Visualization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_data_viz/";
             },},{id: "projects-微信公众号运营",
