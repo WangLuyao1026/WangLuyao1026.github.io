@@ -24,7 +24,7 @@ category: work
   <div class="row g-5">
     <div class="col-md-6">
       <div class="scroll-window shadow-md">
-        <img src="/assets/img/向人民代表报告H5长图.jpg" class="img-full-width" alt="年度报告长图">
+        <img src="/assets/img/向人民代表报告H5长图.png" class="img-full-width" alt="年度报告长图">
       </div>
       <div class="scroll-hint mt-2">
         <i class="fas fa-arrows-alt-v"></i> 在框内上下滑动查看完整长图
@@ -34,7 +34,7 @@ category: work
     
     <div class="col-md-6">
       <div class="scroll-window shadow-md">
-        <img src="/assets/img/五一劳动节，致敬铁路工作者.jpg" class="img-full-width" alt="五一安全指南">
+        <img src="/assets/img/五一劳动节，致敬铁路工作者.png" class="img-full-width" alt="五一安全指南">
       </div>
       <div class="scroll-hint mt-2">
         <i class="fas fa-arrows-alt-v"></i> 在框内上下滑动查看完整长图
