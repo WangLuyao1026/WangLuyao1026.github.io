@@ -48,7 +48,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
 <div class="clean-list-container">
   <ul class="clean-list">
-    <li><strong>Title:</strong> <em>“Research on Production Paradigm and Utility of Cloud Recording”</em></li>
+    <li><strong>Title:</strong> <em>Research on Production Paradigm and Utility of Cloud Recording</em></li>
     <li><strong>Honor:</strong> Outstanding Graduation Thesis</li>
     <li><strong>Abstract:</strong> This study explores the production process, interaction mechanisms, and social utility of “Cloud Recording” programmes during the pandemic, offering insights into the digital transformation of the broadcasting industry.</li>
   </ul>
