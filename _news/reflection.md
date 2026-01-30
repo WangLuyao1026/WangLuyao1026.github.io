@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《从“政法记录者”到“算法明辨者”：一名政法记者的年度转型答卷》
+title: 一名政法记者的年度转型答卷
 date: 2026-01-01
 inline: false
 permalink: /news/reflection/
@@ -8,11 +8,6 @@ permalink: /news/reflection/
 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
 
-<div class="magazine-article-container">
-
-  <div class="mag-feature-image-box">
-    <img src="/assets/img/杜厦图书馆.JPEG" alt="杜厦图书馆" class="feature-img">
-  </div>
 
   <header class="mag-masthead">
     <h1 class="mag-main-title">升维：从“政法记录者”到“算法明辨者”</h1>
@@ -26,6 +21,12 @@ permalink: /news/reflection/
     </div>
   </header>
 
+<div class="magazine-article-container">
+
+  <div class="mag-feature-image-box">
+    <img src="/assets/img/杜厦图书馆.JPEG" alt="杜厦图书馆" class="feature-img">
+  </div>
+  
 
   <article class="mag-body">
 
@@ -98,12 +99,9 @@ permalink: /news/reflection/
         我不确定未来是否一定会回归纯粹的司法报道，但我确信，我已获得一个更锋利、更立体的视角来审视社会现实。我随身携带的行李，是文科生的共情力、媒体人的实践力与政法系统历练出的严谨思考力。
       </p>
 
-      <div class="mag-motto">
-        <span class="motto-cn">“ 明者因时而变，知者随事而制 ”</span>
-      </div>
 
       <p class="mag-p">
-        个体的专业轨迹唯有与国家的变革脉动同频共振，方能找到其最深沉的坐标与最辽阔的舞台。这便是，我作为一名曾经的一线政法记者、现在的新闻传播学子，于数字中国浪潮里的淬炼与思考，在法治与科技融合激荡下的年度省思，更是对国家“全面依法治国”与“数字中国”战略这一时代命题交出的年度答卷与未来宣言。
+        <strong>明者因时而变，知者随事而制<strong>。个体的专业轨迹唯有与国家的变革脉动同频共振，方能找到其最深沉的坐标与最辽阔的舞台。这便是，我作为一名曾经的一线政法记者、现在的新闻传播学子，于数字中国浪潮里的淬炼与思考，在法治与科技融合激荡下的年度省思，更是对国家“全面依法治国”与“数字中国”战略这一时代命题交出的年度答卷与未来宣言。
       </p>
     </div>
 
