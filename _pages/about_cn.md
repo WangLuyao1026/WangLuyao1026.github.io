@@ -60,7 +60,7 @@ nav_order: 2
       </div>
     </div>
     <div class="comp-item highlight">
-      <div class="comp-icon">📊</div>
+      <div class="comp-icon">🖥️</div>
       <div class="comp-text">
         <h5>计算思维与数据能力</h5>
         <p>熟练使用 Python/R ，具备社会网络分析 (SNA)、网络数据分析及高级统计学能力，能独立完成从数据抓取、清洗到可视化的全流程，以量化方法洞察用户心理与网络结构，实现数据驱动的新闻发现。</p>
