@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-中文版",
-          title: "中文版",
-          description: "关于我 | About Me",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cn/";
-          },
-        },{id: "nav-experience",
+  },{id: "nav-experience",
           title: "Experience",
           description: "工作经历与专业实践 | Professional Experience",
           section: "Navigation",
