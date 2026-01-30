@@ -10,6 +10,10 @@ permalink: /news/reflection/
 
 <div class="magazine-article-container">
 
+  <div class="mag-feature-image-box">
+    <img src="/assets/img/杜厦图书馆.JPEG" alt="杜厦图书馆" class="feature-img">
+  </div>
+
   <header class="mag-masthead">
     <div class="mag-meta">
       <span class="mag-category">ESSAY</span>
@@ -137,11 +141,27 @@ permalink: /news/reflection/
     font-family: "Noto Serif SC", serif !important;
   }
 
-  /* 1. 容器：控制最佳阅读宽度 */
+  /* 1. 容器 */
   .magazine-article-container {
     max-width: 740px; /* 黄金阅读宽度 */
-    margin: 60px auto 100px auto;
+    margin: 40px auto 100px auto;
     padding: 0 20px;
+  }
+
+  /* 🔴 新增：题图样式 */
+  .mag-feature-image-box {
+    margin-bottom: 60px;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08); /* 优雅的阴影 */
+    border: 1px solid #f0f0f0;
+  }
+  .feature-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 450px; /* 限制最大高度，避免图片占据太多首屏空间 */
   }
 
   /* 2. 刊头 (Masthead) */
@@ -160,8 +180,8 @@ permalink: /news/reflection/
   .author-name { font-weight: 900; color: #000; font-size: 0.9rem; margin-right: 10px; }
   .author-title { color: #888; font-size: 0.85rem; }
 
-  /* 3. 正文排版 (Typography) */
-  .mag-body { font-size: 1.15rem; line-height: 2.1; text-align: justify; /* 两端对齐 */ }
+  /* 3. 正文排版 */
+  .mag-body { font-size: 1.15rem; line-height: 2.1; text-align: justify; }
   .mag-p { margin-bottom: 28px; color: #2c2c2c; }
   .mag-p strong { color: var(--nju-purple); font-weight: 700; }
 
@@ -170,15 +190,11 @@ permalink: /news/reflection/
   .ch-num { font-family: 'Playfair Display', serif; color: var(--nju-purple); margin-right: 8px; font-style: italic; font-size: 1.6rem; }
   .chapter-separator { text-align: center; color: #ddd; letter-spacing: 10px; margin: 60px 0; font-size: 1.2rem; }
 
-  /* 首字下沉 (Drop Cap) */
+  /* 首字下沉 */
   .drop-cap { float: left; font-family: 'Playfair Display', serif; font-size: 4.5rem; line-height: 0.8; font-weight: 900; color: var(--nju-purple); padding-right: 12px; margin-top: 5px; }
 
-  /* 金句引用 (Pull Quote) */
-  .mag-pull-quote { 
-    margin: 50px -40px; /* 稍微突破边界，增加张力 */
-    padding: 0 40px;
-    text-align: center; 
-  }
+  /* 金句引用 */
+  .mag-pull-quote { margin: 50px -40px; padding: 0 40px; text-align: center; }
   .mag-pull-quote p { 
     font-family: 'Noto Serif SC', serif; font-size: 1.6rem; font-weight: 700; 
     line-height: 1.6; color: var(--nju-purple); font-style: italic; 
@@ -186,34 +202,23 @@ permalink: /news/reflection/
   }
 
   /* 高亮文本框 */
-  .mag-highlight-box {
-    background: #fcfaff; /* 极淡的紫色背景 */
-    padding: 35px;
-    margin: 40px 0;
-    border-left: 4px solid var(--nju-purple);
-    font-weight: 600;
-    color: #444;
-    font-size: 1.1rem;
-  }
+  .mag-highlight-box { background: #fcfaff; padding: 35px; margin: 40px 0; border-left: 4px solid var(--nju-purple); font-weight: 600; color: #444; font-size: 1.1rem; }
 
   /* 座右铭 */
   .mag-motto { text-align: center; margin: 50px 0; }
   .motto-cn { display: inline-block; border: 2px solid #000; padding: 15px 30px; font-weight: 800; font-size: 1.2rem; letter-spacing: 3px; }
 
-  /* 4. 页脚印章 */
+  /* 4. 页脚 */
   .mag-footer { margin-top: 100px; text-align: center; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 60px; }
   .mag-seal { 
     width: 100px; height: 100px; border: 3px solid var(--nju-purple); border-radius: 50%; 
     margin: 0 auto 40px auto; display: flex; align-items: center; justify-content: center;
-    opacity: 0.8; transform: rotate(-5deg); /* 模拟印章倾斜 */
+    opacity: 0.8; transform: rotate(-5deg); 
   }
   .seal-inner { width: 85px; height: 85px; border: 1px solid var(--nju-purple); border-radius: 50%; display: flex; align-items: center; justify-content: center; }
   .seal-text { font-family: 'Playfair Display', serif; font-weight: 900; color: var(--nju-purple); line-height: 1.2; font-size: 1.2rem; }
   
-  .btn-text-back { 
-    font-family: sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 1px; color: #999; 
-    text-decoration: none; border-bottom: 1px solid transparent; transition: 0.3s; 
-  }
+  .btn-text-back { font-family: sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 1px; color: #999; text-decoration: none; border-bottom: 1px solid transparent; transition: 0.3s; }
   .btn-text-back:hover { color: var(--nju-purple); border-bottom-color: var(--nju-purple); }
 
   /* 响应式 */
