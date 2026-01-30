@@ -1,4 +1,3 @@
----
 layout: page
 title: 中文版
 permalink: /cn/
@@ -10,7 +9,7 @@ nav_order: 2
 <div class="lang-switcher-fixed">
   <a href="/" class="ls-link">English</a>
   <span class="ls-sep">/</span>
-    <span class="ls-active ls-zh-serif">中文版</span>
+  <span class="ls-active">中文版</span>
 </div>
 
 <section class="hero-container">
@@ -31,11 +30,11 @@ nav_order: 2
       <p class="tagline">计算传播学 · 探索者与实践者</p>
       <div class="divider-short"></div>
       <p class="intro">
-        南京大学新闻传播学院 2025 级硕士研究生<br>
-        寻找 <strong>数据理性</strong> 与 <strong>人文感性</strong> 的交汇点
+        南京大学新闻传播学院 2025 级硕士研究生。<br>
+        我在寻找 <strong>数据理性</strong> 与 <strong>人文感性</strong> 的交汇点。
       </p>
       <p class="intro-sub">
-        致力于探索数据科学、用户与社会理论的跨维度交流。重点关注数字平台上的用户行为心理、信息扩散的社会动力学，以及计算叙事对公众认知与情感的影响。
+        致力于探索数据科学、用户与社会理论的连接点。重点关注数字平台上的用户行为心理、信息扩散的社会动力学，以及计算叙事对公众认知与情感的影响。
       </p>
     </div>
 
@@ -294,12 +293,6 @@ nav_order: 2
     font-weight: 500; 
   }
   .navbar { font-weight: 600 !important; }
-
-  /* 新增：专门针对右上角“中文版”的宋体加粗样式 */
-  .ls-zh-serif {
-    font-family: "Noto Serif SC", "SimSun", "STSong", serif !important;
-    font-weight: 900 !important;
-  }
 
   /* ----------------------------------------------------- */
   /* 指定位置字体修改：衬线体 (Noto Serif SC / Playfair) */
