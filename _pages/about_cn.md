@@ -1,3 +1,4 @@
+---
 layout: page
 title: 中文版
 permalink: /cn/
