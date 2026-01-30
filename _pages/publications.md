@@ -25,7 +25,7 @@ nav_order: 5
           <div class="card-body p-4 p-lg-5 d-flex flex-column justify-content-center h-100">
             <div>
                 <span class="badge badge-purple mb-3">Outstanding Thesis Award</span>
-                <h3 class="thesis-title">云录制的生产制播范式与效用研究<br><small class="text-muted" style="font-size: 80%;">——以《天天云时间》为例</small></h3>
+                <h3 class="thesis-title">云录制的生产制播范式与效用研究<br><small class="text-muted" style="font-size: 90%;">——以《天天云时间》为例</small></h3>
                 
                 <p class="thesis-meta mt-4">
                   <strong>Publication Date:</strong> June 2021<br>
@@ -115,7 +115,7 @@ nav_order: 5
   }
 
   /* 4. 文字区域 */
-  .thesis-title { font-family: 'Playfair Display', serif !important; font-weight: 800; color: #1a1a1a; font-size: 1.2rem; line-height: 1.3; }
+  .thesis-title { font-family: 'Playfair Display', serif !important; font-weight: 800; color: #1a1a1a; font-size: 2.0rem; line-height: 1.3; }
   .badge-purple { background-color: var(--nju-purple); color: white; padding: 6px 15px; border-radius: 50px; font-weight: 700; font-size: 0.85rem; }
   .thesis-abstract { font-size: 1rem; color: #444; background: #f8f6fc; padding: 20px; border-radius: 12px; border-left: 4px solid var(--nju-purple); }
 
