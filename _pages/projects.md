@@ -12,7 +12,7 @@ nav_order: 4
 <div class="projects-container mt-5">
   
   <section class="graphic-section mb-6">
-    <h2 class="section-title mb-5">📷 图文作品 | Graphic & Design</h2>
+    <h2 class="section-title mb-5">📷 图文作品 | Graphic · Design</h2>
     
     {% assign projects = site.projects | sort: "importance" %}
     <div class="row row-cols-1 row-cols-md-2 g-5">
