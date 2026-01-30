@@ -24,23 +24,44 @@ nav_order: 2
   </div>
 </div>
 
-<div class="section-container mt-6">
+<div class="section-container section-margin">
+  <div class="wilderness-block">
+    <div class="editorial-header">
+      <h3 class="ed-title">重返旷野</h3>
+      <span class="ed-subtitle">RETURNING TO THE WILDERNESS</span>
+    </div>
+    
+    <div class="quote-card mt-5">
+      <p class="quote-highlight">
+        “ 旷野从不拒绝月色后升起的骤雨，生命轨迹本就不该有固定的程序。<br>
+        你可以随意选择自己的交卷时间。 ”
+      </p>
+      
+      <div class="philosophical-text mt-5">
+        <p>或许有人会好奇，在政法一线工作数年后，我为何选择重返校园？</p>
+        <p>答案一如迟子建在《也是冬天，也是春天》中所写：<strong>“我想，人生是可以慢半拍、再慢半拍的，生命的钟表，不能一味地往前拨，要习惯自己是生活的迟到者。”</strong></p>
+        <p>新闻传播领域犹如一片无尽的知识旷野，值得在其中不断探索、求知。知识不可能俯身去够人类，只有人类垫脚去够知识。做一名<strong>“终身学习者”</strong>，是我对自己最深刻的期许。</p>
+        <p>如今，我满怀热忱，愿在这片学术沃土里继续追逐梦想。像校园里即将肆意绽放的海棠一样，这会是一个皆大欢喜的、美好的春天。</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-container section-margin">
   <div class="reflection-book-block">
-    <div class="book-bracket left"></div>
     <div class="reflection-content">
-      <h4 class="reflection-title-main">升维：从“政法记录者”到“算法明辨者”</h4>
+      <h4 class="reflection-title-main">年度省思｜从“政法记录者”到“算法明辨者”</h4>
       <p class="reflection-excerpt">
-        “ 那些关于传播效能、舆论生成和社会心态‘未尽的追问’，在媒体深度融合的浪潮中强烈地叩击着我。我选择奔赴心中多年的学术梦校——南京大学，在计算传播的逻辑里，去解析那些隐藏在算法背后的社会脉动。 ”
+        “ 那些关于传播效能、舆论生成和社会心态‘未尽的追问’，在媒体深度融合的浪潮中强烈地叩击着我。我选择奔赴南京大学，在计算传播的逻辑里，去解析那些隐藏在算法背后的社会脉动。 ”
       </p>
       <div class="text-center mt-4">
         <a href="/news/reflection/" class="read-full-link">阅读年度转型答卷全文 &rarr;</a>
       </div>
     </div>
-    <div class="book-bracket right"></div>
   </div>
 </div>
 
-<div class="section-container mt-6">
+<div class="section-container section-margin">
   <div class="row g-4">
     <div class="col-md-4">
       <div class="skill-minimal">
@@ -56,14 +77,14 @@ nav_order: 2
     </div>
     <div class="col-md-4">
       <div class="skill-minimal">
-        <h5>🧠 理论视野</h5>
+        <h5>💡 理论视野</h5>
         <p>聚焦智媒时代下技术与社会的张力，在跨学科视野中保持批判性思考与观察。</p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="section-container mt-6">
+<div class="section-container section-margin">
   <div class="thesis-wrapper">
     <div class="row align-items-center">
       <div class="col-md-3 text-center border-right-md">
@@ -84,7 +105,7 @@ nav_order: 2
   </div>
 </div>
 
-<div class="section-container mt-6">
+<div class="section-container section-margin">
   <div class="editorial-header">
     <h3 class="ed-title">职业轨迹</h3>
     <span class="ed-subtitle">PROFESSIONAL EXPERIENCE</span>
@@ -105,7 +126,7 @@ nav_order: 2
       <div class="st-content">
         <h5 class="st-job">记者 / 编辑</h5>
         <div class="st-org">检察日报 & 历下区检察院</div>
-        <p class="st-desc">参与“大数据赋能法律监督”项目，统筹全媒体矩阵，负责政法一线纪实传播。</p>
+        <p class="st-desc">参与负责“大数据赋能法律监督”创新项目，负责政法一线纪实传播工作。</p>
       </div>
     </div>
     <div class="st-item">
@@ -114,43 +135,8 @@ nav_order: 2
       <div class="st-content">
         <h5 class="st-job">视频策划 (实习)</h5>
         <div class="st-org">大众报业集团</div>
-        <p class="st-desc">独立完成脚本与后期剪辑，打造点赞量 <strong>10万+</strong> 的科普爆款视频。</p>
+        <p class="st-desc">负责三甲医院健康传播运营，打造点赞量 <strong>10万+</strong> 的科普爆款视频。</p>
       </div>
-    </div>
-  </div>
-</div>
-
-<div class="section-container mt-6 mb-6">
-  <div class="editorial-header">
-    <h3 class="ed-title">精选作品</h3>
-    <span class="ed-subtitle">SELECTED PORTFOLIO</span>
-  </div>
-  <div class="row g-5">
-    <div class="col-md-6">
-      <a href="/projects/" class="portfolio-link">
-        <div class="portfolio-item">
-          <div class="p-img-box">
-             <img src="/assets/img/about展示封面-微光.jpg" alt="微光">
-          </div>
-          <div class="p-caption text-center">
-            <span class="p-tag">Micro-film</span>
-            <h5 class="p-title">微电影：《微光》</h5>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col-md-6">
-      <a href="/projects/" class="portfolio-link">
-        <div class="portfolio-item">
-          <div class="p-img-box">
-             <img src="/assets/img/about展示封面-1.png" alt="VI">
-          </div>
-          <div class="p-caption text-center">
-            <span class="p-tag">Visual Identity</span>
-            <h5 class="p-title">视觉识别系统 (VI) 设计</h5>
-          </div>
-        </div>
-      </a>
     </div>
   </div>
 </div>
@@ -178,10 +164,11 @@ nav_order: 2
 <style>
   :root { --nju-purple: #4D0099; --text-gray: #777; --line-soft: #eee; }
 
-  /* 基础 */
+  /* 基础排版 */
   body, p, li, h1, h2, h3, h4, h5, div { font-family: "Noto Serif SC", serif !important; }
-  body { line-height: 1.8; color: #1a1a1a; -webkit-font-smoothing: antialiased; }
+  body { line-height: 2.0; color: #1a1a1a; -webkit-font-smoothing: antialiased; }
   
+  .section-margin { margin-top: 8rem !important; }
   .lang-switcher-float { position: absolute; top: 1.5rem; right: 2rem; font-family: sans-serif !important; }
   .lang-link { color: #ccc; text-decoration: none; }
   .lang-active { color: var(--nju-purple); font-weight: bold; }
@@ -193,68 +180,68 @@ nav_order: 2
   .hero-tag-pills { font-size: 0.95rem; color: #555; }
   .pill-sep { margin: 0 15px; color: #ddd; }
 
-  /* 2. 年度省思引言块 */
-  .reflection-book-block {
-    max-width: 800px; margin: 0 auto; padding: 40px; position: relative;
-    background: #fdfcff; border-radius: 4px; border: 1px solid #f2f0f5;
+  /* 2. 重返旷野：书卷排版核心样式 */
+  .wilderness-block { max-width: 900px; margin: 0 auto; }
+  .quote-card { background: #fff; padding: 20px 0; }
+  .quote-highlight {
+    font-size: 1.6rem; 
+    font-weight: 500; 
+    color: #000; 
+    line-height: 1.6; 
+    text-align: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 40px 0;
+    margin-bottom: 50px;
   }
-  .reflection-title-main { font-weight: 700; color: #000; margin-bottom: 25px; }
-  .reflection-excerpt { font-size: 1.1rem; color: #444; line-height: 2; font-style: italic; }
-  .read-full-link {
-    display: inline-block; padding: 8px 25px; border: 1px solid var(--nju-purple);
-    color: var(--nju-purple) !important; text-decoration: none; font-size: 0.9rem; font-weight: 700;
+  .philosophical-text p {
+    font-size: 1.1rem;
+    color: #444;
+    text-align: justify;
+    margin-bottom: 2rem;
+    text-indent: 2em; /* 段落缩进，更显书卷气 */
   }
-  .read-full-link:hover { background: var(--nju-purple); color: white !important; }
+  .philosophical-text strong { color: var(--nju-purple); }
 
-  /* 3. 技能列表：无框极简 */
-  .skill-minimal { padding: 20px; text-align: center; }
-  .skill-minimal h5 { font-weight: 700; font-size: 1.1rem; margin-bottom: 15px; color: var(--nju-purple); }
-  .skill-minimal p { font-size: 0.95rem; color: #666; margin: 0; }
-  .border-x { border-left: 1px solid #eee; border-right: 1px solid #eee; }
+  /* 3. 年度省思 */
+  .reflection-book-block { max-width: 850px; margin: 0 auto; padding: 50px; background: #fdfcff; border-radius: 4px; border: 1px solid #f2f0f5; }
+  .reflection-title-main { font-weight: 700; color: var(--nju-purple); margin-bottom: 30px; border-left: 4px solid var(--nju-purple); padding-left: 20px; }
+  .reflection-excerpt { font-size: 1.15rem; color: #444; line-height: 2.2; font-style: italic; }
+  .read-full-link { display: inline-block; padding: 8px 30px; border: 1.5px solid var(--nju-purple); color: var(--nju-purple) !important; text-decoration: none; font-size: 0.9rem; font-weight: 700; border-radius: 50px; }
 
-  /* 4. 代表作保留样式 */
-  .thesis-wrapper { background: #fafafa; border-radius: 4px; padding: 45px; border: 1px solid #eee; }
-  .honor-box { width: 110px; height: 110px; border-radius: 50%; border: 2.5px solid var(--nju-purple); color: var(--nju-purple); display: inline-flex; flex-direction: column; justify-content: center; align-items: center; }
-  .thesis-main-title { font-size: 1.5rem; font-weight: 800; margin: 15px 0; }
-  .link-more { color: var(--nju-purple) !important; font-weight: 700; text-decoration: none; }
-
-  /* 5. 职业轨迹：书卷时间轴 */
-  .editorial-header { border-bottom: 1px solid #f0f0f0; margin-bottom: 40px; padding-bottom: 10px; }
-  .ed-title { font-size: 1.4rem; font-weight: 800; display: inline-block; margin-right: 15px; }
-  .ed-subtitle { font-family: sans-serif !important; font-size: 0.7rem; color: #ccc; letter-spacing: 2px; }
-  
+  /* 4. 职业轨迹 */
+  .editorial-header { border-bottom: 1px solid #f0f0f0; margin-bottom: 50px; padding-bottom: 10px; }
+  .ed-title { font-size: 1.5rem; font-weight: 900; display: inline-block; margin-right: 15px; }
+  .ed-subtitle { font-family: sans-serif !important; font-size: 0.75rem; color: #ccc; letter-spacing: 2px; }
   .scholarly-timeline { position: relative; padding-left: 170px; }
   .scholarly-timeline::before { content: ""; position: absolute; left: 170px; top: 10px; bottom: 10px; width: 1px; background: #eee; }
-  .st-item { position: relative; margin-bottom: 45px; }
-  .st-time { position: absolute; left: -170px; top: 5px; width: 140px; text-align: right; font-family: sans-serif !important; font-weight: 700; color: var(--nju-purple); font-size: 1rem; }
-  .st-dot { position: absolute; left: 0; top: 11px; width: 9px; height: 9px; background: var(--nju-purple); border-radius: 50%; transform: translateX(-50%); z-index: 2; }
-  .st-content { padding-left: 40px; }
-  .st-job { font-weight: 800; font-size: 1.2rem; color: #111; margin-bottom: 4px; }
-  .st-org { font-family: sans-serif !important; font-size: 0.9rem; font-weight: 600; color: #888; margin-bottom: 10px; }
-  .st-desc { font-size: 0.95rem; color: #555; }
+  .st-item { position: relative; margin-bottom: 60px; }
+  .st-time { position: absolute; left: -170px; top: 5px; width: 140px; text-align: right; font-family: sans-serif !important; font-weight: 700; color: var(--nju-purple); font-size: 1.1rem; }
+  .st-dot { position: absolute; left: 0; top: 12px; width: 11px; height: 11px; background: var(--nju-purple); border-radius: 50%; transform: translateX(-50%); z-index: 2; box-shadow: 0 0 0 5px #fff; }
+  .st-content { padding-left: 50px; }
+  .st-job { font-weight: 900; font-size: 1.3rem; margin-bottom: 8px; }
+  .st-org { font-family: sans-serif !important; font-size: 1rem; color: #888; font-weight: 600; margin-bottom: 15px; }
 
-  /* 6. 作品集排版修复 */
-  .portfolio-link { text-decoration: none !important; color: inherit !important; }
-  .p-img-box { border-radius: 4px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
-  .p-img-box img { width: 100%; height: auto; transition: 0.6s; }
-  .portfolio-item:hover img { transform: scale(1.05); }
-  .p-caption { padding: 20px 0; }
-  .p-tag { font-family: sans-serif !important; font-size: 0.75rem; color: var(--nju-purple); font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; }
-  .p-title { font-weight: 800; font-size: 1.15rem; margin-top: 8px; }
-
-  /* 7. Footer 名片 */
-  .contact-card-footer { max-width: 600px; margin: 0 auto; padding: 40px 0; border-top: 1px solid #eee; }
-  .footer-name { font-family: sans-serif !important; font-weight: 900; letter-spacing: 3px; color: #ddd; font-size: 1.3rem; }
-  .contact-info-wrap { display: flex; justify-content: center; align-items: center; font-family: sans-serif !important; font-size: 0.9rem; color: #666; }
-  .ci-item i { margin-right: 8px; color: var(--nju-purple); }
-  .ci-sep { margin: 0 15px; color: #eee; }
-  .footer-loc { font-size: 0.85rem; color: #aaa; }
+  /* 5. 其他组件 */
+  .skill-minimal { padding: 20px; text-align: center; }
+  .skill-minimal h5 { font-weight: 700; font-size: 1.2rem; margin-bottom: 15px; color: var(--nju-purple); }
+  .border-x { border-left: 1px solid #eee; border-right: 1px solid #eee; }
+  .thesis-wrapper { background: #fafafa; padding: 50px; border: 1px solid #eee; border-radius: 8px; }
+  .honor-box { width: 110px; height: 110px; border-radius: 50%; border: 2px solid var(--nju-purple); color: var(--nju-purple); display: inline-flex; flex-direction: column; justify-content: center; align-items: center; }
+  .thesis-main-title { font-size: 1.6rem; font-weight: 900; margin: 20px 0; }
+  .contact-card-footer { max-width: 650px; margin: 0 auto; padding: 60px 0; border-top: 1px solid #eee; }
+  .footer-name { font-family: sans-serif !important; font-weight: 900; letter-spacing: 4px; color: #ddd; font-size: 1.5rem; }
+  .ci-item i { margin-right: 10px; color: var(--nju-purple); }
+  .ci-sep { margin: 0 20px; color: #eee; }
 
   @media (max-width: 768px) {
+    .section-margin { margin-top: 5rem !important; }
+    .hero-name { font-size: 2.2rem; letter-spacing: 8px; }
+    .quote-highlight { font-size: 1.2rem; padding: 30px 15px; }
     .scholarly-timeline { padding-left: 0; }
     .scholarly-timeline::before, .st-dot { display: none; }
-    .st-time { position: static; text-align: left; margin-bottom: 5px; }
+    .st-time { position: static; text-align: left; margin-bottom: 10px; }
     .st-content { padding-left: 0; }
-    .hero-name { font-size: 2.2rem; letter-spacing: 6px; }
+    .reflection-book-block { padding: 30px 20px; }
   }
 </style>
