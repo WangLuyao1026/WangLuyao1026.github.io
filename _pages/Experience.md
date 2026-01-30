@@ -55,44 +55,45 @@ nav_order: 3
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 全局字体优化 (严格参考 Research) */
-  body, p, li, h1, h2, h3, h4, h5, .navbar {
-    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  /* =========================================
+     1. 顶级标题同步：【物理级对齐 Research 顶部标题】
+     ========================================= */
+  
+  /* 强制修改页面最上方的 Experience 标题 */
+  .post-title, h1 {
+    font-family: 'Playfair Display', "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-weight: 800 !important; /* 同步 Research 的字重 */
+    font-size: 1.8rem !important; /* 同步 Research 的字号 */
+    color: var(--nju-purple) !important;
+    /* 🔴 彻底删除紫线和缩进 */
+    border-left: none !important;
+    padding-left: 0 !important;
+    margin-bottom: 1rem !important;
+    letter-spacing: normal !important;
   }
-  body {
-    -webkit-font-smoothing: antialiased;
-    font-weight: 500 !important;
-    line-height: 1.9 !important;
+
+  /* 描述文字同步 */
+  .post-description, .page-description {
+    font-family: 'Lora', "PingFang SC", sans-serif !important;
+    font-size: 1.1rem !important;
+    color: #666 !important;
+    padding-left: 0 !important; /* 彻底删除缩进 */
+    margin-bottom: 3rem !important;
+  }
+
+  /* 正文通用 */
+  body, .experience-container {
+    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    line-height: 1.9;
     color: #2c3e50;
   }
 
-  .experience-container { max-width: 1100px; margin: auto; }
+  .experience-container { max-width: 1000px; margin: 0 auto; }
 
   /* =========================================
-     1. 顶级标题同步：严格对齐 Research 页面 .section-title
+     2. 内部标题同步：参考“Undergraduate Thesis”
      ========================================= */
-  .post-title, h1 {
-    color: var(--nju-purple) !important;
-    font-weight: 800 !important;
-    font-size: 1.8rem !important;
-    font-family: 'Playfair Display', serif !important;
-    border-left: 8px solid var(--nju-purple) !important;
-    padding-left: 20px !important;
-    margin-bottom: 1.5rem !important;
-    letter-spacing: normal !important; /* 恢复常规字间距 */
-  }
-
-  /* 描述文字同步 (对齐 Research 描述间距) */
-  .post-description, .page-description {
-    font-size: 1.1rem !important;
-    color: #666 !important;
-    margin-bottom: 3rem !important;
-    padding-left: 28px !important; /* 对齐标题侧边线后的文字位置 */
-  }
-
-  /* =========================================
-     2. 内部标题同步：严格对齐 Research 内部 .thesis-title
-     ========================================= */
+  
   .exp-title-group {
     display: flex;
     align-items: baseline; 
@@ -100,7 +101,7 @@ nav_order: 3
     padding-bottom: 10px;
   }
 
-  /* 数字：保持原有的 Helvetica 无衬线体 */
+  /* 数字：严格保留无衬线体 Helvetica */
   .exp-index {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
     font-weight: 900;
@@ -112,13 +113,12 @@ nav_order: 3
     top: 2px;
   }
 
-  /* 单位名称：严格参考 Research 的 thesis-title 属性 */
+  /* 单位名称：同步为 Research 的内部标题字体 (Playfair + 苹方) */
   .exp-text {
-    font-family: 'Playfair Display', serif !important; 
-    font-weight: 800 !important; 
-    color: #1a1a1a !important; /* 同步 Research 标题颜色 */
-    font-size: 1.6rem !important;
-    line-height: 1.3 !important;
+    font-family: 'Playfair Display', "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-weight: 800; 
+    font-size: 1.6rem;
+    color: var(--nju-purple);
   }
 
   .exp-divider {
@@ -141,6 +141,6 @@ nav_order: 3
   }
   .exp-image-box:hover { transform: translateY(-5px); }
 
-  .section-divider { margin: 5rem 0; border-top: 1px dashed #ddd; }
+  .section-divider { margin: 4rem 0; border-top: 1px dashed #ddd; }
   .mb-6 { margin-bottom: 5rem; }
 </style>
