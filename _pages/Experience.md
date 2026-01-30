@@ -13,7 +13,7 @@ nav_order: 3
 
   <section class="exp-item mb-6">
     <div class="exp-header mb-3">
-      <h2 class="exp-title-group">
+      <h2 class="experience-section-title">
         <span class="exp-index">01</span>
         <span class="exp-text">检察日报·山东记者站</span>
       </h2>
@@ -36,7 +36,7 @@ nav_order: 3
 
   <section class="exp-item mb-6">
     <div class="exp-header mb-4">
-      <h2 class="exp-title-group">
+      <h2 class="experience-section-title">
         <span class="exp-index">02</span>
         <span class="exp-text">山东省委政法委·济南市铁路局</span>
         <span class="exp-divider">/</span>
@@ -55,53 +55,60 @@ nav_order: 3
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* =========================================
-     1. 顶级标题同步：【物理级对齐 Research 顶部标题】
-     ========================================= */
-  
-  /* 强制修改页面最上方的 Experience 标题 */
-  .post-title, h1 {
-    font-family: 'Playfair Display', "PingFang SC", "Microsoft YaHei", sans-serif !important;
-    font-weight: 800 !important; /* 同步 Research 的字重 */
-    font-size: 1.8rem !important; /* 同步 Research 的字号 */
-    color: var(--nju-purple) !important;
-    /* 🔴 彻底删除紫线和缩进 */
-    border-left: none !important;
-    padding-left: 0 !important;
-    margin-bottom: 1rem !important;
-    letter-spacing: normal !important;
-  }
-
-  /* 描述文字同步 */
-  .post-description, .page-description {
+  /* 🔴 1. 导航栏像素级同步 (同步 Research 页面的美观 Navbar) */
+  .navbar { 
     font-family: 'Lora', "PingFang SC", sans-serif !important;
-    font-size: 1.1rem !important;
-    color: #666 !important;
-    padding-left: 0 !important; /* 彻底删除缩进 */
-    margin-bottom: 3rem !important;
+    font-weight: 600 !important; 
+    letter-spacing: 0.5px !important;
+  }
+  .nav-link { 
+    font-size: 1rem !important; 
+    transition: color 0.3s ease;
   }
 
-  /* 正文通用 */
-  body, .experience-container {
+  /* 🔴 2. 全局字体与顶级标题优化 (同步 Research) */
+  body, p, li, h1, h2, h3, h4, h5 {
     font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
-    line-height: 1.9;
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500 !important;
+    line-height: 1.9 !important;
     color: #2c3e50;
   }
 
-  .experience-container { max-width: 1000px; margin: 0 auto; }
-
-  /* =========================================
-     2. 内部标题同步：参考“Undergraduate Thesis”
-     ========================================= */
-  
-  .exp-title-group {
-    display: flex;
-    align-items: baseline; 
-    flex-wrap: wrap;
-    padding-bottom: 10px;
+  /* 顶级大标题 Experience：黑色，无边框，对齐 Research 顶部 */
+  .post-title, h1 {
+    color: #000 !important;
+    font-weight: 800 !important;
+    font-size: 2.5rem !important;
+    font-family: 'Playfair Display', serif !important;
+    border-left: none !important;
+    padding-left: 0 !important;
+    margin-bottom: 1.5rem !important;
   }
 
-  /* 数字：严格保留无衬线体 Helvetica */
+  .post-description {
+    font-size: 1.1rem !important;
+    color: #666 !important;
+    margin-bottom: 3rem !important;
+    padding-left: 0 !important;
+  }
+
+  /* 🔴 3. 内部小标题同步：克隆 Research 的 .section-title */
+  .experience-section-title {
+    color: var(--nju-purple) !important;
+    font-weight: 800 !important;
+    font-size: 1.8rem !important;
+    font-family: 'Playfair Display', serif !important;
+    border-left: 8px solid var(--nju-purple) !important; /* 紫色边框 */
+    padding-left: 20px !important;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1.5rem;
+  }
+
+  /* 数字：Helvetica 无衬线体 */
   .exp-index {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
     font-weight: 900;
@@ -113,24 +120,9 @@ nav_order: 3
     top: 2px;
   }
 
-  /* 单位名称：同步为 Research 的内部标题字体 (Playfair + 苹方) */
-  .exp-text {
-    font-family: 'Playfair Display', "PingFang SC", "Microsoft YaHei", sans-serif !important;
-    font-weight: 800; 
-    font-size: 1.6rem;
-    color: var(--nju-purple);
-  }
+  .experience-container { max-width: 1100px; margin: auto; }
 
-  .exp-divider {
-    margin: 0 12px;
-    color: #ddd;
-    font-weight: 300;
-    font-size: 1.5rem;
-  }
-
-  /* =========================================
-     3. 视觉组件
-     ========================================= */
+  /* 图片容器美化 */
   .exp-image-box {
     border: 1px solid #eee;
     padding: 8px;
@@ -141,6 +133,5 @@ nav_order: 3
   }
   .exp-image-box:hover { transform: translateY(-5px); }
 
-  .section-divider { margin: 4rem 0; border-top: 1px dashed #ddd; }
-  .mb-6 { margin-bottom: 5rem; }
+  .section-divider { margin: 5rem 0; border-top: 1px dashed #ddd; }
 </style>
