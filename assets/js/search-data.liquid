@@ -1,0 +1,40 @@
+---
+layout: null
+---
+{% if site.search_enabled %}
+  const ninja = document.querySelector('ninja-keys');
+
+  // 初始化搜索数据，仅包含文章(Posts)和页面(Pages)
+  const searchData = [
+    {%- for post in site.posts -%}
+    {
+      id: "{{ post.url | slugify }}",
+      title: "{{ post.title | xml_escape }}",
+      description: "{{ post.description | xml_escape | strip_newlines }}",
+      section: "Blog Posts",
+      handler: () => {
+        window.location.href = "{{ post.url | relative_url }}";
+      },
+    },
+    {%- endfor -%}
+
+    {%- for page in site.pages -%}
+      {%- if page.title and page.title != "404" and page.nav and page.title != "Blog" -%}
+      {
+        id: "{{ page.url | slugify }}",
+        title: "{{ page.title | xml_escape }}",
+        description: "{{ page.description | xml_escape | strip_newlines }}",
+        section: "Pages",
+        handler: () => {
+          window.location.href = "{{ page.url | relative_url }}";
+        },
+      },
+      {%- endif -%}
+    {%- endfor -%}
+  ];
+
+  // 将数据赋值给搜索组件
+  if (ninja) {
+    ninja.data = searchData;
+  }
+{% endif %}
