@@ -148,28 +148,28 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
 <hr style="border-top: 1px solid #ddd; margin: 4rem 0;">
 
-<div class="contact-footer-refined mb-6">
+<div class="contact-footer-final mb-6">
   <h3 class="contact-title mb-4">📬 Contact Information</h3>
   
-  <div class="contact-rows-container">
-    <div class="contact-single-row">
-      <span class="contact-label-fixed">Email:</span>
-      <span class="contact-value-fixed"><a href="mailto:522025110043@smail.nju.edu.cn">522025110043@smail.nju.edu.cn</a></span>
+  <div class="contact-stack">
+    <div class="contact-line">
+      <span class="c-lbl">Email:</span>
+      <span class="c-val"><a href="mailto:522025110043@smail.nju.edu.cn">522025110043@smail.nju.edu.cn</a></span>
     </div>
     
-    <div class="contact-single-row">
-      <span class="contact-label-fixed">Phone:</span>
-      <span class="contact-value-fixed">+86 198 5281 8206</span>
+    <div class="contact-line">
+      <span class="c-lbl">Phone:</span>
+      <span class="c-val">+86 198 5281 8206</span>
     </div>
     
-    <div class="contact-single-row">
-      <span class="contact-label-fixed">WeChat:</span>
-      <span class="contact-value-fixed">W_10269Y</span>
+    <div class="contact-line">
+      <span class="c-lbl">WeChat:</span>
+      <span class="c-val">W_10269Y</span>
     </div>
     
-    <div class="contact-single-row mt-2">
-      <span class="contact-label-fixed">Address:</span>
-      <span class="contact-value-fixed">
+    <div class="contact-line mt-2">
+      <span class="c-lbl">Address:</span>
+      <span class="c-val c-addr">
         School of Journalism and Communication, Nanjing University (Xianlin Campus), 163 Xianlin Avenue, Qixia District, Nanjing, China.
       </span>
     </div>
@@ -179,7 +179,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 核心修复：照片整体上移 */
+  /* 照片上移 */
   .profile {
     margin-top: -20px !important; 
     margin-left: 35px !important; 
@@ -187,7 +187,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     max-width: 200px !important; 
   }
 
-  /* 2. 核心修复：Core Competencies 往下移 */
+  /* 标题样式 */
   h3 {
     font-family: 'Playfair Display', serif !important;
     color: #1a1a1a !important;
@@ -199,82 +199,62 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     font-weight: 700;
   }
 
-  /* 3. Experience 样式优化 */
-  .exp-role {
-    font-weight: 800;
-    color: #2c3e50;
-    font-size: 1.15rem;
-    margin-bottom: 2px;
-  }
-  .exp-company {
-    font-style: italic;
-    color: var(--nju-purple);
-    font-family: 'Lora', serif;
-    margin-bottom: 8px;
-    font-weight: 600;
-  }
-  .exp-date {
-    font-size: 0.95rem;
-    color: #888;
-    font-weight: 500;
-  }
-  .exp-desc {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 0;
-  }
-
-  /* 🔴 核心修改：Contact 全居中样式 */
-  .contact-footer-refined {
-    font-family: 'Lora', serif;
-    text-align: center;
+  /* 🔴 核心修改：强制全居中 */
+  .contact-footer-final {
     width: 100%;
+    text-align: center !important;
+    font-family: 'Lora', serif;
   }
-  .contact-rows-container {
+  .contact-stack {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    align-items: center; /* 确保子元素在交叉轴居中 */
+    justify-content: center;
+    gap: 8px;
   }
-  .contact-single-row {
+  .contact-line {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 8px;
+    align-items: baseline;
+    gap: 10px;
+    width: 100%;
   }
-  .contact-label-fixed {
+  .c-lbl {
     font-weight: 700;
     color: var(--nju-purple);
-    font-size: 1rem;
+    min-width: 70px;
+    text-align: right;
   }
-  .contact-value-fixed {
+  .c-val {
+    text-align: left;
     color: #444;
-    font-size: 1rem;
-    max-width: 600px;
   }
-  .contact-value-fixed a {
+  .c-val a {
     color: #444;
     text-decoration: underline;
     text-decoration-color: #ddd;
-    transition: 0.3s;
   }
-  .contact-value-fixed a:hover {
-    color: var(--nju-purple);
-    text-decoration-color: var(--nju-purple);
+  .c-val a:hover { color: var(--nju-purple); }
+  
+  /* 地址栏宽度控制，防止过长破坏居中感 */
+  .c-addr {
+    max-width: 500px;
+    line-height: 1.5;
   }
 
-  /* 侧边栏文字美化 */
-  .profile-info-refined {
-    text-align: center;
-    margin-top: 15px;
-    line-height: 1.4 !important;
-  }
-  .univ-name { font-weight: 800; color: var(--nju-purple); font-size: 1.1rem; margin-bottom: 5px; font-family: 'Playfair Display', serif; }
-  .dept-name { font-size: 0.85rem; color: #555; margin-bottom: 8px; font-weight: 500; }
-  .loc-name { font-size: 0.8rem; color: #999; letter-spacing: 0.5px; }
+  /* Experience 优化 */
+  .exp-role { font-weight: 800; color: #2c3e50; font-size: 1.15rem; }
+  .exp-company { font-style: italic; color: var(--nju-purple); font-family: 'Lora', serif; font-weight: 600; }
+  .exp-date { font-size: 0.95rem; color: #888; }
+  .exp-desc { font-size: 1rem; color: #555; line-height: 1.6; }
 
-  /* 去除列表黑点的通用类 */
+  /* 侧边栏美化 */
+  .profile-info-refined { text-align: center; margin-top: 15px; line-height: 1.4 !important; }
+  .univ-name { font-weight: 800; color: var(--nju-purple); font-size: 1.1rem; font-family: 'Playfair Display', serif; }
+  .dept-name { font-size: 0.85rem; color: #555; }
+  .loc-name { font-size: 0.8rem; color: #999; }
+
+  /* 去除列表黑点 */
   .clean-list { list-style: none !important; padding-left: 0 !important; }
   .clean-list li { position: relative; padding-left: 20px; margin-bottom: 10px; }
   .clean-list li::before {
@@ -284,10 +264,9 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     left: 0;
     top: -1px;
     font-size: 1.2rem;
-    line-height: 1.5rem;
   }
 
-  /* 全局基础样式 */
+  /* 全局样式 */
   body, p, li, .post-content {
     font-family: 'Lora', 'Georgia', serif !important;
     font-size: 1.1rem !important;
@@ -296,27 +275,27 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
     text-align: justify;
   }
   
-  /* 动态展播、按钮等组件 */
-  #portfolioCarousel { border-radius: 20px; overflow: hidden; margin-top: 2rem; height: 450px; }
+  /* Carousel & Buttons */
+  #portfolioCarousel { border-radius: 20px; overflow: hidden; height: 450px; }
   .carousel-img { height: 450px; object-fit: cover; }
   .carousel-img-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 60%, transparent 100%); z-index: 1; }
   .carousel-caption { z-index: 2; left: 8%; bottom: 15%; max-width: 50%; }
-  .slider-title { font-family: 'Playfair Display', serif !important; font-size: 2.2rem !important; font-weight: 700 !important; color: #fff !important; margin-bottom: 1rem; line-height: 1.2 !important; border:none!important; }
-  .slider-desc { font-size: 1rem !important; line-height: 1.6 !important; color: rgba(255,255,255,0.9) !important; margin-bottom: 1.5rem; }
-  .badge-nju { background-color: var(--nju-purple); color: white; padding: 6px 12px; border-radius: 4px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; }
-  .btn-view { border: 1px solid white; color: white !important; padding: 8px 20px; border-radius: 50px; font-weight: 600; transition: 0.3s; }
-  .btn-view:hover { background: white; color: var(--nju-purple) !important; transform: scale(1.05); }
+  .slider-title { font-family: 'Playfair Display', serif !important; font-size: 2.2rem !important; font-weight: 700 !important; color: #fff !important; border:none!important; }
+  .slider-desc { font-size: 1rem !important; color: rgba(255,255,255,0.9) !important; }
+  .badge-nju { background-color: var(--nju-purple); color: white; padding: 6px 12px; border-radius: 4px; font-size: 0.75rem; }
+  .btn-view { border: 1px solid white; color: white !important; padding: 8px 20px; border-radius: 50px; font-weight: 600; }
   .lang-switcher { margin-bottom: 25px; }
   .btn-pill { display: inline-block; padding: 6px 20px; border-radius: 50px; font-weight: bold; border: 2px solid var(--nju-purple); font-family: 'Playfair Display', serif; }
   .btn-pill.active { background-color: var(--nju-purple); color: #fff !important; }
-  .btn-pill.inactive { color: var(--nju-purple) !important; background-color: transparent; text-decoration: none; }
-  .full-portfolio-btn, .read-more-btn { display: inline-block; padding: 10px 28px; border: 2px solid var(--nju-purple); border-radius: 50px; color: var(--nju-purple) !important; font-weight: 800; text-decoration: none !important; transition: 0.3s; }
-  .full-portfolio-btn:hover, .read-more-btn:hover { background: var(--nju-purple); color: #fff !important; box-shadow: 0 5px 15px rgba(77,0,153,0.2); }
+  .btn-pill.inactive { color: var(--nju-purple) !important; background-color: transparent; }
+  .full-portfolio-btn, .read-more-btn { display: inline-block; padding: 10px 28px; border: 2px solid var(--nju-purple); border-radius: 50px; color: var(--nju-purple) !important; font-weight: 800; }
+  
   @media (max-width: 768px) { 
     #portfolioCarousel, .carousel-img { height: 300px; } 
-    .carousel-caption { max-width: 90%; bottom: 10%; } 
-    .slider-title { font-size: 1.5rem !important; } 
+    .carousel-caption { max-width: 90%; } 
     .profile { float: none !important; width: 50% !important; margin: 0 auto 20px auto !important; } 
-    .contact-single-row { flex-direction: column; }
+    .contact-line { flex-direction: column; align-items: center; gap: 2px; }
+    .c-lbl { text-align: center; }
+    .c-val { text-align: center; }
   }
 </style>
