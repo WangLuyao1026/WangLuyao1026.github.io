@@ -18,9 +18,6 @@ category: work
       我主导并负责了山东省委政法委所属“济南铁路局”及检察日报山东记者站所负责“历下检察”等官方公众号的选题策划、拍摄编辑与粉丝增长推流。在运营过程中，我通过<strong>数据驱动</strong>的选题机制和<strong>视觉化叙事</strong>，成功打造了多篇 10w+ 爆款推文。
     </p>
     <ul>
-      <li><strong>《年度特辑》</strong>：非凡十年路，检察谱新篇。通过全景式排版展现法治进程。</li>
-      <li><strong>《品牌展播》</strong>：云端历下 · 数字“智”检。结合交互设计提升政务品牌感知。</li>
-    </ul>
   </section>
 
   <hr style="border-top: 1px dashed #ddd; margin: 2rem 0;">
