@@ -189,7 +189,7 @@ nav_order: 2
         </div>
         <div class="pf-meta">
           <span class="pf-cat">Visual Identity</span>
-          <h5 class="pf-title">视觉识别系统 (VI) 设计</h5>
+          <h5 class="pf-title">视觉识别系统 （VI） 设计</h5>
         </div>
       </a>
     </div>
