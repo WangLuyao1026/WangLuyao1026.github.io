@@ -60,7 +60,7 @@ ninja.data = [{
               window.location.href = "/projects/1_visual_design/";
             },},{id: "projects-信息长图设计",
           title: '信息长图设计',
-          description: "复杂政策与报告的视觉化转译 (Infographics)",
+          description: "复杂政策与报告的视觉化转译 | Infographics",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_infographic/";
             },},{id: "projects-数据可视化设计",
