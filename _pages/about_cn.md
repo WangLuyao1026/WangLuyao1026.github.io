@@ -1,6 +1,6 @@
 ---
 layout: page
-title: **中文版**
+title: “中文版”
 permalink: /cn/
 description: 关于我 | About Me
 nav: true
