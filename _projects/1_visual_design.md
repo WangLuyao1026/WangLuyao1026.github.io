@@ -12,7 +12,7 @@ category: visual-design
 <div class="visual-design-container">
 
   <section class="mb-5">
-    <h3 class="section-main-title" style="margin-bottom: 50px !important;">🎨 InDesign 排版与品牌设计</h3>
+    <h3 class="section-main-title" >🎨 InDesign 排版与品牌设计</h3>
     <p class="intro-text">
       <strong>作品简介：</strong><br>
       本板块涵盖政府期刊排版、大型活动视觉物料及品牌 VI 系统设计。在设计实践中，注重版式的<strong>呼吸感</strong>与<strong>信息层级</strong>的清晰传达，力求在严谨的政务传播中融入现代审美张力。
