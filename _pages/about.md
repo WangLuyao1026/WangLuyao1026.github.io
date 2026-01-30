@@ -230,12 +230,14 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
   /* 4. Contact 左对齐美化 */
   .contact-footer {
     font-family: 'Lora', serif;
+    text-align: center;
   }
   .contact-row {
-    display: flex;
-    margin-bottom: 12px;
+    display: inline-flex;
+    margin: 0 auto 12px;
     align-items: baseline;
   }
+  
   .contact-label {
     width: 80px; /* 固定标签宽度，整齐划一 */
     font-weight: 700;
