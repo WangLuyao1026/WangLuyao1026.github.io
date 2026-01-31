@@ -79,7 +79,7 @@ category: visual-design
   :root { --nju-purple: #4D0099; }
 
   /* 1. 字体与行间距 */
-  .visual-design-container, .post-content {
+  .visual-design-container {
     font-family: "Noto Serif SC", serif !important;
     font-size: 1.15rem !important;
     line-height: 2.0 !important;
@@ -89,14 +89,14 @@ category: visual-design
     text-align: justify;
   }
 
-  /* 2. 标题排版 */
+  /* 2. 标题排版：统一 margin-bottom 为 1.5rem */
   .section-main-title {
     font-weight: 700 !important;
     color: var(--nju-purple) !important;
     border-left: 5px solid var(--nju-purple);
     padding-left: 15px !important;
     margin-top: 2.2rem !important;
-    margin-bottom: 1.0rem !important;
+    margin-bottom: 1.5rem !important;
   }
   .sub-heading {
     font-weight: 700;
@@ -105,7 +105,7 @@ category: visual-design
     margin-bottom: 0.8rem;
   }
   
-  /* 核心修复：强制加粗，颜色统一 */
+  /* 强制加粗，颜色统一 */
   strong { 
     color: var(--nju-purple); 
     font-weight: 900 !important; 
@@ -167,4 +167,3 @@ category: visual-design
     .visual-design-container { padding: 0 10px; }
   }
 </style>
-
