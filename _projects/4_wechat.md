@@ -17,7 +17,7 @@ category: work
       <strong>核心成果：</strong><br>
       我主导并负责了山东省委政法委所属“济南铁路局”及检察日报山东记者站所负责“历下检察”等官方公众号的选题策划、拍摄编辑与粉丝增长推流。在运营过程中，我通过<strong>数据驱动</strong>的选题机制和<strong>视觉化叙事</strong>，成功打造了多篇 10w+ 爆款推文。
     </p>
-    <ul>
+  </section>
 
   <hr style="border-top: 1px dashed #ddd; margin: 2rem 0;">
 
@@ -34,22 +34,23 @@ category: work
     <a href="/projects/" class="btn-back">← 返回作品集</a>
   </div>
 
+</div>
 
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 全局字体与排版优化：营造呼吸感 */
+  /* 1. 全局字体与排版优化 */
   .post-content, article, .project-container {
     font-family: "Noto Serif SC", "Songti SC", serif !important;
     font-size: 1.15rem !important;
-    line-height: 2.0 !important; /* 加宽行距，提升阅读舒适度 */
+    line-height: 2.0 !important;
     color: #333 !important;
     text-align: justify;
     max-width: 900px;
     margin: 0 auto;
   }
 
-  /* 2. 标题美化：南大紫侧边线 */
+  /* 2. 标题美化：统一 margin-bottom 为 1.5rem */
   h3 {
     font-family: "Noto Serif SC", serif !important;
     font-weight: 700 !important;
@@ -60,19 +61,19 @@ category: work
     padding-left: 15px !important;
   }
 
-  /* 3. 图片容器美化：增加层次感与动感 */
+  /* 3. 图片容器美化 */
   .img-box {
     border-radius: 12px;
     overflow: hidden;
     background: #fff;
     padding: 10px;
     border: 1px solid #eee;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08); /* 更有质感的投影 */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
     transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     margin-bottom: 15px;
   }
   .img-box:hover {
-    transform: translateY(-8px); /* 优雅的上浮效果 */
+    transform: translateY(-8px);
     box-shadow: 0 15px 35px rgba(77,0,153,0.12);
   }
   .img-fluid {
@@ -81,7 +82,7 @@ category: work
     border-radius: 4px;
   }
 
-  /* 4. 图片说明文字：黑体区分，精致居中 */
+  /* 4. 图片说明文字 */
   .img-caption {
     text-align: center;
     color: #888 !important;
@@ -91,13 +92,13 @@ category: work
     font-weight: 400 !important;
   }
 
-  /* 5. 强调文字：突出专业身份 */
+  /* 5. 强调文字 */
   strong {
     color: var(--nju-purple);
     font-weight: 700;
   }
 
-  /* 6. 返回按钮：紫色圆角设计 */
+  /* 6. 返回按钮 */
   .btn-back {
     display: inline-block; 
     padding: 10px 30px; 
@@ -117,9 +118,7 @@ category: work
     box-shadow: 0 5px 15px rgba(77,0,153,0.3);
   }
 
-  /* 移动端适配 */
   @media (max-width: 768px) {
     .project-container { padding: 0 15px; }
-    .hero-name { font-size: 2.2rem; }
   }
 </style>
