@@ -22,7 +22,7 @@ category: work
   <hr style="border-top: 1px dashed #ddd; margin: 2rem 0;">
 
   <div class="row justify-content-center mt-4">
-    <div class="col-sm-12">
+    <div class="col-12">
       <div class="img-box">
         <img class="img-fluid" src="/assets/img/data_viz.png" alt="数据可视化作品">
       </div>
@@ -39,11 +39,11 @@ category: work
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 全局字体与排版优化 (与摄影页、微信页高度统一) */
+  /* 1. 全局字体与排版优化 */
   .post-content, article, .project-container {
     font-family: "Noto Serif SC", "Songti SC", serif !important;
     font-size: 1.15rem !important;
-    line-height: 2.0 !important; /* 极具呼吸感的行距 */
+    line-height: 2.0 !important;
     color: #333 !important;
     text-align: justify;
     max-width: 900px;
@@ -61,7 +61,7 @@ category: work
     padding-left: 15px !important;
   }
 
-  /* 3. 图片容器美化：增加层次感与悬浮动效 */
+  /* 3. 图片容器美化 */
   .img-box {
     background: #fff;
     padding: 10px;
@@ -83,7 +83,7 @@ category: work
     border-radius: 4px;
   }
 
-  /* 4. 图片说明文字：黑体区分，精致居中 */
+  /* 4. 图片说明文字 */
   .img-caption {
     text-align: center;
     color: #888 !important;
@@ -99,7 +99,7 @@ category: work
     font-weight: 700;
   }
 
-  /* 6. 返回按钮：紫色圆角设计 */
+  /* 6. 返回按钮 */
   .btn-back {
     display: inline-block; 
     padding: 10px 30px; 
