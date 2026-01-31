@@ -68,11 +68,12 @@ category: work
     font-weight: 700 !important;
     color: var(--nju-purple) !important;
     margin-top: 2rem !important;
+    margin-bottom: 1.5rem !important; /* 已修改为统一间距 */
     border-left: 5px solid var(--nju-purple);
     padding-left: 15px !important;
   }
 
-  /* 🔴 核心修复：添加对粗体字的颜色定义 */
+  /* 核心：添加对粗体字的颜色定义 */
   strong {
     color: var(--nju-purple);
     font-weight: 700;
@@ -114,19 +115,33 @@ category: work
 
   /* 4. 图注 */
   .img-caption {
-    text-align: center; color: #666 !important; font-size: 0.95rem !important;
-    font-family: sans-serif !important; font-weight: normal !important;
+    text-align: center; 
+    color: #666 !important; 
+    font-size: 0.95rem !important;
+    font-family: sans-serif !important; 
+    font-weight: normal !important;
   }
 
   /* 5. 按钮 */
   .btn-back {
-    display: inline-block; padding: 10px 30px; border: 2px solid var(--nju-purple);
-    color: var(--nju-purple) !important; border-radius: 50px; text-decoration: none !important;
-    font-weight: 800; font-family: sans-serif; transition: 0.3s; font-size: 0.9rem;
+    display: inline-block; 
+    padding: 10px 30px; 
+    border: 2px solid var(--nju-purple);
+    color: var(--nju-purple) !important; 
+    border-radius: 50px; 
+    text-decoration: none !important;
+    font-weight: 800; 
+    font-family: sans-serif; 
+    transition: 0.3s; 
+    font-size: 0.9rem;
   }
-  .btn-back:hover { background: var(--nju-purple); color: white !important; }
+  .btn-back:hover { 
+    background: var(--nju-purple); 
+    color: white !important; 
+  }
 
   @media (max-width: 768px) {
     .scroll-window { height: 450px; }
+    .project-container { padding: 0 15px; }
   }
 </style>
