@@ -7,7 +7,7 @@ importance: 1
 category: work
 ---
 
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 <div class="project-container">
 
@@ -22,19 +22,19 @@ category: work
   <hr style="border-top: 1px dashed #ddd; margin: 2rem 0;">
 
   <div class="row g-4">
-      <div class="col-sm-6 mt-3 mt-md-0">
-          <div class="img-box">
-              <img class="img-fluid" src="/assets/img/photo_work.png" alt="一线执法与航拍">
-          </div>
-          <h5 class="img-caption">一线执法与航拍纪实</h5>
+    <div class="col-sm-6 mt-3 mt-md-0">
+      <div class="img-box">
+        <img class="img-fluid" src="/assets/img/photo_work.png" alt="一线执法与航拍">
       </div>
-      
-      <div class="col-sm-6 mt-3 mt-md-0">
-          <div class="img-box">
-               <img class="img-fluid" src="/assets/img/photo_activity.png" alt="研学活动">
-          </div>
-          <h5 class="img-caption">“检爱童行”法治研学活动与检察干警人物风采</h5>
+      <h5 class="img-caption">一线执法与航拍纪实</h5>
+    </div>
+    
+    <div class="col-sm-6 mt-3 mt-md-0">
+      <div class="img-box">
+        <img class="img-fluid" src="/assets/img/photo_activity.png" alt="研学活动">
       </div>
+      <h5 class="img-caption">“检爱童行”法治研学活动与检察干警人物风采</h5>
+    </div>
   </div>
 
   <div class="back-btn-container mt-5 text-center">
@@ -57,7 +57,7 @@ category: work
     margin: 0 auto;
   }
 
-  /* 2. 标题美化 */
+  /* 2. 标题美化：统一 margin-bottom 为 1.5rem */
   h3 {
     font-family: "Noto Serif SC", serif !important;
     font-weight: 700 !important;
@@ -70,13 +70,13 @@ category: work
 
   /* 3. 图片美化 */
   .img-box {
-    border-radius: 12px; /* 稍微加大圆角，更柔和 */
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.08); /* 优化阴影 */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
     transition: transform 0.3s;
     margin-bottom: 15px;
     background: #fff;
-    padding: 8px; /* 增加一点内边距，像相框一样 */
+    padding: 8px;
     border: 1px solid #eee;
   }
   .img-box:hover {
@@ -98,17 +98,31 @@ category: work
     font-weight: normal !important;
   }
 
-  /* 5. 强调文字 */
+  /* 5. 强调文字：强化字重为 900 */
   strong {
     color: var(--nju-purple);
-    font-weight: 700;
+    font-weight: 900 !important;
   }
 
   /* 6. 返回按钮 */
   .btn-back {
-    display: inline-block; padding: 10px 30px; border: 2px solid var(--nju-purple);
-    color: var(--nju-purple) !important; border-radius: 50px; text-decoration: none !important;
-    font-weight: 800; font-family: sans-serif; transition: 0.3s; font-size: 0.9rem;
+    display: inline-block; 
+    padding: 10px 30px; 
+    border: 2px solid var(--nju-purple);
+    color: var(--nju-purple) !important; 
+    border-radius: 50px; 
+    text-decoration: none !important;
+    font-weight: 800; 
+    font-family: sans-serif; 
+    transition: 0.3s; 
+    font-size: 0.9rem;
   }
-  .btn-back:hover { background: var(--nju-purple); color: white !important; }
+  .btn-back:hover { 
+    background: var(--nju-purple); 
+    color: white !important; 
+  }
+
+  @media (max-width: 768px) {
+    .project-container { padding: 0 15px; }
+  }
 </style>
