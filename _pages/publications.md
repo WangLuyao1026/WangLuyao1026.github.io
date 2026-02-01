@@ -34,7 +34,7 @@ nav_order: 5
 
                 <div class="thesis-abstract mt-4 mb-5">
                   <p><strong>Lay Summary</strong></p>
-                  <p>本研究聚焦于疫情期间兴起的“云录制”模式，通过深度个案分析，探讨了电视综艺在物理空间受限下的生产范式重构、互动机制演变及其产生的社会效用。研究认为，云录制不仅是特殊时期的应急之举，更是媒体深度融合背景下的技术与文化预演。</p>
+                  <p>本研究聚焦于疫情期间兴起的"云录制"模式，借助深度个案分析，剖析了电视综艺节目在物理空间受限下的生产范式重构、互动机制演变及社会效用。本研究发现，云录制绝非特殊时期的权宜之计——它既是媒体应对危机的创新尝试，更像是媒体深度融合背景下的技术与文化预演，为未来内容生产提供了可借鉴的新路径。</p>
                 </div>
             </div>
 
@@ -119,6 +119,11 @@ nav_order: 5
   .thesis-title { font-family: 'Playfair Display', serif !important; font-weight: 800; color: #1a1a1a; font-size: 1.6rem; line-height: 1.3; }
   .badge-purple { background-color: var(--nju-purple); color: white; padding: 6px 15px; border-radius: 50px; font-weight: 700; font-size: 0.85rem; }
   .thesis-abstract { font-size: 1rem; color: #444; background: #f8f6fc; padding: 20px; border-radius: 12px; border-left: 4px solid var(--nju-purple); }
+  
+  /* ✨ 关键修改：让 "Lay Summary" 文字变为紫色（与徽章背景色一致） */
+  .thesis-abstract p:first-child strong {
+    color: var(--nju-purple);
+  }
 
   /* 5. 按钮 */
   .btn-download { display: inline-block; background: var(--nju-purple); color: white !important; padding: 12px 30px; border-radius: 50px; text-decoration: none !important; font-weight: 800; transition: 0.3s; }
