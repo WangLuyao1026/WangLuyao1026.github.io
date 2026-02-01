@@ -33,7 +33,7 @@ nav_order: 5
                 </p>
 
                 <div class="thesis-abstract mt-4 mb-5">
-                  <p><strong>Lay Summary:</strong></p>
+                  <p><strong>Lay Summary</strong></p>
                   <p>本研究聚焦于疫情期间兴起的“云录制”模式，通过深度个案分析，探讨了电视综艺在物理空间受限下的生产范式重构、互动机制演变及其产生的社会效用。研究认为，云录制不仅是特殊时期的应急之举，更是媒体深度融合背景下的技术与文化预演。</p>
                 </div>
             </div>
