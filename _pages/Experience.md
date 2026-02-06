@@ -12,7 +12,7 @@ nav_order: 3
   <div class="mb-6">
     <div class="custom-title-wrapper mb-4">
       <div class="purple-bar"></div>
-      <span class="title-icon">💼</span> 
+      <span class="title-icon">💼</span>
       <h2 class="custom-header-text">
         01 检察日报·山东记者站 <span class="divider">|</span> 济南市历下区人民检察院
       </h2>
@@ -47,24 +47,39 @@ nav_order: 3
     </div>
   </div>
 
+  <div class="resume-section text-center mt-5 mb-6">
+    <div class="resume-divider mb-5">
+      <span class="dot">·</span> <span class="dot">·</span> <span class="dot">·</span>
+    </div>
+    
+    <h3 class="resume-title mb-3">点击下方按钮查看或下载详细履历 (PDF)</h3>
+    <p class="resume-subtitle mb-4">
+      Education Background & Professional Skills
+    </p>
+    
+    <a href="/assets/pdf/resume.pdf" target="_blank" class="btn-resume shadow-md">
+      <i class="fas fa-file-alt me-2"></i> 查看个人简历 / Curriculum Vitae
+    </a>
+  </div>
+
 </div>
 
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <style>
   :root { --nju-purple: #4D0099; }
 
   /* ========================================= */
-  /* 1. [修复] 全局字体还原 */
-  /* 还原为 Research 页面一致的 PingFang SC (黑体) */
+  /* 1. 全局字体还原 */
   /* ========================================= */
   body, p, li, h1, h2, h3, h4, h5, .navbar {
     font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
   }
   body {
     -webkit-font-smoothing: antialiased;
-    font-weight: 500 !important; /* 保持原有的粗度 */
+    font-weight: 500 !important;
     line-height: 1.9 !important;
     color: #2c3e50;
   }
@@ -75,7 +90,7 @@ nav_order: 3
   .mb-6 { margin-bottom: 5rem; }
 
   /* ========================================= */
-  /* 3. 自定义标题样式 (仅此处模仿图片风格) */
+  /* 3. 自定义标题样式 */
   /* ========================================= */
   .custom-title-wrapper {
     display: flex;
@@ -84,7 +99,6 @@ nav_order: 3
     padding-left: 5px;
   }
 
-  /* 紫色竖条 */
   .purple-bar {
     width: 8px; 
     height: 40px; 
@@ -92,17 +106,15 @@ nav_order: 3
     margin-right: 15px; 
   }
 
-  /* 图标 */
   .title-icon {
     font-size: 1.8rem;
     margin-right: 10px;
     margin-bottom: 4px; 
   }
 
-  /* 标题文字：使用 Noto Serif SC (宋体) 以匹配您提供的图片格式 */
   .custom-header-text {
     font-family: 'Playfair Display', "Noto Serif SC", serif !important;
-    font-weight: 900 !important; /* 加粗 */
+    font-weight: 900 !important;
     font-size: 1.8rem;
     color: var(--nju-purple);
     margin: 0;
@@ -131,11 +143,64 @@ nav_order: 3
     display: block;
     object-fit: contain;
   }
+
+  /* ========================================= */
+  /* 5. [新增] 简历部分样式 */
+  /* ========================================= */
+  .resume-section {
+    padding: 2rem 0;
+  }
+  
+  /* 装饰点 */
+  .resume-divider .dot {
+    color: #ddd;
+    font-size: 2rem;
+    margin: 0 5px;
+    line-height: 1;
+  }
+
+  .resume-title {
+    font-family: "Noto Serif SC", serif !important;
+    font-weight: 700 !important;
+    color: #333;
+    font-size: 1.4rem;
+  }
+
+  .resume-subtitle {
+    font-family: 'Lora', "PingFang SC", sans-serif !important;
+    color: #666;
+    font-size: 1rem;
+  }
+
+  /* 简历按钮 - 核心设计 */
+  .btn-resume {
+    display: inline-block;
+    background-color: var(--nju-purple);
+    color: #fff !important;
+    padding: 12px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.05rem;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border: 2px solid var(--nju-purple);
+    letter-spacing: 0.5px;
+  }
+
+  .btn-resume:hover {
+    background-color: #fff;
+    color: var(--nju-purple) !important;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(77, 0, 153, 0.2);
+  }
+
+  .shadow-md { box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
   
   /* 移动端适配 */
   @media (max-width: 768px) {
     .purple-bar { height: 32px; width: 6px; }
     .title-icon { font-size: 1.5rem; }
     .custom-header-text { font-size: 1.3rem; }
+    .btn-resume { width: 90%; padding: 12px 0; } /* 移动端按钮加宽，方便点击 */
   }
 </style>
