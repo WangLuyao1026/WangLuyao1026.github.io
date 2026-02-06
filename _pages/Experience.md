@@ -48,11 +48,13 @@ nav_order: 3
   </div>
 
   <div class="resume-section text-center mt-5 mb-6">
-    <div class="resume-divider mb-5">
-      <span class="dot">·</span> <span class="dot">·</span> <span class="dot">·</span>
+    <div class="resume-divider mb-4">
+      <span class="star-icon small">✦</span> 
+      <span class="star-icon large">✦</span> 
+      <span class="star-icon small">✦</span>
     </div>
     
-    <h3 class="resume-title mb-3">点击下方按钮查看或下载详细履历 (PDF)</h3>
+    <h3 class="resume-title mb-3">获取完整履历与核心竞争力</h3>
     <p class="resume-subtitle mb-4">
       Education Background & Professional Skills
     </p>
@@ -145,20 +147,38 @@ nav_order: 3
   }
 
   /* ========================================= */
-  /* 5. [新增] 简历部分样式 */
+  /* 5. [修改] 简历部分样式 (含星光特效) */
   /* ========================================= */
   .resume-section {
     padding: 2rem 0;
   }
   
-  /* 装饰点 */
-  .resume-divider .dot {
-    color: #ddd;
-    font-size: 2rem;
-    margin: 0 5px;
+  /* 星光装饰样式 */
+  .resume-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* 星星之间的距离 */
+    opacity: 0.8;
+  }
+
+  .star-icon {
+    color: var(--nju-purple);
     line-height: 1;
   }
 
+  /* 大星星 */
+  .star-icon.large {
+    font-size: 2rem; 
+  }
+
+  /* 小星星 */
+  .star-icon.small {
+    font-size: 1.2rem;
+    opacity: 0.6; 
+  }
+
+  /* 标题样式 */
   .resume-title {
     font-family: "Noto Serif SC", serif !important;
     font-weight: 700 !important;
@@ -172,7 +192,7 @@ nav_order: 3
     font-size: 1rem;
   }
 
-  /* 简历按钮 - 核心设计 */
+  /* 简历按钮 */
   .btn-resume {
     display: inline-block;
     background-color: var(--nju-purple);
@@ -201,6 +221,6 @@ nav_order: 3
     .purple-bar { height: 32px; width: 6px; }
     .title-icon { font-size: 1.5rem; }
     .custom-header-text { font-size: 1.3rem; }
-    .btn-resume { width: 90%; padding: 12px 0; } /* 移动端按钮加宽，方便点击 */
+    .btn-resume { width: 90%; padding: 12px 0; }
   }
 </style>
