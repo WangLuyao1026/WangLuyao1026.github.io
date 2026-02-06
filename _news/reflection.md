@@ -58,7 +58,12 @@ permalink: /news/reflection/
 
 
     <div class="chapter-block">
-      <div class="chapter-separator">***</div>
+      <div class="chapter-separator star-divider">
+        <span class="mini-star">✦</span>
+        <span class="mini-star">✦</span>
+        <span class="mini-star">✦</span>
+      </div>
+
       <h3 class="chapter-header">
         <span class="ch-num">II.</span> 闯入“未知”：在文理十字路口的思维重塑
       </h3>
@@ -82,7 +87,12 @@ permalink: /news/reflection/
 
 
     <div class="chapter-block">
-      <div class="chapter-separator">***</div>
+      <div class="chapter-separator star-divider">
+        <span class="mini-star">✦</span>
+        <span class="mini-star">✦</span>
+        <span class="mini-star">✦</span>
+      </div>
+
       <h3 class="chapter-header">
         <span class="ch-num">III.</span> 年度结语：在确定的变革中，拥抱不确定的远征
       </h3>
@@ -165,7 +175,7 @@ permalink: /news/reflection/
   
   /* 主标题：更紧凑，不换行 */
   .mag-main-title { 
-    font-size: 1.8rem; /* 调整字号防止移动端强制换行过多 */
+    font-size: 1.8rem; 
     font-weight: 900; 
     line-height: 1.4; 
     margin-bottom: 15px; 
@@ -207,12 +217,26 @@ permalink: /news/reflection/
   /* 章节标题 */
   .chapter-header { text-align: center; font-family: "Noto Serif SC", serif; font-size: 1.5rem; font-weight: 800; margin: 60px 0 35px 0; color: #000; }
   .ch-num { font-family: 'Playfair Display', serif; color: var(--nju-purple); margin-right: 8px; font-style: italic; font-size: 1.6rem; }
-  .chapter-separator { text-align: center; color: #ddd; letter-spacing: 10px; margin: 60px 0; font-size: 1.2rem; }
+  
+  /* 🔴 [新增/修改] 文章内嵌的星星分隔符 */
+  .star-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; /* 星星间距紧凑 */
+    margin: 60px 0;
+    opacity: 0.5; /* 淡 */
+  }
+  
+  .mini-star {
+    font-size: 0.85rem; /* 小一号字体 (对比简历部分的 1.2rem-2rem) */
+    color: #888; /* 使用灰色或淡紫色 */
+  }
 
-  /* 🔴 重设计：现代特稿引用块 (替代原来的紫色居中样式) */
+  /* 现代特稿引用块 */
   .mag-quote-modern {
-    background: #f8f9fa; /* 极浅灰背景 */
-    border-left: 6px solid var(--nju-purple); /* 左侧实线强调 */
+    background: #f8f9fa; 
+    border-left: 6px solid var(--nju-purple); 
     padding: 30px 35px;
     margin: 40px 0;
     border-radius: 4px;
@@ -222,10 +246,10 @@ permalink: /news/reflection/
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.8;
-    color: #333; /* 深灰文字，更易读 */
+    color: #333; 
     font-style: normal;
     margin: 0;
-    text-align: left; /* 左对齐，更显正式 */
+    text-align: left; 
   }
 
   /* 高亮文本框 */
@@ -238,10 +262,6 @@ permalink: /news/reflection/
     color: #444;
     font-size: 1.1rem;
   }
-
-  /* 座右铭 */
-  .mag-motto { text-align: center; margin: 50px 0; }
-  .motto-cn { display: inline-block; border: 2px solid #000; padding: 15px 30px; font-weight: 800; font-size: 1.2rem; letter-spacing: 3px; }
 
   /* 4. 页脚印章 */
   .mag-footer { margin-top: 100px; text-align: center; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 60px; }
@@ -258,7 +278,7 @@ permalink: /news/reflection/
 
   @media (max-width: 768px) {
     .magazine-article-container { padding: 0 25px; }
-    .mag-main-title { font-size: 1.8rem; } /* 移动端适当缩小以防换行过多 */
+    .mag-main-title { font-size: 1.8rem; }
     .mag-quote-modern { padding: 25px; }
     .mag-quote-modern p { font-size: 1.15rem; }
   }
