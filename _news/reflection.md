@@ -58,10 +58,11 @@ permalink: /news/reflection/
 
 
     <div class="chapter-block">
-      <div class="chapter-separator star-divider">
-        <span class="mini-star">✦</span>
-        <span class="mini-star">✦</span>
-        <span class="mini-star">✦</span>
+      
+      <div class="mag-star-separator">
+        <span class="mag-star-icon small">✦</span>
+        <span class="mag-star-icon large">✦</span>
+        <span class="mag-star-icon small">✦</span>
       </div>
 
       <h3 class="chapter-header">
@@ -87,10 +88,11 @@ permalink: /news/reflection/
 
 
     <div class="chapter-block">
-      <div class="chapter-separator star-divider">
-        <span class="mini-star">✦</span>
-        <span class="mini-star">✦</span>
-        <span class="mini-star">✦</span>
+      
+      <div class="mag-star-separator">
+        <span class="mag-star-icon small">✦</span>
+        <span class="mag-star-icon large">✦</span>
+        <span class="mag-star-icon small">✦</span>
       </div>
 
       <h3 class="chapter-header">
@@ -173,7 +175,7 @@ permalink: /news/reflection/
     border-bottom: 1px solid rgba(0,0,0,0.08); 
   }
   
-  /* 主标题：更紧凑，不换行 */
+  /* 主标题 */
   .mag-main-title { 
     font-size: 1.8rem; 
     font-weight: 900; 
@@ -183,7 +185,7 @@ permalink: /news/reflection/
     letter-spacing: -0.5px;
   }
   
-  /* 副标题：协调性优化 */
+  /* 副标题 */
   .mag-subtitle { 
     font-size: 1.15rem; 
     font-weight: 400; 
@@ -215,28 +217,38 @@ permalink: /news/reflection/
   .mag-p strong { color: var(--nju-purple); font-weight: 700; }
 
   /* 章节标题 */
-  .chapter-header { text-align: center; font-family: "Noto Serif SC", serif; font-size: 1.5rem; font-weight: 800; margin: 60px 0 35px 0; color: #000; }
+  .chapter-header { text-align: center; font-family: "Noto Serif SC", serif; font-size: 1.5rem; font-weight: 800; margin: 35px 0; color: #000; }
   .ch-num { font-family: 'Playfair Display', serif; color: var(--nju-purple); margin-right: 8px; font-style: italic; font-size: 1.6rem; }
-  
-  /* 🔴 [新增/修改] 文章内嵌的星星分隔符 */
-  .star-divider {
+
+  /* [新增] 文章内页专用：星光分割线 (小一号) */
+  .mag-star-separator {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px; /* 星星间距紧凑 */
-    margin: 60px 0;
-    opacity: 0.5; /* 淡 */
-  }
-  
-  .mini-star {
-    font-size: 0.85rem; /* 小一号字体 (对比简历部分的 1.2rem-2rem) */
-    color: #888; /* 使用灰色或淡紫色 */
+    gap: 12px; /* 间距略小 */
+    margin: 60px 0 20px 0; /* 保持上下呼吸感 */
+    opacity: 0.8;
   }
 
-  /* 现代特稿引用块 */
+  .mag-star-icon {
+    color: var(--nju-purple);
+    line-height: 1;
+  }
+
+  /* 尺寸小号  */
+  .mag-star-icon.large {
+    font-size: 1.4rem; 
+  }
+
+  .mag-star-icon.small {
+    font-size: 0.85rem;
+    opacity: 0.6;
+  }
+
+  /* 引用块 */
   .mag-quote-modern {
-    background: #f8f9fa; 
-    border-left: 6px solid var(--nju-purple); 
+    background: #f8f9fa;
+    border-left: 6px solid var(--nju-purple);
     padding: 30px 35px;
     margin: 40px 0;
     border-radius: 4px;
@@ -246,10 +258,10 @@ permalink: /news/reflection/
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.8;
-    color: #333; 
+    color: #333;
     font-style: normal;
     margin: 0;
-    text-align: left; 
+    text-align: left;
   }
 
   /* 高亮文本框 */
