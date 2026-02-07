@@ -70,7 +70,7 @@ category: visual-design
   </section>
 
   <div class="text-center mt-5 mb-6">
-    <a href="/projects/" class="btn-return-link">← 返回作品集列表</a>
+    <a href="/projects/" class="btn-return-link">← 返回作品集</a>
   </div>
 
 </div>
@@ -145,10 +145,10 @@ category: visual-design
   .art-divider { border-top: 2px dashed #eee; margin: 3.5rem 0; }
   .mb-6 { margin-bottom: 5rem; }
 
-  /* 5. 返回按钮 */
+  /* 5. 返回按钮 (修正后) */
   .btn-return-link {
     display: inline-block;
-    padding: 10px 35px;
+    padding: 10px 30px; /* 修正：30px */
     border: 2px solid var(--nju-purple);
     color: var(--nju-purple) !important;
     border-radius: 50px;
@@ -156,6 +156,7 @@ category: visual-design
     text-decoration: none !important;
     transition: 0.3s;
     font-family: sans-serif !important;
+    font-size: 0.9rem; /* 修正：添加字体大小限制 */
   }
   .btn-return-link:hover {
     background: var(--nju-purple);
