@@ -118,7 +118,7 @@ nav_order: 2
       </div>
       <div class="tl-marker"></div>
       <div class="tl-right">
-        <h5 class="tl-org">检察日报·山东记者站 & 历下区人民检察院</h5>
+        <h5 class="tl-org">检察日报 · 山东记者站 & 历下区人民检察院</h5>
         <p class="tl-desc">深度参与“大数据赋能法律监督”创新项目，探索法治新闻的数据化表达。统筹管理微博、微信等全媒体矩阵，撰写多篇深度调查报道，策划拍摄多部微电影微视频作品，跟拍政法活动与一线干警工作风采等，实现法治传播效果的最优化。</p>
       </div>
     </div>
@@ -129,7 +129,7 @@ nav_order: 2
       </div>
       <div class="tl-marker"></div>
       <div class="tl-right">
-        <h5 class="tl-org">大众报业集团·齐鲁融媒</h5>
+        <h5 class="tl-org">大众报业集团 · 齐鲁融媒</h5>
         <p class="tl-desc">负责齐鲁医院等山东省内三甲医院健康传播运营。独立完成策划、拍摄与后期，打造播放量 <strong>10万+</strong> 的爆款视频，精准触达垂直受众。</p>
       </div>
     </div>
