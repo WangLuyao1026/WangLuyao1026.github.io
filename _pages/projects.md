@@ -43,7 +43,7 @@ nav_order: 4
     <div class="notice-box mb-5">
       <p class="mb-0">🛡️ <strong>隐私说明</strong>：部分视频涉及检察实务，存储于加密网盘。请复制下方口令打开「夸克APP」获取视频合集。</p>
       <div class="quark-code-pill mt-3">
-        <code>口令：/~539f3AGXIa~:/</code>
+        <code>口令：/~ac563LzGnJ~:/</code>
       </div>
     </div>
 
