@@ -62,7 +62,7 @@ nav_order: 4
         <div class="col-md-5 pl-md-5">
           <h4 class="video-card-title">{{ video_titles[i] }}</h4>
           <p class="video-card-desc">{{ video_descs[i] }}</p>
-          <a href="https://pan.quark.cn/s/9a811a99dd25" target="_blank" class="nju-btn">📂 观看作品</a>
+          <a href="https://pan.quark.cn/s/5f707320b672" target="_blank" class="nju-btn">📂 观看作品</a>
         </div>
       </div>
       {% endfor %}
