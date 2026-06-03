@@ -49,7 +49,7 @@ nav_order: 4
 
     <div class="video-list">
       {% assign video_titles = "微电影《微光》|预览图（部分）|《从短视频到数字基础设施：抖音的平台商业模式分析》|《大数据的力量》|《守护明天 检爱少年》" | split: "|" %}
-      {% assign video_descs = "官方媒体矩阵内容策划、新闻实务作品。|聚焦于未成年人法律保护，获得全国政法系统“三微”比赛十佳。|《数字媒介经济》课程实践作品。以系统论视角切入，从四大维度全景剖析抖音从短视频APP跃升为数字基础设施的底层商业逻辑。|检察创新纪实片，展示数据建模对提升法律监督效能的意义。|2022年度历下未检工作纪实专题片。" | split: "|" %}
+      {% assign video_descs = "官方媒体矩阵内容策划、新闻实务作品。|聚焦于未成年人法律保护，获得全国政法系统"三微"比赛十佳。|《数字媒介经济》课程实践作品。以系统论视角切入，从四大维度全景剖析抖音从短视频APP跃升为数字基础设施的底层商业逻辑。|检察创新纪实片，展示数据建模对提升法律监督效能的意义。|2022年度历下未检工作纪实专题片。" | split: "|" %}
       {% assign video_imgs = "作品列举1.png|作品列举2.png|作品列举3.png|作品列举4.png|作品列举5.png" | split: "|" %}
 
       {% for i in (0..4) %}
@@ -81,7 +81,7 @@ nav_order: 4
   body {
     -webkit-font-smoothing: antialiased;
     font-weight: 500 !important;
-    line-height: 1.9 !important; /* 增加行距，提升呼吸感 */
+    line-height: 1.9 !important;
     color: #2c3e50;
   }
 
@@ -91,7 +91,7 @@ nav_order: 4
   /* 标题美化 */
   .section-title {
     color: var(--nju-purple);
-    font-family: 'Playfair Display', serif !important; /* 强调性大标题字体 */
+    font-family: 'Playfair Display', serif !important;
     font-weight: 800;
     font-size: 2rem;
     border-left: 8px solid var(--nju-purple);
@@ -122,8 +122,22 @@ nav_order: 4
   /* 视频列表样式 */
   .video-row { border-bottom: 1px solid #f0f0f0; }
   .video-row:last-child { border-bottom: none; }
-  .video-card-title { font-size: 1.4rem; font-weight: 700; color: var(--nju-purple); }
-  .video-card-desc { font-size: 1rem; line-height: 1.8; color: var(--text-light); margin: 1.2rem 0; }
+  
+  /* ===== 间距调大：标题与描述之间更宽松 ===== */
+  .video-card-title { 
+    font-size: 1.4rem; 
+    font-weight: 700; 
+    color: var(--nju-purple); 
+    margin-bottom: 1.8rem;   /* 加大标题下方间距 */
+  }
+  .video-card-desc { 
+    font-size: 1rem; 
+    line-height: 1.8; 
+    color: var(--text-light); 
+    margin: 1.8rem 0;          /* 描述上下呼吸感加大 */
+  }
+  /* ========================================== */
+  
   .video-img-wrapper { transition: transform 0.4s ease; }
   .video-row:hover .video-img-wrapper { transform: scale(1.02); }
 
@@ -149,7 +163,7 @@ nav_order: 4
   /* 2. 解决字体太细、发虚的问题 */
   body {
     -webkit-font-smoothing: antialiased;
-    font-weight: 500 !important; /* 核心：稍微加粗，质感立刻提升 */
+    font-weight: 500 !important;
     color: #2c3e50;
   }
 
