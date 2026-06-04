@@ -123,20 +123,20 @@ nav_order: 4
   .video-row { border-bottom: 1px solid #f0f0f0; }
   .video-row:last-child { border-bottom: none; }
   
-  /* ===== 核心修复：强制拉大标题与描述之间的间距 ===== */
+  /* ===== 核心修改：大幅拉开这里的上下间距 ===== */
   .video-card-title { 
     font-size: 1.4rem; 
     font-weight: 700; 
     color: var(--nju-purple); 
-    margin-bottom: 1.5rem !important;   /* 增加标题下方的留白 */
+    margin-bottom: 2.5rem !important;  /* 【紫标题和灰字之间的距离】：调到了原先的近两倍 */
   }
   .video-card-desc { 
-    font-size: 1rem; 
-    line-height: 1.8; 
+    font-size: 1.05rem; 
+    line-height: 2;                    /* 【文字本身的行距】：拉大，让文字不挤 */
     color: var(--text-light); 
-    margin-bottom: 2rem !important;     /* 增加描述下方（按钮上方）的留白 */
+    margin-bottom: 3.5rem !important;  /* 【灰字和紫按钮之间的距离】：大幅推开 */
   }
-  /* ================================================== */
+  /* =========================================== */
   
   .video-img-wrapper { transition: transform 0.4s ease; }
   .video-row:hover .video-img-wrapper { transform: scale(1.02); }
