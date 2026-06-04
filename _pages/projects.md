@@ -49,7 +49,7 @@ nav_order: 4
 
     <div class="video-list">
       {% assign video_titles = "微电影《微光》|预览图（部分）|《从短视频到数字基础设施：抖音的平台商业模式分析》|《大数据的力量》|《守护明天 检爱少年》" | split: "|" %}
-      {% assign video_descs = "官方媒体矩阵内容策划、新闻实务作品。|聚焦于未成年人法律保护，获得全国政法系统"三微"比赛十佳。|《数字媒介经济》课程实践作品。以系统论视角切入，从四大维度全景剖析抖音从短视频APP跃升为数字基础设施的底层商业逻辑。|检察创新纪实片，展示数据建模对提升法律监督效能的意义。|2022年度历下未检工作纪实专题片。" | split: "|" %}
+      {% assign video_descs = "官方媒体矩阵内容策划、新闻实务作品。|聚焦于未成年人法律保护，获得全国政法系统“三微”比赛十佳。|《数字媒介经济》课程实践作品。以系统论视角切入，从四大维度全景剖析抖音从短视频APP跃升为数字基础设施的底层商业逻辑。|检察创新纪实片，展示数据建模对提升法律监督效能的意义。|2022年度历下未检工作纪实专题片。" | split: "|" %}
       {% assign video_imgs = "作品列举1.png|作品列举2.png|作品列举3.png|作品列举4.png|作品列举5.png" | split: "|" %}
 
       {% for i in (0..4) %}
@@ -123,20 +123,20 @@ nav_order: 4
   .video-row { border-bottom: 1px solid #f0f0f0; }
   .video-row:last-child { border-bottom: none; }
   
-  /* ===== 间距调大：标题与描述之间更宽松 ===== */
+  /* ===== 核心修复：强制拉大标题与描述之间的间距 ===== */
   .video-card-title { 
     font-size: 1.4rem; 
     font-weight: 700; 
     color: var(--nju-purple); 
-    margin-bottom: 1.8rem;   /* 加大标题下方间距 */
+    margin-bottom: 1.5rem !important;   /* 增加标题下方的留白 */
   }
   .video-card-desc { 
     font-size: 1rem; 
     line-height: 1.8; 
     color: var(--text-light); 
-    margin: 1.8rem 0;          /* 描述上下呼吸感加大 */
+    margin-bottom: 2rem !important;     /* 增加描述下方（按钮上方）的留白 */
   }
-  /* ========================================== */
+  /* ================================================== */
   
   .video-img-wrapper { transition: transform 0.4s ease; }
   .video-row:hover .video-img-wrapper { transform: scale(1.02); }
