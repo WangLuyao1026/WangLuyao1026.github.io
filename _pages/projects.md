@@ -128,13 +128,13 @@ nav_order: 4
     font-size: 1.4rem; 
     font-weight: 700; 
     color: var(--nju-purple); 
-    margin-bottom: 4.5rem !important;  /* 【紫标题和灰字之间的距离】：调到了原先的近两倍 */
+    margin-bottom: 3.5rem !important;  /* 【紫标题和灰字之间的距离】：调到了原先的近两倍 */
   }
   .video-card-desc { 
     font-size: 1.05rem; 
     line-height: 2;                    /* 【文字本身的行距】：拉大，让文字不挤 */
     color: var(--text-light); 
-    margin-bottom: 4.5rem !important;  /* 【灰字和紫按钮之间的距离】：大幅推开 */
+    margin-bottom: 3.5rem !important;  /* 【灰字和紫按钮之间的距离】：大幅推开 */
   }
   /* =========================================== */
   
