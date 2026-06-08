@@ -27,7 +27,7 @@ nav_order: 2
     </div>
 
     <div class="bio-main">
-      <p class="tagline">计算传播学 · 探索者与实践者</p>
+      <p class="tagline">计算传播学</p>
       <div class="divider-short"></div>
       <p class="intro">
         南京大学新闻传播学院 2025 级硕士研究生<br>
