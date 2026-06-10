@@ -207,173 +207,98 @@ nav_order: 2
   </div>
 
   <div class="skills-grid">
-    <!-- 分类 1：专业技能 -->
+    <!-- 分类 1：内容创作 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
-        <h4 class="skill-cat-title">专业技能</h4>
+        <h4 class="skill-cat-title">内容创作</h4>
       </div>
       <div class="skill-tags">
-        <div class="skill-tag">
-          <i class="fas fa-camera"></i>
-          <span>摄影</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-video"></i>
-          <span>摄像</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-pen-fancy"></i>
-          <span>文案</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-lightbulb"></i>
-          <span>策划</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-newspaper"></i>
-          <span>新闻采编</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-bullhorn"></i>
-          <span>全媒体运营</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-users"></i>
-          <span>舆情分析</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-comments"></i>
-          <span>公共关系</span>
-        </div>
+        <div class="skill-tag"><i class="fas fa-camera"></i><span>摄影</span></div>
+        <div class="skill-tag"><i class="fas fa-video"></i><span>摄像</span></div>
+        <div class="skill-tag"><i class="fas fa-pen-fancy"></i><span>文案</span></div>
+        <div class="skill-tag"><i class="fas fa-lightbulb"></i><span>策划</span></div>
+        <div class="skill-tag"><i class="fas fa-newspaper"></i><span>新闻采编</span></div>
       </div>
     </div>
 
-    <!-- 分类 2：设计制作 -->
+    <!-- 分类 2：传播运营 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
-        <h4 class="skill-cat-title">设计制作</h4>
+        <h4 class="skill-cat-title">传播运营</h4>
       </div>
       <div class="skill-tags">
-        <div class="skill-tag">
-          <i class="fas fa-image"></i>
-          <span>Photoshop</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-bezier-curve"></i>
-          <span>Illustrator</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-palette"></i>
-          <span>Canva</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-pen-nib"></i>
-          <span>秀米</span>
-        </div>
+        <div class="skill-tag"><i class="fas fa-bullhorn"></i><span>全媒体运营</span></div>
+        <div class="skill-tag"><i class="fas fa-users"></i><span>舆情分析</span></div>
+        <div class="skill-tag"><i class="fas fa-comments"></i><span>公共关系</span></div>
+        <div class="skill-tag"><i class="fas fa-user-group"></i><span>社群运营</span></div>
+        <div class="skill-tag"><i class="fas fa-chart-line"></i><span>用户增长</span></div>
+        <div class="skill-tag"><i class="fas fa-robot"></i><span>平台算法</span></div>
       </div>
     </div>
 
-    <!-- 分类 3：剪辑后期 -->
+    <!-- 分类 3：视觉设计 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
-        <h4 class="skill-cat-title">剪辑后期</h4>
+        <h4 class="skill-cat-title">视觉设计</h4>
       </div>
       <div class="skill-tags">
-        <div class="skill-tag">
-          <i class="fas fa-film"></i>
-          <span>Premiere Pro</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-wand-magic-sparkles"></i>
-          <span>After Effects</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-headphones"></i>
-          <span>Audition</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fab fa-apple"></i>
-          <span>Final Cut Pro</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-scissors"></i>
-          <span>剪映专业版</span>
-        </div>
+        <div class="skill-tag"><i class="fas fa-image"></i><span>Photoshop</span></div>
+        <div class="skill-tag"><i class="fas fa-bezier-curve"></i><span>Illustrator</span></div>
+        <div class="skill-tag"><i class="fas fa-palette"></i><span>Canva</span></div>
+        <div class="skill-tag"><i class="fas fa-pen-nib"></i><span>秀米</span></div>
+        <div class="skill-tag"><i class="fab fa-figma"></i><span>Figma</span></div>
       </div>
     </div>
 
-    <!-- 分类 4：办公与数据分析 -->
+    <!-- 分类 4：影音后期 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
-        <h4 class="skill-cat-title">办公与数据分析</h4>
+        <h4 class="skill-cat-title">影音后期</h4>
       </div>
       <div class="skill-tags">
-        <div class="skill-tag">
-          <i class="fas fa-file-word"></i>
-          <span>Office / WPS</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-database"></i>
-          <span>SQL</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fab fa-python"></i>
-          <span>Python</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fab fa-r-project"></i>
-          <span>R</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-chart-bar"></i>
-          <span>Stata</span>
-        </div>
+        <div class="skill-tag"><i class="fas fa-film"></i><span>Premiere Pro</span></div>
+        <div class="skill-tag"><i class="fas fa-wand-magic-sparkles"></i><span>After Effects</span></div>
+        <div class="skill-tag"><i class="fas fa-headphones"></i><span>Audition</span></div>
+        <div class="skill-tag"><i class="fab fa-apple"></i><span>Final Cut Pro</span></div>
+        <div class="skill-tag"><i class="fas fa-scissors"></i><span>剪映专业版</span></div>
       </div>
     </div>
 
-    <!-- 分类 5：AI 工具应用 -->
+    <!-- 分类 5：数据分析 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
-        <h4 class="skill-cat-title">AI 工具应用</h4>
+        <h4 class="skill-cat-title">数据分析</h4>
       </div>
       <div class="skill-tags">
-        <div class="skill-tag">
-          <i class="fas fa-video"></i>
-          <span>即梦</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-wand-magic"></i>
-          <span>可灵</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-film"></i>
-          <span>海螺</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-music"></i>
-          <span>Max</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-microphone"></i>
-          <span>Mini</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-wave-square"></i>
-          <span>Noiz</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-robot"></i>
-          <span>Runway Gen</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-code"></i>
-          <span>Vibe Coding</span>
-        </div>
+        <div class="skill-tag"><i class="fas fa-file-word"></i><span>Office / WPS</span></div>
+        <div class="skill-tag"><i class="fas fa-database"></i><span>SQL</span></div>
+        <div class="skill-tag"><i class="fab fa-python"></i><span>Python</span></div>
+        <div class="skill-tag"><i class="fab fa-r-project"></i><span>R</span></div>
+        <div class="skill-tag"><i class="fas fa-chart-bar"></i><span>Stata</span></div>
+        <div class="skill-tag"><i class="fas fa-chart-pie"></i><span>SPSS</span></div>
+        <div class="skill-tag"><i class="fas fa-project-diagram"></i><span>Gephi</span></div>
+      </div>
+    </div>
+
+    <!-- 分类 6：AI 应用 -->
+    <div class="skill-category">
+      <div class="skill-cat-header">
+        <div class="skill-cat-line"></div>
+        <h4 class="skill-cat-title">AI 应用</h4>
+      </div>
+      <div class="skill-tags">
+        <div class="skill-tag"><i class="fas fa-code"></i><span>Vibe Coding</span></div>
+        <div class="skill-tag"><i class="fas fa-video"></i><span>即梦</span></div>
+        <div class="skill-tag"><i class="fas fa-wand-magic"></i><span>可灵</span></div>
+        <div class="skill-tag"><i class="fas fa-film"></i><span>海螺</span></div>
+        <div class="skill-tag"><i class="fas fa-robot"></i><span>Runway Gen</span></div>
+        <div class="skill-tag"><i class="fas fa-music"></i><span>Max</span></div>
+        <div class="skill-tag"><i class="fas fa-microphone"></i><span>Mini</span></div>
       </div>
     </div>
   </div>
@@ -383,14 +308,9 @@ nav_order: 2
   /* ========== 专业技能板块样式 ========== */
   .skills-grid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-  }
-
-  @media (min-width: 768px) {
-    .skills-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
+    align-items: stretch; /* 关键：让所有卡片等高 */
   }
 
   .skill-category {
@@ -399,6 +319,9 @@ nav_order: 2
     border-radius: 8px;
     padding: 28px;
     transition: 0.3s;
+    display: flex;
+    flex-direction: column; /* 关键：垂直布局 */
+    min-height: 280px;      /* 关键：统一最小高度 */
   }
 
   .skill-category:hover {
@@ -410,6 +333,7 @@ nav_order: 2
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    flex-shrink: 0;
   }
 
   .skill-cat-line {
@@ -434,6 +358,7 @@ nav_order: 2
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    margin-top: auto; /* 关键：标签区域推到底部 */
   }
 
   .skill-tag {
@@ -467,7 +392,11 @@ nav_order: 2
 
   /* 移动端适配 */
   @media (max-width: 768px) {
+    .skills-grid {
+      grid-template-columns: 1fr;
+    }
     .skill-category {
+      min-height: auto;
       padding: 20px;
     }
     .skill-cat-title {
@@ -479,7 +408,6 @@ nav_order: 2
     }
   }
 </style>
-
 
 <section class="content-section mb-6">
   <div class="thesis-block">
