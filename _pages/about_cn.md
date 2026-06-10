@@ -278,7 +278,7 @@ nav_order: 2
         <h4 class="skill-cat-title">数据分析</h4>
       </div>
       <div class="skill-tags-grid">
-        <div class="skill-tag"><i class="fas fa-file-word"></i><span>Office / WPS</span></div>
+        <div class="skill-tag"><i class="fas fa-file-word"></i><span>Office</span></div>
         <div class="skill-tag"><i class="fas fa-database"></i><span>SQL</span></div>
         <div class="skill-tag"><i class="fab fa-python"></i><span>Python</span></div>
         <div class="skill-tag"><i class="fab fa-r-project"></i><span>R</span></div>
@@ -298,7 +298,7 @@ nav_order: 2
         <div class="skill-tag"><i class="fas fa-video"></i><span>即梦</span></div>
         <div class="skill-tag"><i class="fas fa-wand-magic"></i><span>可灵</span></div>
         <div class="skill-tag"><i class="fas fa-film"></i><span>海螺</span></div>
-        <div class="skill-tag"><i class="fas fa-robot"></i><span>Runway Gen</span></div>
+        <div class="skill-tag"><i class="fas fa-robot"></i><span>Mini</span></div>
         <div class="skill-tag"><i class="fas fa-music"></i><span>Max</span></div>
       </div>
     </div>
