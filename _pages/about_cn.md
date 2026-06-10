@@ -206,9 +206,9 @@ nav_order: 2
     <span class="head-en">PROFESSIONAL SKILLS</span>
   </div>
 
-  <div class="skills-grid">
+<div class="skills-grid">
     <!-- 第 1 行 第 1 列：内容创作 -->
-    <div class="skill-category">
+    <div class="skill-category first-row">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">内容创作</h4>
@@ -224,7 +224,7 @@ nav_order: 2
     </div>
 
     <!-- 第 1 行 第 2 列：传播运营 -->
-    <div class="skill-category">
+    <div class="skill-category first-row">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">传播运营</h4>
@@ -240,7 +240,7 @@ nav_order: 2
     </div>
 
     <!-- 第 1 行 第 3 列：视觉设计 -->
-    <div class="skill-category">
+    <div class="skill-category first-row">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">视觉设计</h4>
@@ -362,7 +362,7 @@ nav_order: 2
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
-    gap: 14px;
+    gap: 8px;
     flex-grow: 1;
   }
 
@@ -401,6 +401,11 @@ nav_order: 2
     opacity: 1;
   }
 
+  /* 第一行标签增加上下内边距，增加呼吸感 */
+  .first-row .skill-tag {
+    padding: 12px 10px;
+  }
+
   /* 平板适配：2列 */
   @media (max-width: 992px) {
     .skills-grid {
@@ -430,7 +435,6 @@ nav_order: 2
     }
   }
 </style>
-
 
 <section class="content-section mb-6">
   <div class="thesis-block">
