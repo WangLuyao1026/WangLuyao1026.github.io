@@ -305,126 +305,238 @@ nav_order: 2
   </div>
 </section>
 
-/* ========== 专业技能板块样式（紧凑列表版） ========== */
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  align-items: start; /* 顶部对齐，避免卡片高度差异时的拉伸感 */
-}
-
-.skill-category {
-  background: #fff;
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
-  padding: 20px 20px 16px 20px; /* 底部略小，更紧凑 */
-  transition: all 0.25s ease;
-  display: flex;
-  flex-direction: column;
-}
-
-.skill-category:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-}
-
-.skill-cat-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 12px;
-  flex-shrink: 0;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #f5f5f5; /* 增加 subtle 分隔线，强化模块感 */
-}
-
-.skill-cat-line {
-  width: 3px;
-  height: 14px;
-  background: var(--primary);
-  border-radius: 2px;
-  margin-right: 8px;
-  flex-shrink: 0;
-}
-
-.skill-cat-title {
-  font-family: 'Playfair Display', "Noto Serif SC", serif !important;
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin: 0;
-  letter-spacing: 0.5px;
-}
-
-/* 核心改动：由 2×3 网格改为垂直紧凑列表 */
-.skill-tags-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 0; /* 行间距由标签自身 padding 控制 */
-  flex-grow: 1;
-}
-
-.skill-tag {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start; /* 强制左对齐 */
-  gap: 0;
-  padding: 5px 6px; /* 极紧凑 */
-  background: transparent; /* 去掉背景块 */
-  border: none; /* 去掉边框 */
-  border-radius: 4px;
-  font-size: 0.84rem;
-  color: #555;
-  transition: all 0.2s ease;
-  cursor: default;
-  text-align: left;
-  line-height: 1.5;
-}
-
-.skill-tag:hover {
-  background: #f8f9fa;
-  color: var(--primary);
-  padding-left: 10px; /* hover 时微右移，增加精致交互感 */
-}
-
-/* 图标固定宽度：这是让“所有技能及其前面的标签保持一致”的关键 */
-.skill-tag i {
-  font-size: 0.85rem;
-  opacity: 0.65;
-  flex-shrink: 0;
-  width: 22px; /* 固定宽度，彻底对齐 */
-  text-align: center;
-  margin-right: 6px; /* 图标与文字的固定间距 */
-}
-
-.skill-tag:hover i {
-  opacity: 1;
-}
-
-/* 平板适配：2 列 */
-@media (max-width: 992px) {
-  .skills-grid {
+<style>
+  /* ========== 精选作品 ========== */
+  .portfolio-grid {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 14px;
+    gap: 40px;
+    margin-bottom: 40px;
   }
-}
 
-/* 移动端适配：1 列 */
-@media (max-width: 768px) {
-  .skills-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
+  .pf-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid var(--border-color, #eee);
+    transition: all 0.35s ease;
   }
-  .skill-category {
-    padding: 16px;
+
+  .pf-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
   }
-  .skill-cat-title {
+
+  .pf-visual {
+    position: relative;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+  }
+
+  .pf-visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+  }
+
+  .pf-card:hover .pf-visual img {
+    transform: scale(1.06);
+  }
+
+  .pf-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.35s;
+  }
+
+  .pf-card:hover .pf-overlay {
+    opacity: 1;
+  }
+
+  .pf-overlay span {
+    color: #fff;
     font-size: 0.9rem;
+    padding: 10px 28px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    letter-spacing: 1px;
   }
+
+  .pf-meta {
+    padding: 24px 28px;
+  }
+
+  .pf-cat {
+    display: inline-block;
+    font-size: 0.75rem;
+    color: var(--primary, #333);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  .pf-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  /* ========== 专业技能（Grid 网格版） ========== */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    align-items: stretch;
+  }
+
+  .skill-category {
+    background: #fff;
+    border: 1px solid var(--border-color, #eee);
+    border-radius: 16px;
+    padding: 32px 28px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+  }
+
+  .skill-category:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.06);
+    border-color: transparent;
+  }
+
+  .skill-cat-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #f2f2f2;
+    flex-shrink: 0;
+  }
+
+  .skill-cat-line {
+    width: 4px;
+    height: 22px;
+    background: var(--primary, #000);
+    border-radius: 4px;
+    margin-right: 12px;
+    flex-shrink: 0;
+  }
+
+  .skill-cat-title {
+    font-family: 'Playfair Display', "Noto Serif SC", serif !important;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0;
+    letter-spacing: 0.5px;
+  }
+
+  /* 核心改动：3列 × 2行，消除松散感 */
+  .skill-tags-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 12px;
+    flex-grow: 1;
+  }
+
   .skill-tag {
-    font-size: 0.82rem;
-    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  /* 左对齐，统一视线 */
+    gap: 8px;
+    padding: 14px 10px;
+    background: #fafafa;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    color: #444;
+    transition: all 0.25s ease;
+    cursor: default;
+    line-height: 1.3;
   }
-}
+
+  .skill-tag:hover {
+    background: var(--primary, #111);
+    color: #fff;
+    border-color: var(--primary, #111);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .skill-tag i {
+    font-size: 0.9rem;
+    width: 20px;           /* 固定宽度，确保所有图标对齐 */
+    text-align: center;
+    opacity: 0.8;
+    flex-shrink: 0;
+  }
+
+  .skill-tag:hover i {
+    opacity: 1;
+  }
+
+  /* 平板适配：2列 */
+  @media (max-width: 992px) {
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+    .portfolio-grid {
+      gap: 28px;
+    }
+  }
+
+  /* 移动端适配 */
+  @media (max-width: 768px) {
+    .portfolio-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .skills-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .skill-category {
+      padding: 24px 20px;
+    }
+
+    .skill-cat-title {
+      font-size: 1.15rem;
+    }
+
+    .skill-tags-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .skill-tag {
+      padding: 12px 8px;
+      font-size: 0.78rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .skill-tags-grid {
+      grid-template-columns: repeat(2, 1fr); /* 超小屏改为2列3行 */
+      grid-template-rows: repeat(3, auto);
+    }
+  }
+</style>
+
 
 <section class="content-section mb-6">
   <div class="thesis-block">
