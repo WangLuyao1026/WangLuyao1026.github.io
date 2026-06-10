@@ -306,37 +306,41 @@ nav_order: 2
 </section>
 
 <style>
-  /* ========== 专业技能板块样式（Grid 网格版） ========== */
-  .skills-grid {
+  /* ========== 专业技能板块样式（严格限定 #skills 作用域） ========== */
+  #skills .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    width: 100%;              /* 强制撑满父容器，根治右偏 */
+    box-sizing: border-box;
     align-items: stretch;
   }
 
-  .skill-category {
+  #skills .skill-category {
     background: #fff;
     border: 1px solid var(--border-color);
     border-radius: 8px;
-    padding: 24px;
+    padding: 20px;
     transition: 0.3s;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
   }
 
-  .skill-category:hover {
+  #skills .skill-category:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   }
 
-  .skill-cat-header {
+  #skills .skill-cat-header {
     display: flex;
     align-items: center;
     margin-bottom: 16px;
     flex-shrink: 0;
   }
 
-  .skill-cat-line {
+  #skills .skill-cat-line {
     width: 4px;
     height: 20px;
     background: var(--primary);
@@ -345,7 +349,7 @@ nav_order: 2
     flex-shrink: 0;
   }
 
-  .skill-cat-title {
+  #skills .skill-cat-title {
     font-family: 'Playfair Display', "Noto Serif SC", serif !important;
     font-size: 1.1rem;
     font-weight: 800;
@@ -354,75 +358,78 @@ nav_order: 2
     letter-spacing: 1px;
   }
 
-  /* 核心：3列 × 2行，均匀格 */
-  .skill-tags-grid {
+  /* 3列 × 2行，行高由内容自然决定，不强制拉伸成方块 */
+  #skills .skill-tags-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
+    grid-template-rows: repeat(2, auto);
+    gap: 6px;
     flex-grow: 1;
   }
 
-  /* 扁平横条：左对齐，保持原始 padding 与字号 */
-  .skill-tag {
+  /* 扁平横条：强制单行，左对齐，压缩到极限 */
+  #skills .skill-tag {
     display: flex;
     align-items: center;
-    justify-content: flex-start;  /* 左对齐 */
-    gap: 6px;
-    padding: 10px 8px;            /* 保持原始 */
+    justify-content: flex-start;
+    gap: 4px;
+    padding: 3px 4px;         /* 压缩到极限，为文字腾空间 */
     background: #fafafa;
     border: 1px solid #eee;
     border-radius: 6px;
-    font-size: 0.82rem;           /* 保持原始 */
+    font-size: 0.82rem;       /* 保持原始字号 */
     color: #555;
     transition: 0.2s;
     cursor: default;
-    line-height: 1.3;
-    align-self: center;            /* 在 1fr 行中保持自身高度，不被拉伸成方块 */
+    line-height: 1.2;
+    align-self: center;
+    white-space: nowrap;      /* 强制单行，绝不折行 */
+    overflow: hidden;
+    text-overflow: ellipsis;  /* 极端情况省略号，避免破版 */
   }
 
-  .skill-tag:hover {
+  #skills .skill-tag:hover {
     background: var(--primary);
     color: #fff;
     border-color: var(--primary);
   }
 
-  .skill-tag i {
-    font-size: 0.85rem;           /* 保持原始 */
-    width: 18px;                  /* 固定宽度，确保所有图标严格对齐 */
+  #skills .skill-tag i {
+    font-size: 0.85rem;       /* 保持原始图标字号 */
+    width: 16px;              /* 固定宽度，严格对齐 */
     text-align: center;
-    opacity: 0.7;                 /* 保持原始 */
+    opacity: 0.7;             /* 保持原始透明度 */
     flex-shrink: 0;
   }
 
-  .skill-tag:hover i {
+  #skills .skill-tag:hover i {
     opacity: 1;
   }
 
   /* 平板适配：2列 */
   @media (max-width: 992px) {
-    .skills-grid {
+    #skills .skills-grid {
       grid-template-columns: repeat(2, 1fr);
     }
   }
 
-  /* 移动端适配：1列，标签恢复 2列 */
+  /* 移动端适配：1列，标签恢复 2列内网格 */
   @media (max-width: 768px) {
-    .skills-grid {
+    #skills .skills-grid {
       grid-template-columns: 1fr;
       gap: 20px;
     }
-    .skill-category {
+    #skills .skill-category {
       padding: 20px;
     }
-    .skill-cat-title {
+    #skills .skill-cat-title {
       font-size: 1.05rem;
     }
-    .skill-tags-grid {
+    #skills .skill-tags-grid {
       grid-template-columns: repeat(2, 1fr);
       gap: 8px;
     }
-    .skill-tag {
+    #skills .skill-tag {
       padding: 8px 6px;
       font-size: 0.8rem;
     }
