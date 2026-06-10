@@ -207,14 +207,13 @@ nav_order: 2
   </div>
 
   <div class="skills-grid">
-    <!-- ====== 第 1 行（宽松换行） ====== -->
-
+    <!-- 第 1 行 第 1 列：内容创作 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">内容创作</h4>
       </div>
-      <div class="skill-tags skill-tags-relax">
+      <div class="skill-tags-grid">
         <div class="skill-tag"><i class="fas fa-camera"></i><span>摄影</span></div>
         <div class="skill-tag"><i class="fas fa-video"></i><span>摄像</span></div>
         <div class="skill-tag"><i class="fas fa-pen-fancy"></i><span>文案</span></div>
@@ -224,12 +223,13 @@ nav_order: 2
       </div>
     </div>
 
+    <!-- 第 1 行 第 2 列：传播运营 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">传播运营</h4>
       </div>
-      <div class="skill-tags skill-tags-relax">
+      <div class="skill-tags-grid">
         <div class="skill-tag"><i class="fas fa-bullhorn"></i><span>全媒体运营</span></div>
         <div class="skill-tag"><i class="fas fa-users"></i><span>舆情分析</span></div>
         <div class="skill-tag"><i class="fas fa-comments"></i><span>公共关系</span></div>
@@ -239,12 +239,13 @@ nav_order: 2
       </div>
     </div>
 
+    <!-- 第 1 行 第 3 列：视觉设计 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">视觉设计</h4>
       </div>
-      <div class="skill-tags skill-tags-relax">
+      <div class="skill-tags-grid">
         <div class="skill-tag"><i class="fas fa-image"></i><span>Photoshop</span></div>
         <div class="skill-tag"><i class="fas fa-bezier-curve"></i><span>Illustrator</span></div>
         <div class="skill-tag"><i class="fas fa-palette"></i><span>Canva</span></div>
@@ -254,14 +255,13 @@ nav_order: 2
       </div>
     </div>
 
-    <!-- ====== 第 2 行（垂直排列，标签不撑满） ====== -->
-
+    <!-- 第 2 行 第 1 列：影音后期 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">影音后期</h4>
       </div>
-      <div class="skill-tags skill-tags-vertical">
+      <div class="skill-tags-grid">
         <div class="skill-tag"><i class="fas fa-film"></i><span>Premiere Pro</span></div>
         <div class="skill-tag"><i class="fas fa-wand-magic-sparkles"></i><span>After Effects</span></div>
         <div class="skill-tag"><i class="fas fa-headphones"></i><span>Audition</span></div>
@@ -271,12 +271,13 @@ nav_order: 2
       </div>
     </div>
 
+    <!-- 第 2 行 第 2 列：数据分析 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">数据分析</h4>
       </div>
-      <div class="skill-tags skill-tags-vertical">
+      <div class="skill-tags-grid">
         <div class="skill-tag"><i class="fas fa-file-word"></i><span>Office / WPS</span></div>
         <div class="skill-tag"><i class="fas fa-database"></i><span>SQL</span></div>
         <div class="skill-tag"><i class="fab fa-python"></i><span>Python</span></div>
@@ -286,12 +287,13 @@ nav_order: 2
       </div>
     </div>
 
+    <!-- 第 2 行 第 3 列：AI 应用 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">AI 应用</h4>
       </div>
-      <div class="skill-tags skill-tags-vertical">
+      <div class="skill-tags-grid">
         <div class="skill-tag"><i class="fas fa-code"></i><span>Vibe Coding</span></div>
         <div class="skill-tag"><i class="fas fa-video"></i><span>即梦</span></div>
         <div class="skill-tag"><i class="fas fa-wand-magic"></i><span>可灵</span></div>
@@ -304,7 +306,7 @@ nav_order: 2
 </section>
 
 <style>
-  /* ========== 专业技能板块样式 ========== */
+  /* ========== 专业技能板块样式（Grid 网格版） ========== */
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -352,20 +354,30 @@ nav_order: 2
     letter-spacing: 1px;
   }
 
-  /* 基础标签样式 */
+  /* 核心：内部 2列 × 3行 网格 */
+  .skill-tags-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* 2列 */
+    grid-template-rows: repeat(3, 1fr);     /* 3行 */
+    gap: 10px;
+    flex-grow: 1;
+  }
+
   .skill-tag {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: center;  /* 水平居中 */
     gap: 6px;
-    padding: 8px 14px;
+    padding: 10px 8px;
     background: #fafafa;
     border: 1px solid #eee;
     border-radius: 6px;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     color: #555;
     transition: 0.2s;
     cursor: default;
-    line-height: 1.4;
+    text-align: center;
+    line-height: 1.3;
   }
 
   .skill-tag:hover {
@@ -377,36 +389,11 @@ nav_order: 2
   .skill-tag i {
     font-size: 0.85rem;
     opacity: 0.7;
+    flex-shrink: 0;
   }
 
   .skill-tag:hover i {
     opacity: 1;
-  }
-
-  /* 第 1 行：宽松换行，增大间距 */
-  .skill-tags-relax {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;          /* 增大标签间距 */
-    margin-top: auto;
-  }
-
-  .skill-tags-relax .skill-tag {
-    padding: 10px 16px; /* 增大标签内边距 */
-  }
-
-  /* 第 2 行：垂直排列，标签不撑满，自然宽度 */
-  .skill-tags-vertical {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-start; /* 标签左对齐，不撑满 */
-    gap: 10px;
-    margin-top: auto;
-  }
-
-  .skill-tags-vertical .skill-tag {
-    /* 不设置 width: 100%，保持自然宽度 */
   }
 
   /* 平板适配：2列 */
@@ -416,7 +403,7 @@ nav_order: 2
     }
   }
 
-  /* 移动端适配：1列 */
+  /* 移动端适配：1列，标签恢复自然宽度 */
   @media (max-width: 768px) {
     .skills-grid {
       grid-template-columns: 1fr;
@@ -428,15 +415,13 @@ nav_order: 2
     .skill-cat-title {
       font-size: 1.05rem;
     }
+    .skill-tags-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
     .skill-tag {
-      padding: 7px 12px;
-      font-size: 0.82rem;
-    }
-    .skill-tags-relax {
-      gap: 10px;
-    }
-    .skill-tags-relax .skill-tag {
-      padding: 8px 14px;
+      padding: 8px 6px;
+      font-size: 0.8rem;
     }
   }
 </style>
