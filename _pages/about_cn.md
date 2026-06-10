@@ -306,41 +306,40 @@ nav_order: 2
 </section>
 
 <style>
-  /* ========== 专业技能板块样式（严格限定 #skills 作用域） ========== */
-  #skills .skills-grid {
+  /* ========== 专业技能板块样式（Grid 网格版） ========== */
+  .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
-    gap: 20px;
-    width: 100%;              /* 强制撑满父容器，根治右偏 */
+    gap: 24px;
+    width: 100%;
     box-sizing: border-box;
     align-items: stretch;
   }
 
-  #skills .skill-category {
+  .skill-category {
     background: #fff;
     border: 1px solid var(--border-color);
     border-radius: 8px;
-    padding: 20px;
+    padding: 24px;
     transition: 0.3s;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
   }
 
-  #skills .skill-category:hover {
+  .skill-category:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   }
 
-  #skills .skill-cat-header {
+  .skill-cat-header {
     display: flex;
     align-items: center;
     margin-bottom: 16px;
     flex-shrink: 0;
   }
 
-  #skills .skill-cat-line {
+  .skill-cat-line {
     width: 4px;
     height: 20px;
     background: var(--primary);
@@ -349,7 +348,7 @@ nav_order: 2
     flex-shrink: 0;
   }
 
-  #skills .skill-cat-title {
+  .skill-cat-title {
     font-family: 'Playfair Display', "Noto Serif SC", serif !important;
     font-size: 1.1rem;
     font-weight: 800;
@@ -358,83 +357,80 @@ nav_order: 2
     letter-spacing: 1px;
   }
 
-  /* 3列 × 2行，行高由内容自然决定，不强制拉伸成方块 */
-  #skills .skill-tags-grid {
+  /* 核心：2列 × 3行，宽度充足，文字完整显示 */
+  .skill-tags-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
-    gap: 6px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 8px;
     flex-grow: 1;
   }
 
-  /* 扁平横条：强制单行，左对齐，压缩到极限 */
-  #skills .skill-tag {
+  /* 标签：左对齐，紧凑扁平，不截断 */
+  .skill-tag {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 4px;
-    padding: 3px 4px;         /* 压缩到极限，为文字腾空间 */
+    justify-content: flex-start;  /* 左对齐，统一视线 */
+    gap: 6px;
+    padding: 8px 10px;            /* 压缩到扁平紧凑 */
     background: #fafafa;
     border: 1px solid #eee;
     border-radius: 6px;
-    font-size: 0.82rem;       /* 保持原始字号 */
+    font-size: 0.82rem;           /* 保持原始字号 */
     color: #555;
     transition: 0.2s;
     cursor: default;
-    line-height: 1.2;
-    align-self: center;
-    white-space: nowrap;      /* 强制单行，绝不折行 */
-    overflow: hidden;
-    text-overflow: ellipsis;  /* 极端情况省略号，避免破版 */
+    line-height: 1.3;
   }
 
-  #skills .skill-tag:hover {
+  .skill-tag:hover {
     background: var(--primary);
     color: #fff;
     border-color: var(--primary);
   }
 
-  #skills .skill-tag i {
-    font-size: 0.85rem;       /* 保持原始图标字号 */
-    width: 16px;              /* 固定宽度，严格对齐 */
+  .skill-tag i {
+    font-size: 0.85rem;           /* 保持原始图标字号 */
+    width: 18px;                  /* 固定宽度，确保所有图标严格对齐 */
     text-align: center;
-    opacity: 0.7;             /* 保持原始透明度 */
+    opacity: 0.7;                 /* 保持原始透明度 */
     flex-shrink: 0;
   }
 
-  #skills .skill-tag:hover i {
+  .skill-tag:hover i {
     opacity: 1;
   }
 
   /* 平板适配：2列 */
   @media (max-width: 992px) {
-    #skills .skills-grid {
+    .skills-grid {
       grid-template-columns: repeat(2, 1fr);
     }
   }
 
-  /* 移动端适配：1列，标签恢复 2列内网格 */
+  /* 移动端适配：1列，标签保持2列 */
   @media (max-width: 768px) {
-    #skills .skills-grid {
+    .skills-grid {
       grid-template-columns: 1fr;
       gap: 20px;
     }
-    #skills .skill-category {
+    .skill-category {
       padding: 20px;
     }
-    #skills .skill-cat-title {
+    .skill-cat-title {
       font-size: 1.05rem;
     }
-    #skills .skill-tags-grid {
+    .skill-tags-grid {
       grid-template-columns: repeat(2, 1fr);
       gap: 8px;
     }
-    #skills .skill-tag {
-      padding: 8px 6px;
+    .skill-tag {
+      padding: 8px 10px;
       font-size: 0.8rem;
     }
   }
 </style>
+
 
 <section class="content-section mb-6">
   <div class="thesis-block">
