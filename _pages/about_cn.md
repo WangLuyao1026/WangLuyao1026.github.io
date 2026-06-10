@@ -200,7 +200,6 @@ nav_order: 2
   </div>
 </section>
 
-
 <section class="content-section" id="skills">
   <div class="section-head">
     <h3 class="head-cn">专业技能</h3>
@@ -208,15 +207,14 @@ nav_order: 2
   </div>
 
   <div class="skills-grid">
-    <!-- ====== 第 1 行 ====== -->
+    <!-- ====== 第 1 行（宽松换行） ====== -->
 
-    <!-- 第 1 行 第 1 列：内容创作（正常换行） -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">内容创作</h4>
       </div>
-      <div class="skill-tags">
+      <div class="skill-tags skill-tags-relax">
         <div class="skill-tag"><i class="fas fa-camera"></i><span>摄影</span></div>
         <div class="skill-tag"><i class="fas fa-video"></i><span>摄像</span></div>
         <div class="skill-tag"><i class="fas fa-pen-fancy"></i><span>文案</span></div>
@@ -226,13 +224,12 @@ nav_order: 2
       </div>
     </div>
 
-    <!-- 第 1 行 第 2 列：传播运营（正常换行） -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">传播运营</h4>
       </div>
-      <div class="skill-tags">
+      <div class="skill-tags skill-tags-relax">
         <div class="skill-tag"><i class="fas fa-bullhorn"></i><span>全媒体运营</span></div>
         <div class="skill-tag"><i class="fas fa-users"></i><span>舆情分析</span></div>
         <div class="skill-tag"><i class="fas fa-comments"></i><span>公共关系</span></div>
@@ -242,66 +239,65 @@ nav_order: 2
       </div>
     </div>
 
-    <!-- 第 1 行 第 3 列：视觉设计（正常换行） -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">视觉设计</h4>
       </div>
-      <div class="skill-tags">
+      <div class="skill-tags skill-tags-relax">
         <div class="skill-tag"><i class="fas fa-image"></i><span>Photoshop</span></div>
         <div class="skill-tag"><i class="fas fa-bezier-curve"></i><span>Illustrator</span></div>
         <div class="skill-tag"><i class="fas fa-palette"></i><span>Canva</span></div>
         <div class="skill-tag"><i class="fas fa-pen-nib"></i><span>秀米</span></div>
+        <div class="skill-tag"><i class="fab fa-figma"></i><span>Figma</span></div>
         <div class="skill-tag"><i class="fas fa-layer-group"></i><span>InDesign</span></div>
       </div>
     </div>
 
-    <!-- ====== 第 2 行（标签垂直排列） ====== -->
+    <!-- ====== 第 2 行（垂直排列，标签不撑满） ====== -->
 
-    <!-- 第 2 行 第 1 列：影音后期（每标签独占一行） -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">影音后期</h4>
       </div>
       <div class="skill-tags skill-tags-vertical">
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-film"></i><span>Premiere Pro</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-wand-magic-sparkles"></i><span>After Effects</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-headphones"></i><span>Audition</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fab fa-apple"></i><span>Final Cut Pro</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-scissors"></i><span>剪映专业版</span></div>
+        <div class="skill-tag"><i class="fas fa-film"></i><span>Premiere Pro</span></div>
+        <div class="skill-tag"><i class="fas fa-wand-magic-sparkles"></i><span>After Effects</span></div>
+        <div class="skill-tag"><i class="fas fa-headphones"></i><span>Audition</span></div>
+        <div class="skill-tag"><i class="fab fa-apple"></i><span>Final Cut Pro</span></div>
+        <div class="skill-tag"><i class="fas fa-scissors"></i><span>剪映专业版</span></div>
+        <div class="skill-tag"><i class="fas fa-clapperboard"></i><span>DaVinci Resolve</span></div>
       </div>
     </div>
 
-    <!-- 第 2 行 第 2 列：数据分析（每标签独占一行） -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">数据分析</h4>
       </div>
       <div class="skill-tags skill-tags-vertical">
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-file-word"></i><span>Office / WPS</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-database"></i><span>SQL</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fab fa-python"></i><span>Python</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fab fa-r-project"></i><span>R</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-chart-bar"></i><span>Stata</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-project-diagram"></i><span>Gephi</span></div>
+        <div class="skill-tag"><i class="fas fa-file-word"></i><span>Office / WPS</span></div>
+        <div class="skill-tag"><i class="fas fa-database"></i><span>SQL</span></div>
+        <div class="skill-tag"><i class="fab fa-python"></i><span>Python</span></div>
+        <div class="skill-tag"><i class="fab fa-r-project"></i><span>R</span></div>
+        <div class="skill-tag"><i class="fas fa-chart-bar"></i><span>Stata</span></div>
+        <div class="skill-tag"><i class="fas fa-project-diagram"></i><span>Gephi</span></div>
       </div>
     </div>
 
-    <!-- 第 2 行 第 3 列：AI 应用（每标签独占一行） -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">AI 应用</h4>
       </div>
       <div class="skill-tags skill-tags-vertical">
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-code"></i><span>Vibe Coding</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-video"></i><span>即梦</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-wand-magic"></i><span>可灵</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-film"></i><span>海螺</span></div>
-        <div class="skill-tag skill-tag-vertical"><i class="fas fa-music"></i><span>Max</span></div>
+        <div class="skill-tag"><i class="fas fa-code"></i><span>Vibe Coding</span></div>
+        <div class="skill-tag"><i class="fas fa-video"></i><span>即梦</span></div>
+        <div class="skill-tag"><i class="fas fa-wand-magic"></i><span>可灵</span></div>
+        <div class="skill-tag"><i class="fas fa-film"></i><span>海螺</span></div>
+        <div class="skill-tag"><i class="fas fa-robot"></i><span>Runway Gen</span></div>
+        <div class="skill-tag"><i class="fas fa-music"></i><span>Max</span></div>
       </div>
     </div>
   </div>
@@ -356,14 +352,7 @@ nav_order: 2
     letter-spacing: 1px;
   }
 
-  /* 第 1 行：正常换行 */
-  .skill-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: auto;
-  }
-
+  /* 基础标签样式 */
   .skill-tag {
     display: inline-flex;
     align-items: center;
@@ -394,17 +383,30 @@ nav_order: 2
     opacity: 1;
   }
 
-  /* 第 2 行：垂直排列，每标签独占一行 */
-  .skill-tags-vertical {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 10px;
+  /* 第 1 行：宽松换行，增大间距 */
+  .skill-tags-relax {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;          /* 增大标签间距 */
+    margin-top: auto;
   }
 
-  .skill-tag-vertical {
-    width: 100%;
-    justify-content: flex-start;
-    box-sizing: border-box;
+  .skill-tags-relax .skill-tag {
+    padding: 10px 16px; /* 增大标签内边距 */
+  }
+
+  /* 第 2 行：垂直排列，标签不撑满，自然宽度 */
+  .skill-tags-vertical {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start; /* 标签左对齐，不撑满 */
+    gap: 10px;
+    margin-top: auto;
+  }
+
+  .skill-tags-vertical .skill-tag {
+    /* 不设置 width: 100%，保持自然宽度 */
   }
 
   /* 平板适配：2列 */
@@ -430,10 +432,14 @@ nav_order: 2
       padding: 7px 12px;
       font-size: 0.82rem;
     }
+    .skill-tags-relax {
+      gap: 10px;
+    }
+    .skill-tags-relax .skill-tag {
+      padding: 8px 14px;
+    }
   }
 </style>
-
-
 
 <section class="content-section mb-6">
   <div class="thesis-block">
