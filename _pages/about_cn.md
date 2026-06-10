@@ -362,7 +362,7 @@ nav_order: 2
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
-    gap: 8px;
+    gap: 14px;
     flex-grow: 1;
   }
 
