@@ -207,7 +207,49 @@ nav_order: 2
   </div>
 
   <div class="skills-grid">
-    <!-- 分类 1：设计制作 -->
+    <!-- 分类 1：专业技能 -->
+    <div class="skill-category">
+      <div class="skill-cat-header">
+        <div class="skill-cat-line"></div>
+        <h4 class="skill-cat-title">专业技能</h4>
+      </div>
+      <div class="skill-tags">
+        <div class="skill-tag">
+          <i class="fas fa-camera"></i>
+          <span>摄影</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-video"></i>
+          <span>摄像</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-pen-fancy"></i>
+          <span>文案</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-lightbulb"></i>
+          <span>策划</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-newspaper"></i>
+          <span>新闻采编</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-bullhorn"></i>
+          <span>全媒体运营</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-users"></i>
+          <span>舆情分析</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-comments"></i>
+          <span>公共关系</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 分类 2：设计制作 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
@@ -219,6 +261,10 @@ nav_order: 2
           <span>Photoshop</span>
         </div>
         <div class="skill-tag">
+          <i class="fas fa-bezier-curve"></i>
+          <span>Illustrator</span>
+        </div>
+        <div class="skill-tag">
           <i class="fas fa-palette"></i>
           <span>Canva</span>
         </div>
@@ -226,6 +272,16 @@ nav_order: 2
           <i class="fas fa-pen-nib"></i>
           <span>秀米</span>
         </div>
+      </div>
+    </div>
+
+    <!-- 分类 3：剪辑后期 -->
+    <div class="skill-category">
+      <div class="skill-cat-header">
+        <div class="skill-cat-line"></div>
+        <h4 class="skill-cat-title">剪辑后期</h4>
+      </div>
+      <div class="skill-tags">
         <div class="skill-tag">
           <i class="fas fa-film"></i>
           <span>Premiere Pro</span>
@@ -239,21 +295,17 @@ nav_order: 2
           <span>Audition</span>
         </div>
         <div class="skill-tag">
+          <i class="fab fa-apple"></i>
+          <span>Final Cut Pro</span>
+        </div>
+        <div class="skill-tag">
           <i class="fas fa-scissors"></i>
           <span>剪映专业版</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fas fa-clapperboard"></i>
-          <span>DaVinci Resolve</span>
-        </div>
-        <div class="skill-tag">
-          <i class="fab fa-figma"></i>
-          <span>Figma</span>
         </div>
       </div>
     </div>
 
-    <!-- 分类 2：办公与数据分析 -->
+    <!-- 分类 4：办公与数据分析 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
@@ -273,8 +325,8 @@ nav_order: 2
           <span>Python</span>
         </div>
         <div class="skill-tag">
-          <i class="fas fa-chart-line"></i>
-          <span>Tableau</span>
+          <i class="fab fa-r-project"></i>
+          <span>R</span>
         </div>
         <div class="skill-tag">
           <i class="fas fa-chart-bar"></i>
@@ -283,7 +335,7 @@ nav_order: 2
       </div>
     </div>
 
-    <!-- 分类 3：AI 工具应用 -->
+    <!-- 分类 5：AI 工具应用 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
@@ -324,20 +376,6 @@ nav_order: 2
         </div>
       </div>
     </div>
-
-    <!-- 分类 4：摄影 -->
-    <div class="skill-category">
-      <div class="skill-cat-header">
-        <div class="skill-cat-line"></div>
-        <h4 class="skill-cat-title">摄影</h4>
-      </div>
-      <div class="skill-tags">
-        <div class="skill-tag">
-          <i class="fas fa-camera"></i>
-          <span>摄影</span>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -346,7 +384,7 @@ nav_order: 2
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 40px;
+    gap: 30px;
   }
 
   @media (min-width: 768px) {
@@ -359,7 +397,7 @@ nav_order: 2
     background: #fff;
     border: 1px solid var(--border-color);
     border-radius: 8px;
-    padding: 30px;
+    padding: 28px;
     transition: 0.3s;
   }
 
@@ -371,7 +409,7 @@ nav_order: 2
   .skill-cat-header {
     display: flex;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
 
   .skill-cat-line {
@@ -395,14 +433,14 @@ nav_order: 2
   .skill-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 10px;
   }
 
   .skill-tag {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 10px 18px;
+    padding: 10px 16px;
     background: #fafafa;
     border: 1px solid #eee;
     border-radius: 8px;
@@ -441,6 +479,7 @@ nav_order: 2
     }
   }
 </style>
+
 
 <section class="content-section mb-6">
   <div class="thesis-block">
