@@ -207,7 +207,7 @@ nav_order: 2
   </div>
 
   <div class="skills-grid">
-    <!-- 分类 1：内容创作 -->
+    <!-- 第1行 第1列：内容创作 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
@@ -219,10 +219,11 @@ nav_order: 2
         <div class="skill-tag"><i class="fas fa-pen-fancy"></i><span>文案</span></div>
         <div class="skill-tag"><i class="fas fa-lightbulb"></i><span>策划</span></div>
         <div class="skill-tag"><i class="fas fa-newspaper"></i><span>新闻采编</span></div>
+        <div class="skill-tag"><i class="fas fa-magnifying-glass"></i><span>深度报道</span></div>
       </div>
     </div>
 
-    <!-- 分类 2：传播运营 -->
+    <!-- 第1行 第2列：传播运营 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
@@ -238,7 +239,7 @@ nav_order: 2
       </div>
     </div>
 
-    <!-- 分类 3：视觉设计 -->
+    <!-- 第1行 第3列：视觉设计 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
@@ -250,10 +251,11 @@ nav_order: 2
         <div class="skill-tag"><i class="fas fa-palette"></i><span>Canva</span></div>
         <div class="skill-tag"><i class="fas fa-pen-nib"></i><span>秀米</span></div>
         <div class="skill-tag"><i class="fab fa-figma"></i><span>Figma</span></div>
+        <div class="skill-tag"><i class="fas fa-layer-group"></i><span>InDesign</span></div>
       </div>
     </div>
 
-    <!-- 分类 4：影音后期 -->
+    <!-- 第2行 第1列：影音后期 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
@@ -265,10 +267,11 @@ nav_order: 2
         <div class="skill-tag"><i class="fas fa-headphones"></i><span>Audition</span></div>
         <div class="skill-tag"><i class="fab fa-apple"></i><span>Final Cut Pro</span></div>
         <div class="skill-tag"><i class="fas fa-scissors"></i><span>剪映专业版</span></div>
+        <div class="skill-tag"><i class="fas fa-clapperboard"></i><span>DaVinci Resolve</span></div>
       </div>
     </div>
 
-    <!-- 分类 5：数据分析 -->
+    <!-- 第2行 第2列：数据分析 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
@@ -280,12 +283,11 @@ nav_order: 2
         <div class="skill-tag"><i class="fab fa-python"></i><span>Python</span></div>
         <div class="skill-tag"><i class="fab fa-r-project"></i><span>R</span></div>
         <div class="skill-tag"><i class="fas fa-chart-bar"></i><span>Stata</span></div>
-        <div class="skill-tag"><i class="fas fa-chart-pie"></i><span>SPSS</span></div>
         <div class="skill-tag"><i class="fas fa-project-diagram"></i><span>Gephi</span></div>
       </div>
     </div>
 
-    <!-- 分类 6：AI 应用 -->
+    <!-- 第2行 第3列：AI 应用 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
@@ -298,30 +300,28 @@ nav_order: 2
         <div class="skill-tag"><i class="fas fa-film"></i><span>海螺</span></div>
         <div class="skill-tag"><i class="fas fa-robot"></i><span>Runway Gen</span></div>
         <div class="skill-tag"><i class="fas fa-music"></i><span>Max</span></div>
-        <div class="skill-tag"><i class="fas fa-microphone"></i><span>Mini</span></div>
       </div>
     </div>
   </div>
 </section>
 
 <style>
-  /* ========== 专业技能板块样式 ========== */
+  /* ========== 专业技能板块样式（3列2行完美对称版） ========== */
   .skills-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    align-items: stretch; /* 关键：让所有卡片等高 */
+    grid-template-columns: repeat(3, 1fr);  /* 3列 */
+    gap: 24px;                               /* 列间距 */
+    align-items: stretch;                    /* 强制等高 */
   }
 
   .skill-category {
     background: #fff;
     border: 1px solid var(--border-color);
     border-radius: 8px;
-    padding: 28px;
+    padding: 24px;
     transition: 0.3s;
     display: flex;
-    flex-direction: column; /* 关键：垂直布局 */
-    min-height: 280px;      /* 关键：统一最小高度 */
+    flex-direction: column;
   }
 
   .skill-category:hover {
@@ -332,22 +332,22 @@ nav_order: 2
   .skill-cat-header {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     flex-shrink: 0;
   }
 
   .skill-cat-line {
     width: 4px;
-    height: 22px;
+    height: 20px;
     background: var(--primary);
     border-radius: 2px;
-    margin-right: 12px;
+    margin-right: 10px;
     flex-shrink: 0;
   }
 
   .skill-cat-title {
     font-family: 'Playfair Display', "Noto Serif SC", serif !important;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     font-weight: 800;
     color: #000;
     margin: 0;
@@ -357,22 +357,23 @@ nav_order: 2
   .skill-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-top: auto; /* 关键：标签区域推到底部 */
+    gap: 8px;
+    margin-top: auto;
   }
 
   .skill-tag {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    padding: 10px 16px;
+    gap: 6px;
+    padding: 8px 14px;
     background: #fafafa;
     border: 1px solid #eee;
-    border-radius: 8px;
-    font-size: 0.9rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
     color: #555;
     transition: 0.2s;
     cursor: default;
+    line-height: 1.4;
   }
 
   .skill-tag:hover {
@@ -382,7 +383,7 @@ nav_order: 2
   }
 
   .skill-tag i {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     opacity: 0.7;
   }
 
@@ -390,24 +391,33 @@ nav_order: 2
     opacity: 1;
   }
 
-  /* 移动端适配 */
+  /* 平板适配：2列 */
+  @media (max-width: 992px) {
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* 移动端适配：1列 */
   @media (max-width: 768px) {
     .skills-grid {
       grid-template-columns: 1fr;
+      gap: 20px;
     }
     .skill-category {
-      min-height: auto;
       padding: 20px;
     }
     .skill-cat-title {
       font-size: 1.05rem;
     }
     .skill-tag {
-      padding: 8px 14px;
-      font-size: 0.85rem;
+      padding: 7px 12px;
+      font-size: 0.82rem;
     }
   }
 </style>
+
+
 
 <section class="content-section mb-6">
   <div class="thesis-block">
