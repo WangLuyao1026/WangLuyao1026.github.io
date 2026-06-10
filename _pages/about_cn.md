@@ -200,6 +200,248 @@ nav_order: 2
   </div>
 </section>
 
+<section class="content-section" id="skills">
+  <div class="section-head">
+    <h3 class="head-cn">专业技能</h3>
+    <span class="head-en">PROFESSIONAL SKILLS</span>
+  </div>
+
+  <div class="skills-grid">
+    <!-- 分类 1：设计制作 -->
+    <div class="skill-category">
+      <div class="skill-cat-header">
+        <div class="skill-cat-line"></div>
+        <h4 class="skill-cat-title">设计制作</h4>
+      </div>
+      <div class="skill-tags">
+        <div class="skill-tag">
+          <i class="fas fa-image"></i>
+          <span>Photoshop</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-palette"></i>
+          <span>Canva</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-pen-nib"></i>
+          <span>秀米</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-film"></i>
+          <span>Premiere Pro</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-wand-magic-sparkles"></i>
+          <span>After Effects</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-headphones"></i>
+          <span>Audition</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-scissors"></i>
+          <span>剪映专业版</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-clapperboard"></i>
+          <span>DaVinci Resolve</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fab fa-figma"></i>
+          <span>Figma</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 分类 2：办公与数据分析 -->
+    <div class="skill-category">
+      <div class="skill-cat-header">
+        <div class="skill-cat-line"></div>
+        <h4 class="skill-cat-title">办公与数据分析</h4>
+      </div>
+      <div class="skill-tags">
+        <div class="skill-tag">
+          <i class="fas fa-file-word"></i>
+          <span>Office / WPS</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-database"></i>
+          <span>SQL</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fab fa-python"></i>
+          <span>Python</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-chart-line"></i>
+          <span>Tableau</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-chart-bar"></i>
+          <span>Stata</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 分类 3：AI 工具应用 -->
+    <div class="skill-category">
+      <div class="skill-cat-header">
+        <div class="skill-cat-line"></div>
+        <h4 class="skill-cat-title">AI 工具应用</h4>
+      </div>
+      <div class="skill-tags">
+        <div class="skill-tag">
+          <i class="fas fa-video"></i>
+          <span>即梦</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-wand-magic"></i>
+          <span>可灵</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-film"></i>
+          <span>海螺</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-music"></i>
+          <span>Max</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-microphone"></i>
+          <span>Mini</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-wave-square"></i>
+          <span>Noiz</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-robot"></i>
+          <span>Runway Gen</span>
+        </div>
+        <div class="skill-tag">
+          <i class="fas fa-code"></i>
+          <span>Vibe Coding</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 分类 4：摄影 -->
+    <div class="skill-category">
+      <div class="skill-cat-header">
+        <div class="skill-cat-line"></div>
+        <h4 class="skill-cat-title">摄影</h4>
+      </div>
+      <div class="skill-tags">
+        <div class="skill-tag">
+          <i class="fas fa-camera"></i>
+          <span>摄影</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* ========== 专业技能板块样式 ========== */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  @media (min-width: 768px) {
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .skill-category {
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 30px;
+    transition: 0.3s;
+  }
+
+  .skill-category:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  }
+
+  .skill-cat-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  .skill-cat-line {
+    width: 4px;
+    height: 22px;
+    background: var(--primary);
+    border-radius: 2px;
+    margin-right: 12px;
+    flex-shrink: 0;
+  }
+
+  .skill-cat-title {
+    font-family: 'Playfair Display', "Noto Serif SC", serif !important;
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #000;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .skill-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: #555;
+    transition: 0.2s;
+    cursor: default;
+  }
+
+  .skill-tag:hover {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+  }
+
+  .skill-tag i {
+    font-size: 0.9rem;
+    opacity: 0.7;
+  }
+
+  .skill-tag:hover i {
+    opacity: 1;
+  }
+
+  /* 移动端适配 */
+  @media (max-width: 768px) {
+    .skill-category {
+      padding: 20px;
+    }
+    .skill-cat-title {
+      font-size: 1.05rem;
+    }
+    .skill-tag {
+      padding: 8px 14px;
+      font-size: 0.85rem;
+    }
+  }
+</style>
+
 <section class="content-section mb-6">
   <div class="thesis-block">
     <div class="thesis-medal">
