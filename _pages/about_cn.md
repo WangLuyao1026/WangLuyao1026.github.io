@@ -373,20 +373,22 @@ nav_order: 2
     justify-content: flex-start;  /* 左对齐，统一视线 */
     gap: 6px;
     padding: 8px 10px;            /* 压缩到扁平紧凑 */
-    background: #fafafa;
-    border: 1px solid #eee;
-    border-radius: 6px;
+    background: #fff;            /* 背景纯白，不填色 */
+    border: 1.5px solid #e0e0e0;  /* 默认浅灰描边 */
+    border-radius: 8px;            /* 圆角与图片一致 */
     font-size: 0.82rem;           /* 保持原始字号 */
     color: #555;
-    transition: 0.2s;
+    transition: all 0.2s ease;
     cursor: default;
     line-height: 1.3;
   }
 
   .skill-tag:hover {
-    background: var(--primary);
-    color: #fff;
-    border-color: var(--primary);
+    background: #fff;                /* 背景保持纯白，不填充 */
+    color: var(--primary);             /* 文字变主题色 */
+    border-color: var(--primary);      /* 描边变主题色 */
+    border-width: 1.5px;               /* 保持描边粗细 */
+    box-shadow: 0 0 0 1px var(--primary); /* 外描边更突出 */
   }
 
   .skill-tag i {
@@ -399,6 +401,7 @@ nav_order: 2
 
   .skill-tag:hover i {
     opacity: 1;
+    color: var(--primary);         /* 图标跟随变主题色 */
   }
 
   /* 第一行标签增加上下内边距，增加呼吸感 */
