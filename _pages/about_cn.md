@@ -652,7 +652,7 @@ nav_order: 2
   /* 核心竞争力 */
   .competency-grid { display: grid; grid-template-columns: repeat(md, 1fr); gap: 30px; }
   @media (min-width: 768px) { .competency-grid { grid-template-columns: repeat(3, 1fr); } }
-  .comp-item { padding: 32px 26px; border: 1px solid var(--border-color); border-radius: 8px; text-align: left; transition: 0.3s; height: 100%; background: #fff; }
+  .comp-item { padding: 32px 26px; border: 1px solid var(--border-color); border-radius: 8px; text-align: left; transition: 0.3s; height: 100%; background: #fff; display: flex; flex-direction: column; justify-content: center; }
   .comp-item:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
   .comp-item.highlight { border-top: 4px solid var(--primary); }
   .comp-text h5 { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.15rem; color: #000; margin-bottom: 18px; }
