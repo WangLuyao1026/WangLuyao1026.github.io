@@ -52,23 +52,20 @@ nav_order: 2
 
   <div class="competency-grid">
     <div class="comp-item">
-      <div class="comp-icon"><i class="fas fa-chart-line"></i></div>
       <div class="comp-text">
-        <h5>内容增长与全域运营</h5>
+        <h5><i class="fas fa-chart-line comp-title-icon"></i>内容增长与全域运营</h5>
         <p>累计编发图文/视频物料 15000+ 条，覆盖微信、微博、抖音、今日头条全矩阵。通过标题 AB 测试与封面点击率、完播率追踪优化，产出单篇 20w+ 推文与 10w+ 爆款视频，系列宣发总阅读量突破 130w+，单账号涨粉过万，形成“数据监控—反馈收集—内容迭代”的运营闭环。</p>
       </div>
     </div>
     <div class="comp-item highlight">
-      <div class="comp-icon"><i class="fas fa-database"></i></div>
       <div class="comp-text">
-        <h5>数据驱动与量化分析</h5>
+        <h5><span class="comp-title-emoji">📑</span>数据驱动与量化分析</h5>
         <p>熟练使用 Python / R / Stata / SQL，具备从数据抓取、清洗、可视化到业务报表搭建的全流程能力。曾搭建内容分发效果评估指标体系，基于用户画像与流量数据动态调整分发策略，实现点击转化率（CTR）提升 30%、推文平均阅读量逆势提升 25%。</p>
       </div>
     </div>
     <div class="comp-item">
-      <div class="comp-icon"><i class="fas fa-diagram-project"></i></div>
       <div class="comp-text">
-        <h5>全链路项目协同</h5>
+        <h5><i class="fas fa-diagram-project comp-title-icon"></i>全链路项目协同</h5>
         <p>多次承担从前期策划、资源调度到后期宣发与数据复盘的全链路项目管理：跨部门对接快手政务部、腾讯及多家三甲医院推进项目落地；在国家级赛事闭幕式导演组负责音频统筹，跨工种协同导播、视觉、灯光团队，保障高压场景下重大节点零差错交付。</p>
       </div>
     </div>
@@ -655,12 +652,13 @@ nav_order: 2
   /* 核心竞争力 */
   .competency-grid { display: grid; grid-template-columns: repeat(md, 1fr); gap: 30px; }
   @media (min-width: 768px) { .competency-grid { grid-template-columns: repeat(3, 1fr); } }
-  .comp-item { padding: 30px 20px; border: 1px solid var(--border-color); border-radius: 8px; text-align: center; transition: 0.3s; height: 100%; background: #fff; }
+  .comp-item { padding: 32px 26px; border: 1px solid var(--border-color); border-radius: 8px; text-align: left; transition: 0.3s; height: 100%; background: #fff; }
   .comp-item:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
   .comp-item.highlight { border-top: 4px solid var(--primary); }
-  .comp-icon { font-size: 1.8rem; margin-bottom: 18px; color: var(--primary); }
-  .comp-text h5 { font-weight: 700; font-size: 1.2rem; color: var(--primary); margin-bottom: 20px; }
-  .comp-text p { font-size: 0.95rem; color: var(--text-light); text-align: left; line-height: 1.9; }
+  .comp-text h5 { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 1.15rem; color: #000; margin-bottom: 18px; }
+  .comp-title-icon { font-size: 1rem; color: var(--primary); }
+  .comp-title-emoji { font-size: 1.05rem; line-height: 1; }
+  .comp-text p { font-size: 0.92rem; color: #555; text-align: left; line-height: 1.85; }
 
   /* 年度省思容器 */
   .reflection-paper { background: #fff; border: 1px solid var(--border-color); border-radius: 8px; padding: 50px; box-shadow: 0 5px 20px rgba(0,0,0,0.02); position: relative; }
