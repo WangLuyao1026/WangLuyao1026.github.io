@@ -30,11 +30,10 @@ nav_order: 2
       <p class="tagline">计算传播学</p>
       <div class="divider-short"></div>
       <p class="intro">
-        南京大学新闻传播学院 2025 级硕士研究生<br>
         寻找 <strong>数据理性</strong> 与 <strong>人文感性</strong> 的交汇点
       </p>
       <p class="intro-sub">
-        立足新闻传播学本位，探索数据科学与社会理论的融合边界。致力于以计算社会科学视角，拆解数字平台上的用户行为心理与信息扩散机制，量化分析计算叙事如何重塑公众认知与社会情感，在算法时代捍卫人的主体性与价值。
+        南京大学新闻传播学院 2025 级硕士研究生，计算传播方向。以计算社会科学视角，研究数字平台上的用户行为心理与信息扩散机制，致力于在数据证据与内容洞察之间建立可靠的分析路径。在数据理性与人文感性的交汇处，展开持续的观察、分析与思考。
       </p>
     </div>
 
@@ -53,24 +52,24 @@ nav_order: 2
 
   <div class="competency-grid">
     <div class="comp-item">
-      <div class="comp-icon">🎬</div>
+      <div class="comp-icon">🚀</div>
       <div class="comp-text">
-        <h5>全媒叙事与实务沉淀</h5>
-        <p>拥有新闻传播学扎实的科班底色与敏锐的选题策划力，具备从文字稿件、摄影剪辑到视听语言的全媒体内容生产能力，在主流媒体一线积累了丰富的新闻实务与宣传经验，擅长讲好复杂语境下的中国故事。</p>
+        <h5>内容增长与全域运营</h5>
+        <p>累计编发图文/视频物料 15000+ 条，覆盖微信、微博、抖音、今日头条全矩阵。通过标题 AB 测试与封面点击率、完播率追踪优化，产出单篇 20w+ 推文与 10w+ 爆款视频，系列宣发总阅读量突破 130w+，单账号涨粉过万，形成“数据监控—反馈收集—内容迭代”的运营闭环。</p>
       </div>
     </div>
     <div class="comp-item highlight">
-      <div class="comp-icon">🖥️</div>
+      <div class="comp-icon">📊</div>
       <div class="comp-text">
-        <h5>计算思维与数据能力</h5>
-        <p>熟练使用 Python/R ，具备社会网络分析 (SNA)、网络数据分析及高级统计学能力，能独立完成从数据抓取、清洗到可视化的全流程，以量化方法洞察用户心理与网络结构，实现数据驱动的新闻发现。</p>
+        <h5>数据驱动与量化分析</h5>
+        <p>熟练使用 Python / R / Stata / SQL，具备从数据抓取、清洗、可视化到业务报表搭建的全流程能力。曾搭建内容分发效果评估指标体系，基于用户画像与流量数据动态调整分发策略，实现点击转化率（CTR）提升 30%、推文平均阅读量逆势提升 25%。</p>
       </div>
     </div>
     <div class="comp-item">
-      <div class="comp-icon">💡</div>
+      <div class="comp-icon">🤝</div>
       <div class="comp-text">
-        <h5>跨学科视野与批判意识</h5>
-        <p>聚焦智媒时代技术、媒介与社会结构的协同演进，保持在社会学、心理学与传播学交叉领域的理论敏感度，以批判性思维审视技术伦理与算法偏见，在多维视域中把握社会脉动。</p>
+        <h5>全链路项目协同</h5>
+        <p>多次承担从前期策划、资源调度到后期宣发与数据复盘的全链路项目管理：跨部门对接快手政务部、腾讯及多家三甲医院推进项目落地；在国家级赛事闭幕式导演组负责音频统筹，跨工种协同导播、视觉、灯光团队，保障高压场景下重大节点零差错交付。</p>
       </div>
     </div>
   </div>
@@ -102,35 +101,46 @@ nav_order: 2
   <div class="timeline-clean">
     <div class="tl-item">
       <div class="tl-left">
-        <span class="tl-year">2024 - 2025</span>
-        <span class="tl-role">新媒体编辑运营</span>
+        <span class="tl-year">2025 - 至今</span>
+        <span class="tl-role">硕士研究生在读</span>
       </div>
       <div class="tl-marker"></div>
       <div class="tl-right">
-        <h5 class="tl-org">山东省委政法委 · 济南铁路局</h5>
-        <p class="tl-desc">负责官方平台策划、拍摄与运营，通过多模态叙事提升政务传播效能，主导官方全媒体矩阵的内容策略与运营迭代。策划跨越 16 个城市的系列主题宣传，系列作品总阅读量突破 <strong>130万+</strong>，有效提升了内外宣声量。</p>
+        <h5 class="tl-org">南京大学 · 新闻与传播（计算传播方向）</h5>
+        <p class="tl-desc">侧重数据挖掘与量化分析，系统接受量化方法训练：高级统计（100）、数字营销（95）、计算传播学导论（92）、网络数据分析（90），持续将一线用户心理与新闻传播问题转化为可计算的研究思路。</p>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-left">
+        <span class="tl-year">2024 - 2025</span>
+        <span class="tl-role">新媒体运营与用户研究</span>
+      </div>
+      <div class="tl-marker"></div>
+      <div class="tl-right">
+        <h5 class="tl-org">济南铁路局</h5>
+        <p class="tl-desc">独立操盘官方微信公众号运营，从零到一策划“5·26 我爱路”全网宣发专栏，通过标题 AB 测试与内容优化产出推文 40+ 篇，单篇最高阅读量 <strong>20w+</strong>，系列宣发总阅读量突破 <strong>130w+</strong>。建立“数据监控—反馈收集—内容迭代”闭环机制，推文平均阅读量逆势提升 25%；统筹线上线下全域宣推，带动活动参与人数同比增长 20%。</p>
       </div>
     </div>
     <div class="tl-item">
       <div class="tl-left">
         <span class="tl-year">2022 - 2024</span>
-        <span class="tl-role">记者 / 编辑</span>
+        <span class="tl-role">全媒体运营与数据策略</span>
       </div>
       <div class="tl-marker"></div>
       <div class="tl-right">
-        <h5 class="tl-org">检察日报 · 山东记者站 & 历下区人民检察院</h5>
-        <p class="tl-desc">深度参与“大数据赋能法律监督”创新项目，探索法治新闻的数据化表达。统筹管理微博、微信等全媒体矩阵，撰写多篇深度调查报道，策划拍摄多部微电影微视频作品，跟拍政法活动与一线干警工作风采等，实现法治传播效果的最优化。</p>
+        <h5 class="tl-org">检察日报 · 山东记者站</h5>
+        <p class="tl-desc">统筹微信、微博、抖音、今日头条全矩阵内容运营，累计编发物料 <strong>15000+</strong> 条。深度参与“大数据赋能法律监督”项目，搭建普法内容分发效果评估指标体系，基于用户画像与流量数据动态调整分发策略，实现点击转化率（CTR）显著提升 <strong>30%</strong>。个人负责的今日头条账号获 2022 年度全国优秀检察新媒体百佳，“互联网+检察”指数连续 16 个月位列全国检察系统总榜前 20。</p>
       </div>
     </div>
     <div class="tl-item">
       <div class="tl-left">
         <span class="tl-year">2021</span>
-        <span class="tl-role">新闻编辑策划</span>
+        <span class="tl-role">内容策划与数据运营</span>
       </div>
       <div class="tl-marker"></div>
       <div class="tl-right">
         <h5 class="tl-org">大众报业集团 · 齐鲁融媒</h5>
-        <p class="tl-desc">负责齐鲁医院等山东省内三甲医院健康传播运营。独立完成策划、拍摄与后期，打造播放量 <strong>10万+</strong> 的爆款视频，精准触达垂直受众。</p>
+        <p class="tl-desc">对接快手政务部、腾讯及多家三甲医院，负责跨部门项目协调与全链路项目管理。沉淀短视频制作 SOP，累计输出 40 余条高质量视频素材，通过封面点击率、完播率等数据追踪优化，打造单支播放量 <strong>10万+</strong> 爆款，助力账号涨粉过万，累计曝光量突破百万。</p>
       </div>
     </div>
 
@@ -207,7 +217,39 @@ nav_order: 2
   </div>
 
 <div class="skills-grid">
-    <!-- 第 1 行 第 1 列：内容创作 -->
+    <!-- 第 1 行 第 1 列：数据分析 -->
+    <div class="skill-category first-row">
+      <div class="skill-cat-header">
+        <div class="skill-cat-line"></div>
+        <h4 class="skill-cat-title">数据分析</h4>
+      </div>
+      <div class="skill-tags-grid">
+        <div class="skill-tag"><i class="fab fa-python"></i><span>Python</span></div>
+        <div class="skill-tag"><i class="fab fa-r-project"></i><span>R</span></div>
+        <div class="skill-tag"><i class="fas fa-chart-bar"></i><span>Stata</span></div>
+        <div class="skill-tag"><i class="fas fa-database"></i><span>SQL</span></div>
+        <div class="skill-tag"><i class="fas fa-file-excel"></i><span>Excel</span></div>
+        <div class="skill-tag"><i class="fas fa-project-diagram"></i><span>Gephi</span></div>
+      </div>
+    </div>
+
+    <!-- 第 1 行 第 2 列：运营与增长 -->
+    <div class="skill-category first-row">
+      <div class="skill-cat-header">
+        <div class="skill-cat-line"></div>
+        <h4 class="skill-cat-title">运营与增长</h4>
+      </div>
+      <div class="skill-tags-grid">
+        <div class="skill-tag"><i class="fas fa-bullhorn"></i><span>全媒体运营</span></div>
+        <div class="skill-tag"><i class="fas fa-chart-line"></i><span>用户增长</span></div>
+        <div class="skill-tag"><i class="fas fa-flask"></i><span>AB 测试</span></div>
+        <div class="skill-tag"><i class="fas fa-gauge-high"></i><span>指标体系搭建</span></div>
+        <div class="skill-tag"><i class="fas fa-users"></i><span>用户画像</span></div>
+        <div class="skill-tag"><i class="fas fa-robot"></i><span>平台算法</span></div>
+      </div>
+    </div>
+
+    <!-- 第 1 行 第 3 列：内容创作 -->
     <div class="skill-category first-row">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
@@ -223,24 +265,8 @@ nav_order: 2
       </div>
     </div>
 
-    <!-- 第 1 行 第 2 列：传播运营 -->
-    <div class="skill-category first-row">
-      <div class="skill-cat-header">
-        <div class="skill-cat-line"></div>
-        <h4 class="skill-cat-title">传播运营</h4>
-      </div>
-      <div class="skill-tags-grid">
-        <div class="skill-tag"><i class="fas fa-bullhorn"></i><span>全媒体运营</span></div>
-        <div class="skill-tag"><i class="fas fa-users"></i><span>舆情分析</span></div>
-        <div class="skill-tag"><i class="fas fa-comments"></i><span>公共关系</span></div>
-        <div class="skill-tag"><i class="fas fa-user-group"></i><span>社群运营</span></div>
-        <div class="skill-tag"><i class="fas fa-chart-line"></i><span>用户增长</span></div>
-        <div class="skill-tag"><i class="fas fa-robot"></i><span>平台算法</span></div>
-      </div>
-    </div>
-
-    <!-- 第 1 行 第 3 列：视觉设计 -->
-    <div class="skill-category first-row">
+    <!-- 第 2 行 第 1 列：视觉设计 -->
+    <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
         <h4 class="skill-cat-title">视觉设计</h4>
@@ -255,7 +281,7 @@ nav_order: 2
       </div>
     </div>
 
-    <!-- 第 2 行 第 1 列：影音后期 -->
+    <!-- 第 2 行 第 2 列：影音后期 -->
     <div class="skill-category">
       <div class="skill-cat-header">
         <div class="skill-cat-line"></div>
@@ -271,22 +297,6 @@ nav_order: 2
       </div>
     </div>
 
-    <!-- 第 2 行 第 2 列：数据分析 -->
-    <div class="skill-category">
-      <div class="skill-cat-header">
-        <div class="skill-cat-line"></div>
-        <h4 class="skill-cat-title">数据分析</h4>
-      </div>
-      <div class="skill-tags-grid">
-        <div class="skill-tag"><i class="fas fa-file-word"></i><span>Office</span></div>
-        <div class="skill-tag"><i class="fas fa-database"></i><span>SQL</span></div>
-        <div class="skill-tag"><i class="fab fa-python"></i><span>Python</span></div>
-        <div class="skill-tag"><i class="fab fa-r-project"></i><span>R</span></div>
-        <div class="skill-tag"><i class="fas fa-chart-bar"></i><span>Stata</span></div>
-        <div class="skill-tag"><i class="fas fa-project-diagram"></i><span>Gephi</span></div>
-      </div>
-    </div>
-
     <!-- 第 2 行 第 3 列：AI 应用 -->
     <div class="skill-category">
       <div class="skill-cat-header">
@@ -297,9 +307,9 @@ nav_order: 2
         <div class="skill-tag"><i class="fas fa-code"></i><span>Vibe Coding</span></div>
         <div class="skill-tag"><i class="fas fa-video"></i><span>即梦</span></div>
         <div class="skill-tag"><i class="fas fa-wand-magic"></i><span>可灵</span></div>
-        <div class="skill-tag"><i class="fas fa-film"></i><span>海螺</span></div>
-        <div class="skill-tag"><i class="fas fa-robot"></i><span>Mini</span></div>
-        <div class="skill-tag"><i class="fas fa-music"></i><span>Max</span></div>
+        <div class="skill-tag"><i class="fas fa-film"></i><span>海螺 AI</span></div>
+        <div class="skill-tag"><i class="fas fa-robot"></i><span>MiniMax</span></div>
+        <div class="skill-tag"><i class="fas fa-music"></i><span>AI 音频生成</span></div>
       </div>
     </div>
   </div>
