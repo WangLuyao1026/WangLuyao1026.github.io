@@ -59,7 +59,7 @@ nav_order: 3
 
     <div class="card border-0 shadow-lg image-only-card p-3 p-md-4">
       <div class="col-12">
-        <img src="/assets/img/校园经历1.png" class="exp-img-full shadow-sm" alt="校园经历1">
+        <img src="/assets/img/campus1.png" class="exp-img-full shadow-sm" alt="校园经历">
       </div>
     </div>
   </div>
