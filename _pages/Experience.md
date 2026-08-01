@@ -47,6 +47,23 @@ nav_order: 3
     </div>
   </div>
 
+
+  <div class="mb-6">
+    <div class="custom-title-wrapper mb-4">
+      <div class="purple-bar"></div>
+      <span class="title-icon">🎓</span>
+      <h2 class="custom-header-text">
+        04 济南大学校广播台 <span class="divider">/</span> 05 南京大学 · 全国高校教师教学创新大赛（国家级）
+      </h2>
+    </div>
+
+    <div class="card border-0 shadow-lg image-only-card p-3 p-md-4">
+      <div class="col-12">
+        <img src="/assets/img/校园经历1.png" class="exp-img-full shadow-sm" alt="校园经历1">
+      </div>
+    </div>
+  </div>
+
   <div class="resume-section text-center mt-5 mb-6">
     <div class="resume-divider mb-4">
       <span class="star-icon small">✦</span> 
