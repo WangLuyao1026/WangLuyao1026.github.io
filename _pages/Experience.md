@@ -2,7 +2,7 @@
 layout: page
 title: Experience
 permalink: /experience/
-description: 工作经历与专业实践 | Professional Experience
+description: 工作经历与校园实践 | Professional Experience
 nav: true
 nav_order: 3
 ---
