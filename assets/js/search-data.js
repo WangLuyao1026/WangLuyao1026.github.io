@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-experience",
           title: "Experience",
-          description: "工作经历与专业实践 | Professional Experience",
+          description: "工作经历与校园实践 | Professional Experience",
           section: "Navigation",
           handler: () => {
             window.location.href = "/experience/";
