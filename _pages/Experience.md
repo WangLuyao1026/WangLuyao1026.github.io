@@ -53,7 +53,7 @@ nav_order: 3
       <div class="purple-bar"></div>
       <span class="title-icon">🎓</span>
       <h2 class="custom-header-text">
-        04 济南大学校广播台 <span class="divider">/</span> 05 南京大学 · 全国高校教师教学创新大赛（国家级）
+        04 济南大学校广播台 <span class="divider">/</span> 05 南京大学 · 全国高校教师教学创新大赛
       </h2>
     </div>
 
