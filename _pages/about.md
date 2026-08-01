@@ -30,15 +30,15 @@ latest_posts:
   <a href="/cn/" class="btn-pill inactive">中文版</a>
 </div>
 
-I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communication** (2025 Cohort) at [Nanjing University](https://www.nju.edu.cn/en/), specialising in **Computational Communication**. My research bridges data science and communication theory, with a particular focus on **user behavioural psychology** in digital platforms, the **social dynamics of information diffusion**, and the impact of **computational narrative** on public cognition and emotion.
+I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communication** (2025 Cohort) at [Nanjing University](https://www.nju.edu.cn/en/), specialising in **Computational Communication**. From a computational social science perspective, I study **user behavioural psychology** on digital platforms and the mechanisms of **information diffusion**, working to build reliable analytical paths between data evidence and content insight. Three years of frontline media experience grounds my research questions in reality, while academic training provides systematic methods to answer them.
 
 ### 🧩 Core Competencies
 
 <div class="competencies-box">
   <ul class="clean-list">
-    <li><strong style="color: #4D0099;">Professional Practice:</strong> Pursuing a B.A. in Broadcasting and Television under the Journalism and Communication category at the Faculty of Arts, I possess keen capabilities in topic planning and audiovisual expression, along with rich hands - on experience and frontline work exposure in news media.</li>
-    <li><strong style="color: #4D0099;">Data Capabilities:</strong> Skilled in using Python/R for Social Network Analysis (SNA), and network data analysis. My current research interest lies in the quantitative study and reflection on user psychology and behavior.</li>
-    <li><strong style="color: #4D0099;">Theoretical Vision:</strong> Focusing on the deep interaction and tension among data, technology, media, and social structure in the intelligent media era, while maintaining critical thinking and observation from an interdisciplinary perspective.</li>
+    <li><strong style="color: #4D0099;">Content Growth & Omni-channel Operation:</strong> Produced and distributed 15,000+ pieces of content across WeChat, Weibo, Douyin and Toutiao. Through headline A/B testing and continuous optimisation of cover CTR and completion rates, I delivered a 200k+ top-read article and a 100k+ viral video, with a campaign series reaching 1.3M+ reads and one account gaining 10,000+ followers — forming a closed loop of data monitoring, feedback and content iteration.</li>
+    <li><strong style="color: #4D0099;">Data-driven & Quantitative Analysis:</strong> Skilled in Python / R / Stata / SQL, covering the full pipeline from data scraping, cleaning and visualisation to business reporting. Built an evaluation indicator system for content distribution and adjusted strategies based on user profiling and traffic data, lifting CTR by 30% and average article reads by 25% against the trend.</li>
+    <li><strong style="color: #4D0099;">Full-cycle Project Coordination:</strong> Repeatedly managed the full project cycle from planning and resource scheduling to promotion and data review — coordinating across departments with Kuaishou's government affairs team, Tencent and multiple Class III hospitals; served as audio coordinator in the closing ceremony directing team of a national-level competition, ensuring zero-error delivery under high pressure.</li>
   </ul>
 </div>
 
@@ -66,34 +66,45 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
 
   <div class="exp-item mb-4">
     <div class="d-flex justify-content-between align-items-baseline">
-      <h5 class="exp-role">New Media Editor & Operation</h5>
+      <h5 class="exp-role">M.A. Candidate, Journalism & Communication (Computational Communication)</h5>
+      <span class="exp-date">2025 – Present</span>
+    </div>
+    <div class="exp-company">Nanjing University</div>
+    <p class="exp-desc">
+      Focusing on data mining and quantitative analysis, with systematic methodological training: Advanced Statistics (100), Digital Marketing (95), Introduction to Computational Communication (92), Network Data Analysis (90). Continuously translating frontline questions on user psychology and news communication into computable research problems.
+    </p>
+  </div>
+
+  <div class="exp-item mb-4">
+    <div class="d-flex justify-content-between align-items-baseline">
+      <h5 class="exp-role">New Media Operation & Growth</h5>
       <span class="exp-date">2024 – 2025</span>
     </div>
-    <div class="exp-company">Shandong Provincial Party Committee Political and Legal Affairs Commission · Jinan Railway Bureau</div>
+    <div class="exp-company">Jinan Railway Bureau</div>
     <p class="exp-desc">
-      Responsible for planning, shooting, and operation of official platforms. Planned a series of promotional campaigns spanning 16 cities, achieving a total reading volume of over 1.3 million.
+      Independently operated the official WeChat account and launched the "5·26 Railway Care Day" national campaign column from scratch. Through headline A/B testing and content optimisation, published 40+ articles with a top single-article read of 200k+ and a campaign total of 1.3M+. Built a "data monitoring – feedback – content iteration" loop, raising average reads by 25% against the trend; coordinated online-offline promotion, driving event participation up 20% year on year.
     </p>
   </div>
 
   <div class="exp-item mb-4">
     <div class="d-flex justify-content-between align-items-baseline">
-      <h5 class="exp-role">Journalist / Editor</h5>
+      <h5 class="exp-role">Omni-channel Operation & Data Strategy</h5>
       <span class="exp-date">2022 – 2024</span>
     </div>
-    <div class="exp-company">Procuratorial Daily (Shandong Station) & Lixia District People’s Procuratorate</div>
+    <div class="exp-company">Procuratorial Daily · Shandong Bureau</div>
     <p class="exp-desc">
-      Participated in the "Big Data Empowering Legal Supervision" innovation project. Coordinated and managed the all - media matrix including Weibo, WeChat, etc.
+      Managed content operation across the full media matrix (WeChat, Weibo, Douyin, Toutiao), publishing 15,000+ pieces of content. Deeply involved in the "Big Data Empowering Legal Supervision" project: built an evaluation indicator system for legal-education content distribution and adjusted strategies via user profiling and traffic data, achieving a 30% CTR uplift. The Toutiao account under my charge was named among the 2022 National Top 100 Procuratorial New Media Accounts, with the "Internet + Procuratorate" index ranking in the national top 20 for 16 consecutive months.
     </p>
   </div>
 
   <div class="exp-item mb-4">
     <div class="d-flex justify-content-between align-items-baseline">
-      <h5 class="exp-role">News Editing & Planning</h5>
+      <h5 class="exp-role">Content Planning & Data Operation</h5>
       <span class="exp-date">2021</span>
     </div>
-    <div class="exp-company">Dazhong Newspaper Group · Qilu Integrated Media Center</div>
+    <div class="exp-company">Dazhong Newspaper Group · Qilu Integrated Media</div>
     <p class="exp-desc">
-      Responsible for health communication operations of top - tier Class III hospitals in Shandong Province (such as Qilu Hospital). Independently completed planning, shooting, and post - production, creating viral videos with over 100,000 views.
+      Coordinated cross-department projects with Kuaishou's government affairs team, Tencent and multiple Class III hospitals, covering the full cycle from planning to promotion and data review. Established a short-video production SOP and delivered 40+ high-quality videos; through data tracking and optimisation of cover CTR and completion rates, produced a 100k+ viral video, helping the account gain 10,000+ followers with total exposure exceeding one million.
     </p>
   </div>
 
