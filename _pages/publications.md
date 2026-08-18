@@ -61,6 +61,97 @@ nav_order: 5
     </div>
   </section>
 
+  <hr class="divider my-6">
+
+  <section class="project-section mb-6">
+    <h2 class="section-title mb-4">🔬 研究项目 | Research Projects</h2>
+
+    <div class="card border-0 shadow-lg project-card">
+      <div class="card-body p-4 p-lg-5">
+
+        <!-- 项目头部 -->
+        <div class="project-header mb-4 pb-3" style="border-bottom: 2px solid #f0e6ff;">
+          <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+            <span class="badge badge-purple">传播数据大赛 · 选题三</span>
+            <span class="badge bg-light text-dark" style="border: 1px solid #e0d6f0;">团队核心成员 · 数据分析与模型构建</span>
+          </div>
+          <h3 class="project-title mt-2">AIGC内容传播特征识别与社会影响评估研究</h3>
+          <h4 class="project-subtitle">——基于AI就业（数智员工）话题的网络舆情分析</h4>
+          <div class="project-meta mt-3">
+            <span class="meta-item"><i class="far fa-calendar-alt mr-2"></i>2025.09 – 2026.03</span>
+          </div>
+        </div>
+
+        <!-- 项目背景 -->
+        <div class="project-block mb-4">
+          <h5 class="block-title"><i class="fas fa-bullseye mr-2"></i>项目背景</h5>
+          <p class="project-text">随着生成式人工智能进入公共传播空间，AIGC 内容可能通过低成本批量生产与自动化分发放大社会焦虑。本项目以微博「AI就业（数智员工）」话题为案例，探索如何在单一话题的极端稀疏网络中，识别 AIGC 内容的传播规律并量化其社会影响风险。</p>
+        </div>
+
+        <!-- 核心工作：三栏卡片 -->
+        <div class="project-block mb-4">
+          <h5 class="block-title"><i class="fas fa-cogs mr-2"></i>核心工作</h5>
+          <div class="row g-4 mt-2">
+            <div class="col-lg-4 col-md-12">
+              <div class="work-item-card h-100">
+                <div class="work-icon mb-3"><i class="fas fa-brain"></i></div>
+                <h6 class="work-title">AIGC 内容识别模型</h6>
+                <p class="small-text mb-0">基于 Chinese-RoBERTa-wwm-ext 基座模型，采用 LoRA 轻量微调策略（训练数据仅 600 条），在垂直领域实现小样本高精度检测（Accuracy <strong>98.33%</strong>，Precision <strong>100%</strong>，AUC <strong>0.9989</strong>），解决通用模型在领域文本上的系统性偏差。</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="work-item-card h-100">
+                <div class="work-icon mb-3"><i class="fas fa-project-diagram"></i></div>
+                <h6 class="work-title">传播网络结构分析</h6>
+                <p class="small-text mb-0">构建包含 <strong>2,334,728</strong> 个节点、<strong>2,279,217</strong> 条边的有向加权传播网络，发现该话题呈现「大规模、低连接、高碎片化」的星型辐射结构（网络密度 4.18×10⁻⁷，模块化系数 0.9595），信息扩散高度依赖少数关键节点。</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="work-item-card h-100">
+                <div class="work-icon mb-3"><i class="fas fa-exclamation-triangle"></i></div>
+                <h6 class="work-title">NARI-S 风险指数模型</h6>
+                <p class="small-text mb-0">基于引爆点理论，提出「网络结构放大风险指数模型（Network-Amplified Risk Index for Single-topic）」，将内容风险与网络位置放大能力耦合，采用乘法机制实现非线性风险分层。创新设计「源头系数」指标，精准捕捉「只发不收」的单向广播节点，有效区分 AIGC 内容工厂与正常资讯账号。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 关键发现 -->
+        <div class="project-block mb-4">
+          <h5 class="block-title"><i class="fas fa-lightbulb mr-2"></i>关键发现</h5>
+          <div class="findings-box">
+            <ul class="findings-list mb-0">
+              <li><span class="finding-highlight">极端两极分化：</span>1 个核心风险节点（综合风险值 1.75，加权出度达 2717 亿，入度仅 48）疑似为高度自动化的 AIGC 内容工厂；</li>
+              <li><span class="finding-highlight">单向广播矩阵：</span>7 个高风险节点构成入度为 0 的「单向广播矩阵」，呈现身份隐匿、定向操纵、批量分发的典型水军画像；</li>
+              <li><span class="finding-highlight">内容敏感性阈值：</span>模型验证非敏感内容即使具备高传播势能，综合风险仍趋近于 0，说明精准识别内容属性是风险治理的关键。</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 技术栈 -->
+        <div class="project-block mb-4">
+          <h5 class="block-title"><i class="fas fa-code mr-2"></i>技术实现</h5>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Transformers</span>
+            <span class="tech-tag">PEFT (LoRA)</span>
+            <span class="tech-tag">NetworkX</span>
+            <span class="tech-tag">scikit-learn</span>
+            <span class="tech-tag">pandas</span>
+            <span class="tech-tag">matplotlib</span>
+          </div>
+        </div>
+
+        <!-- 项目价值 -->
+        <div class="project-block">
+          <h5 class="block-title"><i class="fas fa-trophy mr-2"></i>项目价值</h5>
+          <p class="project-text mb-0">为平台 AIGC 治理提供了从「内容识别」到「结构预警」的可复用技术路径，验证了在碎片化传播网络中，微观拓扑位置比宏观社群结构更具风险预测力。</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
 </div>
 
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
@@ -135,4 +226,190 @@ nav_order: 5
   .btn-download:hover { background: #330066; transform: translateY(-2px); }
 
   .wip-box { background: #fff; border: 2px dashed #e0d6f0; border-radius: 20px; text-align: center; }
+
+  /* ========== AIGC 项目展示专用样式 ========== */
+
+  .project-card {
+    border-radius: 20px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .project-title {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 800;
+    color: #1a1a1a;
+    font-size: 1.7rem;
+    line-height: 1.3;
+    margin-bottom: 0.3rem;
+  }
+
+  .project-subtitle {
+    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-weight: 600;
+    color: var(--nju-purple);
+    font-size: 1.1rem;
+    opacity: 0.85;
+    margin-bottom: 0;
+  }
+
+  .project-meta {
+    color: #666;
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  .project-meta i {
+    color: var(--nju-purple);
+  }
+
+  .project-block {
+    margin-bottom: 1.8rem;
+  }
+
+  .block-title {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 700;
+    color: var(--nju-purple);
+    font-size: 1.15rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .block-title i {
+    font-size: 1rem;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 0, 153, 0.08);
+    border-radius: 6px;
+  }
+
+  .project-text {
+    color: #444;
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+
+  /* 核心工作卡片 */
+  .work-item-card {
+    background: #f8f6fc;
+    border-radius: 16px;
+    padding: 1.5rem;
+    border-left: 4px solid var(--nju-purple);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .work-item-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(77, 0, 153, 0.08);
+  }
+
+  .work-icon {
+    width: 44px;
+    height: 44px;
+    background: var(--nju-purple);
+    color: white;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+
+  .work-title {
+    font-weight: 700;
+    color: #1a1a1a;
+    font-size: 1.05rem;
+    margin-bottom: 0.6rem;
+    font-family: 'Lora', "PingFang SC", sans-serif !important;
+  }
+
+  .small-text {
+    font-size: 0.92rem;
+    color: #555;
+    line-height: 1.75;
+  }
+
+  .small-text strong {
+    color: var(--nju-purple);
+    font-weight: 700;
+  }
+
+  /* 关键发现高亮框 */
+  .findings-box {
+    background: #f8f6fc;
+    border-radius: 16px;
+    padding: 1.5rem 1.5rem 1.5rem 1.2rem;
+    border-left: 4px solid var(--nju-purple);
+  }
+
+  .findings-list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .findings-list li {
+    position: relative;
+    padding-left: 1.4rem;
+    margin-bottom: 0.8rem;
+    color: #444;
+    line-height: 1.8;
+    font-size: 0.98rem;
+  }
+
+  .findings-list li:last-child {
+    margin-bottom: 0;
+  }
+
+  .findings-list li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: var(--nju-purple);
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+
+  .finding-highlight {
+    font-weight: 700;
+    color: var(--nju-purple);
+  }
+
+  /* 技术栈标签 */
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .tech-tag {
+    display: inline-block;
+    background: rgba(77, 0, 153, 0.06);
+    color: var(--nju-purple);
+    border: 1.5px solid rgba(77, 0, 153, 0.15);
+    padding: 6px 16px;
+    border-radius: 50px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    font-family: 'Lora', sans-serif !important;
+    transition: all 0.2s ease;
+  }
+
+  .tech-tag:hover {
+    background: var(--nju-purple);
+    color: white;
+    transform: translateY(-1px);
+  }
+
+  /* 响应式微调 */
+  @media (max-width: 768px) {
+    .project-title { font-size: 1.4rem; }
+    .project-subtitle { font-size: 1rem; }
+    .work-item-card { margin-bottom: 1rem; }
+    .tech-tag { font-size: 0.82rem; padding: 5px 12px; }
+  }
 </style>
