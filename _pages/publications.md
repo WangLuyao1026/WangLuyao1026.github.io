@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /publications/
-description: 学术研究与论文发表 | Academic Research
+description: 学术研究 | Academic Research
 nav: true
 nav_order: 5
 ---
@@ -22,8 +22,8 @@ nav_order: 5
         <div class="col-lg-6 col-md-12">
           <div class="card-body p-4 p-lg-5 d-flex flex-column justify-content-center h-100">
             <div>
-                <span class="badge badge-purple mb-3">Outstanding Thesis Award</span>
-                <h3 class="thesis-title">云录制的生产制播范式与效用研究<br><small class="text-muted" style="font-size: 80%;">——以《天天云时间》为例</small></h3>
+                <span class="custom-badge badge-primary mb-3 d-inline-block">Outstanding Thesis Award</span>
+                <h3 class="thesis-title mt-2">云录制的生产制播范式与效用研究<br><small class="text-muted" style="font-size: 80%;">——以《天天云时间》为例</small></h3>
                 
                 <p class="thesis-meta mt-4">
                   <strong>Publication Date:</strong> June 2021<br>
@@ -55,7 +55,7 @@ nav_order: 5
     <div class="wip-box p-5">
       <h4 class="wip-title">Computational Narrative & User Behavior</h4>
       <p class="mt-3 text-muted" style="font-size: 1.1rem;">Currently focusing on the social dynamics of information diffusion and user behavioural psychology in digital platforms.</p>
-      <span class="badge bg-light text-dark mt-3">Coming Soon</span>
+      <span class="badge bg-light text-dark mt-3 px-3 py-2" style="font-size: 0.9rem;">Coming Soon</span>
     </div>
   </section>
 
@@ -68,27 +68,32 @@ nav_order: 5
       <div class="card-body p-4 p-lg-5">
 
         <!-- 项目头部 -->
-        <div class="project-header mb-5 pb-4">
-          <div class="d-flex flex-wrap align-items-center gap-2 mb-3">
-            <span class="badge badge-purple">传播数据大赛 · 选题三</span>
-            <span class="badge bg-light text-dark" style="border: 1px solid #e0d6f0;">团队核心成员 · 数据分析与模型构建</span>
+        <div class="project-header">
+          <!-- 标签行：加大间距，优化颜色对比度 -->
+          <div class="d-flex flex-wrap align-items-center gap-3 mb-4">
+            <span class="custom-badge badge-primary">传播数据大赛 · 选题三</span>
+            <span class="custom-badge badge-secondary">团队核心成员 · 数据分析与模型构建</span>
           </div>
-          <h3 class="project-title mt-2">AIGC内容传播特征识别与社会影响评估研究</h3>
+          
+          <!-- 标题区：强制黑体，解决中英文字体拼接感 -->
+          <h3 class="project-title">AIGC内容传播特征识别与社会影响评估研究</h3>
           <h4 class="project-subtitle mt-2">——基于AI就业（数智员工）话题的网络舆情分析</h4>
-          <div class="project-meta mt-3">
-            <span class="meta-item"><i class="far fa-calendar-alt mr-2"></i>2025.09 – 2026.03</span>
+          
+          <!-- 时间区：增加顶部距离，使用等宽字体 -->
+          <div class="project-meta mt-4">
+            <span class="meta-item"><i class="far fa-calendar-alt"></i>2025.09 – 2026.03</span>
           </div>
         </div>
 
         <!-- 项目背景 -->
         <div class="project-block">
-          <h5 class="block-title"><i class="fas fa-bullseye mr-2"></i>项目背景</h5>
+          <h5 class="block-title"><i class="fas fa-bullseye"></i>项目背景</h5>
           <p class="project-text">随着生成式人工智能进入公共传播空间，AIGC 内容可能通过低成本批量生产与自动化分发放大社会焦虑。本项目以微博「AI就业（数智员工）」话题为案例，探索如何在单一话题的极端稀疏网络中，识别 AIGC 内容的传播规律并量化其社会影响风险。</p>
         </div>
 
         <!-- 核心工作：三栏卡片 -->
         <div class="project-block">
-          <h5 class="block-title"><i class="fas fa-cogs mr-2"></i>核心工作</h5>
+          <h5 class="block-title"><i class="fas fa-cogs"></i>核心工作</h5>
           <div class="row g-4 mt-1">
             <div class="col-lg-4 col-md-12">
               <div class="work-item-card h-100">
@@ -116,7 +121,7 @@ nav_order: 5
 
         <!-- 关键发现 -->
         <div class="project-block">
-          <h5 class="block-title"><i class="fas fa-lightbulb mr-2"></i>关键发现</h5>
+          <h5 class="block-title"><i class="fas fa-lightbulb"></i>关键发现</h5>
           <div class="findings-box mt-3">
             <ul class="findings-list mb-0">
               <li><span class="finding-highlight">极端两极分化：</span>1 个核心风险节点（综合风险值 1.75，加权出度达 2717 亿，入度仅 48）疑似为高度自动化的 AIGC 内容工厂；</li>
@@ -128,7 +133,7 @@ nav_order: 5
 
         <!-- 技术栈 -->
         <div class="project-block">
-          <h5 class="block-title"><i class="fas fa-code mr-2"></i>技术实现</h5>
+          <h5 class="block-title"><i class="fas fa-code"></i>技术实现</h5>
           <div class="tech-stack mt-3">
             <span class="tech-tag">Python</span>
             <span class="tech-tag">Transformers</span>
@@ -142,7 +147,7 @@ nav_order: 5
 
         <!-- 项目价值 -->
         <div class="project-block mb-0">
-          <h5 class="block-title"><i class="fas fa-trophy mr-2"></i>项目价值</h5>
+          <h5 class="block-title"><i class="fas fa-trophy"></i>项目价值</h5>
           <p class="project-text mb-0">为平台 AIGC 治理提供了从「内容识别」到「结构预警」的可复用技术路径，验证了在碎片化传播网络中，微观拓扑位置比宏观社群结构更具风险预测力。</p>
         </div>
 
@@ -156,25 +161,22 @@ nav_order: 5
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 全局字体优化（核心修复文字奇怪的问题） */
-  /* 正文使用现代无衬线体（Sans-serif），确保中英文混排平滑、清晰 */
-  body, p, li, .navbar, .badge, .project-text, .small-text, .tech-tag {
+  /* 1. 全局字体优化：彻底切分衬线体与无衬线体的使用场景 */
+  /* 正文、混排标题、数据强制使用系统级无衬线体，平滑护眼，拒绝“中英拼字感” */
+  body, p, li, .navbar, .project-text, .small-text, .tech-tag, .project-title, .project-subtitle {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
   }
   
-  /* 大标题、专有名词使用优雅的衬线体（Serif） */
-  h1, h2, h3, h4, h5, .section-title, .thesis-title, .project-title, .block-title, .wip-title {
+  /* 仅针对短而独立的纯英文/中文大标题使用优雅的衬线体 */
+  .section-title, .wip-title {
     font-family: 'Playfair Display', 'Lora', "PingFang SC", "Microsoft YaHei", serif !important;
   }
 
-  body {
-    -webkit-font-smoothing: antialiased;
-    color: #333;
-  }
+  body { -webkit-font-smoothing: antialiased; color: #333; }
   .navbar { font-weight: 600 !important; }
-
-  /* 2. 布局优化 */
-  .research-container { max-width: 1100px; margin: auto; }
+  .my-6 { margin-top: 5.5rem; margin-bottom: 5.5rem; }
+  
+  /* 标题基座 */
   .section-title {
     color: var(--nju-purple);
     font-weight: 800;
@@ -182,73 +184,78 @@ nav_order: 5
     border-left: 8px solid var(--nju-purple);
     padding-left: 20px;
   }
-  .my-6 { margin-top: 5.5rem; margin-bottom: 5.5rem; }
 
-  /* 3. 卡片样式 */
-  .thesis-card, .project-card {
-    border-radius: 20px;
-    overflow: hidden;
-    background: #fff;
-  }
-  
+  /* 2. 本科论文卡片样式 */
+  .thesis-card, .project-card { border-radius: 20px; overflow: hidden; background: #fff; }
   .bg-soft-gray { background-color: rgba(245, 247, 250, 0.6) !important; }
-
-  .thesis-img-final {
-    width: 85%; height: auto; max-height: 90%;
-    object-fit: contain; display: block; margin: 0 auto; border-radius: 4px;
-  }
-
-  /* 4. 文字区域 */
-  .thesis-title { font-weight: 800; color: #1a1a1a; font-size: 1.6rem; line-height: 1.4; }
-  .badge-purple { background-color: var(--nju-purple); color: white; padding: 6px 15px; border-radius: 50px; font-weight: 600; font-size: 0.85rem; }
+  .thesis-img-final { width: 85%; height: auto; max-height: 90%; object-fit: contain; display: block; margin: 0 auto; border-radius: 4px; }
   
+  /* 原标题保留衬线体风格 */
+  .thesis-title { font-family: 'Playfair Display', 'Lora', "PingFang SC", serif !important; font-weight: 800; color: #1a1a1a; font-size: 1.6rem; line-height: 1.4; }
   .thesis-abstract { font-size: 1rem; color: #444; background: #f8f6fc; padding: 1.5rem 1.8rem; border-radius: 12px; border-left: 4px solid var(--nju-purple); line-height: 1.8; }
   .abstract-label { color: var(--nju-purple); font-weight: bold; margin-bottom: 0.5rem; font-size: 1.05rem; }
 
-  /* 5. 按钮 */
+  /* 下载按钮 */
   .btn-download { display: inline-block; background: var(--nju-purple); color: white !important; padding: 12px 30px; border-radius: 50px; text-decoration: none !important; font-weight: 600; transition: 0.3s; }
   .btn-download:hover { background: #330066; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(77, 0, 153, 0.2); }
 
+  /* WIP区域 */
   .wip-box { background: #fff; border: 2px dashed #e0d6f0; border-radius: 20px; text-align: center; }
   .wip-title { color: var(--nju-purple); font-weight: 700; font-size: 1.5rem;}
 
-  /* ========== AIGC 项目展示专用样式（优化版） ========== */
 
-  .project-title { font-weight: 800; color: #1a1a1a; font-size: 1.7rem; line-height: 1.4; margin-bottom: 0.3rem; }
-  .project-subtitle { font-family: -apple-system, "PingFang SC", sans-serif !important; font-weight: 600; color: #555; font-size: 1.1rem; margin-bottom: 0; }
-  .project-meta { color: #666; font-size: 0.95rem; font-weight: 500; }
-  .project-meta i { color: var(--nju-purple); }
+  /* ========== AIGC 项目展示专用样式（宽松美观版） ========== */
 
-  .project-header { border-bottom: 2px solid #f4effa; }
+  /* 项目主标题：已在全局应用无衬线体，这里定义粗细和间距 */
+  .project-title { font-weight: 700; color: #1a1a1a; font-size: 1.8rem; line-height: 1.4; margin-bottom: 0.6rem; letter-spacing: 0.5px; }
+  .project-subtitle { font-weight: 500; color: #555; font-size: 1.15rem; margin-bottom: 0; }
   
-  /* 增加 Block 之间的间距（缓解密集感） */
-  .project-block { margin-bottom: 3rem; }
+  /* 头部区域：大幅放开底部留白 */
+  .project-header { border-bottom: 1px solid #f0e6ff; padding-bottom: 2.5rem; margin-bottom: 2.5rem; }
 
-  .block-title { font-weight: 700; color: var(--nju-purple); font-size: 1.25rem; margin-bottom: 1rem; display: flex; align-items: center; }
-  .block-title i { font-size: 1.1rem; width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; background: rgba(77, 0, 153, 0.08); border-radius: 6px; }
+  /* 自定义标签样式：解决原版标签粘连、浅灰底色看不清的问题 */
+  .custom-badge {
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+  }
+  .badge-primary { background-color: var(--nju-purple); color: #ffffff; box-shadow: 0 4px 10px rgba(77, 0, 153, 0.15); }
+  .badge-secondary { background-color: #f8f5fc; color: var(--nju-purple); border: 1px solid #eaddf5; }
+
+  /* 时间行：使用等宽字体，增加排版的数字严谨感 */
+  .project-meta { color: #444; font-size: 1.05rem; font-weight: 600; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important; display: flex; align-items: center; }
+  .project-meta i { color: var(--nju-purple); font-size: 1.2rem; margin-right: 10px; }
+
+  /* 块级元素拉开距离，解决拥挤 */
+  .project-block { margin-bottom: 3.5rem; }
+
+  .block-title { font-weight: 700; color: var(--nju-purple); font-size: 1.25rem; margin-bottom: 1.2rem; display: flex; align-items: center; }
+  .block-title i { font-size: 1.1rem; width: 30px; height: 30px; display: inline-flex; align-items: center; justify-content: center; background: rgba(77, 0, 153, 0.08); border-radius: 8px; margin-right: 10px; }
 
   .project-text { color: #333; line-height: 1.9; font-size: 1.05rem; }
 
-  /* 核心工作卡片（增加内边距，提升呼吸感） */
+  /* 核心工作卡片：大幅增加 Padding，改用顶边框 */
   .work-item-card {
     background: #f8f6fc;
     border-radius: 16px;
-    padding: 2rem 1.8rem; /* 增加了 padding */
-    border-top: 4px solid var(--nju-purple); /* 改为顶部边框更显现代感 */
-    border-left: none;
+    padding: 2.2rem 1.8rem;
+    border-top: 4px solid var(--nju-purple);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
   }
   .work-item-card:hover { transform: translateY(-4px); box-shadow: 0 10px 25px rgba(77, 0, 153, 0.08); }
-
+  
   .work-icon { width: 48px; height: 48px; background: var(--nju-purple); color: white; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; font-size: 1.3rem; }
   .work-title { font-weight: 700; color: #1a1a1a; font-size: 1.1rem; margin-bottom: 1rem; }
 
   .small-text { font-size: 0.95rem; color: #444; line-height: 1.8; }
-  .small-text strong { color: var(--nju-purple); font-weight: 600; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important; font-size: 1rem;}
+  /* 强调数据也使用等宽字体 */
+  .small-text strong { color: var(--nju-purple); font-weight: 600; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace !important; font-size: 1rem;}
 
-  /* 关键发现高亮框（增加行距） */
+  /* 关键发现高亮框：增加行距与内边距 */
   .findings-box { background: #fcfbfd; border-radius: 16px; padding: 2rem 2.2rem 2rem 1.8rem; border-left: 4px solid var(--nju-purple); border: 1px solid #f0e6ff; border-left-width: 4px; }
   .findings-list { list-style: none; padding-left: 0; }
   .findings-list li { position: relative; padding-left: 1.6rem; margin-bottom: 1.2rem; color: #333; line-height: 1.9; font-size: 1rem; }
@@ -256,16 +263,16 @@ nav_order: 5
   .findings-list li::before { content: "▸"; position: absolute; left: 0; top: 1px; color: var(--nju-purple); font-weight: 700; font-size: 1.2rem; }
   .finding-highlight { font-weight: 600; color: var(--nju-purple); }
 
-  /* 技术栈标签（优化字体与间距） */
+  /* 技术栈标签优化 */
   .tech-stack { display: flex; flex-wrap: wrap; gap: 0.8rem; }
   .tech-tag { display: inline-block; background: rgba(77, 0, 153, 0.05); color: var(--nju-purple); border: 1px solid rgba(77, 0, 153, 0.15); padding: 6px 18px; border-radius: 50px; font-size: 0.9rem; font-weight: 500; transition: all 0.2s ease; }
   .tech-tag:hover { background: var(--nju-purple); color: white; border-color: var(--nju-purple); transform: translateY(-2px); }
 
   /* 响应式微调 */
   @media (max-width: 768px) {
-    .project-title { font-size: 1.4rem; }
-    .project-block { margin-bottom: 2rem; }
-    .work-item-card { padding: 1.5rem; margin-bottom: 0.5rem; }
+    .project-title { font-size: 1.5rem; }
+    .project-block { margin-bottom: 2.5rem; }
+    .work-item-card { padding: 1.8rem 1.5rem; margin-bottom: 0.5rem; }
     .findings-box { padding: 1.5rem; }
   }
 </style>
