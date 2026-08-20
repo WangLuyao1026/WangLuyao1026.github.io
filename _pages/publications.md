@@ -16,9 +16,7 @@ nav_order: 5
       <div class="row g-0">
         
         <div class="col-lg-6 col-md-12 bg-soft-gray d-flex align-items-center justify-content-center position-relative" style="min-height: 500px;">
-          
           <img src="/assets/img/本科毕业论文.png" class="thesis-img-final shadow" alt="本科毕业论文封面">
-          
         </div>
 
         <div class="col-lg-6 col-md-12">
@@ -33,7 +31,7 @@ nav_order: 5
                 </p>
 
                 <div class="thesis-abstract mt-4 mb-5">
-                  <p><strong>Lay Summary</strong></p> <!-- （<strong>） -->
+                  <p class="abstract-label"><strong>Lay Summary</strong></p>
                   <p>本研究聚焦于疫情期间兴起的“云录制”模式，借助深度个案分析，剖析了电视综艺节目在物理空间受限下的生产范式重构、互动机制演变及社会效用。本研究发现，云录制绝非特殊时期的权宜之计——它既是媒体应对危机的创新尝试，更是媒体深度融合背景下的技术与文化预演。</p>
                 </div>
             </div>
@@ -55,8 +53,8 @@ nav_order: 5
   <section class="wip-section mb-6">
     <h2 class="section-title mb-4">🖥️ 进行中的研究 | Work in Progress</h2>
     <div class="wip-box p-5">
-      <h4 style="color: var(--nju-purple); font-weight: 700;">Computational Narrative & User Behavior</h4>
-      <p class="mt-3" style="font-size: 1.1rem;">Currently focusing on the social dynamics of information diffusion and user behavioural psychology in digital platforms.</p>
+      <h4 class="wip-title">Computational Narrative & User Behavior</h4>
+      <p class="mt-3 text-muted" style="font-size: 1.1rem;">Currently focusing on the social dynamics of information diffusion and user behavioural psychology in digital platforms.</p>
       <span class="badge bg-light text-dark mt-3">Coming Soon</span>
     </div>
   </section>
@@ -70,56 +68,56 @@ nav_order: 5
       <div class="card-body p-4 p-lg-5">
 
         <!-- 项目头部 -->
-        <div class="project-header mb-4 pb-3" style="border-bottom: 2px solid #f0e6ff;">
-          <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+        <div class="project-header mb-5 pb-4">
+          <div class="d-flex flex-wrap align-items-center gap-2 mb-3">
             <span class="badge badge-purple">传播数据大赛 · 选题三</span>
             <span class="badge bg-light text-dark" style="border: 1px solid #e0d6f0;">团队核心成员 · 数据分析与模型构建</span>
           </div>
           <h3 class="project-title mt-2">AIGC内容传播特征识别与社会影响评估研究</h3>
-          <h4 class="project-subtitle">——基于AI就业（数智员工）话题的网络舆情分析</h4>
+          <h4 class="project-subtitle mt-2">——基于AI就业（数智员工）话题的网络舆情分析</h4>
           <div class="project-meta mt-3">
             <span class="meta-item"><i class="far fa-calendar-alt mr-2"></i>2025.09 – 2026.03</span>
           </div>
         </div>
 
         <!-- 项目背景 -->
-        <div class="project-block mb-4">
+        <div class="project-block">
           <h5 class="block-title"><i class="fas fa-bullseye mr-2"></i>项目背景</h5>
           <p class="project-text">随着生成式人工智能进入公共传播空间，AIGC 内容可能通过低成本批量生产与自动化分发放大社会焦虑。本项目以微博「AI就业（数智员工）」话题为案例，探索如何在单一话题的极端稀疏网络中，识别 AIGC 内容的传播规律并量化其社会影响风险。</p>
         </div>
 
         <!-- 核心工作：三栏卡片 -->
-        <div class="project-block mb-4">
+        <div class="project-block">
           <h5 class="block-title"><i class="fas fa-cogs mr-2"></i>核心工作</h5>
-          <div class="row g-4 mt-2">
+          <div class="row g-4 mt-1">
             <div class="col-lg-4 col-md-12">
               <div class="work-item-card h-100">
-                <div class="work-icon mb-3"><i class="fas fa-brain"></i></div>
+                <div class="work-icon mb-4"><i class="fas fa-brain"></i></div>
                 <h6 class="work-title">AIGC 内容识别模型</h6>
                 <p class="small-text mb-0">基于 Chinese-RoBERTa-wwm-ext 基座模型，采用 LoRA 轻量微调策略（训练数据仅 600 条），在垂直领域实现小样本高精度检测（Accuracy <strong>98.33%</strong>，Precision <strong>100%</strong>，AUC <strong>0.9989</strong>），解决通用模型在领域文本上的系统性偏差。</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-12">
               <div class="work-item-card h-100">
-                <div class="work-icon mb-3"><i class="fas fa-project-diagram"></i></div>
+                <div class="work-icon mb-4"><i class="fas fa-project-diagram"></i></div>
                 <h6 class="work-title">传播网络结构分析</h6>
                 <p class="small-text mb-0">构建包含 <strong>2,334,728</strong> 个节点、<strong>2,279,217</strong> 条边的有向加权传播网络，发现该话题呈现「大规模、低连接、高碎片化」的星型辐射结构（网络密度 4.18×10⁻⁷，模块化系数 0.9595），信息扩散高度依赖少数关键节点。</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-12">
               <div class="work-item-card h-100">
-                <div class="work-icon mb-3"><i class="fas fa-exclamation-triangle"></i></div>
+                <div class="work-icon mb-4"><i class="fas fa-exclamation-triangle"></i></div>
                 <h6 class="work-title">NARI-S 风险指数模型</h6>
-                <p class="small-text mb-0">基于引爆点理论，提出「网络结构放大风险指数模型（Network-Amplified Risk Index for Single-topic）」，将内容风险与网络位置放大能力耦合，采用乘法机制实现非线性风险分层。创新设计「源头系数」指标，精准捕捉「只发不收」的单向广播节点，有效区分 AIGC 内容工厂与正常资讯账号。</p>
+                <p class="small-text mb-0">基于引爆点理论，提出「网络结构放大风险指数模型（NARI-S）」，将内容风险与网络位置放大能力耦合，采用乘法机制实现非线性风险分层。创新设计「源头系数」指标，精准捕捉「只发不收」的单向广播节点，有效区分 AIGC 内容工厂与正常资讯账号。</p>
               </div>
             </div>
           </div>
         </div>
 
         <!-- 关键发现 -->
-        <div class="project-block mb-4">
+        <div class="project-block">
           <h5 class="block-title"><i class="fas fa-lightbulb mr-2"></i>关键发现</h5>
-          <div class="findings-box">
+          <div class="findings-box mt-3">
             <ul class="findings-list mb-0">
               <li><span class="finding-highlight">极端两极分化：</span>1 个核心风险节点（综合风险值 1.75，加权出度达 2717 亿，入度仅 48）疑似为高度自动化的 AIGC 内容工厂；</li>
               <li><span class="finding-highlight">单向广播矩阵：</span>7 个高风险节点构成入度为 0 的「单向广播矩阵」，呈现身份隐匿、定向操纵、批量分发的典型水军画像；</li>
@@ -129,9 +127,9 @@ nav_order: 5
         </div>
 
         <!-- 技术栈 -->
-        <div class="project-block mb-4">
+        <div class="project-block">
           <h5 class="block-title"><i class="fas fa-code mr-2"></i>技术实现</h5>
-          <div class="tech-stack">
+          <div class="tech-stack mt-3">
             <span class="tech-tag">Python</span>
             <span class="tech-tag">Transformers</span>
             <span class="tech-tag">PEFT (LoRA)</span>
@@ -143,7 +141,7 @@ nav_order: 5
         </div>
 
         <!-- 项目价值 -->
-        <div class="project-block">
+        <div class="project-block mb-0">
           <h5 class="block-title"><i class="fas fa-trophy mr-2"></i>项目价值</h5>
           <p class="project-text mb-0">为平台 AIGC 治理提供了从「内容识别」到「结构预警」的可复用技术路径，验证了在碎片化传播网络中，微观拓扑位置比宏观社群结构更具风险预测力。</p>
         </div>
@@ -158,15 +156,20 @@ nav_order: 5
 <style>
   :root { --nju-purple: #4D0099; }
 
-  /* 1. 全局字体优化 */
-  body, p, li, h1, h2, h3, h4, h5, .navbar {
-    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  /* 1. 全局字体优化（核心修复文字奇怪的问题） */
+  /* 正文使用现代无衬线体（Sans-serif），确保中英文混排平滑、清晰 */
+  body, p, li, .navbar, .badge, .project-text, .small-text, .tech-tag {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
   }
+  
+  /* 大标题、专有名词使用优雅的衬线体（Serif） */
+  h1, h2, h3, h4, h5, .section-title, .thesis-title, .project-title, .block-title, .wip-title {
+    font-family: 'Playfair Display', 'Lora', "PingFang SC", "Microsoft YaHei", serif !important;
+  }
+
   body {
     -webkit-font-smoothing: antialiased;
-    font-weight: 500 !important;
-    line-height: 1.9 !important;
-    color: #2c3e50;
+    color: #333;
   }
   .navbar { font-weight: 600 !important; }
 
@@ -176,240 +179,93 @@ nav_order: 5
     color: var(--nju-purple);
     font-weight: 800;
     font-size: 1.8rem;
-    font-family: 'Playfair Display', serif !important;
     border-left: 8px solid var(--nju-purple);
     padding-left: 20px;
   }
-  .my-6 { margin-top: 5rem; margin-bottom: 5rem; }
+  .my-6 { margin-top: 5.5rem; margin-bottom: 5.5rem; }
 
   /* 3. 卡片样式 */
-  .thesis-card {
+  .thesis-card, .project-card {
     border-radius: 20px;
     overflow: hidden;
     background: #fff;
   }
   
-  /* 🔴 自定义通透浅灰色背景 */
-  .bg-soft-gray {
-    background-color: rgba(245, 247, 250, 0.6) !important;
-  }
+  .bg-soft-gray { background-color: rgba(245, 247, 250, 0.6) !important; }
 
-  /* 图片样式 */
   .thesis-img-final {
-    width: 85%;
-    height: auto;
-    max-height: 90%;
-    object-fit: contain;
-    display: block;
-    margin: 0 auto;
-    border-radius: 4px;
+    width: 85%; height: auto; max-height: 90%;
+    object-fit: contain; display: block; margin: 0 auto; border-radius: 4px;
   }
 
   /* 4. 文字区域 */
-  .thesis-title { font-family: 'Playfair Display', serif !important; font-weight: 800; color: #1a1a1a; font-size: 1.6rem; line-height: 1.3; }
-  .badge-purple { background-color: var(--nju-purple); color: white; padding: 6px 15px; border-radius: 50px; font-weight: 700; font-size: 0.85rem; }
-  .thesis-abstract { font-size: 1rem; color: #444; background: #f8f6fc; padding: 20px; border-radius: 12px; border-left: 4px solid var(--nju-purple); }
+  .thesis-title { font-weight: 800; color: #1a1a1a; font-size: 1.6rem; line-height: 1.4; }
+  .badge-purple { background-color: var(--nju-purple); color: white; padding: 6px 15px; border-radius: 50px; font-weight: 600; font-size: 0.85rem; }
   
-  /* ✨ 关键修改1：Lay Summary 颜色（紫色）+ 粗体（已用<strong>，此处确保颜色） */
-  .thesis-abstract p:first-child strong {
-    color: var(--nju-purple); /* 紫色 */
-    font-weight: bold; /* 显式确保粗体（原<strong>已含，双重保险） */
-  }
-  
-  /* ✨ 关键修改2：缩小与下方正文的间距（仅调整第一个<p>的下边距） */
-  .thesis-abstract p:first-child {
-    margin-bottom: 0.5rem; /* 原默认约1rem，缩小为0.5rem（可微调数值） */
-  }
+  .thesis-abstract { font-size: 1rem; color: #444; background: #f8f6fc; padding: 1.5rem 1.8rem; border-radius: 12px; border-left: 4px solid var(--nju-purple); line-height: 1.8; }
+  .abstract-label { color: var(--nju-purple); font-weight: bold; margin-bottom: 0.5rem; font-size: 1.05rem; }
 
   /* 5. 按钮 */
-  .btn-download { display: inline-block; background: var(--nju-purple); color: white !important; padding: 12px 30px; border-radius: 50px; text-decoration: none !important; font-weight: 800; transition: 0.3s; }
-  .btn-download:hover { background: #330066; transform: translateY(-2px); }
+  .btn-download { display: inline-block; background: var(--nju-purple); color: white !important; padding: 12px 30px; border-radius: 50px; text-decoration: none !important; font-weight: 600; transition: 0.3s; }
+  .btn-download:hover { background: #330066; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(77, 0, 153, 0.2); }
 
   .wip-box { background: #fff; border: 2px dashed #e0d6f0; border-radius: 20px; text-align: center; }
+  .wip-title { color: var(--nju-purple); font-weight: 700; font-size: 1.5rem;}
 
-  /* ========== AIGC 项目展示专用样式 ========== */
+  /* ========== AIGC 项目展示专用样式（优化版） ========== */
 
-  .project-card {
-    border-radius: 20px;
-    overflow: hidden;
-    background: #fff;
-  }
+  .project-title { font-weight: 800; color: #1a1a1a; font-size: 1.7rem; line-height: 1.4; margin-bottom: 0.3rem; }
+  .project-subtitle { font-family: -apple-system, "PingFang SC", sans-serif !important; font-weight: 600; color: #555; font-size: 1.1rem; margin-bottom: 0; }
+  .project-meta { color: #666; font-size: 0.95rem; font-weight: 500; }
+  .project-meta i { color: var(--nju-purple); }
 
-  .project-title {
-    font-family: 'Playfair Display', serif !important;
-    font-weight: 800;
-    color: #1a1a1a;
-    font-size: 1.7rem;
-    line-height: 1.3;
-    margin-bottom: 0.3rem;
-  }
+  .project-header { border-bottom: 2px solid #f4effa; }
+  
+  /* 增加 Block 之间的间距（缓解密集感） */
+  .project-block { margin-bottom: 3rem; }
 
-  .project-subtitle {
-    font-family: 'Lora', "PingFang SC", "Microsoft YaHei", sans-serif !important;
-    font-weight: 600;
-    color: var(--nju-purple);
-    font-size: 1.1rem;
-    opacity: 0.85;
-    margin-bottom: 0;
-  }
+  .block-title { font-weight: 700; color: var(--nju-purple); font-size: 1.25rem; margin-bottom: 1rem; display: flex; align-items: center; }
+  .block-title i { font-size: 1.1rem; width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; background: rgba(77, 0, 153, 0.08); border-radius: 6px; }
 
-  .project-meta {
-    color: #666;
-    font-size: 0.95rem;
-    font-weight: 500;
-  }
+  .project-text { color: #333; line-height: 1.9; font-size: 1.05rem; }
 
-  .project-meta i {
-    color: var(--nju-purple);
-  }
-
-  .project-block {
-    margin-bottom: 1.8rem;
-  }
-
-  .block-title {
-    font-family: 'Playfair Display', serif !important;
-    font-weight: 700;
-    color: var(--nju-purple);
-    font-size: 1.15rem;
-    margin-bottom: 0.8rem;
-    display: flex;
-    align-items: center;
-  }
-
-  .block-title i {
-    font-size: 1rem;
-    width: 24px;
-    height: 24px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(77, 0, 153, 0.08);
-    border-radius: 6px;
-  }
-
-  .project-text {
-    color: #444;
-    line-height: 1.8;
-    font-size: 1rem;
-  }
-
-  /* 核心工作卡片 */
+  /* 核心工作卡片（增加内边距，提升呼吸感） */
   .work-item-card {
     background: #f8f6fc;
     border-radius: 16px;
-    padding: 1.5rem;
-    border-left: 4px solid var(--nju-purple);
+    padding: 2rem 1.8rem; /* 增加了 padding */
+    border-top: 4px solid var(--nju-purple); /* 改为顶部边框更显现代感 */
+    border-left: none;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .work-item-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(77, 0, 153, 0.08);
-  }
-
-  .work-icon {
-    width: 44px;
-    height: 44px;
-    background: var(--nju-purple);
-    color: white;
-    border-radius: 12px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-  }
-
-  .work-title {
-    font-weight: 700;
-    color: #1a1a1a;
-    font-size: 1.05rem;
-    margin-bottom: 0.6rem;
-    font-family: 'Lora', "PingFang SC", sans-serif !important;
-  }
-
-  .small-text {
-    font-size: 0.92rem;
-    color: #555;
-    line-height: 1.75;
-  }
-
-  .small-text strong {
-    color: var(--nju-purple);
-    font-weight: 700;
-  }
-
-  /* 关键发现高亮框 */
-  .findings-box {
-    background: #f8f6fc;
-    border-radius: 16px;
-    padding: 1.5rem 1.5rem 1.5rem 1.2rem;
-    border-left: 4px solid var(--nju-purple);
-  }
-
-  .findings-list {
-    list-style: none;
-    padding-left: 0;
-  }
-
-  .findings-list li {
-    position: relative;
-    padding-left: 1.4rem;
-    margin-bottom: 0.8rem;
-    color: #444;
-    line-height: 1.8;
-    font-size: 0.98rem;
-  }
-
-  .findings-list li:last-child {
-    margin-bottom: 0;
-  }
-
-  .findings-list li::before {
-    content: "▸";
-    position: absolute;
-    left: 0;
-    color: var(--nju-purple);
-    font-weight: 700;
-    font-size: 1.1rem;
-  }
-
-  .finding-highlight {
-    font-weight: 700;
-    color: var(--nju-purple);
-  }
-
-  /* 技术栈标签 */
-  .tech-stack {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem;
+    flex-direction: column;
   }
+  .work-item-card:hover { transform: translateY(-4px); box-shadow: 0 10px 25px rgba(77, 0, 153, 0.08); }
 
-  .tech-tag {
-    display: inline-block;
-    background: rgba(77, 0, 153, 0.06);
-    color: var(--nju-purple);
-    border: 1.5px solid rgba(77, 0, 153, 0.15);
-    padding: 6px 16px;
-    border-radius: 50px;
-    font-size: 0.88rem;
-    font-weight: 600;
-    font-family: 'Lora', sans-serif !important;
-    transition: all 0.2s ease;
-  }
+  .work-icon { width: 48px; height: 48px; background: var(--nju-purple); color: white; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; font-size: 1.3rem; }
+  .work-title { font-weight: 700; color: #1a1a1a; font-size: 1.1rem; margin-bottom: 1rem; }
 
-  .tech-tag:hover {
-    background: var(--nju-purple);
-    color: white;
-    transform: translateY(-1px);
-  }
+  .small-text { font-size: 0.95rem; color: #444; line-height: 1.8; }
+  .small-text strong { color: var(--nju-purple); font-weight: 600; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important; font-size: 1rem;}
+
+  /* 关键发现高亮框（增加行距） */
+  .findings-box { background: #fcfbfd; border-radius: 16px; padding: 2rem 2.2rem 2rem 1.8rem; border-left: 4px solid var(--nju-purple); border: 1px solid #f0e6ff; border-left-width: 4px; }
+  .findings-list { list-style: none; padding-left: 0; }
+  .findings-list li { position: relative; padding-left: 1.6rem; margin-bottom: 1.2rem; color: #333; line-height: 1.9; font-size: 1rem; }
+  .findings-list li:last-child { margin-bottom: 0; }
+  .findings-list li::before { content: "▸"; position: absolute; left: 0; top: 1px; color: var(--nju-purple); font-weight: 700; font-size: 1.2rem; }
+  .finding-highlight { font-weight: 600; color: var(--nju-purple); }
+
+  /* 技术栈标签（优化字体与间距） */
+  .tech-stack { display: flex; flex-wrap: wrap; gap: 0.8rem; }
+  .tech-tag { display: inline-block; background: rgba(77, 0, 153, 0.05); color: var(--nju-purple); border: 1px solid rgba(77, 0, 153, 0.15); padding: 6px 18px; border-radius: 50px; font-size: 0.9rem; font-weight: 500; transition: all 0.2s ease; }
+  .tech-tag:hover { background: var(--nju-purple); color: white; border-color: var(--nju-purple); transform: translateY(-2px); }
 
   /* 响应式微调 */
   @media (max-width: 768px) {
     .project-title { font-size: 1.4rem; }
-    .project-subtitle { font-size: 1rem; }
-    .work-item-card { margin-bottom: 1rem; }
-    .tech-tag { font-size: 0.82rem; padding: 5px 12px; }
+    .project-block { margin-bottom: 2rem; }
+    .work-item-card { padding: 1.5rem; margin-bottom: 0.5rem; }
+    .findings-box { padding: 1.5rem; }
   }
 </style>
