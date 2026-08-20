@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /publications/
-description: 学术研究 | Academic Research
+description: 学术研究与项目 | Academic Research
 nav: true
 nav_order: 5
 ---
@@ -22,7 +22,7 @@ nav_order: 5
         <div class="col-lg-6 col-md-12">
           <div class="card-body p-4 p-lg-5 d-flex flex-column justify-content-center h-100">
             <div>
-                <span class="custom-badge badge-primary mb-3 d-inline-block">Outstanding Thesis Award</span>
+                <span class="badge badge-purple mb-3">Outstanding Thesis Award</span>
                 <h3 class="thesis-title mt-2">云录制的生产制播范式与效用研究<br><small class="text-muted" style="font-size: 80%;">——以《天天云时间》为例</small></h3>
                 
                 <p class="thesis-meta mt-4">
@@ -69,10 +69,10 @@ nav_order: 5
 
         <!-- 项目头部 -->
         <div class="project-header">
-          <!-- 标签行：加大间距，优化颜色对比度 -->
+          <!-- 标签行：恢复原版颜色，仅拉开间距 (gap-3) 并修正字体 -->
           <div class="d-flex flex-wrap align-items-center gap-3 mb-4">
-            <span class="custom-badge badge-primary">传播数据大赛 · 选题三</span>
-            <span class="custom-badge badge-secondary">团队核心成员 · 数据分析与模型构建</span>
+            <span class="badge badge-purple">传播数据大赛 · 选题三</span>
+            <span class="badge bg-light text-dark badge-light-custom">团队核心成员 · 数据分析与模型构建</span>
           </div>
           
           <!-- 标题区：强制黑体，解决中英文字体拼接感 -->
@@ -162,12 +162,10 @@ nav_order: 5
   :root { --nju-purple: #4D0099; }
 
   /* 1. 全局字体优化：彻底切分衬线体与无衬线体的使用场景 */
-  /* 正文、混排标题、数据强制使用系统级无衬线体，平滑护眼，拒绝“中英拼字感” */
   body, p, li, .navbar, .project-text, .small-text, .tech-tag, .project-title, .project-subtitle {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif !important;
   }
   
-  /* 仅针对短而独立的纯英文/中文大标题使用优雅的衬线体 */
   .section-title, .wip-title {
     font-family: 'Playfair Display', 'Lora', "PingFang SC", "Microsoft YaHei", serif !important;
   }
@@ -176,7 +174,6 @@ nav_order: 5
   .navbar { font-weight: 600 !important; }
   .my-6 { margin-top: 5.5rem; margin-bottom: 5.5rem; }
   
-  /* 标题基座 */
   .section-title {
     color: var(--nju-purple);
     font-weight: 800;
@@ -190,45 +187,48 @@ nav_order: 5
   .bg-soft-gray { background-color: rgba(245, 247, 250, 0.6) !important; }
   .thesis-img-final { width: 85%; height: auto; max-height: 90%; object-fit: contain; display: block; margin: 0 auto; border-radius: 4px; }
   
-  /* 原标题保留衬线体风格 */
   .thesis-title { font-family: 'Playfair Display', 'Lora', "PingFang SC", serif !important; font-weight: 800; color: #1a1a1a; font-size: 1.6rem; line-height: 1.4; }
   .thesis-abstract { font-size: 1rem; color: #444; background: #f8f6fc; padding: 1.5rem 1.8rem; border-radius: 12px; border-left: 4px solid var(--nju-purple); line-height: 1.8; }
   .abstract-label { color: var(--nju-purple); font-weight: bold; margin-bottom: 0.5rem; font-size: 1.05rem; }
 
-  /* 下载按钮 */
+  /* 原版紫色标签，加入中文字体修复 */
+  .badge-purple { 
+    background-color: var(--nju-purple); 
+    color: white; 
+    padding: 7px 16px; 
+    border-radius: 50px; 
+    font-weight: 600; 
+    font-size: 0.9rem; 
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+  }
+  
+  /* 原版浅灰色标签，加入中文字体修复和边距 */
+  .badge-light-custom {
+    padding: 7px 16px; 
+    border-radius: 50px; 
+    font-size: 0.9rem; 
+    font-weight: 600; 
+    border: 1px solid #e0d6f0;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+  }
+
   .btn-download { display: inline-block; background: var(--nju-purple); color: white !important; padding: 12px 30px; border-radius: 50px; text-decoration: none !important; font-weight: 600; transition: 0.3s; }
   .btn-download:hover { background: #330066; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(77, 0, 153, 0.2); }
 
-  /* WIP区域 */
   .wip-box { background: #fff; border: 2px dashed #e0d6f0; border-radius: 20px; text-align: center; }
   .wip-title { color: var(--nju-purple); font-weight: 700; font-size: 1.5rem;}
 
 
-  /* ========== AIGC 项目展示专用样式（宽松美观版） ========== */
+  /* ========== AIGC 项目展示专用样式 ========== */
 
-  /* 项目主标题：已在全局应用无衬线体，这里定义粗细和间距 */
   .project-title { font-weight: 700; color: #1a1a1a; font-size: 1.8rem; line-height: 1.4; margin-bottom: 0.6rem; letter-spacing: 0.5px; }
   .project-subtitle { font-weight: 500; color: #555; font-size: 1.15rem; margin-bottom: 0; }
   
-  /* 头部区域：大幅放开底部留白 */
   .project-header { border-bottom: 1px solid #f0e6ff; padding-bottom: 2.5rem; margin-bottom: 2.5rem; }
 
-  /* 自定义标签样式：解决原版标签粘连、浅灰底色看不清的问题 */
-  .custom-badge {
-    padding: 8px 18px;
-    border-radius: 50px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
-  }
-  .badge-primary { background-color: var(--nju-purple); color: #ffffff; box-shadow: 0 4px 10px rgba(77, 0, 153, 0.15); }
-  .badge-secondary { background-color: #f8f5fc; color: var(--nju-purple); border: 1px solid #eaddf5; }
-
-  /* 时间行：使用等宽字体，增加排版的数字严谨感 */
   .project-meta { color: #444; font-size: 1.05rem; font-weight: 600; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important; display: flex; align-items: center; }
   .project-meta i { color: var(--nju-purple); font-size: 1.2rem; margin-right: 10px; }
 
-  /* 块级元素拉开距离，解决拥挤 */
   .project-block { margin-bottom: 3.5rem; }
 
   .block-title { font-weight: 700; color: var(--nju-purple); font-size: 1.25rem; margin-bottom: 1.2rem; display: flex; align-items: center; }
@@ -236,7 +236,6 @@ nav_order: 5
 
   .project-text { color: #333; line-height: 1.9; font-size: 1.05rem; }
 
-  /* 核心工作卡片：大幅增加 Padding，改用顶边框 */
   .work-item-card {
     background: #f8f6fc;
     border-radius: 16px;
@@ -252,10 +251,8 @@ nav_order: 5
   .work-title { font-weight: 700; color: #1a1a1a; font-size: 1.1rem; margin-bottom: 1rem; }
 
   .small-text { font-size: 0.95rem; color: #444; line-height: 1.8; }
-  /* 强调数据也使用等宽字体 */
   .small-text strong { color: var(--nju-purple); font-weight: 600; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace !important; font-size: 1rem;}
 
-  /* 关键发现高亮框：增加行距与内边距 */
   .findings-box { background: #fcfbfd; border-radius: 16px; padding: 2rem 2.2rem 2rem 1.8rem; border-left: 4px solid var(--nju-purple); border: 1px solid #f0e6ff; border-left-width: 4px; }
   .findings-list { list-style: none; padding-left: 0; }
   .findings-list li { position: relative; padding-left: 1.6rem; margin-bottom: 1.2rem; color: #333; line-height: 1.9; font-size: 1rem; }
@@ -263,12 +260,10 @@ nav_order: 5
   .findings-list li::before { content: "▸"; position: absolute; left: 0; top: 1px; color: var(--nju-purple); font-weight: 700; font-size: 1.2rem; }
   .finding-highlight { font-weight: 600; color: var(--nju-purple); }
 
-  /* 技术栈标签优化 */
   .tech-stack { display: flex; flex-wrap: wrap; gap: 0.8rem; }
   .tech-tag { display: inline-block; background: rgba(77, 0, 153, 0.05); color: var(--nju-purple); border: 1px solid rgba(77, 0, 153, 0.15); padding: 6px 18px; border-radius: 50px; font-size: 0.9rem; font-weight: 500; transition: all 0.2s ease; }
   .tech-tag:hover { background: var(--nju-purple); color: white; border-color: var(--nju-purple); transform: translateY(-2px); }
 
-  /* 响应式微调 */
   @media (max-width: 768px) {
     .project-title { font-size: 1.5rem; }
     .project-block { margin-bottom: 2.5rem; }
