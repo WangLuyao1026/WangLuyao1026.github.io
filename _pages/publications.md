@@ -10,7 +10,7 @@ nav_order: 5
 <div class="research-container mt-5">
 
   <!-- =========================================================
-       01. 本科毕业论文
+       01. 本科毕业论文 | Undergraduate Thesis
        ========================================================= -->
 
   <section class="thesis-section mb-6">
@@ -37,7 +37,7 @@ nav_order: 5
 
         </div>
 
-        <!-- 右侧文字 -->
+        <!-- 右侧信息 -->
         <div class="col-lg-6 col-md-12">
 
           <div class="card-body p-4 p-lg-5 d-flex flex-column justify-content-center h-100">
@@ -117,7 +117,7 @@ nav_order: 5
 
 
   <!-- =========================================================
-       02. 进行中的研究
+       02. 进行中的研究 | Work in Progress
        ========================================================= -->
 
   <section class="wip-section mb-6">
@@ -149,47 +149,46 @@ nav_order: 5
 
 
   <!-- =========================================================
-       03. 研究项目
-       A版：Editorial / Academic Case Study
+       03. 研究项目 | Research Projects
        ========================================================= -->
 
-  <section class="project-section mb-6 project-editorial">
+  <section class="project-section mb-6 research-case-study">
 
     <h2 class="section-title mb-4">
       🔬 研究项目 | Research Projects
     </h2>
 
 
-    <!-- =========================
+    <!-- =====================================================
          Project Header
-         ========================= -->
+         ===================================================== -->
 
-    <div class="project-intro">
+    <header class="case-header">
 
-      <div class="project-kicker">
+      <div class="case-kicker">
 
-        <span>
+        <span class="case-tag">
           传播数据大赛 · 选题三
         </span>
 
-        <span class="project-role">
+        <span class="case-role">
           团队核心成员 · 数据分析与模型构建
         </span>
 
       </div>
 
 
-      <h3 class="project-title">
+      <h3 class="case-title">
         AIGC内容传播特征识别与社会影响评估研究
       </h3>
 
 
-      <h4 class="project-subtitle">
-        ——基于AI就业（数智员工）话题的网络舆情分析
+      <h4 class="case-subtitle">
+        ——基于网络舆情分析与风险预警模型的计算传播研究
       </h4>
 
 
-      <div class="project-meta">
+      <div class="case-meta">
 
         <span>
           <i class="far fa-calendar-alt mr-2"></i>
@@ -198,161 +197,251 @@ nav_order: 5
 
       </div>
 
-    </div>
+    </header>
 
 
-    <!-- =========================
-         01 项目背景
-         ========================= -->
+    <!-- =====================================================
+         Research Question
+         ===================================================== -->
 
-    <div class="editorial-section">
+    <section class="case-section research-question-section">
 
-      <div class="editorial-label">
-        01 / 项目背景
+      <div class="case-section-label">
+        RESEARCH QUESTION
       </div>
 
-      <div class="editorial-content">
+      <div class="research-question-grid">
 
-        <p>
-          随着生成式人工智能进入公共传播空间，AIGC 内容可能通过低成本批量生产与自动化分发放大社会焦虑。本项目以微博「AI就业（数智员工）」话题为案例，探索如何在单一话题的极端稀疏网络中，识别 AIGC 内容的传播规律并量化其社会影响风险。
-        </p>
+        <div class="question-mark">
+          ?
+        </div>
+
+        <div class="question-content">
+
+          <h4>
+            AIGC 内容如何通过传播网络形成社会影响？
+          </h4>
+
+          <p>
+            本项目关注 AIGC 从内容生成进入社会传播网络后的影响过程，
+            将 AIGC 内容识别、传播网络分析与社会影响评估结合起来，
+            构建“内容识别—传播特征分析—社会影响评估—风险治理”的研究路径。
+          </p>
+
+        </div>
 
       </div>
 
-    </div>
+    </section>
 
 
-    <!-- =========================
-         02 核心工作
-         ========================= -->
+    <!-- =====================================================
+         Research Pipeline
+         ===================================================== -->
 
-    <div class="editorial-section">
+    <section class="case-section pipeline-section">
 
-      <div class="editorial-label">
-        02 / 核心工作
+      <div class="case-section-label">
+        RESEARCH PIPELINE
       </div>
 
 
-      <div class="editorial-work-list">
+      <div class="research-pipeline">
 
 
-        <!-- Work 01 -->
+        <!-- 01 -->
+        <article class="pipeline-stage">
 
-        <article class="editorial-work">
+          <div class="stage-top">
 
-          <div class="work-number">
-            01
+            <span class="stage-number">
+              01
+            </span>
+
+            <span class="stage-type">
+              CONTENT
+            </span>
+
           </div>
 
-          <div class="work-main">
+          <h4>
+            AIGC 内容识别
+          </h4>
 
-            <h5>
-              AIGC 内容识别模型
-            </h5>
+          <p>
+            基于 Chinese-RoBERTa-wwm-ext 基座模型，
+            采用 LoRA 轻量微调策略，在小样本条件下进行垂直领域 AIGC 检测。
+          </p>
 
-            <p>
-              基于 Chinese-RoBERTa-wwm-ext 基座模型，采用 LoRA 轻量微调策略（训练数据仅 600 条），在垂直领域实现小样本高精度检测，解决通用模型在领域文本上的系统性偏差。
-            </p>
+          <div class="stage-metrics">
 
-            <div class="metric-row">
+            <span>
+              Accuracy
+              <strong>98.33%</strong>
+            </span>
 
-              <span>
-                Accuracy
-                <strong>98.33%</strong>
-              </span>
+            <span>
+              Precision
+              <strong>100%</strong>
+            </span>
 
-              <span>
-                Precision
-                <strong>100%</strong>
-              </span>
-
-              <span>
-                AUC
-                <strong>0.9989</strong>
-              </span>
-
-            </div>
+            <span>
+              AUC
+              <strong>0.9989</strong>
+            </span>
 
           </div>
 
         </article>
 
 
-        <!-- Work 02 -->
+        <div class="pipeline-arrow">
+          →
+        </div>
 
-        <article class="editorial-work">
 
-          <div class="work-number">
-            02
+        <!-- 02 -->
+        <article class="pipeline-stage">
+
+          <div class="stage-top">
+
+            <span class="stage-number">
+              02
+            </span>
+
+            <span class="stage-type">
+              NETWORK
+            </span>
+
           </div>
 
-          <div class="work-main">
+          <h4>
+            传播结构分析
+          </h4>
 
-            <h5>
-              传播网络结构分析
-            </h5>
+          <p>
+            以微博“AI 就业（数智员工）”话题为案例，
+            将用户作为节点、转发关系作为边，构建有向加权传播网络。
+          </p>
 
-            <p>
-              构建包含 2,334,728 个节点、2,279,217 条边的有向加权传播网络，发现该话题呈现「大规模、低连接、高碎片化」的星型辐射结构，网络密度为 4.18×10⁻⁷，模块化系数为 0.9595，信息扩散高度依赖少数关键节点。
-            </p>
+          <div class="stage-metrics">
 
-            <div class="metric-row">
+            <span>
+              Nodes
+              <strong>2.33M</strong>
+            </span>
 
-              <span>
-                Nodes
-                <strong>2,334,728</strong>
-              </span>
+            <span>
+              Edges
+              <strong>2.28M</strong>
+            </span>
 
-              <span>
-                Edges
-                <strong>2,279,217</strong>
-              </span>
-
-              <span>
-                Modularity
-                <strong>0.9595</strong>
-              </span>
-
-            </div>
+            <span>
+              Modularity
+              <strong>0.9595</strong>
+            </span>
 
           </div>
 
         </article>
 
 
-        <!-- Work 03 -->
+        <div class="pipeline-arrow">
+          →
+        </div>
 
-        <article class="editorial-work">
 
-          <div class="work-number">
-            03
+        <!-- 03 -->
+        <article class="pipeline-stage">
+
+          <div class="stage-top">
+
+            <span class="stage-number">
+              03
+            </span>
+
+            <span class="stage-type">
+              ASSESSMENT
+            </span>
+
           </div>
 
-          <div class="work-main">
+          <h4>
+            社会影响评估
+          </h4>
 
-            <h5>
-              NARI-S 风险指数模型
-            </h5>
+          <p>
+            基于引爆点理论，从内容、参与者与环境三个维度构建
+            AIGC 内容社会影响评估指标体系。
+          </p>
 
-            <p>
-              基于引爆点理论，提出「网络结构放大风险指数模型（Network-Amplified Risk Index for Single-topic）」，将内容风险与网络位置放大能力相结合，采用乘法机制实现非线性风险分层。创新设计「源头系数」指标，精准捕捉「只发不收」的单向广播节点，有效区分 AIGC 内容工厂与正常资讯账号。
-            </p>
+          <div class="stage-metrics">
 
-            <div class="metric-row">
+            <span>
+              Dimensions
+              <strong>3</strong>
+            </span>
 
-              <span>
-                Risk Model
-              </span>
+            <span>
+              Indicators
+              <strong>7</strong>
+            </span>
 
-              <span>
-                Nonlinear Risk Stratification
-              </span>
+            <span>
+              Theory
+              <strong>Tipping Point</strong>
+            </span>
 
-              <span>
-                Source Coefficient
-              </span>
+          </div>
 
-            </div>
+        </article>
+
+
+        <div class="pipeline-arrow">
+          →
+        </div>
+
+
+        <!-- 04 -->
+        <article class="pipeline-stage">
+
+          <div class="stage-top">
+
+            <span class="stage-number">
+              04
+            </span>
+
+            <span class="stage-type">
+              RISK
+            </span>
+
+          </div>
+
+          <h4>
+            NARI-S 风险预警
+          </h4>
+
+          <p>
+            将内容风险与网络结构放大作用结合，
+            对单一话题传播网络中的潜在高风险节点进行识别与分层。
+          </p>
+
+          <div class="stage-metrics">
+
+            <span>
+              Risk Model
+              <strong>NARI-S</strong>
+            </span>
+
+            <span>
+              Mechanism
+              <strong>Multiplicative</strong>
+            </span>
+
+            <span>
+              Output
+              <strong>Risk Level</strong>
+            </span>
 
           </div>
 
@@ -361,120 +450,241 @@ nav_order: 5
 
       </div>
 
-    </div>
+    </section>
 
 
-    <!-- =========================
-         03 关键发现
-         ========================= -->
+    <!-- =====================================================
+         Key Findings
+         ===================================================== -->
 
-    <div class="editorial-section">
+    <section class="case-section findings-section">
 
-      <div class="editorial-label">
-        03 / 关键发现
+      <div class="case-section-label">
+        KEY FINDINGS
       </div>
 
 
-      <div class="finding-list">
+      <div class="findings-list">
 
 
         <!-- Finding 01 -->
 
-        <div class="finding-item">
+        <article class="finding-row">
 
           <div class="finding-number">
             01
           </div>
 
-          <div class="finding-main">
+          <div class="finding-body">
 
-            <h5>
-              极端两极分化
-            </h5>
+            <h4>
+              大规模，但高度碎片化
+            </h4>
 
             <p>
-              1 个核心风险节点（综合风险值 1.75，加权出度达 2717 亿，入度仅 48）疑似为高度自动化的 AIGC 内容工厂。
+              AI 就业话题网络包含 2,334,728 个节点和 2,279,217 条传播关系，
+              网络密度仅为 4.18×10⁻⁷，模块化系数达到 0.9595，
+              大量参与者之间缺乏稳定互动，信息扩散主要依赖少数关键节点。
             </p>
 
           </div>
 
-        </div>
+        </article>
 
 
         <!-- Finding 02 -->
 
-        <div class="finding-item">
+        <article class="finding-row">
 
           <div class="finding-number">
             02
           </div>
 
-          <div class="finding-main">
+          <div class="finding-body">
 
-            <h5>
-              单向广播矩阵
-            </h5>
+            <h4>
+              网络位置比静态账号属性更值得关注
+            </h4>
 
             <p>
-              7 个高风险节点构成入度为 0 的「单向广播矩阵」，呈现身份隐匿、定向操纵、批量分发的典型水军画像。
+              部分高影响力节点并不具有媒体、专家或认证身份，
+              但在传播网络中占据关键位置。研究因此将度中心性、加权出度、
+              源头系数等网络结构指标纳入传播主体评价。
             </p>
 
           </div>
 
-        </div>
+        </article>
 
 
         <!-- Finding 03 -->
 
-        <div class="finding-item">
+        <article class="finding-row">
 
           <div class="finding-number">
             03
           </div>
 
-          <div class="finding-main">
+          <div class="finding-body">
 
-            <h5>
-              内容敏感性阈值
-            </h5>
+            <h4>
+              内容风险与网络放大共同形成高风险
+            </h4>
 
             <p>
-              模型验证非敏感内容即使具备高传播势能，综合风险仍趋近于 0，说明精准识别内容属性是风险治理的关键。
+              NARI-S 并不将传播规模直接等同于风险，而是强调内容属性与传播结构的共同作用：
+              当敏感内容与高传播能力节点结合时，网络位置会进一步放大潜在社会影响。
             </p>
 
           </div>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         Key Result
+         ===================================================== -->
+
+    <section class="case-section key-result-section">
+
+      <div class="case-section-label">
+        KEY RESULT
+      </div>
+
+
+      <div class="key-result">
+
+        <div class="key-result-main">
+
+          <div class="result-caption">
+            TOP 1 RISK NODE
+          </div>
+
+          <div class="result-score">
+            1.7544
+          </div>
+
+          <div class="result-description">
+            综合风险值
+          </div>
+
+        </div>
+
+
+        <div class="key-result-stats">
+
+
+          <div class="result-stat">
+
+            <span>
+              Weighted Out-degree
+            </span>
+
+            <strong>
+              2717 亿
+            </strong>
+
+            <small>
+              加权出度
+            </small>
+
+          </div>
+
+
+          <div class="result-stat">
+
+            <span>
+              In-degree
+            </span>
+
+            <strong>
+              48
+            </strong>
+
+            <small>
+              入度
+            </small>
+
+          </div>
+
+
+          <div class="result-stat">
+
+            <span>
+              Degree Centrality
+            </span>
+
+            <strong>
+              0.187535
+            </strong>
+
+            <small>
+              度中心性
+            </small>
+
+          </div>
+
+
+          <div class="result-stat">
+
+            <span>
+              Risk Level
+            </span>
+
+            <strong>
+              Core
+            </strong>
+
+            <small>
+              核心风险
+            </small>
+
+          </div>
+
 
         </div>
 
 
       </div>
 
-    </div>
+
+      <p class="result-note">
+        该节点表现出极端“高输出、低输入”的单向传播结构，
+        是模型识别出的唯一核心风险节点。报告同时强调，
+        网络结构指标只能作为异常传播行为线索，不能单独证明账号属于机器人、
+        水军或 AIGC 内容生产主体。
+      </p>
+
+    </section>
 
 
-    <!-- =========================
-         04 技术实现
-         05 项目价值
-         ========================= -->
+    <!-- =====================================================
+         Methods + Research Value
+         ===================================================== -->
 
-    <div class="project-footer-grid">
+    <section class="case-bottom">
 
 
-      <!-- Technical Stack -->
+      <!-- Methods -->
 
-      <div class="project-footer-block">
+      <div class="case-bottom-block">
 
-        <div class="editorial-label">
-          04 / 技术实现
+        <div class="case-section-label">
+          METHODS
         </div>
 
-        <div class="tech-stack-editorial">
+        <div class="method-stack">
 
           <span>Python</span>
 
           <span>Transformers</span>
 
-          <span>PEFT (LoRA)</span>
+          <span>PEFT / LoRA</span>
 
           <span>NetworkX</span>
 
@@ -489,22 +699,28 @@ nav_order: 5
       </div>
 
 
-      <!-- Project Value -->
+      <!-- Research Value -->
 
-      <div class="project-footer-block">
+      <div class="case-bottom-block">
 
-        <div class="editorial-label">
-          05 / 项目价值
+        <div class="case-section-label">
+          RESEARCH VALUE
         </div>
 
-        <p class="project-value">
-          为平台 AIGC 治理提供了从「内容识别」到「结构预警」的可复用技术路径，验证了在碎片化传播网络中，微观拓扑位置比宏观社群结构更具风险预测力。
+        <p class="research-value">
+
+          将 AIGC 内容检测与计算传播方法结合，
+          从“内容是否由 AI 生成”进一步延伸至
+          “内容进入传播网络后如何形成社会影响”，
+          形成从内容来源判断、传播结构分析到风险识别的方法链条，
+          为 AIGC 平台治理与网络风险识别提供方法参考。
+
         </p>
 
       </div>
 
 
-    </div>
+    </section>
 
 
   </section>
@@ -525,24 +741,35 @@ nav_order: 5
 <style>
 
 /* =========================================================
-   GLOBAL
+   ROOT
    ========================================================= */
 
 :root {
+
   --nju-purple: #4D0099;
+
   --nju-purple-light: #f5effc;
+
   --text-main: #2c3e50;
+
   --text-dark: #1a1a1a;
+
   --text-gray: #666;
+
   --text-light: #888;
-  --line-light: #e9e2f3;
-  --line-gray: #eeeeee;
+
+  --line-light: #e7e0ee;
+
+  --line-gray: #ededed;
+
+  --soft-bg: #faf9fb;
+
 }
 
 
-/* ---------------------------------------------------------
-   Font
-   --------------------------------------------------------- */
+/* =========================================================
+   GLOBAL TYPOGRAPHY
+   ========================================================= */
 
 body,
 p,
@@ -554,37 +781,60 @@ h4,
 h5,
 h6,
 .navbar {
+
   font-family:
     'Lora',
     "PingFang SC",
     "Microsoft YaHei",
     sans-serif !important;
+
 }
+
 
 body {
+
   -webkit-font-smoothing: antialiased;
+
   font-weight: 500 !important;
+
   line-height: 1.9 !important;
-  color: var(--text-main);
+
+  color:
+    var(--text-main);
+
 }
+
 
 .navbar {
+
   font-weight: 600 !important;
+
 }
 
 
-/* ---------------------------------------------------------
-   Main container
-   --------------------------------------------------------- */
+/* =========================================================
+   MAIN CONTAINER
+   ========================================================= */
 
 .research-container {
-  max-width: 1100px;
-  margin: auto;
+
+  max-width:
+    1100px;
+
+  margin:
+    auto;
+
 }
 
+
 .my-6 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+
+  margin-top:
+    5rem;
+
+  margin-bottom:
+    5rem;
+
 }
 
 
@@ -593,105 +843,174 @@ body {
    ========================================================= */
 
 .section-title {
-  color: var(--nju-purple);
-  font-weight: 800;
-  font-size: 1.8rem;
+
+  color:
+    var(--nju-purple);
+
+  font-weight:
+    800;
+
+  font-size:
+    1.8rem;
+
   font-family:
     'Playfair Display',
     serif !important;
 
-  border-left: 8px solid var(--nju-purple);
+  border-left:
+    8px solid
+    var(--nju-purple);
 
-  padding-left: 20px;
+  padding-left:
+    20px;
+
 }
 
 
 /* =========================================================
-   THESIS CARD
+   THESIS
    ========================================================= */
 
 .thesis-card {
-  border-radius: 20px;
-  overflow: hidden;
-  background: #fff;
+
+  border-radius:
+    20px;
+
+  overflow:
+    hidden;
+
+  background:
+    #fff;
+
 }
 
-
-/* ---------------------------------------------------------
-   Thesis image area
-   --------------------------------------------------------- */
 
 .bg-soft-gray {
-  background-color: rgba(245, 247, 250, 0.6) !important;
+
+  background-color:
+    rgba(245, 247, 250, .6) !important;
+
 }
+
 
 .thesis-img-final {
-  width: 85%;
-  height: auto;
-  max-height: 90%;
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
-  border-radius: 4px;
+
+  width:
+    85%;
+
+  height:
+    auto;
+
+  max-height:
+    90%;
+
+  object-fit:
+    contain;
+
+  display:
+    block;
+
+  margin:
+    0 auto;
+
+  border-radius:
+    4px;
+
 }
 
 
-/* ---------------------------------------------------------
-   Thesis text
-   --------------------------------------------------------- */
-
 .thesis-title {
+
   font-family:
     'Playfair Display',
     serif !important;
 
-  font-weight: 800;
-  color: var(--text-dark);
+  font-weight:
+    800;
 
-  font-size: 1.6rem;
-  line-height: 1.3;
+  color:
+    var(--text-dark);
+
+  font-size:
+    1.6rem;
+
+  line-height:
+    1.3;
+
 }
 
-.badge-purple {
-  background-color: var(--nju-purple);
-  color: white;
-
-  padding: 6px 15px;
-
-  border-radius: 50px;
-
-  font-weight: 700;
-  font-size: 0.85rem;
-}
 
 .thesis-meta {
-  color: #666;
-  font-size: .88rem;
-  line-height: 1.8;
+
+  font-size:
+    .88rem;
+
+  color:
+    #666;
+
 }
 
+
+.badge-purple {
+
+  background-color:
+    var(--nju-purple);
+
+  color:
+    #fff;
+
+  padding:
+    6px 15px;
+
+  border-radius:
+    50px;
+
+  font-weight:
+    700;
+
+  font-size:
+    .85rem;
+
+}
+
+
 .thesis-abstract {
-  font-size: 1rem;
-  color: #444;
 
-  background: #f8f6fc;
+  font-size:
+    1rem;
 
-  padding: 20px;
+  color:
+    #444;
 
-  border-radius: 12px;
+  background:
+    #f8f6fc;
+
+  padding:
+    20px;
+
+  border-radius:
+    12px;
 
   border-left:
     4px solid
     var(--nju-purple);
+
 }
 
-.thesis-abstract p:first-child strong {
-  color: var(--nju-purple);
-  font-weight: bold;
-}
 
 .thesis-abstract p:first-child {
-  margin-bottom: .5rem;
+
+  margin-bottom:
+    .5rem;
+
+}
+
+
+.thesis-abstract p:first-child strong {
+
+  color:
+    var(--nju-purple);
+
 }
 
 
@@ -700,28 +1019,42 @@ body {
    ========================================================= */
 
 .btn-download {
-  display: inline-block;
 
-  background: var(--nju-purple);
+  display:
+    inline-block;
 
-  color: white !important;
+  background:
+    var(--nju-purple);
 
-  padding: 12px 30px;
+  color:
+    #fff !important;
 
-  border-radius: 50px;
+  padding:
+    12px 30px;
 
-  text-decoration: none !important;
+  border-radius:
+    50px;
 
-  font-weight: 800;
+  text-decoration:
+    none !important;
+
+  font-weight:
+    800;
 
   transition:
-    background .3s ease,
-    transform .3s ease;
+    .3s ease;
+
 }
 
+
 .btn-download:hover {
-  background: #330066;
-  transform: translateY(-2px);
+
+  background:
+    #330066;
+
+  transform:
+    translateY(-2px);
+
 }
 
 
@@ -730,117 +1063,166 @@ body {
    ========================================================= */
 
 .wip-box {
-  background: #fff;
+
+  background:
+    #fff;
 
   border:
     2px dashed
     #e0d6f0;
 
-  border-radius: 20px;
+  border-radius:
+    20px;
 
-  text-align: center;
+  text-align:
+    center;
+
 }
+
 
 .wip-title {
-  color: var(--nju-purple);
-  font-weight: 700;
+
+  color:
+    var(--nju-purple);
+
+  font-weight:
+    700;
+
 }
 
+
 .wip-description {
-  font-size: 1.1rem;
-  color: #555;
+
+  font-size:
+    1.1rem;
+
+  color:
+    #555;
+
 }
 
 
 /* =========================================================
-   RESEARCH PROJECT
-   Editorial / Academic Case Study
+   RESEARCH CASE STUDY
    ========================================================= */
 
-.project-editorial {
-  width: 100%;
+.research-case-study {
+
+  width:
+    100%;
+
 }
 
 
-/* ---------------------------------------------------------
-   Project Header
-   --------------------------------------------------------- */
+/* =========================================================
+   CASE HEADER
+   ========================================================= */
 
-.project-intro {
-  padding-bottom: 2.3rem;
+.case-header {
+
+  padding-bottom:
+    2.6rem;
 
   border-bottom:
     1px solid
     var(--line-light);
+
 }
 
 
-.project-kicker {
-  display: flex;
+.case-kicker {
 
-  flex-wrap: wrap;
+  display:
+    flex;
 
-  align-items: center;
+  flex-wrap:
+    wrap;
 
-  gap: 10px;
+  gap:
+    9px;
 
-  margin-bottom: 1.15rem;
+  margin-bottom:
+    1.15rem;
+
 }
 
 
-.project-kicker span {
-  display: inline-block;
+.case-tag,
+.case-role {
+
+  display:
+    inline-flex;
+
+  align-items:
+    center;
 
   padding:
     5px 12px;
 
-  border-radius: 30px;
+  border-radius:
+    30px;
 
-  font-size: .8rem;
+  font-size:
+    .78rem;
 
-  font-weight: 700;
+  font-weight:
+    700;
+
+}
+
+
+.case-tag {
+
+  color:
+    var(--nju-purple);
 
   background:
     var(--nju-purple-light);
 
-  color:
-    var(--nju-purple);
 }
 
 
-.project-kicker .project-role {
-  background:
-    #f7f7f8;
+.case-role {
 
   color:
     #666;
 
+  background:
+    #f7f7f8;
+
   border:
     1px solid
     #e5e5e5;
+
 }
 
 
-.project-title {
+.case-title {
+
   font-family:
     'Playfair Display',
     serif !important;
 
-  font-weight: 800;
+  font-size:
+    1.95rem;
+
+  line-height:
+    1.35;
+
+  font-weight:
+    800;
 
   color:
     var(--text-dark);
 
-  font-size: 1.9rem;
-
-  line-height: 1.35;
-
   margin:
     0 0 .35rem;
+
 }
 
 
-.project-subtitle {
+.case-subtitle {
+
   font-family:
     'Lora',
     "PingFang SC",
@@ -850,405 +1232,151 @@ body {
   font-size:
     1rem;
 
+  line-height:
+    1.7;
+
   font-weight:
     500;
 
   color:
     #777;
 
-  line-height:
-    1.6;
-
   margin:
     0;
+
 }
 
 
-.project-meta {
+.case-meta {
+
   margin-top:
     1rem;
+
+  color:
+    #999;
 
   font-size:
     .82rem;
 
-  color:
-    #999;
 }
 
 
 /* =========================================================
-   Editorial Section
+   CASE SECTION
    ========================================================= */
 
-.editorial-section {
+.case-section {
+
   padding:
-    2.7rem 0;
+    2.8rem 0;
 
   border-bottom:
     1px solid
     var(--line-gray);
+
 }
 
 
-.editorial-label {
+.case-section-label {
+
   font-family:
     'Playfair Display',
     serif !important;
 
-  color:
-    var(--nju-purple);
-
   font-size:
-    .85rem;
+    .78rem;
 
   font-weight:
     800;
 
   letter-spacing:
-    .06em;
+    .1em;
 
-  margin-bottom:
-    1.2rem;
-}
-
-
-.editorial-content {
-  max-width:
-    900px;
-}
-
-
-.editorial-content p {
-  font-size:
-    1rem;
-
-  line-height:
-    1.95;
-
-  color:
-    #444;
-
-  margin:
-    0;
-}
-
-
-/* =========================================================
-   Core Work
-   ========================================================= */
-
-.editorial-work-list {
-  width: 100%;
-}
-
-
-.editorial-work {
-  display:
-    grid;
-
-  grid-template-columns:
-    62px
-    minmax(0, 1fr);
-
-  gap:
-    1.25rem;
-
-  padding:
-    1.7rem 0;
-
-  border-top:
-    1px solid
-    #efefef;
-}
-
-
-.editorial-work:first-child {
-  border-top:
-    0;
-
-  padding-top:
-    0;
-}
-
-
-.editorial-work:last-child {
-  padding-bottom:
-    0;
-}
-
-
-.work-number {
-  font-family:
-    'Playfair Display',
-    serif !important;
-
-  color:
-    #b8a4ca;
-
-  font-size:
-    1rem;
-
-  font-weight:
-    700;
-
-  line-height:
-    1.4;
-}
-
-
-.work-main h5 {
-  font-size:
-    1.05rem;
-
-  font-weight:
-    800;
-
-  color:
-    #222;
-
-  margin:
-    0 0 .55rem;
-}
-
-
-.work-main p {
-  max-width:
-    900px;
-
-  margin:
-    0;
-
-  color:
-    #666;
-
-  font-size:
-    .92rem;
-
-  line-height:
-    1.9;
-}
-
-
-/* =========================================================
-   Metrics
-   ========================================================= */
-
-.metric-row {
-  display:
-    flex;
-
-  flex-wrap:
-    wrap;
-
-  gap:
-    10px 24px;
-
-  margin-top:
-    1rem;
-}
-
-
-.metric-row span {
-  color:
-    #888;
-
-  font-size:
-    .78rem;
-
-  line-height:
-    1.6;
-}
-
-
-.metric-row strong {
   color:
     var(--nju-purple);
 
-  font-size:
-    .95rem;
+  margin-bottom:
+    1.4rem;
 
-  font-weight:
-    800;
-
-  margin-left:
-    3px;
 }
 
 
 /* =========================================================
-   Findings
+   RESEARCH QUESTION
    ========================================================= */
 
-.finding-list {
-  width:
-    100%;
-}
+.research-question-grid {
 
-
-.finding-item {
   display:
     grid;
 
   grid-template-columns:
-    62px
+    78px
     minmax(0, 1fr);
 
   gap:
-    1.25rem;
+    1.6rem;
 
-  padding:
-    1.4rem 0;
+  align-items:
+    start;
 
-  border-top:
-    1px solid
-    #efefef;
 }
 
 
-.finding-item:first-child {
-  border-top:
-    0;
+.question-mark {
 
-  padding-top:
-    0;
-}
-
-
-.finding-item:last-child {
-  padding-bottom:
-    0;
-}
-
-
-.finding-number {
   font-family:
     'Playfair Display',
     serif !important;
 
   color:
-    #b8a4ca;
+    #c9b8d7;
 
   font-size:
-    .95rem;
-
-  font-weight:
-    700;
-}
-
-
-.finding-main h5 {
-  font-size:
-    .98rem;
-
-  font-weight:
-    800;
-
-  margin:
-    0 0 .45rem;
-
-  color:
-    #222;
-}
-
-
-.finding-main p {
-  margin:
-    0;
-
-  color:
-    #666;
-
-  font-size:
-    .9rem;
-
-  line-height:
-    1.85;
-}
-
-
-/* =========================================================
-   Footer Grid
-   ========================================================= */
-
-.project-footer-grid {
-  display:
-    grid;
-
-  grid-template-columns:
-    1fr
-    1fr;
-
-  gap:
     4rem;
 
-  padding-top:
-    2.7rem;
+  line-height:
+    1;
+
+  text-align:
+    center;
+
 }
 
 
-.project-footer-block {
-  min-width:
-    0;
+.question-content {
+
+  max-width:
+    880px;
+
 }
 
 
-.project-footer-block .editorial-label {
-  margin-bottom:
-    1rem;
-}
+.question-content h4 {
 
-
-/* =========================================================
-   Technology Stack
-   ========================================================= */
-
-.tech-stack-editorial {
-  display:
-    flex;
-
-  flex-wrap:
-    wrap;
-
-  gap:
-    8px;
-}
-
-
-.tech-stack-editorial span {
-  display:
-    inline-block;
-
-  padding:
-    5px 10px;
-
-  border:
-    1px solid
-    #ddd3e8;
-
-  border-radius:
-    4px;
-
-  color:
-    #666;
+  font-family:
+    'Playfair Display',
+    serif !important;
 
   font-size:
-    .76rem;
+    1.35rem;
 
   line-height:
     1.5;
 
-  background:
-    #fff;
+  font-weight:
+    800;
+
+  color:
+    var(--text-dark);
+
+  margin:
+    0 0 .8rem;
+
 }
 
 
-/* =========================================================
-   Project Value
-   ========================================================= */
-
-.project-value {
-  max-width:
-    500px;
+.question-content p {
 
   margin:
     0;
@@ -1260,6 +1388,621 @@ body {
     .95rem;
 
   line-height:
+    1.95;
+
+}
+
+
+/* =========================================================
+   RESEARCH PIPELINE
+   ========================================================= */
+
+.research-pipeline {
+
+  display:
+    grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    26px
+    minmax(0, 1fr)
+    26px
+    minmax(0, 1fr)
+    26px
+    minmax(0, 1fr);
+
+  gap:
+    1rem;
+
+  align-items:
+    stretch;
+
+}
+
+
+.pipeline-stage {
+
+  min-width:
+    0;
+
+  padding:
+    1.55rem 1.3rem;
+
+  border-top:
+    2px solid
+    #d9c9e7;
+
+  background:
+    #fff;
+
+}
+
+
+.stage-top {
+
+  display:
+    flex;
+
+  justify-content:
+    space-between;
+
+  align-items:
+    center;
+
+  margin-bottom:
+    1.05rem;
+
+}
+
+
+.stage-number {
+
+  font-family:
+    'Playfair Display',
+    serif !important;
+
+  font-size:
+    1rem;
+
+  font-weight:
+    800;
+
+  color:
+    #b69dc8;
+
+}
+
+
+.stage-type {
+
+  font-size:
+    .62rem;
+
+  letter-spacing:
+    .12em;
+
+  color:
+    #aaa;
+
+  font-weight:
+    700;
+
+}
+
+
+.pipeline-stage h4 {
+
+  font-size:
+    1rem;
+
+  font-weight:
+    800;
+
+  color:
+    #222;
+
+  margin:
+    0 0 .65rem;
+
+}
+
+
+.pipeline-stage p {
+
+  color:
+    #666;
+
+  font-size:
+    .84rem;
+
+  line-height:
+    1.8;
+
+  margin:
+    0;
+
+}
+
+
+.stage-metrics {
+
+  display:
+    flex;
+
+  flex-direction:
+    column;
+
+  gap:
+    .28rem;
+
+  margin-top:
+    1rem;
+
+  padding-top:
+    .8rem;
+
+  border-top:
+    1px solid
+    #efefef;
+
+}
+
+
+.stage-metrics span {
+
+  display:
+    flex;
+
+  justify-content:
+    space-between;
+
+  gap:
+    .8rem;
+
+  color:
+    #999;
+
+  font-size:
+    .7rem;
+
+}
+
+
+.stage-metrics strong {
+
+  color:
+    var(--nju-purple);
+
+  font-size:
+    .76rem;
+
+}
+
+
+.pipeline-arrow {
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  color:
+    #baa6c9;
+
+  font-size:
+    1.15rem;
+
+}
+
+
+/* =========================================================
+   FINDINGS
+   ========================================================= */
+
+.findings-list {
+
+  width:
+    100%;
+
+}
+
+
+.finding-row {
+
+  display:
+    grid;
+
+  grid-template-columns:
+    70px
+    minmax(0, 1fr);
+
+  gap:
+    1.25rem;
+
+  padding:
+    1.5rem 0;
+
+  border-top:
+    1px solid
+    #efefef;
+
+}
+
+
+.finding-row:first-child {
+
+  border-top:
+    0;
+
+  padding-top:
+    0;
+
+}
+
+
+.finding-row:last-child {
+
+  padding-bottom:
+    0;
+
+}
+
+
+.finding-number {
+
+  font-family:
+    'Playfair Display',
+    serif !important;
+
+  color:
+    #b79ec8;
+
+  font-size:
+    1rem;
+
+  font-weight:
+    800;
+
+}
+
+
+.finding-body h4 {
+
+  font-size:
+    1rem;
+
+  font-weight:
+    800;
+
+  color:
+    #222;
+
+  margin:
+    0 0 .5rem;
+
+}
+
+
+.finding-body p {
+
+  max-width:
+    900px;
+
+  margin:
+    0;
+
+  color:
+    #666;
+
+  font-size:
+    .9rem;
+
+  line-height:
+    1.9;
+
+}
+
+
+/* =========================================================
+   KEY RESULT
+   ========================================================= */
+
+.key-result-section {
+
+  padding-bottom:
+    2.2rem;
+
+}
+
+
+.key-result {
+
+  display:
+    grid;
+
+  grid-template-columns:
+    270px
+    minmax(0, 1fr);
+
+  gap:
+    2rem;
+
+  padding:
+    1.7rem 0;
+
+  border-top:
+    2px solid
+    var(--nju-purple);
+
+}
+
+
+.key-result-main {
+
+  padding:
+    .2rem 0;
+
+}
+
+
+.result-caption {
+
+  font-size:
+    .68rem;
+
+  letter-spacing:
+    .12em;
+
+  color:
+    #999;
+
+  font-weight:
+    800;
+
+}
+
+
+.result-score {
+
+  font-family:
+    'Playfair Display',
+    serif !important;
+
+  font-size:
+    3.3rem;
+
+  line-height:
+    1.05;
+
+  color:
+    var(--nju-purple);
+
+  font-weight:
+    800;
+
+  margin-top:
+    .35rem;
+
+}
+
+
+.result-description {
+
+  font-size:
+    .82rem;
+
+  color:
+    #777;
+
+  margin-top:
+    .4rem;
+
+}
+
+
+.key-result-stats {
+
+  display:
+    grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap:
+    1px;
+
+  background:
+    #e7e2eb;
+
+  border:
+    1px solid
+    #e7e2eb;
+
+}
+
+
+.result-stat {
+
+  background:
+    #fff;
+
+  padding:
+    1rem;
+
+}
+
+
+.result-stat span,
+.result-stat small {
+
+  display:
+    block;
+
+}
+
+
+.result-stat span {
+
+  color:
+    #999;
+
+  font-size:
+    .65rem;
+
+  line-height:
+    1.5;
+
+}
+
+
+.result-stat strong {
+
+  display:
+    block;
+
+  color:
+    #2c2c2c;
+
+  font-size:
+    1.1rem;
+
+  line-height:
+    1.4;
+
+  margin:
+    .35rem 0 .15rem;
+
+}
+
+
+.result-stat small {
+
+  color:
+    #aaa;
+
+  font-size:
+    .65rem;
+
+}
+
+
+.result-note {
+
+  max-width:
+    900px;
+
+  margin:
+    1.15rem 0 0;
+
+  padding-left:
+    1rem;
+
+  border-left:
+    3px solid
+    #d7c4e2;
+
+  color:
+    #777;
+
+  font-size:
+    .82rem;
+
+  line-height:
+    1.85;
+
+}
+
+
+/* =========================================================
+   BOTTOM
+   ========================================================= */
+
+.case-bottom {
+
+  display:
+    grid;
+
+  grid-template-columns:
+    1fr
+    1.25fr;
+
+  gap:
+    4rem;
+
+  padding-top:
+    2.8rem;
+
+}
+
+
+.case-bottom-block {
+
+  min-width:
+    0;
+
+}
+
+
+.method-stack {
+
+  display:
+    flex;
+
+  flex-wrap:
+    wrap;
+
+  gap:
+    7px;
+
+}
+
+
+.method-stack span {
+
+  display:
+    inline-block;
+
+  padding:
+    5px 10px;
+
+  font-size:
+    .72rem;
+
+  color:
+    #666;
+
+  border:
+    1px solid
+    #ddd4e5;
+
+  border-radius:
+    4px;
+
+  background:
+    #fff;
+
+}
+
+
+.research-value {
+
+  max-width:
+    620px;
+
+  margin:
+    0;
+
+  color:
+    #555;
+
+  font-size:
+    .92rem;
+
+  line-height:
     1.9;
 
   padding-left:
@@ -1268,21 +2011,61 @@ body {
   border-left:
     3px solid
     var(--nju-purple);
+
 }
 
 
 /* =========================================================
-   Responsive
+   RESPONSIVE
    ========================================================= */
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
-  .project-footer-grid {
+  .research-pipeline {
+
+    grid-template-columns:
+      1fr
+      1fr;
+
+  }
+
+
+  .pipeline-arrow {
+
+    display:
+      none;
+
+  }
+
+
+  .key-result {
+
+    grid-template-columns:
+      1fr;
+
+  }
+
+
+  .key-result-stats {
+
+    grid-template-columns:
+      repeat(2, 1fr);
+
+  }
+
+}
+
+
+@media (max-width: 800px) {
+
+  .case-bottom {
+
     grid-template-columns:
       1fr;
 
     gap:
       2.5rem;
+
   }
 
 }
@@ -1291,15 +2074,18 @@ body {
 @media (max-width: 768px) {
 
   .research-container {
+
     padding-left:
       1rem;
 
     padding-right:
       1rem;
+
   }
 
 
   .section-title {
+
     font-size:
       1.55rem;
 
@@ -1308,41 +2094,61 @@ body {
 
     padding-left:
       14px;
+
   }
 
 
-  .project-title {
+  .case-title {
+
     font-size:
       1.55rem;
+
   }
 
 
-  .project-kicker {
+  .case-kicker {
+
     gap:
       7px;
+
   }
 
 
-  .project-kicker span {
+  .case-tag,
+  .case-role {
+
     font-size:
-      .74rem;
+      .72rem;
+
   }
 
 
-  .editorial-work,
-  .finding-item {
+  .research-question-grid {
+
     grid-template-columns:
-      42px
+      45px
       minmax(0, 1fr);
 
     gap:
-      .9rem;
+      1rem;
+
   }
 
 
-  .metric-row {
-    gap:
-      7px 16px;
+  .question-mark {
+
+    font-size:
+      2.5rem;
+
+  }
+
+
+  .finding-row {
+
+    grid-template-columns:
+      45px
+      minmax(0, 1fr);
+
   }
 
 }
@@ -1351,51 +2157,80 @@ body {
 @media (max-width: 576px) {
 
   .thesis-img-final {
+
     width:
       72%;
+
   }
 
 
-  .project-intro {
-    padding-bottom:
-      1.8rem;
-  }
+  .research-pipeline {
 
-
-  .editorial-section {
-    padding:
-      2.2rem 0;
-  }
-
-
-  .editorial-work {
     grid-template-columns:
       1fr;
 
-    gap:
-      .45rem;
   }
 
 
-  .finding-item {
+  .research-question-grid {
+
+    grid-template-columns:
+      1fr;
+
+  }
+
+
+  .question-mark {
+
+    text-align:
+      left;
+
+    font-size:
+      2rem;
+
+  }
+
+
+  .finding-row {
+
     grid-template-columns:
       1fr;
 
     gap:
       .35rem;
+
   }
 
 
-  .work-number,
-  .finding-number {
+  .key-result-stats {
+
+    grid-template-columns:
+      1fr;
+
+  }
+
+
+  .result-score {
+
     font-size:
-      .78rem;
+      2.8rem;
+
   }
 
 
-  .project-footer-grid {
+  .case-section {
+
+    padding:
+      2.2rem 0;
+
+  }
+
+
+  .case-bottom {
+
     padding-top:
       2.2rem;
+
   }
 
 }
