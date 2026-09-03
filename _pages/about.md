@@ -165,7 +165,7 @@ I am **Luyao Wang**, currently reading for an M.A. in **Journalism & Communicati
   <div class="contact-stack">
     <div class="contact-line">
       <span class="c-lbl">Email:</span>
-      <span class="c-val"><a href="mailto:522025110043@smail.nju.edu.cn">522025110043@smail.nju.edu.cn</a></span>
+      <span class="c-val"><a href="mailto:Luyao_Wang@smail.nju.edu.cn">Luyao_Wang@smail.nju.edu.cn</a></span>
     </div>
     
     <div class="contact-line">
