@@ -499,7 +499,7 @@ nav_order: 2
 <div class="site-footer">
   <div class="footer-brand">LUYAO WANG</div>
   <div class="footer-info">
-    <span><i class="fas fa-envelope"></i> wly12069021@163.com</span>
+    <span><i class="fas fa-envelope"></i> Luyao_Wang@smail.nju.edu.cn</span>
     <span class="sep">|</span>
     <span><i class="fab fa-weixin"></i> W_10269Y</span>
   </div>
